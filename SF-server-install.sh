@@ -1,3 +1,9 @@
+# check if running as root
+if [ "$(id -u)" != "0" ]; then
+   echo "This script must be run as root" 1>&2
+   exit 1
+fi
+
 wget https://bitbucket.org/haiwen/seafile/downloads/seafile-server_4.1.2_x86-64.tar.gz
 tar -xvf seafile-server_4.1.2_x86-64.tar.gz
 mkdir installed
@@ -16,9 +22,11 @@ iptables -I INPUT 1 -p tcp --dport 8082 -j ACCEPT
 iptables -I INPUT 1 -p tcp --dport 10001 -j ACCEPT
 iptables -I INPUT 1 -p tcp --dport 12001 -j ACCEPT
 
+cp nginx-config /etc/nginx/sites-available/site
+
 service nginx start
 
-ln -s /etc/nginx/sites-available/example /etc/nginx/sites-enabled/example
+ln -s /etc/nginx/sites-available/site /etc/nginx/sites-enabled/site
 rm /etc/nginx/sites-enabled/default
 service nginx restart
 
