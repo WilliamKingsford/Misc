@@ -30,8 +30,8 @@ ln -s /etc/nginx/sites-available/site /etc/nginx/sites-enabled/site
 rm /etc/nginx/sites-enabled/default
 service nginx restart
 
-./seafile.sh start
-./seahub.sh start 8001
+echo '"./seafile.sh start" to start seafile'
+echo '"./seahub.sh start 8001" to start seahub'
 
 echo "Remember to work through the guide at http://manual.seafile.com/deploy/deploy_with_nginx.html"
 
