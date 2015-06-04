@@ -4,6 +4,8 @@ if [ "$(id -u)" != "0" ]; then
    exit 1
 fi
 
+apt-get update
+
 wget https://bitbucket.org/haiwen/seafile/downloads/seafile-server_4.1.2_x86-64.tar.gz
 tar -xvf seafile-server_4.1.2_x86-64.tar.gz
 mkdir installed
