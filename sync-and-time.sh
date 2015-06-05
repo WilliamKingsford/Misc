@@ -8,7 +8,7 @@ iostat -t 1 > stats.txt &
 seaf-cli sync -l `cat lib-id.txt` -s http://192.168.216.119:8001 -d MyData/My\ Library/ -u will.kingsford@gmail.com -p *hLO8GeH
 
 # run until sync is complete
-while seaf-cli status > status.txt; $(awk '{ END $(NF) }' status.txt)="" do :; done
+while seaf-cli status > status.txt; $(awk '{ END $(NF) }' status.txt)="synchronized" do :; done
 
 finish=$(($(date +%s%N)-$start))
 # end iostat process
