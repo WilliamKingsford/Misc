@@ -17,7 +17,7 @@ apt-get install python2.7 python-setuptools python-imaging sqlite3
 cd seafile-server-4.1.2
 ./setup-seafile.sh
 
-apt-get install nginx python-flup
+apt-get install nginx python-flup python-imaging
 
 iptables -I INPUT 1 -p tcp --dport 8001 -j ACCEPT
 iptables -I INPUT 1 -p tcp --dport 8082 -j ACCEPT

@@ -55,3 +55,15 @@ cd seafile-client-${version}
 make
 sudo make install
 cd ..
+
+# install seafile command line interface
+mkdir seafile-cli
+cd seafile-cli
+wget https://raw.githubusercontent.com/haiwen/seafile/master/app/seaf-cli
+mkdir ~/.seafile-client
+chmod +x seaf-cli
+./seaf-cli init -d ~/.seafile-client  # initialise seafile client with this folder
+./seaf-cli start
+
+# link seaf-cli so it can be run from anywhere
+ln -s `readlink -f seaf-cli` /usr/bin/
