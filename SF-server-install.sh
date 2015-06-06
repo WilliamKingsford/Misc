@@ -24,7 +24,7 @@ iptables -I INPUT 1 -p tcp --dport 8082 -j ACCEPT
 iptables -I INPUT 1 -p tcp --dport 10001 -j ACCEPT
 iptables -I INPUT 1 -p tcp --dport 12001 -j ACCEPT
 
-cp nginx-config /etc/nginx/sites-available/site
+cp ../nginx-config /etc/nginx/sites-available/site
 
 service nginx start
 
