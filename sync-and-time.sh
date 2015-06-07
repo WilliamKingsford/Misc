@@ -3,7 +3,8 @@
 start=$(date +%s%N)
 # start tracking detailed cpu/io data every second, running in background
 # nohup is necessary to run a process in the background through ssh without hangups
-nohup iostat -t -x 1 > /home/william-kingsford/Logs/iostat.txt 2> /home/william-kingsford/Logs/iostat-errors.txt < /dev/null &
+nohup iostat -t -x 1 > /home/william-kingsford/Logs/iostat.txt 2>&1&
+echo $! > /home/william-kingsford/Logs/iostat_pid.txt
 
 # upload files
 seaf-cli start
@@ -16,7 +17,7 @@ done
 
 finish=$(($(date +%s%N)-$start))
 # end iostat process
-kill %1
+kill -9 `cat /home/william-kingsford/Logs/iostat_pid.txt`
 
 # desync library for future tests
 seaf-cli desync -d /home/william-kingsford/SeaFileLibraries/
