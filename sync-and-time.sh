@@ -17,4 +17,4 @@ finish=$(($(date +%s%N)-$start))
 kill %1
 
 # desync library for future tests
-seaf-cli desync -d /home/william-kingsford/SeaFileLibraries/My\ Library/
+seaf-cli desync -d /home/william-kingsford/SeaFileLibraries/
