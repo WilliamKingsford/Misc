@@ -18,3 +18,6 @@ kill %1
 
 # desync library for future tests
 seaf-cli desync -d /home/william-kingsford/SeaFileLibraries/
+
+# print time taken
+echo "time taken (in nanoseconds):" $finish
