@@ -13,9 +13,18 @@ seaf-cli sync -l b10d5f2a-9099-439a-abc4-dcdbfebf58e1 -s http://142.150.234.157:
 
 # run until sync is complete
 echo "About to check for sync completion..."
-while seaf-cli status > /home/william-kingsford/Logs/status.txt; [ $(awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt) = "synchronized" ]
-do :;
+while [ $continue -eq 1 ]
+do
+seaf-cli status > /home/william-kingsford/Logs/status.txt
+if [ $(awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt) = "synchronized" ]
+then continue=1
+else echo "Checking..."
+fi
 done
+
+#while seaf-cli status > /home/william-kingsford/Logs/status.txt; [ $(awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt) = "synchronized" ]
+#do :;
+#done
 echo "Sync completed"
 
 finish=$(($(date +%s%N)-$start))
