@@ -10,7 +10,8 @@ seaf-cli start
 seaf-cli sync -l b10d5f2a-9099-439a-abc4-dcdbfebf58e1 -s http://142.150.234.157:8001 -d /home/william-kingsford/SeaFileLibraries/ -u will.kingsford@gmail.com -p *hLO8GeH
 
 # run until sync is complete
-while seaf-cli status > /home/william-kingsford/Logs/status.txt; $(awk '{ END $(NF) }' /home/william-kingsford/Logs/status.txt)="synchronized" do :;
+while seaf-cli status > /home/william-kingsford/Logs/status.txt; $(awk '{ END $(NF) }' /home/william-kingsford/Logs/status.txt)="synchronized"
+do :;
 done
 
 finish=$(($(date +%s%N)-$start))
