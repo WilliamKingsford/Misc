@@ -12,13 +12,14 @@ echo "Starting sync..."
 seaf-cli sync -l b10d5f2a-9099-439a-abc4-dcdbfebf58e1 -s http://142.150.234.157:8001 -d /home/william-kingsford/SeaFileLibraries/ -u will.kingsford@gmail.com -p *hLO8GeH
 
 # run until sync is complete
-continue=true
+continue="1"
 echo "About to check for sync completion..."
-while [ "$continue" = true ]
+while [ "$continue" -eq "1" ]
 do
 seaf-cli status > /home/william-kingsford/Logs/status.txt
+sleep 1
 if [ $(awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt) = "synchronized" ]
-then continue=false
+then continue="0"
 else echo "Checking..."
 fi
 done
