@@ -16,7 +16,7 @@ seaf-cli sync -l b10d5f2a-9099-439a-abc4-dcdbfebf58e1 -s http://142.150.234.157:
 
 # run until sync is complete
 continue="1"
-echo "About to check for sync completion..."
+echo "About to check for sync completion (adding files)..."
 while [ "$continue" -eq "1" ]
 do
 seaf-cli status > /home/william-kingsford/Logs/status.txt
@@ -27,9 +27,6 @@ else echo "Checking..."
 fi
 done
 
-#while seaf-cli status > /home/william-kingsford/Logs/status.txt; [ $(awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt) = "synchronized" ]
-#do :;
-#done
 echo "Sync completed"
 
 finish=$(($(date +%s%N)-$start))
@@ -40,7 +37,18 @@ kill -9 `cat /home/william-kingsford/Logs/iostat_pid.txt`
 echo "Emptying library"
 rm /home/william-kingsford/SeaFileLibraries/*
 
-
+# run until sync is complete
+continue="1"
+echo "About to check for sync completion (removing files)..."
+while [ "$continue" -eq "1" ]
+do
+seaf-cli status > /home/william-kingsford/Logs/status.txt
+sleep 1
+if [ $(awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt) = "synchronized" ]
+then continue="0"
+else echo "Checking..."
+fi
+done
 
 echo "Desyncing library"
 seaf-cli desync -d /home/william-kingsford/SeaFileLibraries/
