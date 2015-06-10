@@ -57,3 +57,5 @@ seaf-cli stop
 
 # print time taken
 echo "time taken (in nanoseconds):" $finish
+# write time taken to log file
+echo "$finish" >> /home/william-kingsford/Logs/all-times.txt

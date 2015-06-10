@@ -10,36 +10,34 @@ then
 fi
 
 # test a range of 4kB files
-#for i in `seq 1000 1000 10000`;
-for i in `seq 1000 1000 3000`;
+for i in `seq 1000 1000 10000`;
 do
 	echo "Testing ${i} x 4kB files"
-	python maketree.py $((i+1)) 1 0 $((i+1)) 0 4000 SeaFileLibraries/
-	./Misc/sync-and-time.sh
-	mv Logs/iostat.txt Logs/StoredLogs/$ix4000B.txt
-	rm Logs/iostat_pid.txt
-	echo "${i} x 4kB: ${finish} nanoseconds" >> Logs/all-times.txt
+	echo "${i} x 4kB completion time in nanoseconds" >> /home/william-kingsford/Logs/all-times.txt
+	python maketree.py $((i+1)) 1 0 $((i+1)) 0 4000 /home/william-kingsford/SeaFileLibraries/
+	./home/william-kingsford/Misc/sync-and-time.sh
+	mv /home/william-kingsford/Logs/iostat.txt /home/william-kingsford/Logs/StoredLogs/${i}x4000B.txt
+	rm /home/william-kingsford/Logs/iostat_pid.txt
 done
-echo "" >> Logs/all-times.txt # newline
+echo "" >> /home/william-kingsford/Logs/all-times.txt # newline
 
 # test 10000 x 10B files to see if seafile syncs partial blocks
 echo "Testing 10000 x 10B files"
-python maketree.py 10001 1 0 10001 0 10 SeaFileLibraries/
-./Misc/sync-and-time.sh
-mv Logs/iostat.txt Logs/StoredLogs/10000x10B.txt
-rm Logs/iostat_pid.txt
-echo "10000 x 10B: ${finish} nanoseconds" >> Logs/all-times.txt
-echo "" >> Logs/all-times.txt # newline
+echo "10000 x 10B completion time in nanoseconds" >> /home/william-kingsford/Logs/all-times.txt
+python maketree.py 10001 1 0 10001 0 10 /home/william-kingsford/SeaFileLibraries/
+./home/william-kingsford/Misc/sync-and-time.sh
+mv /home/william-kingsford/Logs/iostat.txt Logs/StoredLogs/10000x10B.txt
+rm /home/william-kingsford/Logs/iostat_pid.txt
+echo "" >> /home/william-kingsford/Logs/all-times.txt # newline
 
 # test a range of sizes for 1000 files
-#for i in `seq 0 1 10`;
-for i in `seq 0 1 2`;
+for i in `seq 1 1 10`;
 do
 	j=$((2**i))
 	echo "Testing 1000 x $((j * 4))kB files"
-	python maketree.py 1001 1 0 1001 0 $((j * 4000)) SeaFileLibraries/
-	./Misc/sync-and-time.sh
-	mv Logs/iostat.txt Logs/StoredLogs/1000x$((j * 4000))B.txt
-	rm Logs/iostat_pid.txt
-	echo "1000 x $((j * 4))kB: ${finish} nanoseconds" >> Logs/all-times.txt
+	echo "1000 x $((j * 4))kB completion time in nanoseconds" >> /home/william-kingsford/Logs/all-times.txt
+	python maketree.py 1001 1 0 1001 0 $((j * 4000)) /home/william-kingsford/SeaFileLibraries/
+	./home/william-kingsford/Misc/sync-and-time.sh
+	mv /home/william-kingsford/Logs/iostat.txt Logs/StoredLogs/1000x$((j * 4000))B.txt
+	rm /home/william-kingsford/Logs/iostat_pid.txt
 done
