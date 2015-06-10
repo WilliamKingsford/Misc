@@ -36,7 +36,12 @@ finish=$(($(date +%s%N)-$start))
 # end iostat process
 kill -9 `cat /home/william-kingsford/Logs/iostat_pid.txt`
 
-# desync library for future tests
+# empty and desync library for future tests
+echo "Emptying library"
+rm /home/william-kingsford/SeaFileLibraries/*
+
+
+
 echo "Desyncing library"
 seaf-cli desync -d /home/william-kingsford/SeaFileLibraries/
 seaf-cli stop
