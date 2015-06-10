@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "Starting seaf-cli and giving it 10 seconds to load"
+seaf-cli start
+sleep 10
+
 start=$(date +%s%N)
 # start tracking detailed cpu/io data every second, running in background
 # nohup is necessary to run a process in the background through ssh without hangups
@@ -7,7 +11,6 @@ nohup iostat -t -x 1 > /home/william-kingsford/Logs/iostat.txt 2>&1&
 echo $! > /home/william-kingsford/Logs/iostat_pid.txt
 
 # upload files
-seaf-cli start
 echo "Starting sync..."
 seaf-cli sync -l b10d5f2a-9099-439a-abc4-dcdbfebf58e1 -s http://142.150.234.157:8001 -d /home/william-kingsford/SeaFileLibraries/ -u will.kingsford@gmail.com -p *hLO8GeH
 
