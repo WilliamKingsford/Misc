@@ -39,6 +39,7 @@ rm /home/william-kingsford/SeaFileLibraries/*
 
 # run until sync is complete
 continue="1"
+sleep 5
 echo "About to check for sync completion (removing files)..."
 while [ "$continue" -eq "1" ]
 do
