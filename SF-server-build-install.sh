@@ -11,7 +11,7 @@ mkdir Downloads
 cd Downloads
 
 # install seafile dependencies
-apt-get install libevent-dev libcurl4-openssl-dev libglib2.0-dev uuid-dev intltool libsqlite3-dev libmysqlclient-dev libarchive-dev libtool libjansson-dev valac libfuse-dev re2c flex cmake python-pip
+apt-get install libevent-dev libcurl4-openssl-dev libglib2.0-dev uuid-dev intltool libsqlite3-dev libmysqlclient-dev libarchive-dev libtool libjansson-dev valac libfuse-dev re2c flex cmake make python-pip
 # dependencies that must be compiled from source
 wget http://www.tildeslash.com/libzdb/dist/libzdb-2.12.tar.gz
 tar xf libzdb-2.12.tar.gz
