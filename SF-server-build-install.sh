@@ -42,11 +42,11 @@ alias wget='wget --content-disposition -nc'
 wget https://github.com/haiwen/libsearpc/archive/v3.0-latest.tar.gz
 mv v3.0-latest.tar.gz libsearpc-3.0-latest.tar.gz
 wget https://github.com/haiwen/ccnet/archive/v${version}-server.tar.gz
-mv v${version}.tar.gz ccnet-${version}-server.tar.gz
+mv v${version}-server.tar.gz ccnet-${version}-server.tar.gz
 wget https://github.com/haiwen/seafile/archive/v${version}-server.tar.gz
-mv v${version}.tar.gz seafile-${version}-server.tar.gz
+mv v${version}-server.tar.gz seafile-${version}-server.tar.gz
 wget https://github.com/haiwen/seahub/archive/v${version}-server.tar.gz
-mv v${version}.tar.gz seahub-${version}-server.tar.gz
+mv v${version}-server.tar.gz seahub-${version}-server.tar.gz
 
 # extract tarballs
 tar xf libsearpc-3.0-latest.tar.gz
