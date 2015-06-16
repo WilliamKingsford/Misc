@@ -20,6 +20,16 @@ cd libzdb-2.12
 make
 make install
 cd ..
+
+while true; do
+    read -p "Continue? [y/n]" yn
+    case $yn in
+        [Yy]* ) make install; break;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+
 #wget https://github.com/ellzey/libevhtp/archive/develop.zip
 #unzip develop.zip -d libevhtp
 #cd libevhtp/libevhtp-master/
@@ -34,6 +44,15 @@ cmake -DEVHTP_DISABLE_SSL=ON -DEVHTP_BUILD_SHARED=ON
 make
 make install
 cd ..
+
+while true; do
+    read -p "Continue? [y/n]" yn
+    case $yn in
+        [Yy]* ) make install; break;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
 
 # install seahub dependencies
 pip install python-django sqlite3 python-simplejson PIL chardet gunicorn django-compressor==1.4 django-statisi18n==1.1.2 six python-dateutil
