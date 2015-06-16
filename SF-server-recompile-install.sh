@@ -18,7 +18,7 @@ export PKG_CONFIG_PATH=/home/william-kingsford/ccnet:$PKG_CONFIG_PATH
 # move old seafile-sources
 timestamp=$(date +'%Y-%m-%d-%R')
 mkdir ~/seafile-sources/${timestamp}
-mv ~/seafile-sources/* ~/seafile-sources/${timestamp}/
+mv ~/seafile-sources/*.tar.gz ~/seafile-sources/${timestamp}/
 
 # prepare new Seafile source tarballs
 
