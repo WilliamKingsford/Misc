@@ -36,5 +36,5 @@ ldconfig
 service nginx restart
 
 echo '"./seafile.sh start" to start seafile'
-echo '"./seahub.sh start-fastcgi 8001" to start seahub'
+echo '"./seahub.sh start 8001" to start seahub'
 echo "THESE MUST BE RUN AS ROOT"
