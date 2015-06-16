@@ -1,0 +1,12 @@
+#!/usr/bin/expect
+
+spawn ssh user@hostname
+expect "password:"
+sleep 1
+send "*hLO8GeH\r"
+./seahub.sh stop
+./seafile.sh stop
+sleep 1
+#./seafile.sh start
+#./seahub.sh start 8001
+
