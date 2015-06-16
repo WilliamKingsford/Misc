@@ -87,8 +87,9 @@ tar czvf seafile-4.1.1.tar.gz seafile-4.1.1
 
 cd ~/
 
-# remove old seafile-server tar
+# remove old seafile-server tars
 rm /home/william-kingsford/seafile-server-pkgs/seafile-server_4.1.2_x86-64.tar.gz
+rm /mnt/seafile-server-build/ -rf
 
 /home/william-kingsford/seafile/scripts/build/build-server.py --libsearpc_version=1.2.2 --ccnet_version=1.4.2 --seafile_version=4.1.1  --thirdpartdir=/home/william-kingsford/seahub_thirdpart --srcdir=/home/william-kingsford/seafile-sources --outputdir=/home/william-kingsford/seafile-server-pkgs --version=4.1.2 --builddir=/mnt/ --keep
 
@@ -97,7 +98,6 @@ rm /home/william-kingsford/seafile-server-pkgs/seafile-server_4.1.2_x86-64.tar.g
 
 apt-get update
 
-mkdir ~/SeaFileServer
 cd ~/SeaFileServer
 
 cp /home/william-kingsford/seafile-server-pkgs/seafile-server_4.1.2_x86-64.tar.gz seafile-server_4.1.2_x86-64-custom.tar.gz
