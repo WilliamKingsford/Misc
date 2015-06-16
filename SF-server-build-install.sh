@@ -23,9 +23,13 @@ cd ..
 #wget https://github.com/ellzey/libevhtp/archive/develop.zip
 #unzip develop.zip -d libevhtp
 #cd libevhtp/libevhtp-master/
-wget https://github.com/ellzey/libevhtp/archive/1.1.6.tar.gz
-tar xf 1.1.6.tar.gz
-cd libevhtp-1.1.6
+
+#wget https://github.com/ellzey/libevhtp/archive/1.1.6.tar.gz
+#tar xf 1.1.6.tar.gz
+#cd libevhtp-1.1.6
+
+git clone https://www.github.com/haiwen/libevhtp.git
+cd libevhtp
 cmake -DEVHTP_DISABLE_SSL=ON -DEVHTP_BUILD_SHARED=ON
 make
 make install
