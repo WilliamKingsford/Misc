@@ -2,7 +2,7 @@
 
 # starting w/ fresh rootfs of Wheezy (or Jessie)
 
-# most commands where executed in ~/  (in this case, /home/dev , homedir of a regular+sudoer user)
+# most commands where executed in ~/  (in this case, /home/william-kingsford , homedir of a regular+sudoer user)
 
 
 # install essential Debian packages
@@ -113,9 +113,9 @@ cd  ~/
 
 
 #  set some paths for building stuff...
-export PKG_CONFIG_PATH=/home/dev/seafile/lib:$PKG_CONFIG_PATH
-export PKG_CONFIG_PATH=/home/dev/libsearpc:$PKG_CONFIG_PATH
-export PKG_CONFIG_PATH=/home/dev/ccnet:$PKG_CONFIG_PATH
+export PKG_CONFIG_PATH=/home/william-kingsford/seafile/lib:$PKG_CONFIG_PATH
+export PKG_CONFIG_PATH=/home/william-kingsford/libsearpc:$PKG_CONFIG_PATH
+export PKG_CONFIG_PATH=/home/william-kingsford/ccnet:$PKG_CONFIG_PATH
 
 
 
