@@ -212,6 +212,8 @@ tar czvf seafile-4.1.1.tar.gz seafile-4.1.1
 
 cd ~/
 
+mkdir /home/william-kingsford/seafile-server-pkgs
+
 /home/william-kingsford/seafile/scripts/build/build-server.py --libsearpc_version=1.2.2 --ccnet_version=1.4.2 --seafile_version=4.1.1  --thirdpartdir=/home/william-kingsford/seahub_thirdpart --srcdir=/home/william-kingsford/seafile-sources --outputdir=/home/william-kingsford/seafile-server-pkgs --version=4.1.2 --builddir=/mnt/ --keep
 
 
