@@ -11,7 +11,7 @@ mkdir Downloads
 cd Downloads
 
 # install seafile dependencies
-apt-get install libevent-dev libcurl4-openssl-dev libglib2.0-dev uuid-dev intltool libsqlite3-dev libmysqlclient-dev libarchive-dev libtool libjansson-dev valac libfuse-dev re2c flex cmake make python-pip
+apt-get install libevent-dev libcurl4-openssl-dev libglib2.0-dev uuid-dev intltool libsqlite3-dev libmysqlclient-dev libarchive-dev libtool libjansson-dev valac libfuse-dev re2c flex cmake make g++ python-pip
 # dependencies that must be compiled from source
 wget http://www.tildeslash.com/libzdb/dist/libzdb-2.12.tar.gz
 tar xf libzdb-2.12.tar.gz
@@ -20,15 +20,6 @@ cd libzdb-2.12
 make
 make install
 cd ..
-
-while true; do
-    read -p "Continue? [y/n]" yn
-    case $yn in
-        [Yy]* ) make install; break;;
-        [Nn]* ) exit;;
-        * ) echo "Please answer yes or no.";;
-    esac
-done
 
 #wget https://github.com/ellzey/libevhtp/archive/develop.zip
 #unzip develop.zip -d libevhtp
@@ -48,7 +39,7 @@ cd ..
 while true; do
     read -p "Continue? [y/n]" yn
     case $yn in
-        [Yy]* ) make install; break;;
+        [Yy]* ) break;;
         [Nn]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
