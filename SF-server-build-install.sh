@@ -34,6 +34,8 @@ cd libevhtp
 cmake -DEVHTP_DISABLE_SSL=ON -DEVHTP_BUILD_SHARED=ON
 make
 make install
+# fix bug where onigposix.h isn't properly installed
+cp onigurama/onigposix.h /usr/local/include/onigposix.h
 cd ..
 
 while true; do
