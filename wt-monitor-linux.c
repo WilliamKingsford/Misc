@@ -3,6 +3,7 @@
 
 // my includes
 #include <stdio.h>
+#include <stdlib.h>
 
 #include <sys/select.h>
 #include <sys/inotify.h>
@@ -392,10 +393,17 @@ process_events (SeafWTMonitorPriv *priv, const char *repo_id, int in_fd)
 {
     // ***OPEN FILE, FIND START TIME***
     FILE *myFile;
-    myFile = fopen("/home/william/Desktop/myFile.txt", "a");
-    struct timespec time1;
+    myFile = fopen("/home/william-kingsford/myFile.txt", "a");
+    /*struct timespec time1;
     struct timespec time2;
-    clock_gettime(CLOCK_PROCESS_CPUTIME_ID, &time1);
+    clock_gettime(CLOCK_PROCESS_CPUTIME_ID, &time1); */
+
+    // write time to file
+    time_t t = time(NULL);
+    struct tm tm = *localtime(&t);
+
+    fprintf(myFile, "inotify event processed: %d-%d-%d %d:%d:%d\n", tm.tm_year + 1900, tm.tm_mon + 1, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec);
+    fclose(myFile);
 
     char *event_buf = NULL;
     unsigned int buf_size;
@@ -449,9 +457,9 @@ out:
     g_free (event_buf);
 
     // ***FIND COMPLETED TIME, GIVE OUTPUT***
-    clock_gettime(CLOCK_PROCESS_CPUTIME_ID, &time2);
+    /*clock_gettime(CLOCK_PROCESS_CPUTIME_ID, &time2);
     fprintf(myFile, "%d.%.9ld\n", (int)diff(time1,time2).tv_sec, diff(time1,time2).tv_nsec);
-    fclose(myFile);
+    fclose(myFile);*/
 
     return ret;
 }
