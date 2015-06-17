@@ -1,12 +1,15 @@
 #!/usr/bin/expect
 
-spawn ssh user@hostname
+spawn ssh c157
 expect "password:"
 sleep 1
-send "*hLO8GeH\r"
-./seahub.sh stop
-./seafile.sh stop
+send "william-kingsford\r"
+expect "$ "
 sleep 1
-#./seafile.sh start
-#./seahub.sh start 8001
-
+send "sudo /home/william-kingsford/Misc/Misc/restart-seafile-server.sh\r"
+expect "william-kingsford:"
+sleep 1
+send "william-kingsford\r"
+sleep 1
+expect "$ "
+send "exit\r"
