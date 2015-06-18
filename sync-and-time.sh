@@ -5,9 +5,9 @@ seaf-cli start
 sleep 10
 
 start=$(date +%s%N)
-# start tracking detailed cpu/io data every second, running in background
+# start tracking detailed cpu/io data every 0.1 second, running in background
 # nohup is necessary to run a process in the background through ssh without hangups
-./iostat-repeat.sh > /home/william-kingsford/Logs/iostat.txt 2>&1&
+nohup ./iostat-repeat.sh > /home/william-kingsford/Logs/iostat.txt 2>&1&
 echo $! > /home/william-kingsford/Logs/iostat_pid.txt
 
 # upload files
@@ -20,7 +20,10 @@ echo "About to check for sync completion (adding files)..."
 while [ "$continue" -eq "1" ]
 do
 seaf-cli status > /home/william-kingsford/Logs/status.txt
-sleep 1
+# write sync status to file to find when sync begins
+date +%Y-%m-%d-%H-%M-%S-%N >> /home/william-kingsford/Logs/status-messages.txt
+awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt >> /home/william-kingsford/Logs/status-messages.txt
+sleep 0.1
 if [ $(awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt) = "synchronized" ]
 then continue="0"
 else echo "Checking..."
