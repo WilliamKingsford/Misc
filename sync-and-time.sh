@@ -21,8 +21,8 @@ while [ "$continue" -eq "1" ]
 do
 seaf-cli status > /home/william-kingsford/Logs/status.txt
 # write sync status to file to find when sync begins
-date +%Y-%m-%d-%H-%M-%S-%N >> /home/william-kingsford/Logs/status-messages.txt
-awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt >> /home/william-kingsford/Logs/status-messages.txt
+#date +%Y-%m-%d-%H-%M-%S-%N >> /home/william-kingsford/Logs/status-messages.txt
+#awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt >> /home/william-kingsford/Logs/status-messages.txt
 sleep 0.1
 if [ $(awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt) = "synchronized" ]
 then continue="0"
