@@ -7,7 +7,7 @@ seaf-cli start
 start=$(date +%s%N)
 # start tracking detailed cpu/io data every 0.1 second, running in background
 # nohup is necessary to run a process in the background through ssh without hangups
-nohup ./iostat-repeat.sh > /home/william-kingsford/Logs/iostat.txt 2>&1&
+nohup /home/william-kingsford/Misc/iostat-repeat.sh > /home/william-kingsford/Logs/iostat.txt 2>&1&
 echo $! > /home/william-kingsford/Logs/iostat_pid.txt
 
 # upload files
