@@ -2,7 +2,7 @@
 
 echo "Starting seaf-cli and giving it 10 seconds to load"
 seaf-cli start
-sleep 10
+#sleep 10
 
 start=$(date +%s%N)
 # start tracking detailed cpu/io data every 0.1 second, running in background
@@ -12,7 +12,7 @@ echo $! > /home/william-kingsford/Logs/iostat_pid.txt
 
 # upload files
 echo "Starting sync..."
-seaf-cli sync -l 4915ec59-c414-47d1-a14e-ed290339172b -s http://142.150.234.157:8001 -d /home/william-kingsford/SeaFileLibraries/ -u will.kingsford@gmail.com -p *hLO8GeH
+#seaf-cli sync -l 4915ec59-c414-47d1-a14e-ed290339172b -s http://142.150.234.157:8001 -d /home/william-kingsford/SeaFileLibraries/ -u will.kingsford@gmail.com -p *hLO8GeH
 
 # run until sync is complete
 continue="1"
