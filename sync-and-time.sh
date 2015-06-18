@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "sync-and-time.sh: Starting seaf-cli and giving it 3 seconds to load"
+echo "sync-and-time.sh: Starting seaf-cli"
 seaf-cli start
-sleep 3
+#sleep 3
 
 start=$(date +%s%N)
 # start tracking detailed cpu/io data every 0.1 second, running in background
