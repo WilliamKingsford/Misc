@@ -7,7 +7,7 @@ sleep 10
 start=$(date +%s%N)
 # start tracking detailed cpu/io data every second, running in background
 # nohup is necessary to run a process in the background through ssh without hangups
-nohup iostat -t -x 1 > /home/william-kingsford/Logs/iostat.txt 2>&1&
+./iostat-repeat.sh > /home/william-kingsford/Logs/iostat.txt 2>&1&
 echo $! > /home/william-kingsford/Logs/iostat_pid.txt
 
 # upload files
