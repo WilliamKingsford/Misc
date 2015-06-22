@@ -34,7 +34,7 @@ echo "Sync completed"
 
 finish=$(($(date +%s%N)-$start))
 # end iostat process
-kill -9 `cat /home/william-kingsford/Logs/iostat_pid.txt`
+kill -15 `cat /home/william-kingsford/Logs/iostat_pid.txt`
 
 # empty and desync library for future tests
 echo "Emptying library"
