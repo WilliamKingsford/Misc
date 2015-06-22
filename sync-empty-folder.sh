@@ -16,7 +16,7 @@ while [ "$continue" -eq "1" ]
 do
 seaf-cli status > /home/william-kingsford/Logs/status.txt
 sleep 1
-if [ $(awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt) = "synchronized" ]
+if [[ $(awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt) = "synchronized" ]]
 then continue="0"
 else echo "Checking..."
 fi
