@@ -17,14 +17,14 @@ echo "Starting sync..."
 # run until sync is complete
 continue="1"
 echo "About to check for sync completion (adding files)..."
-while [ "$continue" -eq "1" ]
+while [[ "$continue" -eq "1" ]]
 do
 seaf-cli status > /home/william-kingsford/Logs/status.txt
 # write sync status to file to find when sync begins
 #date +%Y-%m-%d-%H-%M-%S-%N >> /home/william-kingsford/Logs/status-messages.txt
 #awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt >> /home/william-kingsford/Logs/status-messages.txt
 sleep 0.1
-if [ $(awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt) = "synchronized" ]
+if [[ $(awk 'END { print $(NF) }' /home/william-kingsford/Logs/status.txt) = "synchronized" ]]
 then continue="0"
 else echo "Checking..."
 fi
@@ -44,7 +44,7 @@ rm /home/william-kingsford/SeaFileLibraries/*
 continue="1"
 sleep 5
 echo "About to check for sync completion (removing files)..."
-while [ "$continue" -eq "1" ]
+while [[ "$continue" -eq "1" ]]
 do
 seaf-cli status > /home/william-kingsford/Logs/status.txt
 sleep 1
