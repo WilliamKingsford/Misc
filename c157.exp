@@ -6,7 +6,7 @@ sleep 1
 send "william-kingsford\r"
 expect "$ "
 sleep 1
-send "sudo /home/william-kingsford/SeaFileServer/seafile-server-4.1.2/seaf-gc.sh\r"
+send "sudo /home/william-kingsford/Misc/Misc/restart-seafile-server.sh\r"
 expect "william-kingsford:"
 sleep 1
 send "william-kingsford\r"
