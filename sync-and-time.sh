@@ -14,8 +14,8 @@ start=$(date +%s%N)
 # start tracking detailed cpu/io data every 0.1 second, running in background
 # nohup is necessary to run a process in the background through ssh without hangups
 nohup $(top -b -d 0.1 | grep seaf-daemon) > /home/william-kingsford/Logs/top.txt 2>&1&
-nohup $(iotop -b -d 0.1 | grep seaf-daemon) > /home/william-kingsford/Logs/iotop.txt 2>&1&
 echo $! > /home/william-kingsford/Logs/top_pid.txt
+nohup $(iotop -b -d 0.1 | grep seaf-daemon) > /home/william-kingsford/Logs/iotop.txt 2>&1&
 echo $! > /home/william-kingsford/Logs/iotop_pid.txt
 
 # upload files
