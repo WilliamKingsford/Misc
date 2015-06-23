@@ -11,7 +11,7 @@ then
 fi
 
 # test a range of 4kB files
-for i in `seq 0 3000 9000`;
+for i in `seq 0 1000 10000`;
 do
 	echo "Testing ${i} x 4kB files"
 	echo "${i} x 4kB completion time in nanoseconds" >> /home/william-kingsford/Logs/all-times.txt
