@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# check if running as root (needed for iotop)
+if [ "$(id -u)" != "0" ]; then
+   echo "This script must be run as root" 1>&2
+   exit 1
+fi
+
 echo "sync-and-time.sh: Starting seaf-cli"
 seaf-cli start
 #sleep 3
@@ -7,8 +13,10 @@ seaf-cli start
 start=$(date +%s%N)
 # start tracking detailed cpu/io data every 0.1 second, running in background
 # nohup is necessary to run a process in the background through ssh without hangups
-nohup /home/william-kingsford/Misc/iostat-repeat.sh > /home/william-kingsford/Logs/iostat.txt 2>&1&
-echo $! > /home/william-kingsford/Logs/iostat_pid.txt
+nohup $(top -b -d 0.1 | grep seaf-daemon) > /home/william-kingsford/Logs/top.txt 2>&1&
+nohup $(iotop -b -d 0.1 | grep seaf-daemon) > /home/william-kingsford/Logs/iotop.txt 2>&1&
+echo $! > /home/william-kingsford/Logs/top_pid.txt
+echo $! > /home/william-kingsford/Logs/iotop_pid.txt
 
 # upload files
 echo "Starting sync..."
@@ -33,8 +41,9 @@ done
 echo "Sync completed"
 
 finish=$(($(date +%s%N)-$start))
-# end iostat process
-kill -15 `cat /home/william-kingsford/Logs/iostat_pid.txt`
+# end top and iotop processes
+kill -15 `cat /home/william-kingsford/Logs/top_pid.txt`
+kill -15 `cat /home/william-kingsford/Logs/iotop_pid.txt`
 
 # empty and desync library for future tests
 echo "Emptying library"
