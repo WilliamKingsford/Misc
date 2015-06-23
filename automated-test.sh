@@ -19,6 +19,8 @@ do
 	/home/william-kingsford/Misc/sync-and-time.sh
 	mv /home/william-kingsford/Logs/iostat.txt /home/william-kingsford/Logs/StoredLogs/${i}x4000B.txt
 	rm /home/william-kingsford/Logs/iostat_pid.txt
+	# free memory on c157 by running seaf-gc.sh over ssh
+	/home/william-kingsford/Misc/c157.exp
 done
 echo "" >> /home/william-kingsford/Logs/all-times.txt # newline
 
@@ -30,6 +32,8 @@ python maketree.py 10001 1 0 10001 0 10 /home/william-kingsford/SeaFileLibraries
 /home/william-kingsford/Misc/sync-and-time.sh
 mv /home/william-kingsford/Logs/iostat.txt Logs/StoredLogs/10000x10B.txt
 rm /home/william-kingsford/Logs/iostat_pid.txt
+# free memory on c157 by running seaf-gc.sh over ssh
+/home/william-kingsford/Misc/c157.exp
 echo "" >> /home/william-kingsford/Logs/all-times.txt # newline
 
 # test a range of sizes for 1000 files
@@ -43,4 +47,6 @@ do
 	/home/william-kingsford/Misc/sync-and-time.sh
 	mv /home/william-kingsford/Logs/iostat.txt Logs/StoredLogs/1000x$((j * 4000))B.txt
 	rm /home/william-kingsford/Logs/iostat_pid.txt
+	# free memory on c157 by running seaf-gc.sh over ssh
+	/home/william-kingsford/Misc/c157.exp
 done
