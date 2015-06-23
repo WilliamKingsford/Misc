@@ -1,0 +1,23 @@
+0 x 4kB completion time in nanoseconds
+4385028486
+1000 x 4kB completion time in nanoseconds
+4389395179
+2000 x 4kB completion time in nanoseconds
+4608723322
+3000 x 4kB completion time in nanoseconds
+4593506896
+4000 x 4kB completion time in nanoseconds
+4830354911
+5000 x 4kB completion time in nanoseconds
+4915026803
+6000 x 4kB completion time in nanoseconds
+5011463862
+7000 x 4kB completion time in nanoseconds
+5709968795
+8000 x 4kB completion time in nanoseconds
+5720734522
+9000 x 4kB completion time in nanoseconds
+5648394057
+10000 x 4kB completion time in nanoseconds
+5900268973
+
