@@ -17,6 +17,8 @@ nohup $(top -b -d 0.1 | grep seaf-daemon) > /home/william-kingsford/Logs/top.txt
 echo $! > /home/william-kingsford/Logs/top_pid.txt
 nohup $(iotop -b -d 0.1 | grep seaf-daemon) > /home/william-kingsford/Logs/iotop.txt 2>&1&
 echo $! > /home/william-kingsford/Logs/iotop_pid.txt
+nohup $(free) > /home/william-kingsford/Logs/free.txt 2>&1&
+echo $! > /home/william-kingsford/Logs/free_pid.txt
 
 # upload files
 echo "Starting sync..."
@@ -41,9 +43,10 @@ done
 echo "Sync completed"
 
 finish=$(($(date +%s%N)-$start))
-# end top and iotop processes
+# end top, iotop and free processes
 kill -15 `cat /home/william-kingsford/Logs/top_pid.txt`
 kill -15 `cat /home/william-kingsford/Logs/iotop_pid.txt`
+kill -15 `cat /home/william-kingsford/Logs/free_pid.txt`
 
 # empty and desync library for future tests
 echo "Emptying library"
