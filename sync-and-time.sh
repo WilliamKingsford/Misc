@@ -17,7 +17,7 @@ nohup top -b -d 0.1 > /home/william-kingsford/Logs/top-raw.txt 2>&1&
 echo $! > /home/william-kingsford/Logs/top_pid.txt
 nohup iotop -b -d 0.1 > /home/william-kingsford/Logs/iotop-raw.txt 2>&1&
 echo $! > /home/william-kingsford/Logs/iotop_pid.txt
-nohup free > /home/william-kingsford/Logs/free.txt 2>&1&
+nohup /home/william-kingsford/Misc/free-repeat.sh > /home/william-kingsford/Logs/free.txt 2>&1&
 echo $! > /home/william-kingsford/Logs/free_pid.txt
 
 # upload files
