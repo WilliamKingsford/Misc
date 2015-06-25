@@ -17,6 +17,9 @@ do
 	/home/william-kingsford/Misc/sync-empty-folder.sh
 	python maketree.py $((i+1)) 1 0 $((i+1)) 0 4000 /home/william-kingsford/SeaFileLibraries/
 	/home/william-kingsford/Misc/sync-and-time.sh
+	grep seaf top-raw.txt > top.txt
+	grep seaf iotop-raw.txt > top.txt
+	rm top-raw.txt iotop-raw.txt
 	mv /home/william-kingsford/Logs/top.txt /home/william-kingsford/Logs/StoredLogs/${i}x4000B-top.txt
 	rm /home/william-kingsford/Logs/top_pid.txt
 	mv /home/william-kingsford/Logs/iotop.txt /home/william-kingsford/Logs/StoredLogs/${i}x4000B-iotop.txt
