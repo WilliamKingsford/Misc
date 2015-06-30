@@ -1,6 +1,6 @@
 #!/usr/bin/expect
 
-spawn ssh c157
+spawn ssh william-kingsford@c157
 expect "password:"
 sleep 1
 send "william-kingsford\r"
