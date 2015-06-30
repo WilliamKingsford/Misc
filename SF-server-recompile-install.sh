@@ -9,9 +9,9 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 #  set some paths for building stuff...
-export PKG_CONFIG_PATH=/home/william-kingsford/seafile/lib:$PKG_CONFIG_PATH
-export PKG_CONFIG_PATH=/home/william-kingsford/libsearpc:$PKG_CONFIG_PATH
-export PKG_CONFIG_PATH=/home/william-kingsford/ccnet:$PKG_CONFIG_PATH
+export PKG_CONFIG_PATH=/home/william-kingsford/duet/SeaFileServer/seafile/lib:$PKG_CONFIG_PATH
+export PKG_CONFIG_PATH=/home/william-kingsford/duet/SeaFileServer/libsearpc:$PKG_CONFIG_PATH
+export PKG_CONFIG_PATH=/home/william-kingsford/duet/SeaFileServer/ccnet:$PKG_CONFIG_PATH
 
 
 
@@ -88,10 +88,10 @@ tar czvf seafile-4.1.1.tar.gz seafile-4.1.1
 cd ~/
 
 # remove old seafile-server tars
-rm /home/william-kingsford/seafile-server-pkgs/seafile-server_4.1.2_x86-64.tar.gz
+rm /home/william-kingsford/duet/SeaFileServer/seafile-server-pkgs/seafile-server_4.1.2_x86-64.tar.gz
 rm /mnt/seafile-server-build/ -rf
 
-/home/william-kingsford/seafile/scripts/build/build-server.py --libsearpc_version=1.2.2 --ccnet_version=1.4.2 --seafile_version=4.1.1  --thirdpartdir=/home/william-kingsford/seahub_thirdpart --srcdir=/home/william-kingsford/seafile-sources --outputdir=/home/william-kingsford/seafile-server-pkgs --version=4.1.2 --builddir=/mnt/ --keep
+/home/william-kingsford/duet/SeaFileServer/seafile/scripts/build/build-server.py --libsearpc_version=1.2.2 --ccnet_version=1.4.2 --seafile_version=4.1.1  --thirdpartdir=/home/william-kingsford/duet/SeaFileServer/seahub_thirdpart --srcdir=/home/william-kingsford/duet/SeaFileServer/seafile-sources --outputdir=/home/william-kingsford/duet/SeaFileServer/seafile-server-pkgs --version=4.1.2 --builddir=/mnt/ --keep
 
 
 # ===BEGIN INSTALLATION===
@@ -100,7 +100,7 @@ apt-get update
 
 cd ~/SeaFileServer
 
-cp /home/william-kingsford/seafile-server-pkgs/seafile-server_4.1.2_x86-64.tar.gz seafile-server_4.1.2_x86-64-custom.tar.gz
+cp /home/william-kingsford/duet/SeaFileServer/seafile-server-pkgs/seafile-server_4.1.2_x86-64.tar.gz seafile-server_4.1.2_x86-64-custom.tar.gz
 tar -xvf seafile-server_4.1.2_x86-64-custom.tar.gz
 mkdir installed
 mv seafile-server_4.1.2_x86-64-custom.tar.gz installed
