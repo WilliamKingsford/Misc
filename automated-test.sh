@@ -8,6 +8,11 @@ then
 	echo "You must run this script from /home/william-kingsford"
 	exit
 fi
+# check if running as root (needed for iotop and clearing pagecache)
+if [ "$(id -u)" != "0" ]; then
+   echo "This script must be run as root" 1>&2
+   exit 1
+fi
 
 echo "This script will automatically the previous all-times.txt."
 echo "If you don't want this, cancel the script in the next 10 seconds."
@@ -16,6 +21,11 @@ sleep 10
 # delete old data files
 echo "Deleting previous data all-times.txt"
 rm /home/william-kingsford/Logs/all-times.txt
+
+# pre-emptively clear caches on both machines
+echo "Clearing caches on both server and client"
+/home/william-kingsford/Misc/c157.exp
+sh -c 'echo 1 > /proc/sys/vm/drop_caches'
 
 # test a range of 4kB files
 for i in `seq 1000 1000 10000`;
@@ -31,8 +41,9 @@ do
 	rm /home/william-kingsford/Logs/iotop_pid.txt
 	mv /home/william-kingsford/Logs/free.txt /home/william-kingsford/Logs/StoredLogs/${i}x4000B-free.txt
 	rm /home/william-kingsford/Logs/free_pid.txt
-	# free memory on c157 by running seaf-gc.sh over ssh
+	# free memory on c157 by running seaf-gc.sh over ssh and clear pagecache on client
 	/home/william-kingsford/Misc/c157.exp
+	sh -c 'echo 1 > /proc/sys/vm/drop_caches'
 done
 echo "" >> /home/william-kingsford/Logs/all-times.txt # newline
 
@@ -48,8 +59,9 @@ mv /home/william-kingsford/Logs/iotop.txt Logs/StoredLogs/10000x10B-iotop.txt
 rm /home/william-kingsford/Logs/iotop_pid.txt
 mv /home/william-kingsford/Logs/free.txt Logs/StoredLogs/10000x10B-free.txt
 rm /home/william-kingsford/Logs/free_pid.txt
-# free memory on c157 by running seaf-gc.sh over ssh
+# free memory on c157 by running seaf-gc.sh over ssh and clear pagecache on client
 /home/william-kingsford/Misc/c157.exp
+sh -c 'echo 1 > /proc/sys/vm/drop_caches'
 echo "" >> /home/william-kingsford/Logs/all-times.txt # newline
 
 # test a range of sizes for 1000 files
@@ -67,6 +79,7 @@ do
 	rm /home/william-kingsford/Logs/iotop_pid.txt
 	mv /home/william-kingsford/Logs/free.txt Logs/StoredLogs/1000x$((j * 4000))B-free.txt
 	rm /home/william-kingsford/Logs/free_pid.txt
-	# free memory on c157 by running seaf-gc.sh over ssh
+	# free memory on c157 by running seaf-gc.sh over ssh and clear pagecache on client
 	/home/william-kingsford/Misc/c157.exp
+	sh -c 'echo 1 > /proc/sys/vm/drop_caches'
 done
