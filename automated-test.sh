@@ -14,7 +14,7 @@ if [ "$(id -u)" != "0" ]; then
    exit 1
 fi
 
-echo "This script will automatically the previous all-times.txt."
+echo "This script will automatically delete the previous all-times.txt."
 echo "If you don't want this, cancel the script in the next 10 seconds."
 sleep 10
 
