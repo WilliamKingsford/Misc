@@ -13,10 +13,8 @@ seaf-cli start
 start=$(date +%s%N)
 # start tracking detailed cpu/io data every 0.1 second, running in background
 # nohup is necessary to run a process in the background through ssh without hangups
-nohup top -b -d 0.1 > /home/william-kingsford/Logs/top-raw.txt 2>&1&
-echo $! > /home/william-kingsford/Logs/top_pid.txt
-nohup iotop -b -d 0.1 > /home/william-kingsford/Logs/iotop-raw.txt 2>&1&
-echo $! > /home/william-kingsford/Logs/iotop_pid.txt
+nohup /home/william-kingsford/Misc/top-iotop-repeat.sh > /dev/null 2>&1&
+echo $! > /home/william-kingsford/Logs/top-iotop_pid.txt
 nohup /home/william-kingsford/Misc/free-repeat.sh > /home/william-kingsford/Logs/free.txt 2>&1&
 echo $! > /home/william-kingsford/Logs/free_pid.txt
 
@@ -43,9 +41,8 @@ done
 echo "Sync completed"
 
 finish=$(($(date +%s%N)-$start))
-# end top, iotop and free processes
-kill -15 `cat /home/william-kingsford/Logs/top_pid.txt`
-kill -15 `cat /home/william-kingsford/Logs/iotop_pid.txt`
+# end top-iotop and free processes
+kill -15 `cat /home/william-kingsford/Logs/top-iotop_pid.txt`
 kill -15 `cat /home/william-kingsford/Logs/free_pid.txt`
 
 # empty and desync library for future tests

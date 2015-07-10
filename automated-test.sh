@@ -9,6 +9,14 @@ then
 	exit
 fi
 
+echo "This script will automatically the previous all-times.txt."
+echo "If you don't want this, cancel the script in the next 10 seconds."
+sleep 10
+
+# delete old data files
+echo "Deleting previous data all-times.txt"
+rm /home/william-kingsford/Logs/all-times.txt
+
 # test a range of 4kB files
 for i in `seq 1000 1000 10000`;
 do
@@ -17,9 +25,6 @@ do
 	/home/william-kingsford/Misc/sync-empty-folder.sh
 	python maketree.py $((i+1)) 1 0 $((i+1)) 0 4000 /home/william-kingsford/SeaFileLibraries/
 	/home/william-kingsford/Misc/sync-and-time.sh
-	grep seaf /home/william-kingsford/Logs/top-raw.txt > /home/william-kingsford/Logs/top.txt
-	grep seaf /home/william-kingsford/Logs/iotop-raw.txt > /home/william-kingsford/Logs/iotop.txt
-	rm /home/william-kingsford/Logs/top-raw.txt /home/william-kingsford/Logs/iotop-raw.txt
 	mv /home/william-kingsford/Logs/top.txt /home/william-kingsford/Logs/StoredLogs/${i}x4000B-top.txt
 	rm /home/william-kingsford/Logs/top_pid.txt
 	mv /home/william-kingsford/Logs/iotop.txt /home/william-kingsford/Logs/StoredLogs/${i}x4000B-iotop.txt
@@ -37,9 +42,6 @@ echo "10000 x 10B completion time in nanoseconds" >> /home/william-kingsford/Log
 /home/william-kingsford/Misc/sync-empty-folder.sh
 python maketree.py 10001 1 0 10001 0 10 /home/william-kingsford/SeaFileLibraries/
 /home/william-kingsford/Misc/sync-and-time.sh
-grep seaf /home/william-kingsford/Logs/top-raw.txt > /home/william-kingsford/Logs/top.txt
-grep seaf /home/william-kingsford/Logs/iotop-raw.txt > /home/william-kingsford/Logs/iotop.txt
-rm /home/william-kingsford/Logs/top-raw.txt /home/william-kingsford/Logs/iotop-raw.txt
 mv /home/william-kingsford/Logs/top.txt Logs/StoredLogs/10000x10B-top.txt
 rm /home/william-kingsford/Logs/top_pid.txt
 mv /home/william-kingsford/Logs/iotop.txt Logs/StoredLogs/10000x10B-iotop.txt
@@ -59,9 +61,6 @@ do
 	/home/william-kingsford/Misc/sync-empty-folder.sh
 	python maketree.py 1001 1 0 1001 0 $((j * 4000)) /home/william-kingsford/SeaFileLibraries/
 	/home/william-kingsford/Misc/sync-and-time.sh
-	grep seaf /home/william-kingsford/Logs/top-raw.txt > /home/william-kingsford/Logs/top.txt
-	grep seaf /home/william-kingsford/Logs/iotop-raw.txt > /home/william-kingsford/Logs/iotop.txt
-	rm /home/william-kingsford/Logs/top-raw.txt /home/william-kingsford/Logs/iotop-raw.txt
 	mv /home/william-kingsford/Logs/top.txt Logs/StoredLogs/1000x$((j * 4000))B-top.txt
 	rm /home/william-kingsford/Logs/top_pid.txt
 	mv /home/william-kingsford/Logs/iotop.txt Logs/StoredLogs/1000x$((j * 4000))B-iotop.txt
