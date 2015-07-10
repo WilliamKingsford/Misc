@@ -9,10 +9,10 @@ fi
 echo "sync-and-time.sh: Starting seaf-cli"
 seaf-cli start
 # start tracking with OProfile
-nohup operf --pid `ps -ef | grep 'ccnet --daemon' | awk 'NR % 2 - 1 == 0' | awk '{ print $2 }'` > /home/william-kingsford/Logs/ccnet-operf.txt 2>&1&
-echo $! > /home/william-kingsford/Logs/operf-ccnet_pid.txt
-nohup operf --pid `ps -ef | grep 'seaf-daemon' | awk 'NR % 2 - 1 == 0' | awk '{ print $2 }'` > /home/william-kingsford/Logs/seaf-operf.txt 2>&1&
-echo $! > /home/william-kingsford/Logs/operf-seaf_pid.txt
+#nohup operf --pid `ps -ef | grep 'ccnet --daemon' | awk 'NR % 2 - 1 == 0' | awk '{ print $2 }'` > /home/william-kingsford/Logs/ccnet-operf.txt 2>&1&
+#echo $! > /home/william-kingsford/Logs/operf-ccnet_pid.txt
+#nohup operf --pid `ps -ef | grep 'seaf-daemon' | awk 'NR % 2 - 1 == 0' | awk '{ print $2 }'` > /home/william-kingsford/Logs/seaf-operf.txt 2>&1&
+#echo $! > /home/william-kingsford/Logs/operf-seaf_pid.txt
 
 start=$(date +%s%N)
 # start tracking detailed cpu/io data every 0.1 second, running in background
@@ -46,8 +46,8 @@ echo "Sync completed"
 
 finish=$(($(date +%s%N)-$start))
 # end operf, top-iotop and free processes
-kill -15 `cat /home/william-kingsford/Logs/operf-ccnet_pid.txt`
-kill -15 `cat /home/william-kingsford/Logs/operf-seaf_pid.txt`
+#kill -15 `cat /home/william-kingsford/Logs/operf-ccnet_pid.txt`
+#kill -15 `cat /home/william-kingsford/Logs/operf-seaf_pid.txt`
 kill -15 `cat /home/william-kingsford/Logs/top-iotop_pid.txt`
 kill -15 `cat /home/william-kingsford/Logs/free_pid.txt`
 

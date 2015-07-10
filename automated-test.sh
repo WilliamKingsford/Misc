@@ -38,11 +38,9 @@ do
 	sh -c 'echo 1 > /proc/sys/vm/drop_caches'
 	/home/william-kingsford/Misc/sync-and-time.sh
 	mv /home/william-kingsford/Logs/top.txt /home/william-kingsford/Logs/StoredLogs/${i}x4000B-top.txt
-	rm /home/william-kingsford/Logs/top_pid.txt
 	mv /home/william-kingsford/Logs/iotop.txt /home/william-kingsford/Logs/StoredLogs/${i}x4000B-iotop.txt
-	rm /home/william-kingsford/Logs/iotop_pid.txt
 	mv /home/william-kingsford/Logs/free.txt /home/william-kingsford/Logs/StoredLogs/${i}x4000B-free.txt
-	rm /home/william-kingsford/Logs/free_pid.txt
+	rm /home/william-kingsford/Logs/operf-ccnet_pid.txt /home/william-kingsford/Logs/operf-seaf_pid.txt /home/william-kingsford/Logs/top-iotop_pid.txt /home/william-kingsford/Logs/free_pid.txt
 	# free memory on c157 by running seaf-gc.sh over ssh and clear pagecache on client
 	/home/william-kingsford/Misc/c157.exp
 	sh -c 'echo 1 > /proc/sys/vm/drop_caches'
@@ -58,11 +56,9 @@ python maketree.py 10001 1 0 10001 0 10 /home/william-kingsford/SeaFileLibraries
 sh -c 'echo 1 > /proc/sys/vm/drop_caches'
 /home/william-kingsford/Misc/sync-and-time.sh
 mv /home/william-kingsford/Logs/top.txt Logs/StoredLogs/10000x10B-top.txt
-rm /home/william-kingsford/Logs/top_pid.txt
 mv /home/william-kingsford/Logs/iotop.txt Logs/StoredLogs/10000x10B-iotop.txt
-rm /home/william-kingsford/Logs/iotop_pid.txt
 mv /home/william-kingsford/Logs/free.txt Logs/StoredLogs/10000x10B-free.txt
-rm /home/william-kingsford/Logs/free_pid.txt
+rm /home/william-kingsford/Logs/operf-ccnet_pid.txt /home/william-kingsford/Logs/operf-seaf_pid.txt /home/william-kingsford/Logs/top-iotop_pid.txt /home/william-kingsford/Logs/free_pid.txt
 # free memory on c157 by running seaf-gc.sh over ssh and clear pagecache on client
 /home/william-kingsford/Misc/c157.exp
 sh -c 'echo 1 > /proc/sys/vm/drop_caches'
@@ -80,11 +76,9 @@ do
 	sh -c 'echo 1 > /proc/sys/vm/drop_caches'
 	/home/william-kingsford/Misc/sync-and-time.sh
 	mv /home/william-kingsford/Logs/top.txt Logs/StoredLogs/1000x$((j * 4000))B-top.txt
-	rm /home/william-kingsford/Logs/top_pid.txt
 	mv /home/william-kingsford/Logs/iotop.txt Logs/StoredLogs/1000x$((j * 4000))B-iotop.txt
-	rm /home/william-kingsford/Logs/iotop_pid.txt
 	mv /home/william-kingsford/Logs/free.txt Logs/StoredLogs/1000x$((j * 4000))B-free.txt
-	rm /home/william-kingsford/Logs/free_pid.txt
+	rm /home/william-kingsford/Logs/operf-ccnet_pid.txt /home/william-kingsford/Logs/operf-seaf_pid.txt /home/william-kingsford/Logs/top-iotop_pid.txt /home/william-kingsford/Logs/free_pid.txt
 	# free memory on c157 by running seaf-gc.sh over ssh and clear pagecache on client
 	/home/william-kingsford/Misc/c157.exp
 	sh -c 'echo 1 > /proc/sys/vm/drop_caches'
