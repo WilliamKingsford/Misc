@@ -36,6 +36,7 @@ do
 	python maketree.py $((i+1)) 1 0 $((i+1)) 0 4000 /home/william-kingsford/SeaFileLibraries/
 	# clear page cache to ensure new files are not still in memory
 	sh -c 'echo 1 > /proc/sys/vm/drop_caches'
+	sync
 	/home/william-kingsford/Misc/sync-and-time.sh
 	mv /home/william-kingsford/Logs/top.txt /home/william-kingsford/Logs/StoredLogs/${i}x4000B-top.txt
 	mv /home/william-kingsford/Logs/iotop.txt /home/william-kingsford/Logs/StoredLogs/${i}x4000B-iotop.txt
@@ -54,6 +55,7 @@ echo "10000 x 10B completion time in nanoseconds" >> /home/william-kingsford/Log
 python maketree.py 10001 1 0 10001 0 10 /home/william-kingsford/SeaFileLibraries/
 # clear page cache to ensure new files are not still in memory
 sh -c 'echo 1 > /proc/sys/vm/drop_caches'
+sync
 /home/william-kingsford/Misc/sync-and-time.sh
 mv /home/william-kingsford/Logs/top.txt Logs/StoredLogs/10000x10B-top.txt
 mv /home/william-kingsford/Logs/iotop.txt Logs/StoredLogs/10000x10B-iotop.txt
@@ -74,6 +76,7 @@ do
 	python maketree.py 1001 1 0 1001 0 $((j * 4000)) /home/william-kingsford/SeaFileLibraries/
 	# clear page cache to ensure new files are not still in memory
 	sh -c 'echo 1 > /proc/sys/vm/drop_caches'
+	sync
 	/home/william-kingsford/Misc/sync-and-time.sh
 	mv /home/william-kingsford/Logs/top.txt Logs/StoredLogs/1000x$((j * 4000))B-top.txt
 	mv /home/william-kingsford/Logs/iotop.txt Logs/StoredLogs/1000x$((j * 4000))B-iotop.txt
