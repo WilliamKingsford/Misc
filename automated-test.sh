@@ -25,7 +25,8 @@ rm /home/william-kingsford/Logs/all-times.txt
 # pre-emptively clear caches on both machines
 echo "Clearing caches on both server and client"
 /home/william-kingsford/Misc/c157.exp
-sh -c 'echo 1 > /proc/sys/vm/drop_caches'
+sync
+sh -c 'echo 3 > /proc/sys/vm/drop_caches'
 
 # test a range of 4kB files
 for i in `seq 1000 1000 10000`;
@@ -35,8 +36,8 @@ do
 	/home/william-kingsford/Misc/sync-empty-folder.sh
 	python maketree.py $((i+1)) 1 0 $((i+1)) 0 4000 /home/william-kingsford/SeaFileLibraries/
 	# clear page cache to ensure new files are not still in memory
-	sh -c 'echo 1 > /proc/sys/vm/drop_caches'
 	sync
+	sh -c 'echo 3 > /proc/sys/vm/drop_caches'
 	/home/william-kingsford/Misc/sync-and-time.sh
 	mv /home/william-kingsford/Logs/top.txt /home/william-kingsford/Logs/StoredLogs/${i}x4000B-top.txt
 	mv /home/william-kingsford/Logs/iotop.txt /home/william-kingsford/Logs/StoredLogs/${i}x4000B-iotop.txt
@@ -44,7 +45,8 @@ do
 	rm /home/william-kingsford/Logs/operf-ccnet_pid.txt /home/william-kingsford/Logs/operf-seaf_pid.txt /home/william-kingsford/Logs/top-iotop_pid.txt /home/william-kingsford/Logs/free_pid.txt
 	# free memory on c157 by running seaf-gc.sh over ssh and clear pagecache on client
 	/home/william-kingsford/Misc/c157.exp
-	sh -c 'echo 1 > /proc/sys/vm/drop_caches'
+	sync
+	sh -c 'echo 3 > /proc/sys/vm/drop_caches'
 done
 echo "" >> /home/william-kingsford/Logs/all-times.txt # newline
 
@@ -54,8 +56,8 @@ echo "10000 x 10B completion time in nanoseconds" >> /home/william-kingsford/Log
 /home/william-kingsford/Misc/sync-empty-folder.sh
 python maketree.py 10001 1 0 10001 0 10 /home/william-kingsford/SeaFileLibraries/
 # clear page cache to ensure new files are not still in memory
-sh -c 'echo 1 > /proc/sys/vm/drop_caches'
 sync
+sh -c 'echo 3 > /proc/sys/vm/drop_caches'
 /home/william-kingsford/Misc/sync-and-time.sh
 mv /home/william-kingsford/Logs/top.txt Logs/StoredLogs/10000x10B-top.txt
 mv /home/william-kingsford/Logs/iotop.txt Logs/StoredLogs/10000x10B-iotop.txt
@@ -63,7 +65,8 @@ mv /home/william-kingsford/Logs/free.txt Logs/StoredLogs/10000x10B-free.txt
 rm /home/william-kingsford/Logs/operf-ccnet_pid.txt /home/william-kingsford/Logs/operf-seaf_pid.txt /home/william-kingsford/Logs/top-iotop_pid.txt /home/william-kingsford/Logs/free_pid.txt
 # free memory on c157 by running seaf-gc.sh over ssh and clear pagecache on client
 /home/william-kingsford/Misc/c157.exp
-sh -c 'echo 1 > /proc/sys/vm/drop_caches'
+sync
+sh -c 'echo 3 > /proc/sys/vm/drop_caches'
 echo "" >> /home/william-kingsford/Logs/all-times.txt # newline
 
 # test a range of sizes for 1000 files
@@ -75,8 +78,8 @@ do
 	/home/william-kingsford/Misc/sync-empty-folder.sh
 	python maketree.py 1001 1 0 1001 0 $((j * 4000)) /home/william-kingsford/SeaFileLibraries/
 	# clear page cache to ensure new files are not still in memory
-	sh -c 'echo 1 > /proc/sys/vm/drop_caches'
 	sync
+	sh -c 'echo 3 > /proc/sys/vm/drop_caches'
 	/home/william-kingsford/Misc/sync-and-time.sh
 	mv /home/william-kingsford/Logs/top.txt Logs/StoredLogs/1000x$((j * 4000))B-top.txt
 	mv /home/william-kingsford/Logs/iotop.txt Logs/StoredLogs/1000x$((j * 4000))B-iotop.txt
@@ -84,5 +87,6 @@ do
 	rm /home/william-kingsford/Logs/operf-ccnet_pid.txt /home/william-kingsford/Logs/operf-seaf_pid.txt /home/william-kingsford/Logs/top-iotop_pid.txt /home/william-kingsford/Logs/free_pid.txt
 	# free memory on c157 by running seaf-gc.sh over ssh and clear pagecache on client
 	/home/william-kingsford/Misc/c157.exp
-	sh -c 'echo 1 > /proc/sys/vm/drop_caches'
+	sync
+	sh -c 'echo 3 > /proc/sys/vm/drop_caches'
 done
