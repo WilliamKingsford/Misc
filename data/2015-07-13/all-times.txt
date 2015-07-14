@@ -1,44 +1,44 @@
 1000 x 4kB completion time in nanoseconds
-5222926541
+20024475535
 2000 x 4kB completion time in nanoseconds
-5634155832
+33206954924
 3000 x 4kB completion time in nanoseconds
-7076640917
+43573626745
 4000 x 4kB completion time in nanoseconds
-7915801624
+59733203607
 5000 x 4kB completion time in nanoseconds
-7860302095
+62178732819
 6000 x 4kB completion time in nanoseconds
-8347733849
+84446568958
 7000 x 4kB completion time in nanoseconds
-9699615009
+79311306993
 8000 x 4kB completion time in nanoseconds
-10221297743
+103490462600
 9000 x 4kB completion time in nanoseconds
-12616318102
+99077905832
 10000 x 4kB completion time in nanoseconds
-12594562586
+106166949690
 
 10000 x 10B completion time in nanoseconds
-12482394547
+106214184308
 
 1000 x 8kB completion time in nanoseconds
-5268045342
+23132357459
 1000 x 16kB completion time in nanoseconds
-5309692156
+25744727086
 1000 x 32kB completion time in nanoseconds
-5487549616
+24964854437
 1000 x 64kB completion time in nanoseconds
-5682846627
+25129713094
 1000 x 128kB completion time in nanoseconds
-6139035265
+23508330136
 1000 x 256kB completion time in nanoseconds
-5846228504
+16286561793
 1000 x 512kB completion time in nanoseconds
-5702051657
+12716661264
 1000 x 1024kB completion time in nanoseconds
-6479581603
+10083016718
 1000 x 2048kB completion time in nanoseconds
-6434165527
+8529317285
 1000 x 4096kB completion time in nanoseconds
-6937186262
+8186285598
