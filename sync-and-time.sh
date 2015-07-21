@@ -7,7 +7,7 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 echo "sync-and-time.sh: Starting seaf-cli"
-seaf-cli start
+seaf-cli start > /dev/null 2>&1&
 # start tracking with OProfile
 #nohup operf --pid `ps -ef | grep 'ccnet --daemon' | awk 'NR % 2 - 1 == 0' | awk '{ print $2 }'` > /home/william-kingsford/Logs/ccnet-operf.txt 2>&1&
 #echo $! > /home/william-kingsford/Logs/operf-ccnet_pid.txt
