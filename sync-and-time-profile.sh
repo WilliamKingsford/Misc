@@ -64,6 +64,11 @@ python maketree.py $(($2+1)) 1 0 $(($2+1)) 0 $3 /home/william-kingsford/SeaFileL
 else echo "Test with no added files"
 fi
 
+# free memory on c157 by running seaf-gc.sh over ssh and clear cache on client
+/home/william-kingsford/Misc/c157.exp
+sync
+sh -c 'echo 3 > /proc/sys/vm/drop_caches'
+
 echo "FILE SYNC: Starting seaf-cli"
 seaf-cli start > /dev/null 2>&1&
 
@@ -123,5 +128,19 @@ seaf-cli stop
 
 # print time taken
 echo "time taken (in nanoseconds):" $finish
-# write time taken to log file
-echo "$finish" >> /home/william-kingsford/Logs/all-times.txt
+
+# process log files
+rm /home/william-kingsford/Logs/top-iotop_pid.txt /home/william-kingsford/Logs/free_pid.txt /home/william-kingsford/Logs/status.txt
+if [[ $1 -eq 0 ]]
+then mv /home/william-kingsford/Logs/free.txt /home/william-kingsford/Logs/free-nofiles.txt
+mv /home/william-kingsford/Logs/top.txt /home/william-kingsford/Logs/top-nofiles.txt
+mv /home/william-kingsford/Logs/iotop.txt /home/william-kingsford/Logs/iotop-nofiles.txt
+else mv /home/william-kingsford/Logs/free.txt /home/william-kingsford/Logs/free-${2}x${3}B.txt
+mv /home/william-kingsford/Logs/top.txt /home/william-kingsford/Logs/top-${2}x${3}B.txt
+mv /home/william-kingsford/Logs/iotop.txt /home/william-kingsford/Logs/iotop-${2}x${3}B.txt
+fi
+
+# free memory on c157 by running seaf-gc.sh over ssh and clear cache on client
+/home/william-kingsford/Misc/c157.exp
+sync
+sh -c 'echo 3 > /proc/sys/vm/drop_caches'
