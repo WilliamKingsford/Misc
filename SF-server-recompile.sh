@@ -18,14 +18,14 @@ cd ..
 
 cd ccnet-${version}-server
 ./autogen.sh
-./configure --disable-client --enable-server   # `export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig` if libsearpc is not found
+./configure CFLAGS="-pg -g -O2" LDFLAGS="-pg" --disable-client --enable-server   # `export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig` if libsearpc is not found
 make
 make install
 cd ..
 
 cd seafile-${version}-server
 ./autogen.sh
-./configure --disable-client --enable-server
+./configure CFLAGS="-pg -g -O2" LDFLAGS="-pg" --disable-client --enable-server
 make
 make install
 cd ..
