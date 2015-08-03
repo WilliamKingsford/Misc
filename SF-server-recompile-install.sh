@@ -30,7 +30,7 @@ cp *.tar.gz ~/seafile-sources/
 
 cd ~/ccnet
 ./autogen.sh
-./configure
+./configure CFLAGS="-pg -g -O2" LDFLAGS="-pg"
 make dist
 cp *.tar.gz ~/seafile-sources/
 
@@ -39,7 +39,7 @@ cp *.tar.gz ~/seafile-sources/
 
 cd ~/seafile
 ./autogen.sh
-./configure
+./configure CFLAGS="-pg -g -O2" LDFLAGS="-pg"
 make dist
 cp *.tar.gz ~/seafile-sources/
 

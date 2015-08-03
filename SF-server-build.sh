@@ -4,11 +4,6 @@
 
 # most commands where executed in ~/  (in this case, /home/william-kingsford , homedir of a regular+sudoer user)
 
-# check if running as root
-if [ "$(id -u)" != "0" ]; then
-   echo "This script must be run as root" 1>&2
-   exit 1
-fi
 
 # install essential Debian packages
 
@@ -212,48 +207,5 @@ tar czvf seafile-4.1.1.tar.gz seafile-4.1.1
 
 cd ~/
 
-mkdir /home/william-kingsford/seafile-server-pkgs
-
 /home/william-kingsford/seafile/scripts/build/build-server.py --libsearpc_version=1.2.2 --ccnet_version=1.4.2 --seafile_version=4.1.1  --thirdpartdir=/home/william-kingsford/seahub_thirdpart --srcdir=/home/william-kingsford/seafile-sources --outputdir=/home/william-kingsford/seafile-server-pkgs --version=4.1.2 --builddir=/mnt/ --keep
 
-
-# ===BEGIN INSTALLATION===
-
-apt-get update
-
-mkdir ~/SeaFileServer
-cd ~/SeaFileServer
-
-cp /home/william-kingsford/seafile-server-pkgs/seafile-server_4.1.2_x86-64.tar.gz seafile-server_4.1.2_x86-64.tar.gz
-tar -xvf seafile-server_4.1.2_x86-64.tar.gz
-mkdir installed
-mv seafile-server_4.1.2_x86-64.tar.gz installed
-
-apt-get update
-apt-get install python2.7 python-setuptools python-imaging sqlite3
-
-cd seafile-server-4.1.2
-./setup-seafile.sh
-
-apt-get install nginx python-flup python-imaging
-
-iptables -I INPUT 1 -p tcp --dport 8001 -j ACCEPT
-iptables -I INPUT 1 -p tcp --dport 8082 -j ACCEPT
-iptables -I INPUT 1 -p tcp --dport 10001 -j ACCEPT
-iptables -I INPUT 1 -p tcp --dport 12001 -j ACCEPT
-
-cp ../nginx-config /etc/nginx/sites-available/site
-
-service nginx start
-
-ln -s /etc/nginx/sites-available/site /etc/nginx/sites-enabled/site
-rm /etc/nginx/sites-enabled/default
-service nginx restart
-
-echo '"./seafile.sh start" to start seafile'
-echo '"./seahub.sh start 8001" to start seahub'
-echo "THESE MUST BE RUN AS ROOT"
-
-echo "Remember to work through the guide at http://manual.seafile.com/deploy/deploy_with_nginx.html"
-
-echo "Also make sure that the IP address in the nginx config file is correct"
