@@ -104,6 +104,14 @@ finish=$(($(date +%s%N)-$start))
 kill -15 `cat /home/william-kingsford/Logs/top-iotop_pid.txt`
 kill -15 `cat /home/william-kingsford/Logs/free_pid.txt`
 
+echo "Ending process and moving gmon.out to prevent overwriting"
+seaf-cli stop
+sleep 0.5 # make sure gmon.out has enough time to be created
+mv gmon.out gmon-sync.out
+seaf-cli start > /dev/null 2>&1&
+echo "Restart: Starting seaf-cli and giving it 3 seconds to load."
+sleep 3
+
 # empty and desync library for future tests
 echo "Emptying library"
 rm /home/william-kingsford/SeaFileLibraries/*
