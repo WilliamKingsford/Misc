@@ -13,18 +13,18 @@ echo "generating no files: sync-and-time-profile.sh 0"
 echo "generating files:    sync-and-time-profile.sh 1 <# of files> <size of files (B)>"
 exit
 fi
-if !( [[ $# -eq 1 ]] || [[ $# -eq 3 ]] )
+if ! ( [[ $# -eq 1 ]] || [[ $# -eq 3 ]] )
 then echo "Invalid number of arguments."
 echo "Syntax:"
 echo "generating no files: sync-and-time-profile.sh 0"
 echo "generating files:    sync-and-time-profile.sh 1 <# of files> <size of files (B)>"
 exit
 fi
-if [[ $# -eq 1 ]] && ![[ $1 -eq 0 ]]
+if [[ $# -eq 1 ]] && ! [[ $1 -eq 0 ]]
 then echo "Invalid arguments. If only one argument is given it must be 0 (generate no files)."
 exit
 fi
-if ( [[ $# -eq 3 ]] && [[ !$1 -eq 1 ]] ) || ( [[ $1 -eq 1 ]] && ![[ $# -eq 3 ]] )
+if ( [[ $# -eq 3 ]] && [[ ! $1 -eq 1 ]] ) || ( [[ $1 -eq 1 ]] && ! [[ $# -eq 3 ]] )
 then echo "If the first argument is 1 then there must be 3 total arguments (1, number of files, size of files) and vice versa."
 exit
 fi
