@@ -129,7 +129,8 @@ mkdir ~/seafile-sources
 
 # clone and prepare Seafile source tarballs
 
-cd ~/
+cd /home/william-kingsford/SeaFileServer/src/
+
 git clone https://github.com/haiwen/libsearpc.git
 cd libsearpc
 git reset --hard v3.0-latest
@@ -137,8 +138,8 @@ git reset --hard v3.0-latest
 ./configure
 make dist
 cp *.tar.gz ~/seafile-sources/
+cd ..
 
-cd ~/
 git clone https://github.com/haiwen/ccnet.git
 cd ccnet
 git reset --hard v4.1.1-server
@@ -146,11 +147,8 @@ git reset --hard v4.1.1-server
 ./configure CFLAGS="-pg -g -O2" LDFLAGS="-pg"
 make dist
 cp *.tar.gz ~/seafile-sources/
+cd ..
 
-
-
-
-cd ~/
 git clone https://github.com/haiwen/seafile.git
 cd seafile
 git reset --hard v4.1.1-server
@@ -158,12 +156,8 @@ git reset --hard v4.1.1-server
 ./configure CFLAGS="-pg -g -O2" LDFLAGS="-pg"
 make dist
 cp *.tar.gz ~/seafile-sources/
+cd ..
 
-
-
-
-
-cd ~/
 git clone https://github.com/haiwen/seahub.git
 cd seahub
 git reset --hard v4.1.1-server
@@ -172,28 +166,21 @@ sudo pip install -r requirements.txt    # did this to get around what looked lik
                                         # Pillow and Django were installed...
 ./tools/gen-tarball.py --version=4.1.1 --branch=HEAD
 cp *.tar.gz ~/seafile-sources/
+cd ..
 
-
-
-
-
-cd ~/
 git clone https://github.com/haiwen/seafobj.git
 cd seafobj
 git reset --hard v4.1.1-server
 make dist
 cp *.tar.gz ~/seafile-sources/
+cd ..
 
-
-
-
-cd ~/
 git clone https://github.com/haiwen/seafdav.git
 cd seafdav
 git reset --hard v4.1.1-server
 make
 cp *.tar.gz ~/seafile-sources/
-
+cd ..
 
 # Now, the seafile build system/script requires that a few of the sources are "tagged" with the same version number...
 # ...so we go to ~/seafile-sources, untar some of them, change the dir names to have the same version number & retar

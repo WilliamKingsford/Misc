@@ -13,8 +13,6 @@ export PKG_CONFIG_PATH=/home/william-kingsford/duet/SeaFileServer/seafile/lib:$P
 export PKG_CONFIG_PATH=/home/william-kingsford/duet/SeaFileServer/libsearpc:$PKG_CONFIG_PATH
 export PKG_CONFIG_PATH=/home/william-kingsford/duet/SeaFileServer/ccnet:$PKG_CONFIG_PATH
 
-
-
 # move old seafile-sources
 timestamp=$(date +'%Y-%m-%d-%R')
 mkdir ~/seafile-sources/${timestamp}
@@ -22,53 +20,47 @@ mv ~/seafile-sources/*.tar.gz ~/seafile-sources/${timestamp}/
 
 # prepare new Seafile source tarballs
 
-cd ~/libsearpc
+#cd /home/william-kingsford/SeaFileServer/src/
+cd /home/william-kingsford/duet/SeaFileServer/
+
+cd libsearpc
 ./autogen.sh
 ./configure
 make dist
 cp *.tar.gz ~/seafile-sources/
+cd ..
 
-cd ~/ccnet
+cd ccnet
 ./autogen.sh
 ./configure CFLAGS="-pg -g -O2" LDFLAGS="-pg"
 make dist
 cp *.tar.gz ~/seafile-sources/
+cd ..
 
-
-
-
-cd ~/seafile
+cd seafile
 ./autogen.sh
 ./configure CFLAGS="-pg -g -O2" LDFLAGS="-pg"
 make dist
 cp *.tar.gz ~/seafile-sources/
+cd ..
 
-
-
-
-
-cd ~/seahub
+cd seahub
 sudo pip install -r requirements.txt    # did this to get around what looked like missing dependencies 
                                         #  (debs _were_ installed, but not seemingly recognized)
                                         # Pillow and Django were installed...
 ./tools/gen-tarball.py --version=4.1.1 --branch=HEAD
 cp *.tar.gz ~/seafile-sources/
+cd ..
 
-
-
-
-
-cd ~/seafobj
+cd seafobj
 make dist
 cp *.tar.gz ~/seafile-sources/
+cd ..
 
-
-
-
-cd ~/seafdav
+cd seafdav
 make
 cp *.tar.gz ~/seafile-sources/
-
+cd ..
 
 # Now, the seafile build system/script requires that a few of the sources are "tagged" with the same version number...
 # ...so we go to ~/seafile-sources, untar some of them, change the dir names to have the same version number & retar

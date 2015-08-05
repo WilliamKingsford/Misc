@@ -7,7 +7,7 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 # build seafile server
-cd /home/william-kingsford/SeaFileServer/src/
+cd /home/william-kingsford/duet/SeaFileServer/
 
 cd libsearpc-3.0-latest
 ./autogen.sh
