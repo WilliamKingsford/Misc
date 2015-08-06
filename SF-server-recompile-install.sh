@@ -15,8 +15,9 @@ export PKG_CONFIG_PATH=/home/william-kingsford/duet/SeaFileServer/ccnet:$PKG_CON
 
 # move old seafile-sources
 timestamp=$(date +'%Y-%m-%d-%R')
-mkdir ~/seafile-sources/${timestamp}
-mv ~/seafile-sources/*.tar.gz ~/seafile-sources/${timestamp}/
+mkdir /home/william-kingsford/duet/SeaFileServer/seafile-sources/
+mkdir /home/william-kingsford/duet/SeaFileServer/seafile-sources/${timestamp}
+mv /home/william-kingsford/duet/SeaFileServer/seafile-sources/*.tar.gz ~/seafile-sources/${timestamp}/
 
 # prepare new Seafile source tarballs
 
@@ -27,21 +28,21 @@ cd libsearpc
 ./autogen.sh
 ./configure
 make dist
-cp *.tar.gz ~/seafile-sources/
+cp *.tar.gz /home/william-kingsford/duet/SeaFileServer/seafile-sources/
 cd ..
 
 cd ccnet
 ./autogen.sh
 ./configure CFLAGS="-pg -g -O2" LDFLAGS="-pg"
 make dist
-cp *.tar.gz ~/seafile-sources/
+cp *.tar.gz /home/william-kingsford/duet/SeaFileServer/seafile-sources/
 cd ..
 
 cd seafile
 ./autogen.sh
 ./configure CFLAGS="-pg -g -O2" LDFLAGS="-pg"
 make dist
-cp *.tar.gz ~/seafile-sources/
+cp *.tar.gz /home/william-kingsford/duet/SeaFileServer/seafile-sources/
 cd ..
 
 cd seahub
@@ -49,23 +50,23 @@ sudo pip install -r requirements.txt    # did this to get around what looked lik
                                         #  (debs _were_ installed, but not seemingly recognized)
                                         # Pillow and Django were installed...
 ./tools/gen-tarball.py --version=4.1.1 --branch=HEAD
-cp *.tar.gz ~/seafile-sources/
+cp *.tar.gz /home/william-kingsford/duet/SeaFileServer/seafile-sources/
 cd ..
 
 cd seafobj
 make dist
-cp *.tar.gz ~/seafile-sources/
+cp *.tar.gz /home/william-kingsford/duet/SeaFileServer/seafile-sources/
 cd ..
 
 cd seafdav
 make
-cp *.tar.gz ~/seafile-sources/
+cp *.tar.gz /home/william-kingsford/duet/SeaFileServer/seafile-sources/
 cd ..
 
 # Now, the seafile build system/script requires that a few of the sources are "tagged" with the same version number...
 # ...so we go to ~/seafile-sources, untar some of them, change the dir names to have the same version number & retar
 
-cd ~/seafile-sources/
+cd /home/william-kingsford/duet/SeaFileServer/seafile-sources/
 
 tar xzvf seafile-4.1.4.tar.gz
 mv seafile-4.1.4 seafile-4.1.1
@@ -82,6 +83,8 @@ cd ~/
 # remove old seafile-server tars
 rm /home/william-kingsford/duet/SeaFileServer/seafile-server-pkgs/seafile-server_4.1.2_x86-64.tar.gz
 rm /mnt/seafile-server-build/ -rf
+
+mkdir /home/william-kingsford/duet/SeaFileServer/seafile-server-pkgs
 
 /home/william-kingsford/duet/SeaFileServer/seafile/scripts/build/build-server.py --libsearpc_version=1.2.2 --ccnet_version=1.4.2 --seafile_version=4.1.1  --thirdpartdir=/home/william-kingsford/duet/SeaFileServer/seahub_thirdpart --srcdir=/home/william-kingsford/duet/SeaFileServer/seafile-sources --outputdir=/home/william-kingsford/duet/SeaFileServer/seafile-server-pkgs --version=4.1.2 --builddir=/mnt/ --keep
 
