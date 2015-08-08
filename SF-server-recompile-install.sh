@@ -83,7 +83,7 @@ rm /mnt/seafile-server-build/ -rf
 
 mkdir ~/duet/SeaFileServer/seafile-server-pkgs
 
-$HOME/duet/SeaFileServer/seafile/scripts/build/build-server.py --libsearpc_version=1.2.2 --ccnet_version=1.4.2 --seafile_version=4.1.1  --thirdpartdir=$HOME/duet/SeaFileServer/seahub_thirdpart --srcdir=$HOME/duet/SeaFileServer/seafile-sources --outputdir=$HOME/duet/SeaFileServer/seafile-server-pkgs --version=4.1.2 --builddir=/mnt/ --keep
+$HOME/duet/SeaFileServer/seafile/scripts/build/build-server.py --libsearpc_version=1.2.2 --ccnet_version=1.4.2 --seafile_version=4.1.1  --thirdpartdir=$HOME/duet/SeaFileServer/seahub_thirdpart --srcdir=$HOME/duet/SeaFileServer/seafile-sources --outputdir=$HOME/duet/SeaFileServer/seafile-server-pkgs --version=4.1.2 --builddir=/mnt/ --keep --nostrip
 
 
 # ===BEGIN INSTALLATION===
@@ -99,6 +99,7 @@ mv seafile-server_4.1.2_x86-64-custom.tar.gz installed
 
 cd seafile-server-4.1.2
 ./setup-seafile.sh
+echo "AN ERROR OF \"Failed to sync seahub database.\" IS NORMAL AND CAN BE IGNORED."
 
 service nginx start
 
