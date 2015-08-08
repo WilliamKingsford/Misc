@@ -90,14 +90,20 @@ $HOME/duet/SeaFileServer/seafile/scripts/build/build-server.py --libsearpc_versi
 
 apt-get update
 
-cd ~/SeaFileServer
-
+# make directory to extract files to (so we don't overwrite any config files accidentally)
+mkdir ~/SeaFileServer-clean-install/
+cd ~/SeaFileServer-clean-install/
 cp ~/duet/SeaFileServer/seafile-server-pkgs/seafile-server_4.1.2_x86-64.tar.gz seafile-server_4.1.2_x86-64-custom.tar.gz
 tar -xvf seafile-server_4.1.2_x86-64-custom.tar.gz
-mkdir installed
-mv seafile-server_4.1.2_x86-64-custom.tar.gz installed
+# move tar to installed directory with timestamp added
+timestamp=$(date +'%Y-%m-%d-%R')
+mv seafile-server_4.1.2_x86-64-custom.tar.gz ~/SeaFileServer/installed/seafile-server_4.1.2_x86-64-custom-${timestamp}.tar.gz
+mv ~/SeaFileServer/seafile-server-4.1.2 ~/SeaFileServer/seafile-server-4.1.2-${timestamp}
+mv seafile-server-4.1.2 ~/SeaFileServer/
+cd ~/
+rmdir SeaFileServer-clean-install 
 
-cd seafile-server-4.1.2
+cd ~/SeaFileServer/seafile-server-4.1.2
 ./setup-seafile.sh
 echo "AN ERROR OF \"Failed to sync seahub database.\" IS NORMAL AND CAN BE IGNORED."
 
