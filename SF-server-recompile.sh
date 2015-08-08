@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Seafile recompile, assuming SF-server-build-install.sh has already been run
+# Seafile Server Recompile Script, assuming SF-server-build-install.sh has already been run
+# Derived from a script written by davygravy on http://forum.doozan.com/read.php?2,21772,21772
 
 # check if running as root
 if [ "$(id -u)" != "0" ]; then

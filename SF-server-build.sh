@@ -1,4 +1,5 @@
-#Seafile Build Instructions V2
+# Seafile Server Build Script
+# Derived from a script written by davygravy on http://forum.doozan.com/read.php?2,21772,21772
 
 # Must be installed on Ubuntu 12.04
 
