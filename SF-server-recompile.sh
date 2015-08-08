@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Seafile recompile, assuming SF-server-build-install.sh has already been run
+
 # check if running as root
 if [ "$(id -u)" != "0" ]; then
    echo "This script must be run as root" 1>&2
@@ -7,7 +9,7 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 # build seafile server
-cd /home/william-kingsford/duet/SeaFileServer/
+cd $HOME/duet/SeaFileServer/
 
 cd libsearpc-3.0-latest
 ./autogen.sh

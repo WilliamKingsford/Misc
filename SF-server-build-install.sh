@@ -1,8 +1,8 @@
 #Seafile Build Instructions V2
 
-# starting w/ fresh rootfs of Wheezy (or Jessie)
+# Must be installed on Ubuntu 12.04
 
-# most commands where executed in ~/  (in this case, /home/william-kingsford , homedir of a regular+sudoer user)
+# This assumes gamvrosi/duet (branch: seafile) has already been cloned from GitHub into ~/duet/
 
 # check if running as root
 if [ "$(id -u)" != "0" ]; then
@@ -29,12 +29,12 @@ apt-get install libevent-dev libcurl4-openssl-dev libglib2.0-dev uuid-dev intlto
 # maybe better to build django 1.5.12 rather than use Debian's 1.4.x
 # consider adding in postgresql support next time!
  
- 
- 
+# Make SeaFileServer directory
+mkdir -p ~/duet/SeaFileServer
  
  #  install libevhtp 
  
-cd ~/
+cd ~/duet/SeaFileServer
 git clone https://www.github.com/haiwen/libevhtp.git
 cd libevhtp
 cmake -DEVHTP_DISABLE_SSL=OFF -DEVHTP_BUILD_SHARED=ON .
@@ -50,7 +50,7 @@ sudo cp oniguruma/onigposix.h /usr/local/include/
 
  #  install libzdb
 
-cd ~/
+cd ~/duet/SeaFileServer
 git clone https://www.github.com/haiwen/libzdb.git
 cd libzdb
 chmod +x autogen.sh
@@ -80,8 +80,8 @@ wget --no-check-certificate -O python-dateutil-1.5.tar.gz  https://labix.org/dow
 wget -O six-1.9.0.tar.gz  https://pypi.python.org/packages/source/s/six/six-1.9.0.tar.gz                                     
 
 # make dir for thirdpart components
-mkdir -p ~/seahub_thirdpart
-cd ~/seahub_thirdpart/
+mkdir -p ~/duet/SeaFileServer/seahub_thirdpart
+cd ~/duet/SeaFileServer/seahub_thirdpart/
 
 # I ran into a problem where I didn't have adequate space for the django to be built in tmp...
 #
@@ -111,25 +111,25 @@ easy_install -d . /tmp/six-1.9.0.tar.gz
 #unzip flup-1.0-py2.7.egg
 # error doesn't seem to appear any more...
 
-cd  ~/
+cd ~/duet/SeaFileServer
 
 
 
 
 
 #  set some paths for building stuff...
-export PKG_CONFIG_PATH=/home/william-kingsford/seafile/lib:$PKG_CONFIG_PATH
-export PKG_CONFIG_PATH=/home/william-kingsford/libsearpc:$PKG_CONFIG_PATH
-export PKG_CONFIG_PATH=/home/william-kingsford/ccnet:$PKG_CONFIG_PATH
+export PKG_CONFIG_PATH=$HOME/duet/SeaFileServer/seafile/lib:$PKG_CONFIG_PATH
+export PKG_CONFIG_PATH=$HOME/duet/SeaFileServer/libsearpc:$PKG_CONFIG_PATH
+export PKG_CONFIG_PATH=$HOME/duet/SeaFileServer/ccnet:$PKG_CONFIG_PATH
 
 
 
 # prep a dir for seafile-sources
-mkdir ~/seafile-sources
+mkdir ~/duet/SeaFileServer/seafile-sources
 
 # clone and prepare Seafile source tarballs
 
-cd /home/william-kingsford/SeaFileServer/src/
+cd ~/duet/SeaFileServer/
 
 git clone https://github.com/haiwen/libsearpc.git
 cd libsearpc
@@ -137,7 +137,7 @@ git reset --hard v3.0-latest
 ./autogen.sh
 ./configure
 make dist
-cp *.tar.gz ~/seafile-sources/
+cp *.tar.gz ~/duet/SeaFileServer/seafile-sources/
 cd ..
 
 git clone https://github.com/haiwen/ccnet.git
@@ -146,7 +146,7 @@ git reset --hard v4.1.1-server
 ./autogen.sh
 ./configure CFLAGS="-pg -g -O2" LDFLAGS="-pg"
 make dist
-cp *.tar.gz ~/seafile-sources/
+cp *.tar.gz ~/duet/SeaFileServer/seafile-sources/
 cd ..
 
 git clone https://github.com/haiwen/seafile.git
@@ -155,7 +155,7 @@ git reset --hard v4.1.1-server
 ./autogen.sh
 ./configure CFLAGS="-pg -g -O2" LDFLAGS="-pg"
 make dist
-cp *.tar.gz ~/seafile-sources/
+cp *.tar.gz ~/duet/SeaFileServer/seafile-sources/
 cd ..
 
 git clone https://github.com/haiwen/seahub.git
@@ -165,27 +165,27 @@ sudo pip install -r requirements.txt    # did this to get around what looked lik
                                         #  (debs _were_ installed, but not seemingly recognized)
                                         # Pillow and Django were installed...
 ./tools/gen-tarball.py --version=4.1.1 --branch=HEAD
-cp *.tar.gz ~/seafile-sources/
+cp *.tar.gz ~/duet/SeaFileServer/seafile-sources/
 cd ..
 
 git clone https://github.com/haiwen/seafobj.git
 cd seafobj
 git reset --hard v4.1.1-server
 make dist
-cp *.tar.gz ~/seafile-sources/
+cp *.tar.gz ~/duet/SeaFileServer/seafile-sources/
 cd ..
 
 git clone https://github.com/haiwen/seafdav.git
 cd seafdav
 git reset --hard v4.1.1-server
 make
-cp *.tar.gz ~/seafile-sources/
+cp *.tar.gz ~/duet/SeaFileServer/seafile-sources/
 cd ..
 
 # Now, the seafile build system/script requires that a few of the sources are "tagged" with the same version number...
-# ...so we go to ~/seafile-sources, untar some of them, change the dir names to have the same version number & retar
+# ...so we go to ~/duet/SeaFileServer/seafile-sources, untar some of them, change the dir names to have the same version number & retar
 
-cd ~/seafile-sources/
+cd ~/duet/SeaFileServer/seafile-sources/
 
 tar xzvf seafile-4.1.4.tar.gz
 mv seafile-4.1.4 seafile-4.1.1
@@ -197,21 +197,21 @@ tar czvf seafile-4.1.1.tar.gz seafile-4.1.1
 
 #  Build the server+components and stuff in tarball 
 
-cd ~/
+cd ~/duet/SeaFileServer
 
-mkdir /home/william-kingsford/seafile-server-pkgs
+mkdir ~/duet/SeaFileServer/seafile-server-pkgs
 
-/home/william-kingsford/seafile/scripts/build/build-server.py --libsearpc_version=1.2.2 --ccnet_version=1.4.2 --seafile_version=4.1.1  --thirdpartdir=/home/william-kingsford/seahub_thirdpart --srcdir=/home/william-kingsford/seafile-sources --outputdir=/home/william-kingsford/seafile-server-pkgs --version=4.1.2 --builddir=/mnt/ --keep
+$HOME/duet/SeaFileServer/seafile/scripts/build/build-server.py --libsearpc_version=1.2.2 --ccnet_version=1.4.2 --seafile_version=4.1.1  --thirdpartdir=$HOME/duet/SeaFileServer/seahub_thirdpart --srcdir=$HOME/duet/SeaFileServer/seafile-sources --outputdir=$HOME/duet/SeaFileServer/seafile-server-pkgs --version=4.1.2 --builddir=/mnt/ --keep
 
 
 # ===BEGIN INSTALLATION===
 
 apt-get update
 
-mkdir ~/SeaFileServer
+mkdir -p ~/SeaFileServer
 cd ~/SeaFileServer
 
-cp /home/william-kingsford/seafile-server-pkgs/seafile-server_4.1.2_x86-64.tar.gz seafile-server_4.1.2_x86-64.tar.gz
+cp $HOME/duet/SeaFileServer/seafile-server-pkgs/seafile-server_4.1.2_x86-64.tar.gz seafile-server_4.1.2_x86-64.tar.gz
 tar -xvf seafile-server_4.1.2_x86-64.tar.gz
 mkdir installed
 mv seafile-server_4.1.2_x86-64.tar.gz installed
@@ -237,8 +237,8 @@ ln -s /etc/nginx/sites-available/site /etc/nginx/sites-enabled/site
 rm /etc/nginx/sites-enabled/default
 service nginx restart
 
-echo '"./seafile.sh start" to start seafile'
-echo '"./seahub.sh start 8001" to start seahub'
+echo '"~/SeaFileServer/seafile-server-4.1.2/seafile.sh start" to start seafile'
+echo '"~/SeaFileServer/seafile-server-4.1.2/seahub.sh start 8001" to start seahub'
 echo "THESE MUST BE RUN AS ROOT"
 
 echo "Remember to work through the guide at http://manual.seafile.com/deploy/deploy_with_nginx.html"
