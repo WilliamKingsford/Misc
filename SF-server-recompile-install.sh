@@ -109,6 +109,9 @@ cd ~/SeaFileServer/seafile-server-4.1.2
 ./setup-seafile.sh
 echo "AN ERROR OF \"Failed to sync seahub database.\" IS NORMAL AND CAN BE IGNORED."
 
+# give garbage collection script execute permissions
+chmod +x seaf-gc.sh
+
 service nginx start
 
 echo '"~/SeaFileServer/seafile-server-4.1.2/seafile.sh start" to start seafile'
