@@ -87,7 +87,7 @@ mkdir ~/duet/SeaFileServer/seafile-server-pkgs
 
 $HOME/duet/SeaFileServer/seafile/scripts/build/build-server.py --libsearpc_version=1.2.2 --ccnet_version=1.4.2 --seafile_version=4.1.1  --thirdpartdir=$HOME/duet/SeaFileServer/seahub_thirdpart --srcdir=$HOME/duet/SeaFileServer/seafile-sources --outputdir=$HOME/duet/SeaFileServer/seafile-server-pkgs --version=4.1.2 --builddir=/mnt/ --keep --nostrip
 
-# remove .dgb from name for simplicity
+# remove .dbg from name for simplicity
 mv ~/duet/SeaFileServer/seafile-server-pkgs/seafile-server_4.1.2_x86-64.dbg.tar.gz ~/duet/SeaFileServer/seafile-server-pkgs/seafile-server_4.1.2_x86-64.tar.gz
 
 echo "Recompile complete. Seafile server tarball can be found in $HOME/duet/SeaFileServer/seafile-server-pkgs (note the .dbg has been removed from the name)"
