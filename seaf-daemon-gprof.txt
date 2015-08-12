@@ -1,0 +1,1364 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 33.33      0.01     0.01     1000    10.00    10.00  seaf_fs_manager_index_blocks
+ 33.33      0.02     0.01                             add_index_entry
+ 33.33      0.03     0.01                             seafile_repo_get_type
+  0.00      0.03     0.00     3000     0.00     0.00  seaf_dirent_free
+  0.00      0.03     0.00     2013     0.00     0.00  seafile_sendfs_v2_proc_get_type
+  0.00      0.03     0.00     2000     0.00     0.00  seaf_block_manager_block_handle_free
+  0.00      0.03     0.00     2000     0.00     0.00  seaf_block_manager_close_block
+  0.00      0.03     0.00     2000     0.00     0.00  seaf_block_manager_open_block
+  0.00      0.03     0.00     1421     0.00     0.00  seaf_obj_store_read_obj
+  0.00      0.03     0.00     1002     0.00     0.00  seaf_obj_store_write_obj
+  0.00      0.03     0.00     1002     0.00     0.00  send_next_object
+  0.00      0.03     0.00     1001     0.00     0.00  fs_object_read_cb
+  0.00      0.03     0.00     1001     0.00     0.00  seaf_obj_store_async_read
+  0.00      0.03     0.00     1001     0.00     0.00  transfer_next_block
+  0.00      0.03     0.00     1000     0.00     0.00  diff_entry_free
+  0.00      0.03     0.00     1000     0.00     0.00  diff_entry_new
+  0.00      0.03     0.00     1000     0.00     0.00  diff_files
+  0.00      0.03     0.00     1000     0.00     0.00  dir_version_from_repo_version
+  0.00      0.03     0.00     1000     0.00     0.00  do_write_chunk
+  0.00      0.03     0.00     1000     0.00     0.00  handle_block_header_content_cb
+  0.00      0.03     0.00     1000     0.00    10.00  index_cb
+  0.00      0.03     0.00     1000     0.00     0.00  is_path_writable
+  0.00      0.03     0.00     1000     0.00     0.00  seaf_block_manager_block_exists
+  0.00      0.03     0.00     1000     0.00     0.00  seaf_block_manager_read_block
+  0.00      0.03     0.00     1000     0.00     0.00  seaf_block_manager_stat_block_by_handle
+  0.00      0.03     0.00     1000     0.00     0.00  seaf_block_manager_write_block
+  0.00      0.03     0.00     1000     0.00     0.00  seaf_repo_check_ignore_file
+  0.00      0.03     0.00     1000     0.00     0.00  seafile_free
+  0.00      0.03     0.00     1000     0.00     0.00  seafile_unref
+  0.00      0.03     0.00     1000     0.00     0.00  seafile_write_chunk
+  0.00      0.03     0.00     1000     0.00     0.00  send_block_header
+  0.00      0.03     0.00     1000     0.00     0.00  send_encrypted_block
+  0.00      0.03     0.00     1000     0.00     0.00  should_ignore
+  0.00      0.03     0.00     1000     0.00     0.00  verify_fs_object_json
+  0.00      0.03     0.00      999     0.00     0.00  block_list_insert
+  0.00      0.03     0.00      999     0.00     0.00  seaf_block_manager_commit_block
+  0.00      0.03     0.00      999     0.00     0.00  seaf_fs_manager_get_seafile
+  0.00      0.03     0.00      999     0.00     0.00  seafile_from_json
+  0.00      0.03     0.00      999     0.00     0.00  seafile_from_json_object
+  0.00      0.03     0.00      998     0.00     0.00  collect_file_ids
+  0.00      0.03     0.00      997     0.00     0.00  seaf_dirent_new
+  0.00      0.03     0.00      894     0.00     0.00  seaf_repo_manager_get_repo
+  0.00      0.03     0.00      497     0.00     0.00  seaf_repo_manager_get_repo_list
+  0.00      0.03     0.00      422     0.00     0.00  seaf_commit_unref
+  0.00      0.03     0.00      419     0.00     0.00  seaf_commit_new
+  0.00      0.03     0.00      418     0.00     0.00  commit_from_json_object
+  0.00      0.03     0.00      418     0.00     0.00  load_commit
+  0.00      0.03     0.00      418     0.00     0.00  seaf_commit_manager_get_commit
+  0.00      0.03     0.00      411     0.00     0.00  seaf_clone_manager_get_tasks
+  0.00      0.03     0.00      411     0.00     0.00  seaf_sync_manager_get_sync_info
+  0.00      0.03     0.00      411     0.00     0.00  seaf_sync_manager_is_auto_sync_enabled
+  0.00      0.03     0.00      411     0.00     0.00  seafile_get_clone_tasks
+  0.00      0.03     0.00      411     0.00     0.00  seafile_get_repo_list
+  0.00      0.03     0.00      411     0.00     0.00  seafile_get_repo_sync_task
+  0.00      0.03     0.00      411     0.00     0.00  seafile_is_auto_sync_enabled
+  0.00      0.03     0.00      411     0.00     0.00  seafile_repo_last_modify
+  0.00      0.03     0.00      396     0.00     0.00  sync_error_to_str
+  0.00      0.03     0.00      396     0.00     0.00  sync_state_to_str
+  0.00      0.03     0.00       89     0.00     0.00  check_http_protocol_done
+  0.00      0.03     0.00       87     0.00     0.00  seaf_repo_check_worktree
+  0.00      0.03     0.00       85     0.00     0.00  http_tx_manager_get_download_tasks
+  0.00      0.03     0.00       85     0.00     0.00  http_tx_manager_get_upload_tasks
+  0.00      0.03     0.00       85     0.00     0.00  seaf_transfer_manager_get_download_tasks
+  0.00      0.03     0.00       85     0.00     0.00  seaf_transfer_manager_get_upload_tasks
+  0.00      0.03     0.00       71     0.00     0.00  format_transfer_task_detail
+  0.00      0.03     0.00       71     0.00     0.00  seaf_mq_manager_publish_notification
+  0.00      0.03     0.00       71     0.00     0.00  state_machine_tick
+  0.00      0.03     0.00       70     0.00     0.00  seaf_repo_manager_repo_exists
+  0.00      0.03     0.00       70     0.00     0.00  transfer_task_get_rate
+  0.00      0.03     0.00       20     0.00     0.00  seaf_branch_manager_get_branch
+  0.00      0.03     0.00       20     0.00     0.00  seaf_branch_new
+  0.00      0.03     0.00       19     0.00     0.00  seaf_branch_unref
+  0.00      0.03     0.00       18     0.00     0.00  seaf_branch_free
+  0.00      0.03     0.00       13     0.00     0.00  load_locked_file
+  0.00      0.03     0.00       12     0.00     0.00  config_get_string
+  0.00      0.03     0.00        9     0.00     0.00  create_sync_task_v2
+  0.00      0.03     0.00        9     0.00     0.00  load_property_cb
+  0.00      0.03     0.00        8     0.00     0.00  transition_state
+  0.00      0.03     0.00        6     0.00     0.00  seafile_session_get_type
+  0.00      0.03     0.00        5     0.00     0.00  seaf_dir_free
+  0.00      0.03     0.00        5     0.00     0.00  seafile_session_config_get_string
+  0.00      0.03     0.00        4     0.00     0.00  seaf_fs_manager_get_seafdir
+  0.00      0.03     0.00        4     0.00     0.00  seafile_session_config_get_bool
+  0.00      0.03     0.00        3     0.00     0.00  seaf_wt_monitor_get_worktree_status
+  0.00      0.03     0.00        3     0.00     0.00  seafile_session_config_get_int
+  0.00      0.03     0.00        2     0.00     0.00  diff_trees
+  0.00      0.03     0.00        2     0.00     0.00  diff_trees_recursive
+  0.00      0.03     0.00        2     0.00     0.00  emit_transfer_done_signal
+  0.00      0.03     0.00        2     0.00     0.00  free_repo_watch_info
+  0.00      0.03     0.00        2     0.00     0.00  get_value
+  0.00      0.03     0.00        2     0.00     0.00  handle_unmerged_index_entries
+  0.00      0.03     0.00        2     0.00     0.00  has_old_commits_to_upload
+  0.00      0.03     0.00        2     0.00     0.00  repo_block_store_exists
+  0.00      0.03     0.00        2     0.00     0.00  seaf_branch_manager_update_branch
+  0.00      0.03     0.00        2     0.00     0.00  seaf_branch_set_commit
+  0.00      0.03     0.00        2     0.00     0.00  seaf_dir_from_data
+  0.00      0.03     0.00        2     0.00     0.00  seaf_dir_from_json
+  0.00      0.03     0.00        2     0.00     0.00  seaf_dir_from_json_object
+  0.00      0.03     0.00        2     0.00     0.00  seaf_obj_store_init
+  0.00      0.03     0.00        2     0.00     0.00  seaf_obj_store_new
+  0.00      0.03     0.00        2     0.00     0.00  seaf_repo_manager_get_repo_property
+  0.00      0.03     0.00        2     0.00     0.00  seaf_repo_manager_load_folder_perms
+  0.00      0.03     0.00        2     0.00     0.00  sync_repo_v2
+  0.00      0.03     0.00        2     0.00     0.00  update_sync_status_v2
+  0.00      0.03     0.00        1     0.00     0.00  add_event_to_queue
+  0.00      0.03     0.00        1     0.00     0.00  block_list_new
+  0.00      0.03     0.00        1     0.00     0.00  block_tx_client_once_mode_done_cb
+  0.00      0.03     0.00        1     0.00     0.00  block_tx_client_start
+  0.00      0.03     0.00        1     0.00     0.00  cancel_task
+  0.00      0.03     0.00        1     0.00     0.00  check_fast_forward
+  0.00      0.03     0.00        1     0.00     0.00  check_full_path_ignore
+  0.00      0.03     0.00        1     0.00     0.00  check_head_commit_done
+  0.00      0.03     0.00        1     0.00     0.00  check_worktree_common
+  0.00      0.03     0.00        1     0.00     0.00  client_thread_loop
+  0.00      0.03     0.00        1     0.00     0.00  commit_repo
+  0.00      0.03     0.00        1     0.00     0.00  commit_to_json_object
+  0.00      0.03     0.00        1     0.00     0.00  commit_trees_cb
+  0.00      0.03     0.00        1     0.00     0.00  connection_pool_get_connection
+  0.00      0.03     0.00        1     0.00     0.00  connection_pool_return_connection
+  0.00      0.03     0.00        1     0.00     0.00  diff_resolve_empty_dirs
+  0.00      0.03     0.00        1     0.00     0.00  diff_resolve_renames
+  0.00      0.03     0.00        1     0.00     0.00  diff_results_to_description
+  0.00      0.03     0.00        1     0.00     0.00  find_connection_pool
+  0.00      0.03     0.00        1     0.00     0.00  find_meaningful_commit
+  0.00      0.03     0.00        1     0.00     0.00  generate_session_key
+  0.00      0.03     0.00        1     0.00     0.00  get_chunk_server_address
+  0.00      0.03     0.00        1     0.00     0.00  handle_auth_rsp_content_cb
+  0.00      0.03     0.00        1     0.00     0.00  http_get
+  0.00      0.03     0.00        1     0.00     0.00  http_tx_manager_check_protocol_version
+  0.00      0.03     0.00        1     0.00     0.00  http_tx_manager_new
+  0.00      0.03     0.00        1     0.00     0.00  http_tx_manager_start
+  0.00      0.03     0.00        1     0.00     0.00  load_branch_cb
+  0.00      0.03     0.00        1     0.00     0.00  load_repo
+  0.00      0.03     0.00        1     0.00     0.00  load_repo_cb
+  0.00      0.03     0.00        1     0.00     0.00  migrate_client_v0_repos
+  0.00      0.03     0.00        1     0.00     0.00  notify_sync
+  0.00      0.03     0.00        1     0.00     0.00  seaf_block_manager_new
+  0.00      0.03     0.00        1     0.00     0.00  seaf_block_manager_remove_store
+  0.00      0.03     0.00        1     0.00     0.00  seaf_branch_manager_init
+  0.00      0.03     0.00        1     0.00     0.00  seaf_branch_manager_new
+  0.00      0.03     0.00        1     0.00     0.00  seaf_branch_ref
+  0.00      0.03     0.00        1     0.00     0.00  seaf_clone_manager_init
+  0.00      0.03     0.00        1     0.00     0.00  seaf_clone_manager_new
+  0.00      0.03     0.00        1     0.00     0.00  seaf_clone_manager_start
+  0.00      0.03     0.00        1     0.00     0.00  seaf_commit_manager_add_commit
+  0.00      0.03     0.00        1     0.00     0.00  seaf_commit_manager_get_commit_compatible
+  0.00      0.03     0.00        1     0.00     0.00  seaf_commit_manager_init
+  0.00      0.03     0.00        1     0.00     0.00  seaf_commit_manager_new
+  0.00      0.03     0.00        1     0.00     0.00  seaf_commit_manager_traverse_commit_tree_truncated
+  0.00      0.03     0.00        1     0.00     0.00  seaf_commit_ref
+  0.00      0.03     0.00        1     0.00     0.00  seaf_dir_new
+  0.00      0.03     0.00        1     0.00     0.00  seaf_dir_save
+  0.00      0.03     0.00        1     0.00     0.00  seaf_dir_to_data
+  0.00      0.03     0.00        1     0.00     0.00  seaf_fs_manager_init
+  0.00      0.03     0.00        1     0.00     0.00  seaf_fs_manager_new
+  0.00      0.03     0.00        1     0.00     0.00  seaf_fs_manager_object_exists
+  0.00      0.03     0.00        1     0.00     0.00  seaf_mq_manager_init
+  0.00      0.03     0.00        1     0.00     0.00  seaf_mq_manager_new
+  0.00      0.03     0.00        1     0.00     0.00  seaf_mq_manager_start
+  0.00      0.03     0.00        1     0.00     0.00  seaf_obj_store_obj_exists
+  0.00      0.03     0.00        1     0.00     0.00  seaf_obj_store_register_async_read
+  0.00      0.03     0.00        1     0.00     0.00  seaf_obj_store_unregister_async_read
+  0.00      0.03     0.00        1     0.00     0.00  seaf_repo_free_ignore_files
+  0.00      0.03     0.00        1     0.00     0.00  seaf_repo_from_commit
+  0.00      0.03     0.00        1     0.00     0.00  seaf_repo_index_commit
+  0.00      0.03     0.00        1     0.00     0.00  seaf_repo_load_ignore_files
+  0.00      0.03     0.00        1     0.00     0.00  seaf_repo_manager_get_repo_relay_info
+  0.00      0.03     0.00        1     0.00     0.00  seaf_repo_manager_init
+  0.00      0.03     0.00        1     0.00     0.00  seaf_repo_manager_new
+  0.00      0.03     0.00        1     0.00     0.00  seaf_repo_manager_set_repo_property
+  0.00      0.03     0.00        1     0.00     0.00  seaf_repo_manager_start
+  0.00      0.03     0.00        1     0.00     0.00  seaf_repo_new
+  0.00      0.03     0.00        1     0.00     0.00  seaf_repo_to_commit
+  0.00      0.03     0.00        1     0.00     0.00  seaf_sync_manager_init
+  0.00      0.03     0.00        1     0.00     0.00  seaf_sync_manager_new
+  0.00      0.03     0.00        1     0.00     0.00  seaf_sync_manager_start
+  0.00      0.03     0.00        1     0.00     0.00  seaf_transfer_manager_add_upload
+  0.00      0.03     0.00        1     0.00     0.00  seaf_transfer_manager_new
+  0.00      0.03     0.00        1     0.00     0.00  seaf_transfer_manager_start
+  0.00      0.03     0.00        1     0.00     0.00  seaf_wt_monitor_new
+  0.00      0.03     0.00        1     0.00     0.00  seaf_wt_monitor_start
+  0.00      0.03     0.00        1     0.00     0.00  seaf_wt_monitor_watch_repo
+  0.00      0.03     0.00        1     0.00     0.00  seafile_check_protocol_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_check_tx_v2_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_check_tx_v3_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_checkbl_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_checkff_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_getca_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_getcommit_v2_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_getcommit_v3_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_getcs_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_getcs_v2_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_getfs_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_getfs_v2_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_sendbranch_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_sendcommit_v3_new_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_sendcommit_v3_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_sendcommit_v4_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_sendfs_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  seafile_session_config_exists
+  0.00      0.03     0.00        1     0.00     0.00  seafile_session_config_open_db
+  0.00      0.03     0.00        1     0.00     0.00  seafile_sync_repo_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  set_proxy
+  0.00      0.03     0.00        1     0.00     0.00  shutdown_client
+  0.00      0.03     0.00        1     0.00     0.00  start
+  0.00      0.03     0.00        1     0.00     0.00  start_block_upload
+  0.00      0.03     0.00        1     0.00     0.00  start_check_block_list_proc
+  0.00      0.03     0.00        1     0.00     0.00  start_commit_upload
+  0.00      0.03     0.00        1     0.00     0.00  start_fs_upload
+  0.00      0.03     0.00        1     0.00     0.00  start_load_block_list_thread
+  0.00      0.03     0.00        1     0.00     0.00  start_upload
+  0.00      0.03     0.00        1     0.00     0.00  start_upload_if_necessary
+  0.00      0.03     0.00        1     0.00     0.00  traverse_commit_tree_common
+  0.00      0.03     0.00        1     0.00     0.00  update_index
+  0.00      0.03     0.00        1     0.00     0.00  update_remote_branch
+  0.00      0.03     0.00        1     0.00     0.00  wt_status_collect_changes_index
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 33.33% of 0.03 seconds
+
+index % time    self  children    called     name
+                0.00    0.01    1000/1000        add_to_index [4]
+[1]     33.3    0.00    0.01    1000         index_cb [1]
+                0.01    0.00    1000/1000        seaf_fs_manager_index_blocks [2]
+-----------------------------------------------
+                0.01    0.00    1000/1000        index_cb [1]
+[2]     33.3    0.01    0.00    1000         seaf_fs_manager_index_blocks [2]
+                0.00    0.00    1000/1000        verify_fs_object_json [35]
+-----------------------------------------------
+                                                 <spontaneous>
+[3]     33.3    0.01    0.00                 add_index_entry [3]
+-----------------------------------------------
+                                                 <spontaneous>
+[4]     33.3    0.00    0.01                 add_to_index [4]
+                0.00    0.01    1000/1000        index_cb [1]
+-----------------------------------------------
+                                                 <spontaneous>
+[5]     33.3    0.01    0.00                 seafile_repo_get_type [5]
+-----------------------------------------------
+                0.00    0.00    3000/3000        seaf_dir_free [81]
+[6]      0.0    0.00    0.00    3000         seaf_dirent_free [6]
+-----------------------------------------------
+                0.00    0.00       1/2013        seaf_transfer_manager_start [180]
+                0.00    0.00       1/2013        release_resource [696]
+                0.00    0.00       1/2013        calculate_send_object_list_done [265]
+                0.00    0.00       1/2013        calculate_send_object_list [264]
+                0.00    0.00       1/2013        start [1341]
+                0.00    0.00       2/2013        handle_response [456]
+                0.00    0.00       3/2013        send_object_list_segment [1314]
+                0.00    0.00    2003/2013        send_next_object [13]
+[7]      0.0    0.00    0.00    2013         seafile_sendfs_v2_proc_get_type [7]
+-----------------------------------------------
+                0.00    0.00    1000/2000        do_write_chunk [21]
+                0.00    0.00    1000/2000        transfer_next_block [16]
+[8]      0.0    0.00    0.00    2000         seaf_block_manager_block_handle_free [8]
+-----------------------------------------------
+                0.00    0.00    1000/2000        do_write_chunk [21]
+                0.00    0.00    1000/2000        transfer_next_block [16]
+[9]      0.0    0.00    0.00    2000         seaf_block_manager_close_block [9]
+-----------------------------------------------
+                0.00    0.00    1000/2000        do_write_chunk [21]
+                0.00    0.00    1000/2000        transfer_next_block [16]
+[10]     0.0    0.00    0.00    2000         seaf_block_manager_open_block [10]
+-----------------------------------------------
+                0.00    0.00       1/1421        handle_response [455]
+                0.00    0.00       2/1421        seaf_fs_manager_get_seafdir [83]
+                0.00    0.00     418/1421        load_commit [48]
+                0.00    0.00    1000/1421        seaf_fs_manager_get_seafile [38]
+[11]     0.0    0.00    0.00    1421         seaf_obj_store_read_obj [11]
+-----------------------------------------------
+                0.00    0.00       1/1002        seaf_dir_save [153]
+                0.00    0.00       1/1002        seaf_commit_manager_add_commit [146]
+                0.00    0.00    1000/1002        verify_fs_object_json [35]
+[12]     0.0    0.00    0.00    1002         seaf_obj_store_write_obj [12]
+-----------------------------------------------
+                0.00    0.00       1/1002        send_object_list_segment [1314]
+                0.00    0.00    1001/1002        on_read_done [642]
+[13]     0.0    0.00    0.00    1002         send_next_object [13]
+                0.00    0.00    2003/2013        seafile_sendfs_v2_proc_get_type [7]
+                0.00    0.00    1001/1001        seaf_obj_store_async_read [15]
+-----------------------------------------------
+                0.00    0.00    1001/1001        on_read_done [642]
+[14]     0.0    0.00    0.00    1001         fs_object_read_cb [14]
+-----------------------------------------------
+                0.00    0.00    1001/1001        send_next_object [13]
+[15]     0.0    0.00    0.00    1001         seaf_obj_store_async_read [15]
+-----------------------------------------------
+                0.00    0.00       1/1001        handle_auth_rsp_content_cb [128]
+                0.00    0.00    1000/1001        handle_block_header_content_cb [22]
+[16]     0.0    0.00    0.00    1001         transfer_next_block [16]
+                0.00    0.00    1000/1000        send_block_header [32]
+                0.00    0.00    1000/2000        seaf_block_manager_open_block [10]
+                0.00    0.00    1000/1000        send_encrypted_block [33]
+                0.00    0.00    1000/2000        seaf_block_manager_close_block [9]
+                0.00    0.00    1000/2000        seaf_block_manager_block_handle_free [8]
+-----------------------------------------------
+                0.00    0.00    1000/1000        seaf_repo_index_commit [166]
+[17]     0.0    0.00    0.00    1000         diff_entry_free [17]
+-----------------------------------------------
+                0.00    0.00    1000/1000        wt_status_collect_changes_index [217]
+[18]     0.0    0.00    0.00    1000         diff_entry_new [18]
+-----------------------------------------------
+                0.00    0.00    1000/1000        diff_trees_recursive [88]
+[19]     0.0    0.00    0.00    1000         diff_files [19]
+                0.00    0.00    1000/1000        seafile_free [29]
+                0.00    0.00    1000/1000        seafile_unref [30]
+                0.00    0.00     999/999         seaf_fs_manager_get_seafile [38]
+                0.00    0.00     999/999         block_list_insert [36]
+-----------------------------------------------
+                0.00    0.00    1000/1000        commit_trees_cb [118]
+[20]     0.0    0.00    0.00    1000         dir_version_from_repo_version [20]
+-----------------------------------------------
+                0.00    0.00    1000/1000        seafile_write_chunk [31]
+[21]     0.0    0.00    0.00    1000         do_write_chunk [21]
+                0.00    0.00    1000/1000        seaf_block_manager_block_exists [24]
+                0.00    0.00    1000/2000        seaf_block_manager_open_block [10]
+                0.00    0.00    1000/1000        seaf_block_manager_write_block [27]
+                0.00    0.00    1000/2000        seaf_block_manager_close_block [9]
+                0.00    0.00    1000/2000        seaf_block_manager_block_handle_free [8]
+                0.00    0.00     999/999         seaf_block_manager_commit_block [37]
+-----------------------------------------------
+                0.00    0.00    1000/1000        blocktx_decrypt_init [249]
+[22]     0.0    0.00    0.00    1000         handle_block_header_content_cb [22]
+                0.00    0.00    1000/1001        transfer_next_block [16]
+-----------------------------------------------
+                0.00    0.00    1000/1000        handle_unmerged_index_entries [92]
+[23]     0.0    0.00    0.00    1000         is_path_writable [23]
+-----------------------------------------------
+                0.00    0.00    1000/1000        do_write_chunk [21]
+[24]     0.0    0.00    0.00    1000         seaf_block_manager_block_exists [24]
+-----------------------------------------------
+                0.00    0.00    1000/1000        send_encrypted_block [33]
+[25]     0.0    0.00    0.00    1000         seaf_block_manager_read_block [25]
+-----------------------------------------------
+                0.00    0.00    1000/1000        send_encrypted_block [33]
+[26]     0.0    0.00    0.00    1000         seaf_block_manager_stat_block_by_handle [26]
+-----------------------------------------------
+                0.00    0.00    1000/1000        do_write_chunk [21]
+[27]     0.0    0.00    0.00    1000         seaf_block_manager_write_block [27]
+-----------------------------------------------
+                0.00    0.00    1000/1000        should_ignore [34]
+[28]     0.0    0.00    0.00    1000         seaf_repo_check_ignore_file [28]
+-----------------------------------------------
+                0.00    0.00    1000/1000        diff_files [19]
+[29]     0.0    0.00    0.00    1000         seafile_free [29]
+-----------------------------------------------
+                0.00    0.00    1000/1000        diff_files [19]
+[30]     0.0    0.00    0.00    1000         seafile_unref [30]
+-----------------------------------------------
+                0.00    0.00    1000/1000        file_chunk_cdc [383]
+[31]     0.0    0.00    0.00    1000         seafile_write_chunk [31]
+                0.00    0.00    1000/1000        do_write_chunk [21]
+-----------------------------------------------
+                0.00    0.00    1000/1000        transfer_next_block [16]
+[32]     0.0    0.00    0.00    1000         send_block_header [32]
+-----------------------------------------------
+                0.00    0.00    1000/1000        transfer_next_block [16]
+[33]     0.0    0.00    0.00    1000         send_encrypted_block [33]
+                0.00    0.00    1000/1000        seaf_block_manager_stat_block_by_handle [26]
+                0.00    0.00    1000/1000        seaf_block_manager_read_block [25]
+-----------------------------------------------
+                0.00    0.00    1000/1000        handle_unmerged_index_entries [92]
+[34]     0.0    0.00    0.00    1000         should_ignore [34]
+                0.00    0.00    1000/1000        seaf_repo_check_ignore_file [28]
+-----------------------------------------------
+                0.00    0.00    1000/1000        seaf_fs_manager_index_blocks [2]
+[35]     0.0    0.00    0.00    1000         verify_fs_object_json [35]
+                0.00    0.00    1000/1002        seaf_obj_store_write_obj [12]
+-----------------------------------------------
+                0.00    0.00     999/999         diff_files [19]
+[36]     0.0    0.00    0.00     999         block_list_insert [36]
+-----------------------------------------------
+                0.00    0.00     999/999         do_write_chunk [21]
+[37]     0.0    0.00    0.00     999         seaf_block_manager_commit_block [37]
+-----------------------------------------------
+                0.00    0.00     999/999         diff_files [19]
+[38]     0.0    0.00    0.00     999         seaf_fs_manager_get_seafile [38]
+                0.00    0.00    1000/1421        seaf_obj_store_read_obj [11]
+                0.00    0.00     999/999         seafile_from_json [39]
+-----------------------------------------------
+                0.00    0.00     999/999         seaf_fs_manager_get_seafile [38]
+[39]     0.0    0.00    0.00     999         seafile_from_json [39]
+                0.00    0.00     999/999         seafile_from_json_object [40]
+-----------------------------------------------
+                0.00    0.00     999/999         seafile_from_json [39]
+[40]     0.0    0.00    0.00     999         seafile_from_json_object [40]
+-----------------------------------------------
+                0.00    0.00     998/998         diff_trees_recursive [88]
+[41]     0.0    0.00    0.00     998         collect_file_ids [41]
+-----------------------------------------------
+                0.00    0.00     997/997         commit_trees_cb [118]
+[42]     0.0    0.00    0.00     997         seaf_dirent_new [42]
+-----------------------------------------------
+                0.00    0.00       1/894         seaf_transfer_manager_add_upload [178]
+                0.00    0.00       1/894         seaf_repo_manager_set_repo_property [171]
+                0.00    0.00      70/894         format_transfer_task_detail [66]
+                0.00    0.00     411/894         seafile_repo_last_modify [57]
+                0.00    0.00     411/894         seafile_get_repo_sync_task [55]
+[43]     0.0    0.00    0.00     894         seaf_repo_manager_get_repo [43]
+-----------------------------------------------
+                0.00    0.00       1/497         seaf_sync_manager_start [177]
+                0.00    0.00      85/497         auto_sync_pulse [226]
+                0.00    0.00     411/497         seafile_get_repo_list [54]
+[44]     0.0    0.00    0.00     497         seaf_repo_manager_get_repo_list [44]
+-----------------------------------------------
+                0.00    0.00       1/422         wt_status_collect_changes_index [217]
+                0.00    0.00       1/422         notify_sync [137]
+                0.00    0.00       1/422         load_branch_cb [133]
+                0.00    0.00       1/422         seaf_repo_index_commit [166]
+                0.00    0.00       1/422         traverse_commit_tree_common [214]
+                0.00    0.00       2/422         load_block_list_thread [509]
+                0.00    0.00       2/422         has_old_commits_to_upload [93]
+                0.00    0.00       2/422         calculate_send_object_list [264]
+                0.00    0.00     411/422         seafile_repo_last_modify [57]
+[45]     0.0    0.00    0.00     422         seaf_commit_unref [45]
+-----------------------------------------------
+                0.00    0.00       1/419         seaf_repo_index_commit [166]
+                0.00    0.00     418/419         commit_from_json_object [47]
+[46]     0.0    0.00    0.00     419         seaf_commit_new [46]
+-----------------------------------------------
+                0.00    0.00     418/418         load_commit [48]
+[47]     0.0    0.00    0.00     418         commit_from_json_object [47]
+                0.00    0.00     418/419         seaf_commit_new [46]
+-----------------------------------------------
+                0.00    0.00       1/418         wt_status_collect_changes_index [217]
+                0.00    0.00       1/418         traverse_commit_tree_common [214]
+                0.00    0.00       1/418         seaf_commit_manager_get_commit_compatible [147]
+                0.00    0.00       2/418         load_block_list_thread [509]
+                0.00    0.00       2/418         calculate_send_object_list [264]
+                0.00    0.00     411/418         seafile_repo_last_modify [57]
+[48]     0.0    0.00    0.00     418         load_commit [48]
+                0.00    0.00     418/1421        seaf_obj_store_read_obj [11]
+                0.00    0.00     418/418         commit_from_json_object [47]
+-----------------------------------------------
+                0.00    0.00       1/418         wt_status_collect_changes_index [217]
+                0.00    0.00       1/418         traverse_commit_tree_common [214]
+                0.00    0.00       1/418         seaf_commit_manager_get_commit_compatible [147]
+                0.00    0.00       2/418         load_block_list_thread [509]
+                0.00    0.00       2/418         calculate_send_object_list [264]
+                0.00    0.00     411/418         seafile_repo_last_modify [57]
+[49]     0.0    0.00    0.00     418         seaf_commit_manager_get_commit [49]
+-----------------------------------------------
+                0.00    0.00     411/411         seafile_get_clone_tasks [53]
+[50]     0.0    0.00    0.00     411         seaf_clone_manager_get_tasks [50]
+-----------------------------------------------
+                0.00    0.00     411/411         seafile_get_repo_sync_task [55]
+[51]     0.0    0.00    0.00     411         seaf_sync_manager_get_sync_info [51]
+-----------------------------------------------
+                0.00    0.00     411/411         marshal_int__void [557]
+[52]     0.0    0.00    0.00     411         seaf_sync_manager_is_auto_sync_enabled [52]
+-----------------------------------------------
+                0.00    0.00     411/411         marshal_objlist__void [581]
+[53]     0.0    0.00    0.00     411         seafile_get_clone_tasks [53]
+                0.00    0.00     411/411         seaf_clone_manager_get_tasks [50]
+-----------------------------------------------
+                0.00    0.00     411/411         marshal_objlist__int_int [566]
+[54]     0.0    0.00    0.00     411         seafile_get_repo_list [54]
+                0.00    0.00     411/497         seaf_repo_manager_get_repo_list [44]
+                0.00    0.00     411/411         seafile_repo_last_modify [57]
+-----------------------------------------------
+                0.00    0.00     411/411         marshal_object__string [559]
+[55]     0.0    0.00    0.00     411         seafile_get_repo_sync_task [55]
+                0.00    0.00     411/894         seaf_repo_manager_get_repo [43]
+                0.00    0.00     411/411         seaf_sync_manager_get_sync_info [51]
+                0.00    0.00     396/396         sync_error_to_str [58]
+                0.00    0.00     396/396         sync_state_to_str [59]
+-----------------------------------------------
+                0.00    0.00     411/411         marshal_int__void [557]
+[56]     0.0    0.00    0.00     411         seafile_is_auto_sync_enabled [56]
+-----------------------------------------------
+                0.00    0.00     411/411         seafile_get_repo_list [54]
+[57]     0.0    0.00    0.00     411         seafile_repo_last_modify [57]
+                0.00    0.00     411/894         seaf_repo_manager_get_repo [43]
+                0.00    0.00     411/418         load_commit [48]
+                0.00    0.00     411/418         seaf_commit_manager_get_commit [49]
+                0.00    0.00     411/422         seaf_commit_unref [45]
+-----------------------------------------------
+                0.00    0.00     396/396         seafile_get_repo_sync_task [55]
+[58]     0.0    0.00    0.00     396         sync_error_to_str [58]
+-----------------------------------------------
+                0.00    0.00     396/396         seafile_get_repo_sync_task [55]
+[59]     0.0    0.00    0.00     396         sync_state_to_str [59]
+-----------------------------------------------
+                0.00    0.00       1/89          check_protocol_version_done [304]
+                0.00    0.00       1/89          remove_blocks_done [698]
+                0.00    0.00       1/89          on_repo_uploaded [648]
+                0.00    0.00       2/89          create_sync_task_v2 [77]
+                0.00    0.00      84/89          auto_sync_pulse [226]
+[60]     0.0    0.00    0.00      89         check_http_protocol_done [60]
+                0.00    0.00       1/12          config_get_string [76]
+                0.00    0.00       1/5           seafile_session_config_get_string [82]
+-----------------------------------------------
+                0.00    0.00       1/87          check_worktree_common [114]
+                0.00    0.00       1/87          load_repo [134]
+                0.00    0.00      85/87          auto_sync_pulse [226]
+[61]     0.0    0.00    0.00      87         seaf_repo_check_worktree [61]
+-----------------------------------------------
+                0.00    0.00      85/85          update_tx_state [1404]
+[62]     0.0    0.00    0.00      85         http_tx_manager_get_download_tasks [62]
+-----------------------------------------------
+                0.00    0.00      85/85          update_tx_state [1404]
+[63]     0.0    0.00    0.00      85         http_tx_manager_get_upload_tasks [63]
+-----------------------------------------------
+                0.00    0.00      85/85          update_tx_state [1404]
+[64]     0.0    0.00    0.00      85         seaf_transfer_manager_get_download_tasks [64]
+-----------------------------------------------
+                0.00    0.00      85/85          update_tx_state [1404]
+[65]     0.0    0.00    0.00      85         seaf_transfer_manager_get_upload_tasks [65]
+-----------------------------------------------
+                0.00    0.00      71/71          update_tx_state [1404]
+[66]     0.0    0.00    0.00      71         format_transfer_task_detail [66]
+                0.00    0.00      70/894         seaf_repo_manager_get_repo [43]
+                0.00    0.00      70/70          transfer_task_get_rate [70]
+-----------------------------------------------
+                0.00    0.00       1/71          notify_sync [137]
+                0.00    0.00      70/71          update_tx_state [1404]
+[67]     0.0    0.00    0.00      71         seaf_mq_manager_publish_notification [67]
+-----------------------------------------------
+                0.00    0.00      71/71          schedule_task_pulse [715]
+[68]     0.0    0.00    0.00      71         state_machine_tick [68]
+                0.00    0.00      70/70          seaf_repo_manager_repo_exists [69]
+-----------------------------------------------
+                0.00    0.00      70/70          state_machine_tick [68]
+[69]     0.0    0.00    0.00      70         seaf_repo_manager_repo_exists [69]
+-----------------------------------------------
+                0.00    0.00      70/70          format_transfer_task_detail [66]
+[70]     0.0    0.00    0.00      70         transfer_task_get_rate [70]
+-----------------------------------------------
+                0.00    0.00       1/20          start_upload [212]
+                0.00    0.00       1/20          update_branch_cb [1400]
+                0.00    0.00       1/20          load_branch_cb [133]
+                0.00    0.00       1/20          handle_response [440]
+                0.00    0.00       2/20          load_block_list_thread [509]
+                0.00    0.00       2/20          calculate_send_object_list [264]
+                0.00    0.00       4/20          has_old_commits_to_upload [93]
+                0.00    0.00       4/20          update_sync_status_v2 [105]
+                0.00    0.00       4/20          sync_repo_v2 [104]
+[71]     0.0    0.00    0.00      20         seaf_branch_manager_get_branch [71]
+-----------------------------------------------
+                                  20             seaf_branch_new [72]
+                0.00    0.00       1/20          start_upload [212]
+                0.00    0.00       1/20          update_branch_cb [1400]
+                0.00    0.00       1/20          load_branch_cb [133]
+                0.00    0.00       1/20          handle_response [440]
+                0.00    0.00       2/20          load_block_list_thread [509]
+                0.00    0.00       2/20          calculate_send_object_list [264]
+                0.00    0.00       4/20          has_old_commits_to_upload [93]
+                0.00    0.00       4/20          update_sync_status_v2 [105]
+                0.00    0.00       4/20          sync_repo_v2 [104]
+[72]     0.0    0.00    0.00      20+20      seaf_branch_new [72]
+                                  20             seaf_branch_new [72]
+-----------------------------------------------
+                0.00    0.00       1/19          start_upload [212]
+                0.00    0.00       1/19          load_branch_cb [133]
+                0.00    0.00       1/19          handle_response [440]
+                0.00    0.00       2/19          load_block_list_thread [509]
+                0.00    0.00       2/19          update_sync_status_v2 [105]
+                0.00    0.00       2/19          sync_done_cb [1366]
+                0.00    0.00       2/19          calculate_send_object_list [264]
+                0.00    0.00       4/19          has_old_commits_to_upload [93]
+                0.00    0.00       4/19          sync_repo_v2 [104]
+[73]     0.0    0.00    0.00      19         seaf_branch_unref [73]
+-----------------------------------------------
+                0.00    0.00       1/18          start_upload [212]
+                0.00    0.00       1/18          handle_response [440]
+                0.00    0.00       2/18          load_block_list_thread [509]
+                0.00    0.00       2/18          update_sync_status_v2 [105]
+                0.00    0.00       2/18          sync_done_cb [1366]
+                0.00    0.00       2/18          calculate_send_object_list [264]
+                0.00    0.00       4/18          has_old_commits_to_upload [93]
+                0.00    0.00       4/18          sync_repo_v2 [104]
+[74]     0.0    0.00    0.00      18         seaf_branch_free [74]
+-----------------------------------------------
+                0.00    0.00       1/13          seaf_repo_manager_set_repo_property [171]
+                0.00    0.00       2/13          sync_repo_v2 [104]
+                0.00    0.00       2/13          seaf_repo_manager_get_repo_relay_info [168]
+                0.00    0.00       8/13          load_repo [134]
+[75]     0.0    0.00    0.00      13         load_locked_file [75]
+-----------------------------------------------
+                0.00    0.00       1/12          check_http_protocol_done [60]
+                0.00    0.00       3/12          seafile_session_config_get_int [86]
+                0.00    0.00       4/12          seafile_session_prepare [1164]
+                0.00    0.00       4/12          seafile_session_config_get_bool [84]
+[76]     0.0    0.00    0.00      12         config_get_string [76]
+-----------------------------------------------
+                0.00    0.00       2/9           sync_repo_v2 [104]
+                0.00    0.00       7/9           auto_sync_pulse [226]
+[77]     0.0    0.00    0.00       9         create_sync_task_v2 [77]
+                0.00    0.00       2/89          check_http_protocol_done [60]
+                0.00    0.00       1/1           http_tx_manager_check_protocol_version [130]
+-----------------------------------------------
+                0.00    0.00       9/9           sqlite_foreach_selected_row [1324]
+[78]     0.0    0.00    0.00       9         load_property_cb [78]
+-----------------------------------------------
+                0.00    0.00       1/8           start_upload [212]
+                0.00    0.00       1/8           start_commit_upload [209]
+                0.00    0.00       1/8           load_block_list_done [508]
+                0.00    0.00       1/8           update_remote_branch [216]
+                0.00    0.00       1/8           on_commit_uploaded [637]
+                0.00    0.00       1/8           update_branch_cb [1400]
+                0.00    0.00       1/8           on_checkbl_done [634]
+                0.00    0.00       1/8           on_getcs_v2_done [641]
+[79]     0.0    0.00    0.00       8         transition_state [79]
+-----------------------------------------------
+                0.00    0.00       1/6           seafile_session_new [1163]
+                0.00    0.00       5/6           seafile_session_class_intern_init [1147]
+[80]     0.0    0.00    0.00       6         seafile_session_get_type [80]
+-----------------------------------------------
+                0.00    0.00       1/5           commit_trees_cb [118]
+                0.00    0.00       4/5           diff_trees [87]
+[81]     0.0    0.00    0.00       5         seaf_dir_free [81]
+                0.00    0.00    3000/3000        seaf_dirent_free [6]
+-----------------------------------------------
+                0.00    0.00       1/5           check_http_protocol_done [60]
+                0.00    0.00       4/5           seafile_session_prepare [1164]
+[82]     0.0    0.00    0.00       5         seafile_session_config_get_string [82]
+-----------------------------------------------
+                0.00    0.00       4/4           diff_trees [87]
+[83]     0.0    0.00    0.00       4         seaf_fs_manager_get_seafdir [83]
+                0.00    0.00       2/1421        seaf_obj_store_read_obj [11]
+                0.00    0.00       2/2           seaf_dir_from_json [98]
+                0.00    0.00       2/2           seaf_dir_from_data [97]
+-----------------------------------------------
+                0.00    0.00       4/4           seafile_session_prepare [1164]
+[84]     0.0    0.00    0.00       4         seafile_session_config_get_bool [84]
+                0.00    0.00       4/12          config_get_string [76]
+-----------------------------------------------
+                0.00    0.00       1/3           seaf_repo_index_commit [166]
+                0.00    0.00       2/3           sync_repo_v2 [104]
+[85]     0.0    0.00    0.00       3         seaf_wt_monitor_get_worktree_status [85]
+-----------------------------------------------
+                0.00    0.00       1/3           seafile_session_prepare [1164]
+                0.00    0.00       2/3           seaf_sync_manager_new [176]
+[86]     0.0    0.00    0.00       3         seafile_session_config_get_int [86]
+                0.00    0.00       3/12          config_get_string [76]
+-----------------------------------------------
+                0.00    0.00       1/2           load_block_list_thread [509]
+                0.00    0.00       1/2           calculate_send_object_list [264]
+[87]     0.0    0.00    0.00       2         diff_trees [87]
+                0.00    0.00       4/4           seaf_fs_manager_get_seafdir [83]
+                0.00    0.00       4/5           seaf_dir_free [81]
+                0.00    0.00       2/2           diff_trees_recursive [88]
+-----------------------------------------------
+                0.00    0.00       2/2           diff_trees [87]
+[88]     0.0    0.00    0.00       2         diff_trees_recursive [88]
+                0.00    0.00    1000/1000        diff_files [19]
+                0.00    0.00     998/998         collect_file_ids [41]
+-----------------------------------------------
+                0.00    0.00       1/2           update_branch_cb [1400]
+                0.00    0.00       1/2           seaf_transfer_manager_add_upload [178]
+[89]     0.0    0.00    0.00       2         emit_transfer_done_signal [89]
+-----------------------------------------------
+                0.00    0.00       2/2           wt_monitor_job_linux [1416]
+[90]     0.0    0.00    0.00       2         free_repo_watch_info [90]
+-----------------------------------------------
+                0.00    0.00       2/2           sqlite_foreach_selected_row [1324]
+[91]     0.0    0.00    0.00       2         get_value [91]
+-----------------------------------------------
+                                1000             handle_unmerged_index_entries [92]
+                0.00    0.00       2/2           check_full_path_ignore [112]
+[92]     0.0    0.00    0.00       2+1000    handle_unmerged_index_entries [92]
+                0.00    0.00    1000/1000        should_ignore [34]
+                0.00    0.00    1000/1000        is_path_writable [23]
+                                1000             handle_unmerged_index_entries [92]
+-----------------------------------------------
+                0.00    0.00       2/2           auto_sync_pulse [226]
+[93]     0.0    0.00    0.00       2         has_old_commits_to_upload [93]
+                0.00    0.00       4/20          seaf_branch_new [72]
+                0.00    0.00       4/20          seaf_branch_manager_get_branch [71]
+                0.00    0.00       4/18          seaf_branch_free [74]
+                0.00    0.00       4/19          seaf_branch_unref [73]
+                0.00    0.00       2/422         seaf_commit_unref [45]
+-----------------------------------------------
+                0.00    0.00       2/2           update_sync_status_v2 [105]
+[94]     0.0    0.00    0.00       2         repo_block_store_exists [94]
+-----------------------------------------------
+                0.00    0.00       1/2           update_branch_cb [1400]
+                0.00    0.00       1/2           seaf_repo_index_commit [166]
+[95]     0.0    0.00    0.00       2         seaf_branch_manager_update_branch [95]
+-----------------------------------------------
+                0.00    0.00       1/2           update_branch_cb [1400]
+                0.00    0.00       1/2           seaf_repo_index_commit [166]
+[96]     0.0    0.00    0.00       2         seaf_branch_set_commit [96]
+-----------------------------------------------
+                0.00    0.00       2/2           seaf_fs_manager_get_seafdir [83]
+[97]     0.0    0.00    0.00       2         seaf_dir_from_data [97]
+-----------------------------------------------
+                0.00    0.00       2/2           seaf_fs_manager_get_seafdir [83]
+[98]     0.0    0.00    0.00       2         seaf_dir_from_json [98]
+                0.00    0.00       2/2           seaf_dir_from_json_object [99]
+-----------------------------------------------
+                0.00    0.00       2/2           seaf_dir_from_json [98]
+[99]     0.0    0.00    0.00       2         seaf_dir_from_json_object [99]
+-----------------------------------------------
+                0.00    0.00       1/2           seaf_fs_manager_init [155]
+                0.00    0.00       1/2           seaf_commit_manager_init [148]
+[100]    0.0    0.00    0.00       2         seaf_obj_store_init [100]
+-----------------------------------------------
+                0.00    0.00       1/2           seaf_fs_manager_new [156]
+                0.00    0.00       1/2           seaf_commit_manager_new [149]
+[101]    0.0    0.00    0.00       2         seaf_obj_store_new [101]
+-----------------------------------------------
+                0.00    0.00       2/2           sync_repo_v2 [104]
+[102]    0.0    0.00    0.00       2         seaf_repo_manager_get_repo_property [102]
+-----------------------------------------------
+                0.00    0.00       2/2           seaf_repo_index_commit [166]
+[103]    0.0    0.00    0.00       2         seaf_repo_manager_load_folder_perms [103]
+-----------------------------------------------
+                0.00    0.00       2/2           auto_sync_pulse [226]
+[104]    0.0    0.00    0.00       2         sync_repo_v2 [104]
+                0.00    0.00       4/20          seaf_branch_new [72]
+                0.00    0.00       4/20          seaf_branch_manager_get_branch [71]
+                0.00    0.00       4/18          seaf_branch_free [74]
+                0.00    0.00       4/19          seaf_branch_unref [73]
+                0.00    0.00       2/13          load_locked_file [75]
+                0.00    0.00       2/2           seaf_repo_manager_get_repo_property [102]
+                0.00    0.00       2/3           seaf_wt_monitor_get_worktree_status [85]
+                0.00    0.00       2/9           create_sync_task_v2 [77]
+                0.00    0.00       1/1           check_fast_forward [111]
+                0.00    0.00       1/1           commit_repo [116]
+                0.00    0.00       1/1           check_head_commit_done [113]
+-----------------------------------------------
+                0.00    0.00       2/2           sync_done_cb [1366]
+[105]    0.0    0.00    0.00       2         update_sync_status_v2 [105]
+                0.00    0.00       4/20          seaf_branch_new [72]
+                0.00    0.00       4/20          seaf_branch_manager_get_branch [71]
+                0.00    0.00       2/2           repo_block_store_exists [94]
+                0.00    0.00       2/18          seaf_branch_free [74]
+                0.00    0.00       2/19          seaf_branch_unref [73]
+-----------------------------------------------
+                0.00    0.00       1/1           wt_monitor_job_linux [1416]
+[106]    0.0    0.00    0.00       1         add_event_to_queue [106]
+-----------------------------------------------
+                0.00    0.00       1/1           load_block_list_thread [509]
+[107]    0.0    0.00    0.00       1         block_list_new [107]
+-----------------------------------------------
+                0.00    0.00       1/1           block_tx_client_thread_done [248]
+[108]    0.0    0.00    0.00       1         block_tx_client_once_mode_done_cb [108]
+                0.00    0.00       1/1           update_remote_branch [216]
+-----------------------------------------------
+                0.00    0.00       1/1           on_getcs_v2_done [641]
+[109]    0.0    0.00    0.00       1         block_tx_client_start [109]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_transfer_manager_add_upload [178]
+[110]    0.0    0.00    0.00       1         cancel_task [110]
+-----------------------------------------------
+                0.00    0.00       1/1           sync_repo_v2 [104]
+[111]    0.0    0.00    0.00       1         check_fast_forward [111]
+-----------------------------------------------
+                                   1             check_full_path_ignore [112]
+                0.00    0.00       1/1           seaf_repo_index_commit [166]
+[112]    0.0    0.00    0.00       1+1       check_full_path_ignore [112]
+                0.00    0.00       2/2           handle_unmerged_index_entries [92]
+                                   1             check_full_path_ignore [112]
+-----------------------------------------------
+                0.00    0.00       1/1           sync_repo_v2 [104]
+[113]    0.0    0.00    0.00       1         check_head_commit_done [113]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_repo_index_commit [166]
+[114]    0.0    0.00    0.00       1         check_worktree_common [114]
+                0.00    0.00       1/87          seaf_repo_check_worktree [61]
+-----------------------------------------------
+                0.00    0.00       1/1           block_tx_client_thread [247]
+[115]    0.0    0.00    0.00       1         client_thread_loop [115]
+                0.00    0.00       1/1           shutdown_client [205]
+-----------------------------------------------
+                0.00    0.00       1/1           sync_repo_v2 [104]
+[116]    0.0    0.00    0.00       1         commit_repo [116]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_commit_manager_add_commit [146]
+[117]    0.0    0.00    0.00       1         commit_to_json_object [117]
+-----------------------------------------------
+                0.00    0.00       1/1           update_one [1403]
+[118]    0.0    0.00    0.00       1         commit_trees_cb [118]
+                0.00    0.00    1000/1000        dir_version_from_repo_version [20]
+                0.00    0.00     997/997         seaf_dirent_new [42]
+                0.00    0.00       1/1           seaf_dir_new [152]
+                0.00    0.00       1/1           seaf_obj_store_obj_exists [161]
+                0.00    0.00       1/1           seaf_fs_manager_object_exists [157]
+                0.00    0.00       1/5           seaf_dir_free [81]
+                0.00    0.00       1/1           seaf_dir_save [153]
+-----------------------------------------------
+                0.00    0.00       1/1           check_protocol_version_thread [305]
+[119]    0.0    0.00    0.00       1         connection_pool_get_connection [119]
+-----------------------------------------------
+                0.00    0.00       1/1           check_protocol_version_thread [305]
+[120]    0.0    0.00    0.00       1         connection_pool_return_connection [120]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_repo_index_commit [166]
+[121]    0.0    0.00    0.00       1         diff_resolve_empty_dirs [121]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_repo_index_commit [166]
+[122]    0.0    0.00    0.00       1         diff_resolve_renames [122]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_repo_index_commit [166]
+[123]    0.0    0.00    0.00       1         diff_results_to_description [123]
+-----------------------------------------------
+                0.00    0.00       1/1           check_protocol_version_thread [305]
+[124]    0.0    0.00    0.00       1         find_connection_pool [124]
+-----------------------------------------------
+                0.00    0.00       1/1           traverse_commit_tree_common [214]
+[125]    0.0    0.00    0.00       1         find_meaningful_commit [125]
+                0.00    0.00       1/1           seaf_commit_ref [151]
+-----------------------------------------------
+                0.00    0.00       1/1           on_getcs_v2_done [641]
+[126]    0.0    0.00    0.00       1         generate_session_key [126]
+-----------------------------------------------
+                0.00    0.00       1/1           on_checkbl_done [634]
+[127]    0.0    0.00    0.00       1         get_chunk_server_address [127]
+-----------------------------------------------
+                0.00    0.00       1/1           blocktx_decrypt_init [249]
+[128]    0.0    0.00    0.00       1         handle_auth_rsp_content_cb [128]
+                0.00    0.00       1/1001        transfer_next_block [16]
+-----------------------------------------------
+                0.00    0.00       1/1           check_protocol_version_thread [305]
+[129]    0.0    0.00    0.00       1         http_get [129]
+                0.00    0.00       1/1           set_proxy [204]
+-----------------------------------------------
+                0.00    0.00       1/1           create_sync_task_v2 [77]
+[130]    0.0    0.00    0.00       1         http_tx_manager_check_protocol_version [130]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_new [1163]
+[131]    0.0    0.00    0.00       1         http_tx_manager_new [131]
+-----------------------------------------------
+                0.00    0.00       1/1           cleanup_job_done [318]
+[132]    0.0    0.00    0.00       1         http_tx_manager_start [132]
+-----------------------------------------------
+                0.00    0.00       1/1           sqlite_foreach_selected_row [1324]
+[133]    0.0    0.00    0.00       1         load_branch_cb [133]
+                0.00    0.00       1/20          seaf_branch_new [72]
+                0.00    0.00       1/20          seaf_branch_manager_get_branch [71]
+                0.00    0.00       1/1           seaf_commit_manager_get_commit_compatible [147]
+                0.00    0.00       1/1           seaf_branch_ref [142]
+                0.00    0.00       1/422         seaf_commit_unref [45]
+                0.00    0.00       1/1           seaf_repo_from_commit [165]
+                0.00    0.00       1/19          seaf_branch_unref [73]
+-----------------------------------------------
+                0.00    0.00       1/1           load_repo_cb [135]
+[134]    0.0    0.00    0.00       1         load_repo [134]
+                0.00    0.00       8/13          load_locked_file [75]
+                0.00    0.00       1/1           seaf_repo_new [173]
+                0.00    0.00       1/87          seaf_repo_check_worktree [61]
+-----------------------------------------------
+                0.00    0.00       1/1           sqlite_foreach_selected_row [1324]
+[135]    0.0    0.00    0.00       1         load_repo_cb [135]
+                0.00    0.00       1/1           load_repo [134]
+-----------------------------------------------
+                0.00    0.00       1/1           on_start_cleanup_job [649]
+[136]    0.0    0.00    0.00       1         migrate_client_v0_repos [136]
+-----------------------------------------------
+                0.00    0.00       1/1           remove_blocks_done [698]
+[137]    0.0    0.00    0.00       1         notify_sync [137]
+                0.00    0.00       1/1           seaf_commit_manager_traverse_commit_tree_truncated [150]
+                0.00    0.00       1/71          seaf_mq_manager_publish_notification [67]
+                0.00    0.00       1/422         seaf_commit_unref [45]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_new [1163]
+[138]    0.0    0.00    0.00       1         seaf_block_manager_new [138]
+-----------------------------------------------
+                0.00    0.00       1/1           remove_repo_blocks [707]
+[139]    0.0    0.00    0.00       1         seaf_block_manager_remove_store [139]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_prepare [1164]
+[140]    0.0    0.00    0.00       1         seaf_branch_manager_init [140]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_new [1163]
+[141]    0.0    0.00    0.00       1         seaf_branch_manager_new [141]
+-----------------------------------------------
+                0.00    0.00       1/1           load_branch_cb [133]
+[142]    0.0    0.00    0.00       1         seaf_branch_ref [142]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_prepare [1164]
+[143]    0.0    0.00    0.00       1         seaf_clone_manager_init [143]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_new [1163]
+[144]    0.0    0.00    0.00       1         seaf_clone_manager_new [144]
+-----------------------------------------------
+                0.00    0.00       1/1           cleanup_job_done [318]
+[145]    0.0    0.00    0.00       1         seaf_clone_manager_start [145]
+                0.00    0.00       1/1           seafile_checkff_proc_get_type [188]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_repo_index_commit [166]
+[146]    0.0    0.00    0.00       1         seaf_commit_manager_add_commit [146]
+                0.00    0.00       1/1           commit_to_json_object [117]
+                0.00    0.00       1/1002        seaf_obj_store_write_obj [12]
+-----------------------------------------------
+                0.00    0.00       1/1           load_branch_cb [133]
+[147]    0.0    0.00    0.00       1         seaf_commit_manager_get_commit_compatible [147]
+                0.00    0.00       1/418         load_commit [48]
+                0.00    0.00       1/418         seaf_commit_manager_get_commit [49]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_prepare [1164]
+[148]    0.0    0.00    0.00       1         seaf_commit_manager_init [148]
+                0.00    0.00       1/2           seaf_obj_store_init [100]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_new [1163]
+[149]    0.0    0.00    0.00       1         seaf_commit_manager_new [149]
+                0.00    0.00       1/2           seaf_obj_store_new [101]
+-----------------------------------------------
+                0.00    0.00       1/1           notify_sync [137]
+[150]    0.0    0.00    0.00       1         seaf_commit_manager_traverse_commit_tree_truncated [150]
+                0.00    0.00       1/1           traverse_commit_tree_common [214]
+-----------------------------------------------
+                0.00    0.00       1/1           find_meaningful_commit [125]
+[151]    0.0    0.00    0.00       1         seaf_commit_ref [151]
+-----------------------------------------------
+                0.00    0.00       1/1           commit_trees_cb [118]
+[152]    0.0    0.00    0.00       1         seaf_dir_new [152]
+                0.00    0.00       1/1           seaf_dir_to_data [154]
+-----------------------------------------------
+                0.00    0.00       1/1           commit_trees_cb [118]
+[153]    0.0    0.00    0.00       1         seaf_dir_save [153]
+                0.00    0.00       1/1002        seaf_obj_store_write_obj [12]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_dir_new [152]
+[154]    0.0    0.00    0.00       1         seaf_dir_to_data [154]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_prepare [1164]
+[155]    0.0    0.00    0.00       1         seaf_fs_manager_init [155]
+                0.00    0.00       1/2           seaf_obj_store_init [100]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_new [1163]
+[156]    0.0    0.00    0.00       1         seaf_fs_manager_new [156]
+                0.00    0.00       1/2           seaf_obj_store_new [101]
+-----------------------------------------------
+                0.00    0.00       1/1           commit_trees_cb [118]
+[157]    0.0    0.00    0.00       1         seaf_fs_manager_object_exists [157]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_prepare [1164]
+[158]    0.0    0.00    0.00       1         seaf_mq_manager_init [158]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_new [1163]
+[159]    0.0    0.00    0.00       1         seaf_mq_manager_new [159]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_start [1165]
+[160]    0.0    0.00    0.00       1         seaf_mq_manager_start [160]
+-----------------------------------------------
+                0.00    0.00       1/1           commit_trees_cb [118]
+[161]    0.0    0.00    0.00       1         seaf_obj_store_obj_exists [161]
+-----------------------------------------------
+                0.00    0.00       1/1           start [1341]
+[162]    0.0    0.00    0.00       1         seaf_obj_store_register_async_read [162]
+-----------------------------------------------
+                0.00    0.00       1/1           release_resource [696]
+[163]    0.0    0.00    0.00       1         seaf_obj_store_unregister_async_read [163]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_repo_index_commit [166]
+[164]    0.0    0.00    0.00       1         seaf_repo_free_ignore_files [164]
+-----------------------------------------------
+                0.00    0.00       1/1           load_branch_cb [133]
+[165]    0.0    0.00    0.00       1         seaf_repo_from_commit [165]
+-----------------------------------------------
+                0.00    0.00       1/1           commit_job [332]
+[166]    0.0    0.00    0.00       1         seaf_repo_index_commit [166]
+                0.00    0.00    1000/1000        diff_entry_free [17]
+                0.00    0.00       2/2           seaf_repo_manager_load_folder_perms [103]
+                0.00    0.00       1/1           check_worktree_common [114]
+                0.00    0.00       1/1           seaf_repo_load_ignore_files [167]
+                0.00    0.00       1/3           seaf_wt_monitor_get_worktree_status [85]
+                0.00    0.00       1/1           seaf_repo_free_ignore_files [164]
+                0.00    0.00       1/1           wt_status_collect_changes_index [217]
+                0.00    0.00       1/1           diff_resolve_renames [122]
+                0.00    0.00       1/1           diff_resolve_empty_dirs [121]
+                0.00    0.00       1/1           diff_results_to_description [123]
+                0.00    0.00       1/419         seaf_commit_new [46]
+                0.00    0.00       1/1           seaf_repo_to_commit [174]
+                0.00    0.00       1/1           seaf_commit_manager_add_commit [146]
+                0.00    0.00       1/2           seaf_branch_set_commit [96]
+                0.00    0.00       1/2           seaf_branch_manager_update_branch [95]
+                0.00    0.00       1/422         seaf_commit_unref [45]
+                0.00    0.00       1/1           update_index [215]
+                0.00    0.00       1/1           check_full_path_ignore [112]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_repo_index_commit [166]
+[167]    0.0    0.00    0.00       1         seaf_repo_load_ignore_files [167]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_sync_manager_start [177]
+[168]    0.0    0.00    0.00       1         seaf_repo_manager_get_repo_relay_info [168]
+                0.00    0.00       2/13          load_locked_file [75]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_prepare [1164]
+[169]    0.0    0.00    0.00       1         seaf_repo_manager_init [169]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_new [1163]
+[170]    0.0    0.00    0.00       1         seaf_repo_manager_new [170]
+-----------------------------------------------
+                0.00    0.00       1/1           on_repo_uploaded [648]
+[171]    0.0    0.00    0.00       1         seaf_repo_manager_set_repo_property [171]
+                0.00    0.00       1/894         seaf_repo_manager_get_repo [43]
+                0.00    0.00       1/13          load_locked_file [75]
+-----------------------------------------------
+                0.00    0.00       1/1           cleanup_job_done [318]
+[172]    0.0    0.00    0.00       1         seaf_repo_manager_start [172]
+                0.00    0.00       1/1           seaf_wt_monitor_watch_repo [183]
+-----------------------------------------------
+                0.00    0.00       1/1           load_repo [134]
+[173]    0.0    0.00    0.00       1         seaf_repo_new [173]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_repo_index_commit [166]
+[174]    0.0    0.00    0.00       1         seaf_repo_to_commit [174]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_prepare [1164]
+[175]    0.0    0.00    0.00       1         seaf_sync_manager_init [175]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_new [1163]
+[176]    0.0    0.00    0.00       1         seaf_sync_manager_new [176]
+                0.00    0.00       2/3           seafile_session_config_get_int [86]
+-----------------------------------------------
+                0.00    0.00       1/1           cleanup_job_done [318]
+[177]    0.0    0.00    0.00       1         seaf_sync_manager_start [177]
+                0.00    0.00       1/497         seaf_repo_manager_get_repo_list [44]
+                0.00    0.00       1/1           seaf_repo_manager_get_repo_relay_info [168]
+                0.00    0.00       1/1           seafile_sync_repo_proc_get_type [203]
+                0.00    0.00       1/1           seafile_getca_proc_get_type [189]
+                0.00    0.00       1/1           seafile_check_protocol_proc_get_type [184]
+-----------------------------------------------
+                0.00    0.00       1/1           start_upload_if_necessary [213]
+[178]    0.0    0.00    0.00       1         seaf_transfer_manager_add_upload [178]
+                0.00    0.00       1/894         seaf_repo_manager_get_repo [43]
+                0.00    0.00       1/2           emit_transfer_done_signal [89]
+                0.00    0.00       1/1           cancel_task [110]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_new [1163]
+[179]    0.0    0.00    0.00       1         seaf_transfer_manager_new [179]
+-----------------------------------------------
+                0.00    0.00       1/1           cleanup_job_done [318]
+[180]    0.0    0.00    0.00       1         seaf_transfer_manager_start [180]
+                0.00    0.00       1/1           seafile_check_tx_v2_proc_get_type [185]
+                0.00    0.00       1/1           seafile_check_tx_v3_proc_get_type [186]
+                0.00    0.00       1/1           seafile_sendfs_proc_get_type [200]
+                0.00    0.00       1/1           seafile_getfs_proc_get_type [194]
+                0.00    0.00       1/1           seafile_sendbranch_proc_get_type [196]
+                0.00    0.00       1/1           seafile_getcs_proc_get_type [192]
+                0.00    0.00       1/1           seafile_getcommit_v2_proc_get_type [190]
+                0.00    0.00       1/1           seafile_getcommit_v3_proc_get_type [191]
+                0.00    0.00       1/1           seafile_sendcommit_v3_proc_get_type [198]
+                0.00    0.00       1/1           seafile_sendcommit_v3_new_proc_get_type [197]
+                0.00    0.00       1/1           seafile_checkbl_proc_get_type [187]
+                0.00    0.00       1/1           seafile_getcs_v2_proc_get_type [193]
+                0.00    0.00       1/1           seafile_sendcommit_v4_proc_get_type [199]
+                0.00    0.00       1/2013        seafile_sendfs_v2_proc_get_type [7]
+                0.00    0.00       1/1           seafile_getfs_v2_proc_get_type [195]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_new [1163]
+[181]    0.0    0.00    0.00       1         seaf_wt_monitor_new [181]
+-----------------------------------------------
+                0.00    0.00       1/1           cleanup_job_done [318]
+[182]    0.0    0.00    0.00       1         seaf_wt_monitor_start [182]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_repo_manager_start [172]
+[183]    0.0    0.00    0.00       1         seaf_wt_monitor_watch_repo [183]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_sync_manager_start [177]
+[184]    0.0    0.00    0.00       1         seafile_check_protocol_proc_get_type [184]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_transfer_manager_start [180]
+[185]    0.0    0.00    0.00       1         seafile_check_tx_v2_proc_get_type [185]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_transfer_manager_start [180]
+[186]    0.0    0.00    0.00       1         seafile_check_tx_v3_proc_get_type [186]
+-----------------------------------------------
+                                  10             seafile_checkbl_proc_get_type [187]
+                0.00    0.00       1/1           seaf_transfer_manager_start [180]
+[187]    0.0    0.00    0.00       1+10      seafile_checkbl_proc_get_type [187]
+                                  10             seafile_checkbl_proc_get_type [187]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_clone_manager_start [145]
+[188]    0.0    0.00    0.00       1         seafile_checkff_proc_get_type [188]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_sync_manager_start [177]
+[189]    0.0    0.00    0.00       1         seafile_getca_proc_get_type [189]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_transfer_manager_start [180]
+[190]    0.0    0.00    0.00       1         seafile_getcommit_v2_proc_get_type [190]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_transfer_manager_start [180]
+[191]    0.0    0.00    0.00       1         seafile_getcommit_v3_proc_get_type [191]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_transfer_manager_start [180]
+[192]    0.0    0.00    0.00       1         seafile_getcs_proc_get_type [192]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_transfer_manager_start [180]
+[193]    0.0    0.00    0.00       1         seafile_getcs_v2_proc_get_type [193]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_transfer_manager_start [180]
+[194]    0.0    0.00    0.00       1         seafile_getfs_proc_get_type [194]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_transfer_manager_start [180]
+[195]    0.0    0.00    0.00       1         seafile_getfs_v2_proc_get_type [195]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_transfer_manager_start [180]
+[196]    0.0    0.00    0.00       1         seafile_sendbranch_proc_get_type [196]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_transfer_manager_start [180]
+[197]    0.0    0.00    0.00       1         seafile_sendcommit_v3_new_proc_get_type [197]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_transfer_manager_start [180]
+[198]    0.0    0.00    0.00       1         seafile_sendcommit_v3_proc_get_type [198]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_transfer_manager_start [180]
+[199]    0.0    0.00    0.00       1         seafile_sendcommit_v4_proc_get_type [199]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_transfer_manager_start [180]
+[200]    0.0    0.00    0.00       1         seafile_sendfs_proc_get_type [200]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_prepare [1164]
+[201]    0.0    0.00    0.00       1         seafile_session_config_exists [201]
+-----------------------------------------------
+                0.00    0.00       1/1           seafile_session_new [1163]
+[202]    0.0    0.00    0.00       1         seafile_session_config_open_db [202]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_sync_manager_start [177]
+[203]    0.0    0.00    0.00       1         seafile_sync_repo_proc_get_type [203]
+-----------------------------------------------
+                0.00    0.00       1/1           http_get [129]
+[204]    0.0    0.00    0.00       1         set_proxy [204]
+-----------------------------------------------
+                0.00    0.00       1/1           client_thread_loop [115]
+[205]    0.0    0.00    0.00       1         shutdown_client [205]
+-----------------------------------------------
+                0.00    0.00       1/1           handle_response [449]
+[206]    0.0    0.00    0.00       1         start [206]
+-----------------------------------------------
+                0.00    0.00       1/1           load_block_list_done [508]
+[207]    0.0    0.00    0.00       1         start_block_upload [207]
+-----------------------------------------------
+                0.00    0.00       1/1           load_block_list_done [508]
+[208]    0.0    0.00    0.00       1         start_check_block_list_proc [208]
+-----------------------------------------------
+                0.00    0.00       1/1           check_upload_cb [309]
+[209]    0.0    0.00    0.00       1         start_commit_upload [209]
+                0.00    0.00       1/8           transition_state [79]
+-----------------------------------------------
+                0.00    0.00       1/1           on_commit_uploaded [637]
+[210]    0.0    0.00    0.00       1         start_fs_upload [210]
+-----------------------------------------------
+                0.00    0.00       1/1           on_fs_uploaded [639]
+[211]    0.0    0.00    0.00       1         start_load_block_list_thread [211]
+-----------------------------------------------
+                0.00    0.00       1/1           schedule_task_pulse [715]
+[212]    0.0    0.00    0.00       1         start_upload [212]
+                0.00    0.00       1/20          seaf_branch_new [72]
+                0.00    0.00       1/20          seaf_branch_manager_get_branch [71]
+                0.00    0.00       1/18          seaf_branch_free [74]
+                0.00    0.00       1/19          seaf_branch_unref [73]
+                0.00    0.00       1/8           transition_state [79]
+-----------------------------------------------
+                0.00    0.00       1/1           commit_job_done [333]
+[213]    0.0    0.00    0.00       1         start_upload_if_necessary [213]
+                0.00    0.00       1/1           seaf_transfer_manager_add_upload [178]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_commit_manager_traverse_commit_tree_truncated [150]
+[214]    0.0    0.00    0.00       1         traverse_commit_tree_common [214]
+                0.00    0.00       1/418         load_commit [48]
+                0.00    0.00       1/418         seaf_commit_manager_get_commit [49]
+                0.00    0.00       1/422         seaf_commit_unref [45]
+                0.00    0.00       1/1           find_meaningful_commit [125]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_repo_index_commit [166]
+[215]    0.0    0.00    0.00       1         update_index [215]
+-----------------------------------------------
+                0.00    0.00       1/1           block_tx_client_once_mode_done_cb [108]
+[216]    0.0    0.00    0.00       1         update_remote_branch [216]
+                0.00    0.00       1/8           transition_state [79]
+-----------------------------------------------
+                0.00    0.00       1/1           seaf_repo_index_commit [166]
+[217]    0.0    0.00    0.00       1         wt_status_collect_changes_index [217]
+                0.00    0.00    1000/1000        diff_entry_new [18]
+                0.00    0.00       1/418         load_commit [48]
+                0.00    0.00       1/418         seaf_commit_manager_get_commit [49]
+                0.00    0.00       1/422         seaf_commit_unref [45]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+ [106] add_event_to_queue (wt-monitor-linux.c) [74] seaf_branch_free [178] seaf_transfer_manager_add_upload
+   [3] add_index_entry        [71] seaf_branch_manager_get_branch [64] seaf_transfer_manager_get_download_tasks
+  [36] block_list_insert     [140] seaf_branch_manager_init [65] seaf_transfer_manager_get_upload_tasks
+ [107] block_list_new        [141] seaf_branch_manager_new [179] seaf_transfer_manager_new
+ [108] block_tx_client_once_mode_done_cb (transfer-mgr.c) [95] seaf_branch_manager_update_branch [180] seaf_transfer_manager_start
+ [109] block_tx_client_start  [72] seaf_branch_new        [85] seaf_wt_monitor_get_worktree_status
+ [110] cancel_task (transfer-mgr.c) [142] seaf_branch_ref [181] seaf_wt_monitor_new
+ [111] check_fast_forward (sync-mgr.c) [96] seaf_branch_set_commit [182] seaf_wt_monitor_start
+ [112] check_full_path_ignore (repo-mgr.c) [73] seaf_branch_unref [183] seaf_wt_monitor_watch_repo
+ [113] check_head_commit_done (sync-mgr.c) [50] seaf_clone_manager_get_tasks [184] seafile_check_protocol_proc_get_type
+  [60] check_http_protocol_done (sync-mgr.c) [143] seaf_clone_manager_init [185] seafile_check_tx_v2_proc_get_type
+ [114] check_worktree_common (repo-mgr.c) [144] seaf_clone_manager_new [186] seafile_check_tx_v3_proc_get_type
+ [115] client_thread_loop (block-tx-client.c) [145] seaf_clone_manager_start [187] seafile_checkbl_proc_get_type
+  [41] collect_file_ids (sendfs-v2-proc.c) [146] seaf_commit_manager_add_commit [188] seafile_checkff_proc_get_type
+  [47] commit_from_json_object (commit-mgr.c) [49] seaf_commit_manager_get_commit [29] seafile_free (fs-mgr.c)
+ [116] commit_repo (sync-mgr.c) [147] seaf_commit_manager_get_commit_compatible [39] seafile_from_json (fs-mgr.c)
+ [117] commit_to_json_object (commit-mgr.c) [148] seaf_commit_manager_init [40] seafile_from_json_object (fs-mgr.c)
+ [118] commit_trees_cb       [149] seaf_commit_manager_new [53] seafile_get_clone_tasks
+  [76] config_get_string (seafile-config.c) [150] seaf_commit_manager_traverse_commit_tree_truncated [54] seafile_get_repo_list
+ [119] connection_pool_get_connection (http-tx-mgr.c) [46] seaf_commit_new [55] seafile_get_repo_sync_task
+ [120] connection_pool_return_connection (http-tx-mgr.c) [151] seaf_commit_ref [189] seafile_getca_proc_get_type
+  [77] create_sync_task_v2 (sync-mgr.c) [45] seaf_commit_unref [190] seafile_getcommit_v2_proc_get_type
+  [17] diff_entry_free        [81] seaf_dir_free         [191] seafile_getcommit_v3_proc_get_type
+  [18] diff_entry_new         [97] seaf_dir_from_data    [192] seafile_getcs_proc_get_type
+  [19] diff_files (transfer-mgr.c) [98] seaf_dir_from_json (fs-mgr.c) [193] seafile_getcs_v2_proc_get_type
+ [121] diff_resolve_empty_dirs [99] seaf_dir_from_json_object (fs-mgr.c) [194] seafile_getfs_proc_get_type
+ [122] diff_resolve_renames  [152] seaf_dir_new          [195] seafile_getfs_v2_proc_get_type
+ [123] diff_results_to_description [153] seaf_dir_save    [56] seafile_is_auto_sync_enabled
+  [87] diff_trees            [154] seaf_dir_to_data        [5] seafile_repo_get_type
+  [88] diff_trees_recursive (diff-simple.c) [6] seaf_dirent_free [57] seafile_repo_last_modify
+  [20] dir_version_from_repo_version [42] seaf_dirent_new [196] seafile_sendbranch_proc_get_type
+  [21] do_write_chunk (fs-mgr.c) [83] seaf_fs_manager_get_seafdir [197] seafile_sendcommit_v3_new_proc_get_type
+  [89] emit_transfer_done_signal (transfer-mgr.c) [38] seaf_fs_manager_get_seafile [198] seafile_sendcommit_v3_proc_get_type
+ [124] find_connection_pool (http-tx-mgr.c) [2] seaf_fs_manager_index_blocks [199] seafile_sendcommit_v4_proc_get_type
+ [125] find_meaningful_commit (sync-mgr.c) [155] seaf_fs_manager_init [200] seafile_sendfs_proc_get_type
+  [66] format_transfer_task_detail (sync-mgr.c) [156] seaf_fs_manager_new [7] seafile_sendfs_v2_proc_get_type
+  [90] free_repo_watch_info (wt-monitor-linux.c) [157] seaf_fs_manager_object_exists [201] seafile_session_config_exists
+  [14] fs_object_read_cb (sendfs-v2-proc.c) [158] seaf_mq_manager_init [84] seafile_session_config_get_bool
+ [126] generate_session_key (transfer-mgr.c) [159] seaf_mq_manager_new [86] seafile_session_config_get_int
+ [127] get_chunk_server_address (transfer-mgr.c) [67] seaf_mq_manager_publish_notification [82] seafile_session_config_get_string
+  [91] get_value (seafile-config.c) [160] seaf_mq_manager_start [202] seafile_session_config_open_db
+ [128] handle_auth_rsp_content_cb (block-tx-client.c) [15] seaf_obj_store_async_read [80] seafile_session_get_type
+  [22] handle_block_header_content_cb (block-tx-client.c) [100] seaf_obj_store_init [203] seafile_sync_repo_proc_get_type
+  [92] handle_unmerged_index_entries (repo-mgr.c) [101] seaf_obj_store_new [30] seafile_unref
+  [93] has_old_commits_to_upload (sync-mgr.c) [161] seaf_obj_store_obj_exists [31] seafile_write_chunk
+ [129] http_get (http-tx-mgr.c) [11] seaf_obj_store_read_obj [32] send_block_header (block-tx-client.c)
+ [130] http_tx_manager_check_protocol_version [162] seaf_obj_store_register_async_read [33] send_encrypted_block (block-tx-client.c)
+  [62] http_tx_manager_get_download_tasks [163] seaf_obj_store_unregister_async_read [13] send_next_object (sendfs-v2-proc.c)
+  [63] http_tx_manager_get_upload_tasks [12] seaf_obj_store_write_obj [204] set_proxy (http-tx-mgr.c)
+ [131] http_tx_manager_new    [28] seaf_repo_check_ignore_file [34] should_ignore (repo-mgr.c)
+ [132] http_tx_manager_start  [61] seaf_repo_check_worktree [205] shutdown_client (block-tx-client.c)
+   [1] index_cb (repo-mgr.c) [164] seaf_repo_free_ignore_files [206] start (getcs-v2-proc.c)
+  [23] is_path_writable (repo-mgr.c) [165] seaf_repo_from_commit [207] start_block_upload (transfer-mgr.c)
+ [133] load_branch_cb (repo-mgr.c) [166] seaf_repo_index_commit [208] start_check_block_list_proc (transfer-mgr.c)
+  [48] load_commit (commit-mgr.c) [167] seaf_repo_load_ignore_files [209] start_commit_upload (transfer-mgr.c)
+  [75] load_locked_file (repo-mgr.c) [43] seaf_repo_manager_get_repo [210] start_fs_upload (transfer-mgr.c)
+  [78] load_property_cb (repo-mgr.c) [44] seaf_repo_manager_get_repo_list [211] start_load_block_list_thread (transfer-mgr.c)
+ [134] load_repo (repo-mgr.c) [102] seaf_repo_manager_get_repo_property [212] start_upload (transfer-mgr.c)
+ [135] load_repo_cb (repo-mgr.c) [168] seaf_repo_manager_get_repo_relay_info [213] start_upload_if_necessary (sync-mgr.c)
+ [136] migrate_client_v0_repos [169] seaf_repo_manager_init [68] state_machine_tick (transfer-mgr.c)
+ [137] notify_sync (sync-mgr.c) [103] seaf_repo_manager_load_folder_perms [58] sync_error_to_str
+  [94] repo_block_store_exists (sync-mgr.c) [170] seaf_repo_manager_new [104] sync_repo_v2 (sync-mgr.c)
+  [24] seaf_block_manager_block_exists [69] seaf_repo_manager_repo_exists [59] sync_state_to_str
+   [8] seaf_block_manager_block_handle_free [171] seaf_repo_manager_set_repo_property [16] transfer_next_block (block-tx-client.c)
+   [9] seaf_block_manager_close_block [172] seaf_repo_manager_start [70] transfer_task_get_rate
+  [37] seaf_block_manager_commit_block [173] seaf_repo_new [79] transition_state (transfer-mgr.c)
+ [138] seaf_block_manager_new [174] seaf_repo_to_commit  [214] traverse_commit_tree_common (commit-mgr.c)
+  [10] seaf_block_manager_open_block [51] seaf_sync_manager_get_sync_info [215] update_index
+  [25] seaf_block_manager_read_block [175] seaf_sync_manager_init [216] update_remote_branch (transfer-mgr.c)
+ [139] seaf_block_manager_remove_store [52] seaf_sync_manager_is_auto_sync_enabled [105] update_sync_status_v2 (sync-mgr.c)
+  [26] seaf_block_manager_stat_block_by_handle [176] seaf_sync_manager_new [35] verify_fs_object_json (fs-mgr.c)
+  [27] seaf_block_manager_write_block [177] seaf_sync_manager_start [217] wt_status_collect_changes_index

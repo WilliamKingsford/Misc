@@ -1,0 +1,377 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+100.00      0.03     0.03     8167     3.67     3.67  _fini
+  0.00      0.03     0.00     1000     0.00     0.00  ccnet_sendmsg_proc_get_type
+  0.00      0.03     0.00      170     0.00     0.00  ccnet_start_rpc
+  0.00      0.03     0.00      170     0.00     0.00  handle_update
+  0.00      0.03     0.00       71     0.00     0.00  send_keepalive
+  0.00      0.03     0.00       70     0.00     0.00  set_timeout
+  0.00      0.03     0.00        8     0.00     0.00  list_proc
+  0.00      0.03     0.00        3     0.00     0.00  ccnet_processor_handle_update
+  0.00      0.03     0.00        2     0.00     0.00  ccnet_service_proxy_invoke_remote
+  0.00      0.03     0.00        2     0.00     0.00  disconnect_peer
+  0.00      0.03     0.00        2     0.00     0.00  marshal_int64__string
+  0.00      0.03     0.00        1     0.00     0.00  add_relay
+  0.00      0.03     0.00        1     0.00     0.00  ccnet_keepalive2_proc_class_intern_init
+  0.00      0.03     0.00        1     0.00     0.00  ccnet_keepalive2_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  ccnet_putpubinfo_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  ccnet_rcvcmd_proc_get_type
+  0.00      0.03     0.00        1     0.00     0.00  ccnet_service_stub_proc_set_proxy_proc
+  0.00      0.03     0.00        1     0.00     0.00  echo
+  0.00      0.03     0.00        1     0.00     0.00  finalize
+  0.00      0.03     0.00        1     0.00     0.00  handle_update
+  0.00      0.03     0.00        1     0.00     0.00  marshal_int64__int_string
+  0.00      0.03     0.00        1     0.00     0.00  myHandshakeDoneCB
+  0.00      0.03     0.00        1     0.00     0.00  on_send_skey_done
+  0.00      0.03     0.00        1     0.00     0.00  response_challenge
+  0.00      0.03     0.00        1     0.00     0.00  send_challenge
+  0.00      0.03     0.00        1     0.00     0.00  send_msg_start
+  0.00      0.03     0.00        1     0.00     0.00  sockfd_to_family
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 33.33% of 0.03 seconds
+
+index % time    self  children    called     name
+[1]    100.0    0.03    0.00    8163+6       <cycle 1 as a whole> [1]
+                0.03    0.00    8167+45523       _fini <cycle 1> [2]
+                0.00    0.00       1             send_challenge <cycle 1> [45]
+                0.00    0.00       1             add_relay <cycle 1> [32]
+-----------------------------------------------
+                               45523             _fini <cycle 1> [2]
+                                   4             add_relay <cycle 1> [32]
+                0.00    0.00       1/8163        on_get_unauth_peer_pub_info_done [19]
+                0.00    0.00       1/8163        release_resource [20]
+                0.00    0.00       1/8163        ccnet_service_stub_proc_init [18]
+                0.00    0.00       1/8163        ccnet_service_stub_proc_get_type [17]
+                0.00    0.00       1/8163        release_resource [21]
+                0.00    0.00       4/8163        mq_server_start [16]
+                0.00    0.00       4/8163        ccnet_service_stub_proc_class_intern_init [14]
+                0.00    0.00       4/8163        ccnet_session_base_get_type [15]
+                0.00    0.00       7/8163        add_peer [13]
+                0.00    0.00       9/8163        delete_role [12]
+                0.00    0.00       9/8163        ccnet_service_proxy_invoke_local [11]
+                0.00    0.00      70/8163        timeout_cb [10]
+                0.00    0.00     411/8163        ccnet_peer_manager_add_local_peer [9]
+                0.00    0.00     411/8163        ccnet_message_from_string_local [8]
+                0.00    0.00     411/8163        ccnet_log_reopen [7]
+                0.00    0.00     822/8163        ccnet_peer_manager_send_ready_message [6]
+                0.01    0.00    1998/8163        ccnet_sendmsg_proc_set_msg [4]
+                0.01    0.00    1998/8163        ccnet_session_base_class_intern_init [5]
+                0.01    0.00    2000/8163        ccnet_rcvmsg_proc_init [3]
+[2]    100.0    0.03    0.00    8167+45523   _fini <cycle 1> [2]
+                0.00    0.00    1000/1000        ccnet_sendmsg_proc_get_type [22]
+                0.00    0.00     170/170         handle_update [24]
+                0.00    0.00     170/170         ccnet_start_rpc [23]
+                0.00    0.00      70/70          set_timeout [26]
+                0.00    0.00       2/2           marshal_int64__string [31]
+                0.00    0.00       2/2           ccnet_service_proxy_invoke_remote [29]
+                0.00    0.00       1/1           ccnet_service_stub_proc_set_proxy_proc [37]
+                0.00    0.00       1/1           marshal_int64__int_string [41]
+                0.00    0.00       1/1           finalize [39]
+                0.00    0.00       1/1           sockfd_to_family [47]
+                                   1             send_challenge <cycle 1> [45]
+                               45523             _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[3]     24.5    0.00    0.01                 ccnet_rcvmsg_proc_init [3]
+                0.01    0.00    2000/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[4]     24.5    0.00    0.01                 ccnet_sendmsg_proc_set_msg [4]
+                0.01    0.00    1998/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[5]     24.5    0.00    0.01                 ccnet_session_base_class_intern_init [5]
+                0.01    0.00    1998/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[6]     10.1    0.00    0.00                 ccnet_peer_manager_send_ready_message [6]
+                0.00    0.00     822/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[7]      5.0    0.00    0.00                 ccnet_log_reopen [7]
+                0.00    0.00     411/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[8]      5.0    0.00    0.00                 ccnet_message_from_string_local [8]
+                0.00    0.00     411/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[9]      5.0    0.00    0.00                 ccnet_peer_manager_add_local_peer [9]
+                0.00    0.00     411/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[10]     0.9    0.00    0.00                 timeout_cb [10]
+                0.00    0.00      70/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[11]     0.1    0.00    0.00                 ccnet_service_proxy_invoke_local [11]
+                0.00    0.00       9/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[12]     0.1    0.00    0.00                 delete_role [12]
+                0.00    0.00       9/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[13]     0.1    0.00    0.00                 add_peer [13]
+                0.00    0.00       7/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[14]     0.0    0.00    0.00                 ccnet_service_stub_proc_class_intern_init [14]
+                0.00    0.00       4/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[15]     0.0    0.00    0.00                 ccnet_session_base_get_type [15]
+                0.00    0.00       4/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[16]     0.0    0.00    0.00                 mq_server_start [16]
+                0.00    0.00       4/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[17]     0.0    0.00    0.00                 ccnet_service_stub_proc_get_type [17]
+                0.00    0.00       1/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[18]     0.0    0.00    0.00                 ccnet_service_stub_proc_init [18]
+                0.00    0.00       1/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[19]     0.0    0.00    0.00                 on_get_unauth_peer_pub_info_done [19]
+                0.00    0.00       1/8163        _fini <cycle 1> [2]
+-----------------------------------------------
+                                                 <spontaneous>
+[20]     0.0    0.00    0.00                 release_resource [20]
+                0.00    0.00       1/8163        _fini <cycle 1> [2]
+                0.00    0.00       1/8           list_proc [27]
+-----------------------------------------------
+                                                 <spontaneous>
+[21]     0.0    0.00    0.00                 release_resource [21]
+                0.00    0.00       1/8163        _fini <cycle 1> [2]
+                0.00    0.00       1/2           disconnect_peer [30]
+-----------------------------------------------
+                0.00    0.00    1000/1000        _fini <cycle 1> [2]
+[22]     0.0    0.00    0.00    1000         ccnet_sendmsg_proc_get_type [22]
+-----------------------------------------------
+                0.00    0.00     170/170         _fini <cycle 1> [2]
+[23]     0.0    0.00    0.00     170         ccnet_start_rpc [23]
+-----------------------------------------------
+                0.00    0.00     170/170         _fini <cycle 1> [2]
+[24]     0.0    0.00    0.00     170         handle_update [24]
+-----------------------------------------------
+                0.00    0.00      71/71          send_challenge <cycle 1> [45]
+[25]     0.0    0.00    0.00      71         send_keepalive [25]
+-----------------------------------------------
+                0.00    0.00      70/70          _fini <cycle 1> [2]
+[26]     0.0    0.00    0.00      70         set_timeout [26]
+-----------------------------------------------
+                0.00    0.00       1/8           add_relay <cycle 1> [32]
+                0.00    0.00       1/8           rcv_cmd_start [461]
+                0.00    0.00       1/8           ccnet_putpubinfo_proc_get_type [35]
+                0.00    0.00       1/8           ccnet_keepalive2_proc_class_intern_init [33]
+                0.00    0.00       1/8           ccnet_mqserver_proc_get_type [118]
+                0.00    0.00       1/8           release_resource [476]
+                0.00    0.00       1/8           ccnet_service_proxy_proc_class_intern_init [280]
+                0.00    0.00       1/8           release_resource [20]
+[27]     0.0    0.00    0.00       8         list_proc [27]
+-----------------------------------------------
+                0.00    0.00       1/3           marshal_string__string_int [430]
+                0.00    0.00       2/3           marshal_string__string_string [431]
+[28]     0.0    0.00    0.00       3         ccnet_processor_handle_update [28]
+-----------------------------------------------
+                0.00    0.00       2/2           _fini <cycle 1> [2]
+[29]     0.0    0.00    0.00       2         ccnet_service_proxy_invoke_remote [29]
+-----------------------------------------------
+                0.00    0.00       1/2           release_resource [476]
+                0.00    0.00       1/2           release_resource [21]
+[30]     0.0    0.00    0.00       2         disconnect_peer [30]
+-----------------------------------------------
+                0.00    0.00       2/2           _fini <cycle 1> [2]
+[31]     0.0    0.00    0.00       2         marshal_int64__string [31]
+-----------------------------------------------
+                                   1             send_challenge <cycle 1> [45]
+[32]     0.0    0.00    0.00       1         add_relay <cycle 1> [32]
+                0.00    0.00       1/8           list_proc [27]
+                                   4             _fini <cycle 1> [2]
+-----------------------------------------------
+                0.00    0.00       1/1           ccnet_mqserver_proc_get_type [118]
+[33]     0.0    0.00    0.00       1         ccnet_keepalive2_proc_class_intern_init [33]
+                0.00    0.00       1/8           list_proc [27]
+-----------------------------------------------
+                0.00    0.00       1/1           ccnet_service_proxy_proc_class_intern_init [280]
+[34]     0.0    0.00    0.00       1         ccnet_keepalive2_proc_get_type [34]
+-----------------------------------------------
+                0.00    0.00       1/1           recv_pubkey [469]
+[35]     0.0    0.00    0.00       1         ccnet_putpubinfo_proc_get_type [35]
+                0.00    0.00       1/8           list_proc [27]
+                0.00    0.00       1/1           response_challenge [44]
+                0.00    0.00       1/1           on_send_skey_done [43]
+-----------------------------------------------
+                0.00    0.00       1/1           ccnet_mqserver_proc_class_intern_init [117]
+[36]     0.0    0.00    0.00       1         ccnet_rcvcmd_proc_get_type [36]
+-----------------------------------------------
+                0.00    0.00       1/1           _fini <cycle 1> [2]
+[37]     0.0    0.00    0.00       1         ccnet_service_stub_proc_set_proxy_proc [37]
+-----------------------------------------------
+                0.00    0.00       1/1           ccnet_rpcserver_proc_class_intern_init [267]
+[38]     0.0    0.00    0.00       1         echo [38]
+-----------------------------------------------
+                0.00    0.00       1/1           _fini <cycle 1> [2]
+[39]     0.0    0.00    0.00       1         finalize [39]
+-----------------------------------------------
+                0.00    0.00       1/1           ccnet_service_proxy_proc_get_type [281]
+[40]     0.0    0.00    0.00       1         handle_update [40]
+-----------------------------------------------
+                0.00    0.00       1/1           _fini <cycle 1> [2]
+[41]     0.0    0.00    0.00       1         marshal_int64__int_string [41]
+-----------------------------------------------
+                                   1             myHandshakeDoneCB [42]
+                0.00    0.00       1/1           marshal_string__string_int [430]
+[42]     0.0    0.00    0.00       1+1       myHandshakeDoneCB [42]
+                                   1             myHandshakeDoneCB [42]
+-----------------------------------------------
+                0.00    0.00       1/1           ccnet_putpubinfo_proc_get_type [35]
+[43]     0.0    0.00    0.00       1         on_send_skey_done [43]
+-----------------------------------------------
+                0.00    0.00       1/1           ccnet_putpubinfo_proc_get_type [35]
+[44]     0.0    0.00    0.00       1         response_challenge [44]
+-----------------------------------------------
+                                   1             _fini <cycle 1> [2]
+[45]     0.0    0.00    0.00       1         send_challenge <cycle 1> [45]
+                0.00    0.00      71/71          send_keepalive [25]
+                                   1             add_relay <cycle 1> [32]
+-----------------------------------------------
+                0.00    0.00       1/1           service_proxy_start [490]
+[46]     0.0    0.00    0.00       1         send_msg_start [46]
+-----------------------------------------------
+                0.00    0.00       1/1           _fini <cycle 1> [2]
+[47]     0.0    0.00    0.00       1         sockfd_to_family [47]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+   [2] _fini                  [23] ccnet_start_rpc        [43] on_send_skey_done (keepalive2-proc.c)
+  [32] add_relay (rcvcmd-proc.c) [30] disconnect_peer (rcvcmd-proc.c) [44] response_challenge (keepalive2-proc.c)
+  [33] ccnet_keepalive2_proc_class_intern_init (keepalive2-proc.c) [38] echo (rcvcmd-proc.c) [45] send_challenge (keepalive2-proc.c)
+  [34] ccnet_keepalive2_proc_get_type [39] finalize (ccnet-session-base.c) [25] send_keepalive (keepalive2-proc.c)
+  [28] ccnet_processor_handle_update [40] handle_update (rcvmsg-proc.c) [46] send_msg_start (sendmsg-proc.c)
+  [35] ccnet_putpubinfo_proc_get_type [24] handle_update (rpcserver-proc.c) [26] set_timeout (rcvcmd-proc.c)
+  [36] ccnet_rcvcmd_proc_get_type [27] list_proc (rcvcmd-proc.c) [47] sockfd_to_family
+  [22] ccnet_sendmsg_proc_get_type [41] marshal_int64__int_string (searpc-marshal.h) [1] <cycle 1>
+  [29] ccnet_service_proxy_invoke_remote [31] marshal_int64__string (searpc-marshal.h)
+  [37] ccnet_service_stub_proc_set_proxy_proc [42] myHandshakeDoneCB (connect-mgr.c)
