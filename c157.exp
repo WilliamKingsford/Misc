@@ -9,7 +9,7 @@ sleep 1
 send "sudo /home/william-kingsford/Misc/Misc/restart-seafile-server.sh\r"
 expect "william-kingsford:"
 sleep 1
-send "william-kingsford\r"
+send "*hLO8GeH\r"
 sleep 1
 expect "$ "
 send "exit\r"
