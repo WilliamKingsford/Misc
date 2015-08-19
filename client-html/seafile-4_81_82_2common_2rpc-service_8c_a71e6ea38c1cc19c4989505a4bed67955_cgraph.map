@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$daemon_2Backups_2repo-mgr_8c.html#af0276c036723560e3e8b9aa5529133d6" title="seaf_repo_manager_get_repo" alt="" coords="299,5,491,35"/>
+<area shape="rect" id="node5" href="$ccnet_8h.html#a136915227534e9204ffca3d7dc4d331e" title="ccnet_get_peer" alt="" coords="340,59,449,88"/>
+<area shape="rect" id="node7" href="$ccnet_8h.html#a7e0e66a5bbdd84284c8a524f467c1d6f" title="ccnet_send_command" alt="" coords="319,112,471,141"/>
+<area shape="rect" id="node25" href="$ccnet_8h.html#a7195976ae8bfd17e5272cc46b6b23865" title="ccnet_update_peer_address" alt="" coords="303,165,487,195"/>
+<area shape="rect" id="node27" href="$daemon_2Backups_2repo-mgr_8c.html#aaca4b8f68d91db58fc8e1484d9695ce6" title="seaf_repo_manager_update_repo_relay_info" alt="" coords="256,219,533,248"/>
+<area shape="rect" id="node9" href="$include_2ccnet_2proc-factory_8h.html#acbe781ccd3c134fcf336b81b9fbc7b54" title="ccnet_proc_factory_create_master_processor" alt="" coords="583,32,868,61"/>
+<area shape="rect" id="node17" href="$sendcmd-proc_8h.html#a27aba93205b1ea5a5a043c8e00747889" title="ccnet_sendcmd_proc_set_rcvrsp_cb" alt="" coords="608,85,843,115"/>
+<area shape="rect" id="node19" href="$include_2ccnet_2processor_8h.html#a616b28b7209d3c9a7624250c933b5b96" title="ccnet_processor_start" alt="" coords="651,139,800,168"/>
+<area shape="rect" id="node21" href="$sendcmd-proc_8h.html#a3ba9f46ed2576a64423cb99586bdf979" title="ccnet_sendcmd_proc_send_command" alt="" coords="603,192,848,221"/>
+<area shape="rect" id="node11" href="$include_2ccnet_2proc-factory_8h.html#a8f2333e25a5b49deeda320ec57d72703" title="ccnet_proc_factory_create_processor" alt="" coords="917,32,1157,61"/>
+<area shape="rect" id="node13" href="$ccnet-client_8h.html#a3232a46b8e3133016556877654be32c3" title="ccnet_client_get_request_id" alt="" coords="1205,5,1389,35"/>
+<area shape="rect" id="node15" href="$ccnet-client_8h.html#acce488f8872dad7d5c23d6b68a4a9f6e" title="ccnet_client_add_processor" alt="" coords="1205,59,1389,88"/>
+<area shape="rect" id="node23" href="$ccnet-client_8h.html#a50aa4b2a038435f6184447bf9dd69be5" title="ccnet_client_send_update" alt="" coords="951,192,1124,221"/>
+</map>

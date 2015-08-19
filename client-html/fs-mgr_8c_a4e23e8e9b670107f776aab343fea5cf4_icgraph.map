@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fs-mgr_8h.html#aa100826c1ee3596157d1df52d15c747f" title="seaf_fs_manager_calculate_seafile_id_json" alt="" coords="277,5,552,35"/>
+<area shape="rect" id="node5" href="$vc-utils_8h.html#a040158be07f3403d0df49c37546223cf" title="compare_file_content" alt="" coords="600,5,747,35"/>
+<area shape="rect" id="node7" href="$daemon_2Backups_2repo-mgr_8c.html#a450e5bcc50da4c40b7ba2bde33a22a84" title="checkout_file" alt="" coords="795,5,893,35"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="941,5,1144,35"/>
+</map>

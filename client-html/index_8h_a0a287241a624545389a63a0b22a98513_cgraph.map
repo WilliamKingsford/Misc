@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$index_8c.html#a3931a94c55aad8bf8267f179ae846711" title="index_name_exists" alt="" coords="229,5,363,35"/>
+<area shape="rect" id="node5" href="$index_8c.html#ac131057c151521f1cff71bf1510ef050" title="remove_file_from_index" alt="" coords="216,59,376,88"/>
+<area shape="rect" id="node17" href="$index_8c.html#afafdfbe15ca205599303d6e2230886c0" title="add_index_entry" alt="" coords="237,112,355,141"/>
+<area shape="rect" id="node7" href="$index_8c.html#a1f5ad45bcfb5a2dcc3fae542fa293d4a" title="index_name_pos" alt="" coords="443,32,563,61"/>
+<area shape="rect" id="node11" href="$index_8c.html#aae99b184a9d6c213a39042b5452081f9" title="remove_index_entry_at" alt="" coords="424,85,581,115"/>
+<area shape="rect" id="node9" href="$index_8c.html#a36a1039c7b0e5005a36afc70220630e4" title="cache_name_compare" alt="" coords="631,32,783,61"/>
+<area shape="rect" id="node13" href="$index_8c.html#a62df0f7f37866aabf0b0faf196fc0ddf" title="remove_name_hash" alt="" coords="637,85,776,115"/>
+<area shape="rect" id="node15" href="$index_8c.html#a156a4ea461fcf14e0b73755b02e7e7d1" title="cache_entry_free" alt="" coords="645,139,768,168"/>
+</map>

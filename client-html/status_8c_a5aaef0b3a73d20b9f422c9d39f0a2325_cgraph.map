@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$commit-mgr_8c.html#adaf4b74c4dba25ddaa746f4ff9221b3f" title="seaf_commit_manager_get_commit" alt="" coords="272,5,501,35"/>
+<area shape="rect" id="node7" href="$index_8c.html#a1bcae1e686ad516d8b562a214c9e2cd8" title="mark_all_ce_unused" alt="" coords="773,56,915,85"/>
+<area shape="rect" id="node9" href="$fs-mgr_8c.html#a08103ffc3a5cd19b70167404c39ce3e4" title="seaf_fs_manager_get_seafdir" alt="" coords="1012,188,1204,217"/>
+<area shape="rect" id="node15" href="$commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="320,267,453,296"/>
+<area shape="rect" id="node17" href="$diff-simple_8c.html#a61fa5d287ecd1508b220a422b250d676" title="diff_index" alt="" coords="348,163,425,192"/>
+<area shape="rect" id="node31" href="$fs-mgr_8c.html#ae04d3c4669cd7b0fc691cd2da6dc2de1" title="seaf_dir_free" alt="" coords="339,320,435,349"/>
+<area shape="rect" id="node35" href="$diff-simple_8c.html#a5a9e3f70659801a181ca4ff6004bf021" title="diff_entry_new" alt="" coords="333,373,440,403"/>
+<area shape="rect" id="node5" href="$commit-mgr_8c.html#a2b1cc305cf40cb64c341a0e64d0fe921" title="seaf_commit_ref" alt="" coords="555,5,672,35"/>
+<area shape="rect" id="node11" href="$obj-store_8c.html#a6e93a0214f9cb8a7fc837a2bc3a3c529" title="seaf_obj_store_read_obj" alt="" coords="1253,161,1416,191"/>
+<area shape="rect" id="node13" href="$fs-mgr_8c.html#a6875a119da427bb1cd9796eee916b703" title="seaf_dir_from_data" alt="" coords="1268,215,1401,244"/>
+<area shape="rect" id="node19" href="$seaf-tree-walk_8c.html#a7b310abaeb185b8918eb2a9fc843e097" title="fill_tree_descriptor" alt="" coords="549,163,677,192"/>
+<area shape="rect" id="node24" href="$unpack-trees_8c.html#a5bfe365644fb33537027e988fb891e08" title="unpack_trees" alt="" coords="564,109,663,139"/>
+<area shape="rect" id="node21" href="$fs-mgr_8c.html#a451e6d84cb6d10454d1f9b2b3d0205c5" title="seaf_fs_manager_get_seafdir_sorted" alt="" coords="727,163,961,192"/>
+<area shape="rect" id="node27" href="$seaf-tree-walk_8c.html#a7d985aeab97fb8c4c5fecaede41fcc29" title="traverse_trees" alt="" coords="792,109,896,139"/>
+<area shape="rect" id="node29" href="$seafile-4_81_82_2lib_2utils_8c.html#a130e83c1ad29d78ef1a5b6baef1754d5" title="hex_to_rawdata" alt="" coords="1051,109,1165,139"/>
+<area shape="rect" id="node33" href="$fs-mgr_8c.html#aef77f199fa9eccfe322f1ff978a9055a" title="seaf_dirent_free" alt="" coords="556,320,671,349"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-rpc_8h.html#a44c13248d230153c03d45590ab434a9c" title="seafile_get_repo_list_pub" alt="" coords="336,5,504,35"/>
+<area shape="rect" id="node5" href="$seafile-rpc_8h.html#aba4837db052d18cd952ad53e10ebd379" title="seafile_get_repo_list" alt="" coords="349,59,491,88"/>
+<area shape="rect" id="node7" href="$seafile-rpc_8h.html#adb655a9a19eca34297b5c71d125cde24" title="seafile_unsync_repos_by_account" alt="" coords="309,112,531,141"/>
+<area shape="rect" id="node9" href="$seafile-rpc_8h.html#a21c3244c53c1bd6caa5f0cfb23617bc6" title="seafile_remove_repo_tokens_by_account" alt="" coords="289,165,551,195"/>
+<area shape="rect" id="node11" href="$client-migrate_8h.html#abf80a8325d6c9ee326125f5df7dd0aa0" title="migrate_client_v0_repos" alt="" coords="339,219,501,248"/>
+<area shape="rect" id="node13" href="$clone-mgr_8h.html#a45fe95b1bbe19ee533a8f9e57884658e" title="seaf_clone_manager_check_worktree_path" alt="" coords="284,272,556,301"/>
+<area shape="rect" id="node21" href="$daemon_2gc-core_8h.html#aba2eeeb61b0f8fe34dfbdc8fc23067b3" title="gc_core_run" alt="" coords="373,325,467,355"/>
+<area shape="rect" id="node25" href="$daemon_2repo-mgr_8h.html#aaca4b8f68d91db58fc8e1484d9695ce6" title="seaf_repo_manager_update_repo_relay_info" alt="" coords="281,379,559,408"/>
+<area shape="rect" id="node29" href="$daemon_2repo-mgr_8h.html#ae3753999b4845dfe68bd6f098313280c" title="seaf_repo_manager_update_repos_server_host" alt="" coords="272,432,568,461"/>
+<area shape="rect" id="node15" href="$seafile-rpc_8h.html#a80c8591afe413de060923bf01abf2bf1" title="seafile_check_path_for_clone" alt="" coords="629,219,824,248"/>
+<area shape="rect" id="node17" href="$clone-mgr_8h.html#a6b3ef937f8308db69c87bb650cb42fe9" title="seaf_clone_manager_add_task" alt="" coords="625,272,828,301"/>
+<area shape="rect" id="node19" href="$seafile-rpc_8h.html#aca75772f76f8eafb2b08a023cd476f65" title="seafile_clone" alt="" coords="885,272,984,301"/>
+<area shape="rect" id="node23" href="$seafserv-gc_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="701,325,752,355"/>
+<area shape="rect" id="node27" href="$seafile-rpc_8h.html#a71e6ea38c1cc19c4989505a4bed67955" title="seafile_update_repo_relay_info" alt="" coords="627,379,827,408"/>
+<area shape="rect" id="node31" href="$seafile-rpc_8h.html#a2d3ae7fdb45f784fe4eb4abc2f4055c2" title="seafile_update_repos_server_host" alt="" coords="617,432,836,461"/>
+</map>

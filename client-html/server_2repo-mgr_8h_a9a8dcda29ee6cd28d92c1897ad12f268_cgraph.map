@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fuse_2Backups_2repo-mgr_8c.html#a0b9efffb3301d72133b4a3fdd28fc69c" title="seaf_repo_manager_is_virtual_repo" alt="" coords="325,5,552,35"/>
+<area shape="rect" id="node5" href="$daemon_2Backups_2repo-mgr_8c.html#af0276c036723560e3e8b9aa5529133d6" title="seaf_repo_manager_get_repo" alt="" coords="343,59,535,88"/>
+<area shape="rect" id="node7" href="$fuse_2Backups_2repo-mgr_8c.html#af6bedb063685823d91f2a335c6882e07" title="seaf_repo_unref" alt="" coords="381,112,496,141"/>
+<area shape="rect" id="node9" href="$seafile-crypt_8c.html#a9ada7f42f1f31b91dabdc5edde6b73f9" title="seafile_verify_repo_passwd" alt="" coords="348,165,529,195"/>
+<area shape="rect" id="node15" href="$commit-mgr_8c.html#adaf4b74c4dba25ddaa746f4ff9221b3f" title="seaf_commit_manager_get_commit" alt="" coords="324,219,553,248"/>
+<area shape="rect" id="node19" href="$fs-mgr_8c.html#a3fbd81f579b4a8594861cbc0595595ca" title="seaf_fs_manager_get_seafdir_id_by_path" alt="" coords="308,272,569,301"/>
+<area shape="rect" id="node37" href="$seafile-4_81_82_2lib_2utils_8c.html#af64020f0be33abde6a2a076ff9808809" title="gen_uuid" alt="" coords="401,325,476,355"/>
+<area shape="rect" id="node39" href="$server_2Backups_2repo-mgr_8c.html#af227a31082c71908bf0a0ac35cfeb294" title="seaf_repo_manager_get_repo_owner" alt="" coords="321,379,556,408"/>
+<area shape="rect" id="node41" href="$server_2Backups_2repo-mgr_8c.html#a5f096821f41a339e41e9341fc0c4010d" title="seaf_repo_manager_set_repo_owner" alt="" coords="321,432,556,461"/>
+<area shape="rect" id="node43" href="$commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="372,485,505,515"/>
+<area shape="rect" id="node11" href="$seafile-crypt_8c.html#aef671f4a46b3d132f4219e55fbcb72d9" title="seafile_derive_key" alt="" coords="660,112,791,141"/>
+<area shape="rect" id="node13" href="$seafile-4_81_82_2lib_2utils_8c.html#ae947b53110fc0132e83445d76ddded09" title="rawdata_to_hex" alt="" coords="668,165,783,195"/>
+<area shape="rect" id="node17" href="$commit-mgr_8c.html#a2b1cc305cf40cb64c341a0e64d0fe921" title="seaf_commit_ref" alt="" coords="667,219,784,248"/>
+<area shape="rect" id="node21" href="$fs-mgr_8c.html#a60a96b2445ab49d626baac6b16e75fe9" title="seaf_fs_manager_path_to_obj_id" alt="" coords="619,272,832,301"/>
+<area shape="rect" id="node23" href="$fs-mgr_8c.html#a08103ffc3a5cd19b70167404c39ce3e4" title="seaf_fs_manager_get_seafdir" alt="" coords="1177,227,1369,256"/>
+<area shape="rect" id="node29" href="$fs-mgr_8c.html#a033b8831db7345eec0ff09216b63593d" title="seaf_fs_manager_get_seafdir_by_path" alt="" coords="881,272,1127,301"/>
+<area shape="rect" id="node32" href="$fs-mgr_8c.html#ae04d3c4669cd7b0fc691cd2da6dc2de1" title="seaf_dir_free" alt="" coords="1225,299,1321,328"/>
+<area shape="rect" id="node25" href="$obj-store_8c.html#a6e93a0214f9cb8a7fc837a2bc3a3c529" title="seaf_obj_store_read_obj" alt="" coords="1419,185,1581,215"/>
+<area shape="rect" id="node27" href="$fs-mgr_8c.html#a6875a119da427bb1cd9796eee916b703" title="seaf_dir_from_data" alt="" coords="1433,239,1567,268"/>
+<area shape="rect" id="node34" href="$fs-mgr_8c.html#aef77f199fa9eccfe322f1ff978a9055a" title="seaf_dirent_free" alt="" coords="1443,299,1557,328"/>
+</map>

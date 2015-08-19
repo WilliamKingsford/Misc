@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-config_8c.html#a02953f1fa5e2500d3b7d50f176a9b81e" title="seafile_session_config_get_bool" alt="" coords="239,5,449,35"/>
+<area shape="rect" id="node5" href="$seafile-config_8c.html#a0b015dc1cb0f31da2f7305bb9d4f8c3d" title="seafile_session_config_exists" alt="" coords="247,59,441,88"/>
+<area shape="rect" id="node9" href="$seafile-config_8c.html#acfe503d4b0ebbefcb0f14b6ede6e2dcc" title="seafile_session_config_set_string" alt="" coords="235,325,453,355"/>
+<area shape="rect" id="node13" href="$seafile-config_8c.html#a9980640c9959844f1380c1ae7252b9c3" title="seafile_session_config_get_string" alt="" coords="235,165,453,195"/>
+<area shape="rect" id="node15" href="$seafile-config_8c.html#a1f9c83c8876aa6909a8568fb8ce73070" title="seafile_session_config_get_int" alt="" coords="244,219,444,248"/>
+<area shape="rect" id="node17" href="$mq-mgr_8c.html#a96b186740b01126814ea4c9b855742ba" title="seaf_mq_manager_init" alt="" coords="268,272,420,301"/>
+<area shape="rect" id="node19" href="$commit-mgr_8c.html#ad6fdc75fe20bb5941a19a436742cb696" title="seaf_commit_manager_init" alt="" coords="255,379,433,408"/>
+<area shape="rect" id="node23" href="$fs-mgr_8c.html#a91dd774f96fb5cc505f423913ea730fe" title="seaf_fs_manager_init" alt="" coords="271,432,417,461"/>
+<area shape="rect" id="node26" href="$branch-mgr_8c.html#a51813bc8b0f663d8bed443e878320daa" title="seaf_branch_manager_init" alt="" coords="257,539,431,568"/>
+<area shape="rect" id="node30" href="$daemon_2Backups_2repo-mgr_8c.html#a8dab773e289d1148e7afec7c8614278a" title="seaf_repo_manager_init" alt="" coords="264,485,424,515"/>
+<area shape="rect" id="node32" href="$clone-mgr_8c.html#ad7860d1243e7f8ee8e9d3b8e6c032378" title="seaf_clone_manager_init" alt="" coords="261,112,427,141"/>
+<area shape="rect" id="node35" href="$sync-mgr_8c.html#a9778260aff4f730cf7b2da1fd2367e55" title="seaf_sync_manager_init" alt="" coords="263,592,425,621"/>
+<area shape="rect" id="node37" href="$mq-mgr_8c.html#a46fceb8aa81397a879d6c62818c9db61" title="seaf_mq_manager_set_heartbeat_name" alt="" coords="217,645,471,675"/>
+<area shape="rect" id="node7" href="$seafile-4_81_82_2lib_2db_8c.html#aceca02fb8bd317ba59939bae695d1a48" title="sqlite_check_for_existence" alt="" coords="521,59,700,88"/>
+<area shape="rect" id="node11" href="$seafile-4_81_82_2lib_2db_8c.html#a34065420d7e15be3dd4e8bff5cb51fe9" title="sqlite_query_exec" alt="" coords="548,219,673,248"/>
+<area shape="rect" id="node21" href="$obj-store_8c.html#a2a3f1a84562cb4856e94b556888e3617" title="seaf_obj_store_init" alt="" coords="545,405,676,435"/>
+<area shape="rect" id="node28" href="$cevent_8h.html#a2f0a51bf288caadf31944a151462e78c" title="cevent_manager_register" alt="" coords="527,539,695,568"/>
+</map>

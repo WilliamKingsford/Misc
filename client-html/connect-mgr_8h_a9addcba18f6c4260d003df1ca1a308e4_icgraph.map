@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$cluster-mgr_8h.html#a30909f0087dd6b6eb6a09f05f072db0a" title="ccnet_cluster_manager_remove_master" alt="" coords="356,5,609,35"/>
+<area shape="rect" id="node5" href="$peer-mgr_8c.html#a4ec0c5a67782351e692c89ce67ba6ab7" title="ccnet_peer_manager_on_peer_resolved" alt="" coords="357,59,608,88"/>
+<area shape="rect" id="node7" href="$peer-mgr_8c.html#a01a877292e14c26dd094e51ba5480880" title="ccnet_peer_manager_on_peer_resolve_failed" alt="" coords="341,112,624,141"/>
+<area shape="rect" id="node9" href="$connect-mgr_8h.html#a88a6aaf27991d5b6b339b6f33d21a777" title="ccnet_conn_manager_cancel_conn" alt="" coords="672,112,899,141"/>
+</map>

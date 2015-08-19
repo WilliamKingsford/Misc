@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-4_81_82_2lib_2utils_8c.html#a48ecdc72b727191abafbbf2ec1f70ace" title="is_uuid_valid" alt="" coords="309,5,405,35"/>
+<area shape="rect" id="node5" href="$daemon_2Backups_2repo-mgr_8c.html#af0276c036723560e3e8b9aa5529133d6" title="seaf_repo_manager_get_repo" alt="" coords="261,59,453,88"/>
+<area shape="rect" id="node7" href="$branch-mgr_8c.html#a1dffc8c3c325e4ca1daf8a5d5f4f6956" title="seaf_branch_manager_get_branch" alt="" coords="247,112,468,141"/>
+<area shape="rect" id="node9" href="$branch-mgr_8c.html#a2e44cba993ba080e7550a832f019f653" title="seaf_branch_unref" alt="" coords="293,165,421,195"/>
+<area shape="rect" id="node13" href="$fuse_2Backups_2repo-mgr_8c.html#af6bedb063685823d91f2a335c6882e07" title="seaf_repo_unref" alt="" coords="300,219,415,248"/>
+<area shape="rect" id="node15" href="$server_2Backups_2repo-mgr_8c.html#a774e0a8ea59c07c94dc8014612b3f948" title="seaf_repo_manager_get_repo_truncate_time" alt="" coords="219,272,496,301"/>
+<area shape="rect" id="node17" href="$commit-mgr_8c.html#ac6547d5546781608b39446d9a2077fed" title="seaf_commit_manager_traverse_commit_tree" alt="" coords="215,325,500,355"/>
+<area shape="rect" id="node11" href="$branch-mgr_8c.html#a449a49952dc253bd7b16367869d0ebdc" title="seaf_branch_free" alt="" coords="549,165,672,195"/>
+</map>

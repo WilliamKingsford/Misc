@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$daemon_2repo-mgr_8h.html#ab599ba29e40bdb918ac78060d1165c2d" title="seaf_repo_manager_create_new_repo" alt="" coords="137,5,380,35"/>
+<area shape="rect" id="node5" href="$daemon_2repo-mgr_8h.html#afebb8831a3f9be12c5612c5707118d3b" title="seaf_repo_manager_generate_tmp_token" alt="" coords="128,59,389,88"/>
+<area shape="rect" id="node7" href="$share-info_8h.html#a758b18fa15a2447301c183163e9b66df" title="seaf_share_info_new" alt="" coords="187,112,331,141"/>
+<area shape="rect" id="node11" href="$copy-mgr_8h.html#ae731d17024807023ab2689f9ffca5e99" title="seaf_copy_manager_add_task" alt="" coords="160,165,357,195"/>
+<area shape="rect" id="node17" href="$listen-mgr_8h.html#a1bab146578319d15c8a24e74593f1245" title="seaf_listen_manager_generate_token" alt="" coords="140,219,377,248"/>
+<area shape="rect" id="node19" href="$virtual-repo_8c.html#a9a8dcda29ee6cd28d92c1897ad12f268" title="seaf_repo_manager_create_virtual_repo" alt="" coords="132,272,385,301"/>
+<area shape="rect" id="node9" href="$share-info_8h.html#a03ddc76ea7aafe0dd11489579cbb384e" title="seaf_share_info_from_json" alt="" coords="448,112,627,141"/>
+<area shape="rect" id="node13" href="$server_2repo-mgr_8h.html#ab7eae6af688907f68212dca114549c4b" title="seaf_repo_manager_copy_file" alt="" coords="440,165,635,195"/>
+<area shape="rect" id="node15" href="$server_2repo-mgr_8h.html#a056b45d63edfafbc5287012a2a1062ec" title="seaf_repo_manager_move_file" alt="" coords="439,219,636,248"/>
+</map>

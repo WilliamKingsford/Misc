@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$monitor-rpc-wrappers_8c.html" title="seafile&#45;4.1.2/server/monitor&#45;rpc&#45;wrappers.c" alt="" coords="5,83,275,112"/>
+<area shape="rect" id="node5" href="$check-quota-common_8h.html" title="seafile&#45;4.1.2/server/processors/check&#45;quota&#45;common.h" alt="" coords="299,83,640,112"/>
+<area shape="rect" id="node9" href="$ccnet-rpc-wrapper_8c.html" title="ccnet&#45;4.1.2/lib/ccnet&#45;rpc&#45;wrapper.c" alt="" coords="664,83,885,112"/>
+<area shape="rect" id="node11" href="$ccnetrpc-transport_8c.html" title="ccnet&#45;4.1.2/lib/ccnetrpc&#45;transport.c" alt="" coords="909,83,1133,112"/>
+<area shape="rect" id="node13" href="$client-pool_8c.html" title="ccnet&#45;4.1.2/lib/client&#45;pool.c" alt="" coords="1157,83,1336,112"/>
+<area shape="rect" id="node7" href="$server_2processors_2check-tx-slave-proc_8c.html" title="seafile&#45;4.1.2/server/processors/check&#45;tx&#45;slave&#45;proc.c" alt="" coords="304,160,635,189"/>
+</map>

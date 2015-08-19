@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$ccnet-config_8h.html#acbe5be132daf47b66619988783c5ce7e" title="ccnet_session_config_open_db" alt="" coords="167,32,369,61"/>
+<area shape="rect" id="node13" href="$clone-mgr_8h.html#ae861dc0d625b2072ab3a0641a2aa6797" title="seaf_clone_manager_new" alt="" coords="181,85,355,115"/>
+<area shape="rect" id="node19" href="$seafile-config_8h.html#ab541c2f7d469edd37617d2e7c18361bd" title="seafile_session_config_open_db" alt="" coords="163,139,373,168"/>
+<area shape="rect" id="node22" href="$transfer-mgr_8h.html#a451893cddac6898ab70008a69b8fceae" title="seaf_transfer_manager_new" alt="" coords="175,192,361,221"/>
+<area shape="rect" id="node5" href="$session_8h.html#aa0bbc7572963f31cc6086df26b4ab2b4" title="ccnet_session_prepare" alt="" coords="423,32,577,61"/>
+<area shape="rect" id="node7" href="$server_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="664,5,715,35"/>
+<area shape="rect" id="node9" href="$ccnet-server_8c.html#a4bc39cfec6e5bdca15a1cfb25c94664a" title="test_ccnet_config" alt="" coords="627,59,752,88"/>
+<area shape="rect" id="node11" href="$ccnet-server_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="800,59,851,88"/>
+<area shape="rect" id="node15" href="$daemon_2seafile-session_8h.html#a3eea8fbb412edb5ff72027285edb7c72" title="seafile_session_new" alt="" coords="429,139,571,168"/>
+<area shape="rect" id="node17" href="$seaf-daemon_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="664,139,715,168"/>
+</map>

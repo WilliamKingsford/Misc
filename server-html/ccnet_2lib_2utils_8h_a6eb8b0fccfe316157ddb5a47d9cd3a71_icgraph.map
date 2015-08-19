@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$net_2common_2peer_8h.html#afd53f329ae2eaa8d97c17f0b0f05735e" title="ccnet_peer_remove_role" alt="" coords="183,5,345,35"/>
+<area shape="rect" id="node5" href="$peer-mgr_8h.html#af5c419e61b25896730c6917f9a5953e1" title="ccnet_peer_manager_remove_role" alt="" coords="395,5,616,35"/>
+<area shape="rect" id="node7" href="$rpc-service_8h.html#aae094018c7dc9ba17fa4d53eda81ee0c" title="ccnet_rpc_remove_role" alt="" coords="664,5,821,35"/>
+<area shape="rect" id="node9" href="$rpc-service_8h.html#a9b85de0fc2f785edf5666f0935c886cc" title="ccnet_start_rpc" alt="" coords="869,5,981,35"/>
+<area shape="rect" id="node11" href="$server_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1029,5,1080,35"/>
+</map>

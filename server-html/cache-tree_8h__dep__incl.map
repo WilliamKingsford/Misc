@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$vc-utils_8h.html" title="seafile/daemon/vc&#45;utils.h" alt="" coords="983,83,1148,112"/>
+<area shape="rect" id="node11" href="$merge-recursive_8c.html" title="seafile/daemon/merge&#45;recursive.c" alt="" coords="5,160,224,189"/>
+<area shape="rect" id="node15" href="$daemon_2repo-mgr_8c.html" title="seafile/daemon/repo&#45;mgr.c" alt="" coords="248,160,424,189"/>
+<area shape="rect" id="node29" href="$cache-tree_8c.html" title="seafile/common/index/cache&#45;tree.c" alt="" coords="1172,83,1396,112"/>
+<area shape="rect" id="node5" href="$fs-mgr_8c.html" title="seafile/common/fs&#45;mgr.c" alt="" coords="1275,160,1440,189"/>
+<area shape="rect" id="node7" href="$seafile_2common_2rpc-service_8c.html" title="seafile/common/rpc&#45;service.c" alt="" coords="1464,160,1656,189"/>
+<area shape="rect" id="node9" href="$clone-mgr_8c.html" title="seafile/daemon/clone&#45;mgr.c" alt="" coords="1680,160,1861,189"/>
+<area shape="rect" id="node13" href="$merge_8c.html" title="seafile/daemon/merge.c" alt="" coords="1885,160,2045,189"/>
+<area shape="rect" id="node17" href="$seaf-daemon_8c.html" title="seafile/daemon/seaf&#45;daemon.c" alt="" coords="2069,160,2269,189"/>
+<area shape="rect" id="node19" href="$seaf-test_8c.html" title="seafile/daemon/seaf&#45;test.c" alt="" coords="2293,160,2469,189"/>
+<area shape="rect" id="node21" href="$daemon_2seafile-session_8c.html" title="seafile/daemon/seafile&#45;session.c" alt="" coords="448,160,659,189"/>
+<area shape="rect" id="node23" href="$status_8c.html" title="seafile/daemon/status.c" alt="" coords="683,160,843,189"/>
+<area shape="rect" id="node25" href="$transfer-mgr_8c.html" title="seafile/daemon/transfer&#45;mgr.c" alt="" coords="867,160,1061,189"/>
+<area shape="rect" id="node27" href="$vc-utils_8c.html" title="seafile/daemon/vc&#45;utils.c" alt="" coords="1085,160,1251,189"/>
+</map>

@@ -1,0 +1,34 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$index_8c.html#a35caece3e3575d32521f820a8f0a24a7" title="index_path" alt="" coords="327,109,412,139"/>
+<area shape="rect" id="node11" href="$index_8c.html#a0f9de2761514c9136fb4b9c5541ef6f8" title="read_index_from" alt="" coords="311,56,428,85"/>
+<area shape="rect" id="node16" href="$index_8c.html#a9527d61c2cbd37e4f1691dfc0f543a5d" title="is_index_unborn" alt="" coords="312,269,427,299"/>
+<area shape="rect" id="node18" href="$commit-mgr_8c.html#adaf4b74c4dba25ddaa746f4ff9221b3f" title="seaf_commit_manager_get_commit" alt="" coords="255,323,484,352"/>
+<area shape="rect" id="node22" href="$index_8c.html#a835affdb8e7226b619f5cbf69a36db1f" title="discard_index" alt="" coords="319,376,420,405"/>
+<area shape="rect" id="node26" href="$seaf-tree-walk_8c.html#a7b310abaeb185b8918eb2a9fc843e097" title="fill_tree_descriptor" alt="" coords="305,429,433,459"/>
+<area shape="rect" id="node36" href="$commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="303,483,436,512"/>
+<area shape="rect" id="node38" href="$unpack-trees_8c.html#a37f4950a59ff1ce85ed1bf91eeea7054" title="twoway_merge" alt="" coords="315,536,424,565"/>
+<area shape="rect" id="node40" href="$seafile-crypt_8c.html#af29d9c2876336f8354c568773b40d228" title="seafile_crypt_new" alt="" coords="307,589,432,619"/>
+<area shape="rect" id="node42" href="$unpack-trees_8c.html#a5bfe365644fb33537027e988fb891e08" title="unpack_trees" alt="" coords="320,643,419,672"/>
+<area shape="rect" id="node50" href="$vc-utils_8h.html#a60f3e68c113c902bbc43e308317a259e" title="files_locked_on_windows" alt="" coords="284,696,455,725"/>
+<area shape="rect" id="node52" href="$daemon_2Backups_2repo-mgr_8c.html#abe8b32b343e5e7d2d06018e398011151" title="seaf_repo_manager_get_checkout_task" alt="" coords="243,749,496,779"/>
+<area shape="rect" id="node54" href="$vc-utils_8c.html#a4b8dc271b94740a5cb1e32827ee88d29" title="update_worktree" alt="" coords="311,803,428,832"/>
+<area shape="rect" id="node56" href="$vc-utils_8c.html#ab93fff6b962d6fd7482c95d17c8bf6eb" title="update_index" alt="" coords="320,216,419,245"/>
+<area shape="rect" id="node66" href="$unpack-trees_8c.html#a795a271a95b2bc0ef892ee87f48a0c62" title="get_unpack_trees_error_msgs" alt="" coords="271,856,468,885"/>
+<area shape="rect" id="node5" href="$seafile-4_81_82_2lib_2utils_8c.html#ad154e736c3751fe880395dff55fab739" title="seaf_util_open" alt="" coords="609,56,716,85"/>
+<area shape="rect" id="node7" href="$index_8c.html#a37ae9831253a5201f6d773a14e1da9ac" title="index_fd" alt="" coords="628,109,697,139"/>
+<area shape="rect" id="node9" href="$seafile-4_81_82_2lib_2utils_8c.html#a05f0eae648599d413d03103758473e30" title="readn" alt="" coords="900,109,953,139"/>
+<area shape="rect" id="node14" href="$seafile-4_81_82_2lib_2utils_8c.html#a09f0677ad28b98b7a85bcda57f71e7c8" title="seaf_fstat" alt="" coords="887,216,967,245"/>
+<area shape="rect" id="node20" href="$commit-mgr_8c.html#a2b1cc305cf40cb64c341a0e64d0fe921" title="seaf_commit_ref" alt="" coords="604,323,721,352"/>
+<area shape="rect" id="node24" href="$index_8c.html#a156a4ea461fcf14e0b73755b02e7e7d1" title="cache_entry_free" alt="" coords="601,376,724,405"/>
+<area shape="rect" id="node28" href="$fs-mgr_8c.html#a451e6d84cb6d10454d1f9b2b3d0205c5" title="seaf_fs_manager_get_seafdir_sorted" alt="" coords="545,429,780,459"/>
+<area shape="rect" id="node30" href="$fs-mgr_8c.html#a08103ffc3a5cd19b70167404c39ce3e4" title="seaf_fs_manager_get_seafdir" alt="" coords="831,429,1023,459"/>
+<area shape="rect" id="node32" href="$obj-store_8c.html#a6e93a0214f9cb8a7fc837a2bc3a3c529" title="seaf_obj_store_read_obj" alt="" coords="1072,403,1235,432"/>
+<area shape="rect" id="node34" href="$fs-mgr_8c.html#a6875a119da427bb1cd9796eee916b703" title="seaf_dir_from_data" alt="" coords="1087,456,1220,485"/>
+<area shape="rect" id="node44" href="$index_8c.html#a1bcae1e686ad516d8b562a214c9e2cd8" title="mark_all_ce_unused" alt="" coords="592,616,733,645"/>
+<area shape="rect" id="node46" href="$seaf-tree-walk_8c.html#a7d985aeab97fb8c4c5fecaede41fcc29" title="traverse_trees" alt="" coords="611,669,715,699"/>
+<area shape="rect" id="node48" href="$seafile-4_81_82_2lib_2utils_8c.html#a130e83c1ad29d78ef1a5b6baef1754d5" title="hex_to_rawdata" alt="" coords="869,669,984,699"/>
+<area shape="rect" id="node59" href="$seafile-4_81_82_2lib_2utils_8c.html#a822971bc55edc699449c6f6f2e03225e" title="seaf_util_create" alt="" coords="605,216,720,245"/>
+<area shape="rect" id="node61" href="$index_8c.html#a00594b344a866bd98aa1dad7d4a7b434" title="write_index" alt="" coords="619,269,707,299"/>
+<area shape="rect" id="node64" href="$seafile-4_81_82_2lib_2utils_8c.html#a46307856992913eeb741c8203cfc93c2" title="seaf_util_rename" alt="" coords="603,163,723,192"/>
+<area shape="rect" id="node68" href="$seafile-4_81_82_2lib_2utils_8c.html#af85d9a3e4ab846a6eedfb509508367f2" title="string_list_free" alt="" coords="609,856,716,885"/>
+</map>

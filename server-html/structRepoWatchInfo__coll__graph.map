@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$structWTStatus.html" title="WTStatus" alt="" coords="5,5,85,35"/>
+<area shape="rect" id="node4" href="$structRenameInfo.html" title="RenameInfo" alt="" coords="109,5,203,35"/>
+<area shape="rect" id="node6" href="$structWatchPathMapping.html" title="WatchPathMapping" alt="" coords="227,5,363,35"/>
+<area shape="rect" id="node8" href="$structEventInfo.html" title="EventInfo" alt="" coords="387,5,464,35"/>
+</map>

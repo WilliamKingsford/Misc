@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$daemon_2repo-mgr_8h.html#ab599ba29e40bdb918ac78060d1165c2d" title="seaf_repo_manager_create_new_repo" alt="" coords="165,5,408,35"/>
+<area shape="rect" id="node5" href="$server_2repo-mgr_8h.html#a11cc1a4ecd45778ea5a10af0cb72b347" title="seaf_repo_manager_get_repo_ex" alt="" coords="180,59,393,88"/>
+<area shape="rect" id="node7" href="$server_2gc_2gc-core_8h.html#a89378311db5ca65ebc46d5cefec957fd" title="gc_core_run" alt="" coords="519,5,612,35"/>
+<area shape="rect" id="node9" href="$server_2gc_2repo-mgr_8h.html#a2272730e6465361e0e715fa029ace947" title="seaf_repo_manager_get_repo_list" alt="" coords="457,59,673,88"/>
+<area shape="rect" id="node11" href="$verify_8h.html#ac9054d2eed9bb3a221b531f65b5cf0f5" title="verify_repos" alt="" coords="519,112,612,141"/>
+</map>

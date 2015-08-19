@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$daemon_2repo-mgr_8c.html#af0276c036723560e3e8b9aa5529133d6" title="seaf_repo_manager_get_repo" alt="" coords="435,59,627,88"/>
+<area shape="rect" id="node5" href="$repo_8c.html#aa79b3385c8305b8896783034e9aed0c0" title="seafile_repo_new" alt="" coords="223,7,345,36"/>
+<area shape="rect" id="node9" href="$seafile_2common_2rpc-service_8c.html#a3e4e9d217daa4c70314c43c6065a57ea" title="seafile_repo_last_modify" alt="" coords="201,139,367,168"/>
+<area shape="rect" id="node7" href="$repo_8c.html#a03e31b82f268bd08b3dd2af8fe35d78b" title="seafile_repo_construct" alt="" coords="455,5,607,35"/>
+<area shape="rect" id="node12" href="$branch-mgr_8c.html#a1dffc8c3c325e4ca1daf8a5d5f4f6956" title="seaf_branch_manager_get_branch" alt="" coords="420,219,641,248"/>
+<area shape="rect" id="node14" href="$branch-mgr_8c.html#a2e44cba993ba080e7550a832f019f653" title="seaf_branch_unref" alt="" coords="467,272,595,301"/>
+<area shape="rect" id="node18" href="$commit-mgr_8c.html#adaf4b74c4dba25ddaa746f4ff9221b3f" title="seaf_commit_manager_get_commit" alt="" coords="416,112,645,141"/>
+<area shape="rect" id="node22" href="$commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="464,165,597,195"/>
+<area shape="rect" id="node16" href="$branch-mgr_8c.html#a449a49952dc253bd7b16367869d0ebdc" title="seaf_branch_free" alt="" coords="693,272,816,301"/>
+<area shape="rect" id="node20" href="$commit-mgr_8c.html#a2b1cc305cf40cb64c341a0e64d0fe921" title="seaf_commit_ref" alt="" coords="696,112,813,141"/>
+</map>

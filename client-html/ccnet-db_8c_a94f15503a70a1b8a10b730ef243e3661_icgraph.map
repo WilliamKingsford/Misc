@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$ccnet-db_8c.html#aaba43ea2a43a1d775e07260d9de238ca" title="ccnet_db_get_int" alt="" coords="287,5,407,35"/>
+<area shape="rect" id="node5" href="$ccnet-db_8c.html#afab5a66390bb7bb18bf7995640e28138" title="ccnet_db_statement_get_int" alt="" coords="253,59,440,88"/>
+<area shape="rect" id="node7" href="$org-mgr_8h.html#a89846be9f97b47dc48d78843fd91cc00" title="ccnet_org_manager_create_org" alt="" coords="519,5,721,35"/>
+<area shape="rect" id="node9" href="$org-mgr_8h.html#aa12458c7f6a3ce41bf14681f150edef7" title="ccnet_org_manager_get_org_id_by_group" alt="" coords="489,59,751,88"/>
+<area shape="rect" id="node11" href="$org-mgr_8h.html#a4b2438854670dfad1311dcbcabfe8b5f" title="ccnet_org_manager_is_org_staff" alt="" coords="515,112,725,141"/>
+</map>

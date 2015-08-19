@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$quota-mgr_8h.html#ae10caa81f529a80e3729b9a050666302" title="seaf_quota_manager_check_quota" alt="" coords="303,5,527,35"/>
+<area shape="rect" id="node5" href="$repo-perm_8c.html#a6a318e5a5bcb0d46286030040ab6e23b" title="seaf_repo_manager_check_permission" alt="" coords="291,59,539,88"/>
+<area shape="rect" id="node9" href="$virtual-repo_8c.html#a9a8dcda29ee6cd28d92c1897ad12f268" title="seaf_repo_manager_create_virtual_repo" alt="" coords="288,112,541,141"/>
+<area shape="rect" id="node7" href="$repo-perm_8c.html#adcbb183301f879ab82eea84aaf8d88b6" title="seaf_repo_manager_list_dir_with_perm" alt="" coords="589,59,837,88"/>
+</map>

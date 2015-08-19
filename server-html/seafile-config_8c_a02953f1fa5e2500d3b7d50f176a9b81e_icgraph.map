@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-config_8h.html#adfb95469d4c47a60ad25400c3e2a9f96" title="seafile_session_config_get_allow_invalid_worktree" alt="" coords="293,5,611,35"/>
+<area shape="rect" id="node7" href="$seafile-config_8h.html#a5be93c260e0210720f0cf25cac2fa8b6" title="seafile_session_config_get_allow_repo_not_found_on_server" alt="" coords="264,59,640,88"/>
+<area shape="rect" id="node9" href="$daemon_2seafile-session_8h.html#abe136340477380edec6a5deba0ff8e1a" title="seafile_session_prepare" alt="" coords="371,112,533,141"/>
+<area shape="rect" id="node5" href="$seafile_2common_2rpc-service_8c.html#a37949d30db3977c8fbb573881173987b" title="seafile_get_repo" alt="" coords="688,5,805,35"/>
+<area shape="rect" id="node11" href="$seaf-daemon_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="721,112,772,141"/>
+</map>

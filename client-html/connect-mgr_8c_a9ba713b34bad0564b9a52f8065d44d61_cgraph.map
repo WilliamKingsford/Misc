@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$net_2common_2packet-io_8c.html#ad67aa84f71fcf0ab71d423173ca75c45" title="ccnet_packet_io_new_incoming" alt="" coords="289,19,495,48"/>
+<area shape="rect" id="node9" href="$handshake_8c.html#a6bbd87e24770a27b4d55e26d09d30a86" title="ccnet_handshake_new" alt="" coords="315,99,469,128"/>
+<area shape="rect" id="node5" href="$lib_2packet-io_8c.html#a8d51886e565c60205d7e24a2e1fecbfa" title="ccnet_packet_io_new" alt="" coords="584,5,731,35"/>
+<area shape="rect" id="node7" href="$buffer_8c.html#a515f33707495a7e78c527659c6461326" title="buffer_new" alt="" coords="820,5,905,35"/>
+<area shape="rect" id="node11" href="$net_2common_2packet-io_8c.html#a4a567e07862f0c9ecd5b8021090951e7" title="ccnet_packet_io_set_timeout_secs" alt="" coords="544,59,771,88"/>
+<area shape="rect" id="node13" href="$net_2common_2packet-io_8c.html#aa3addd82109330941df17f39ef0376fc" title="ccnet_packet_io_set_iofuncs" alt="" coords="563,112,752,141"/>
+<area shape="rect" id="node15" href="$net_2common_2packet-io_8c.html#aaf98745602b9fea63216afefff1545f3" title="ccnet_packet_io_is_incoming" alt="" coords="561,165,753,195"/>
+</map>

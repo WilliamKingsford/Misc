@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$daemon_2repo-mgr_8c.html#a4b2497e6cdde50c4ce3cb642370e06eb" title="seaf_repo_manager_repo_exists" alt="" coords="247,5,457,35"/>
+<area shape="rect" id="node5" href="$daemon_2repo-mgr_8c.html#a93b2f3d8f0964708f8fb0450fded2a42" title="seaf_repo_manager_set_repo_lantoken" alt="" coords="228,59,476,88"/>
+<area shape="rect" id="node7" href="$seafile_2lib_2db_8c.html#a34065420d7e15be3dd4e8bff5cb51fe9" title="sqlite_query_exec" alt="" coords="527,59,652,88"/>
+</map>

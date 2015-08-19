@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile_2lib_2utils_8c.html#af64020f0be33abde6a2a076ff9808809" title="gen_uuid" alt="" coords="376,5,451,35"/>
+<area shape="rect" id="node5" href="$seafile-crypt_8c.html#a4f67d65d3f21019477c1a0d8d7ec2477" title="seafile_generate_magic" alt="" coords="335,59,492,88"/>
+<area shape="rect" id="node11" href="$seafile-crypt_8c.html#ae58dda89366c1a52a611cee06b487f89" title="seafile_generate_random_key" alt="" coords="316,112,511,141"/>
+<area shape="rect" id="node19" href="$server_2repo-mgr_8c.html#a5f096821f41a339e41e9341fc0c4010d" title="seaf_repo_manager_set_repo_owner" alt="" coords="296,272,531,301"/>
+<area shape="rect" id="node7" href="$seafile-crypt_8c.html#aef671f4a46b3d132f4219e55fbcb72d9" title="seafile_derive_key" alt="" coords="611,5,741,35"/>
+<area shape="rect" id="node9" href="$seafile_2lib_2utils_8c.html#ae947b53110fc0132e83445d76ddded09" title="rawdata_to_hex" alt="" coords="619,59,733,88"/>
+<area shape="rect" id="node14" href="$seafile-crypt_8c.html#af29d9c2876336f8354c568773b40d228" title="seafile_crypt_new" alt="" coords="613,112,739,141"/>
+<area shape="rect" id="node16" href="$seafile-crypt_8c.html#a153a2146ed90b98ccdb91da4bc343016" title="seafile_encrypt" alt="" coords="621,165,731,195"/>
+<area shape="rect" id="node21" href="$seaf-db_8c.html#ae183a9c45ec082962bdd361491b0a8cb" title="seaf_db_type" alt="" coords="627,219,725,248"/>
+<area shape="rect" id="node23" href="$seaf-db_8c.html#a6410cd243563343861ba3c6c16fc06a7" title="seaf_db_check_for_existence" alt="" coords="579,272,773,301"/>
+<area shape="rect" id="node25" href="$seaf-db_8c.html#a07daa0cca6663aa1fde0faca4b77969d" title="seaf_db_query" alt="" coords="623,325,729,355"/>
+<area shape="rect" id="node27" href="$seaf-db_8c.html#a5b034a1fc119b2c3a989a03e7bb220e5" title="seaf_db_statement_query" alt="" coords="591,379,761,408"/>
+<area shape="rect" id="node29" href="$seaf-db_8c.html#a022621519c8205275746dafb4801013a" title="seaf_db_prepare_statement" alt="" coords="823,352,1004,381"/>
+<area shape="rect" id="node31" href="$seaf-db_8c.html#a0cb484988d9e1c156227b99eba482e3c" title="seaf_db_statement_free" alt="" coords="832,405,995,435"/>
+</map>

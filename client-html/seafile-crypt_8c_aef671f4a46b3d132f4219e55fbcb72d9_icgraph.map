@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-crypt_8h.html#ae58dda89366c1a52a611cee06b487f89" title="seafile_generate_random_key" alt="" coords="187,12,381,41"/>
+<area shape="rect" id="node7" href="$seafile-crypt_8h.html#a4f67d65d3f21019477c1a0d8d7ec2477" title="seafile_generate_magic" alt="" coords="205,79,363,108"/>
+<area shape="rect" id="node10" href="$seafile-crypt_8h.html#a9ada7f42f1f31b91dabdc5edde6b73f9" title="seafile_verify_repo_passwd" alt="" coords="193,159,375,188"/>
+<area shape="rect" id="node24" href="$seafile-crypt_8h.html#af0dc7b06b352baa5469b21beec40f73a" title="seafile_decrypt_repo_enc_key" alt="" coords="185,239,383,268"/>
+<area shape="rect" id="node33" href="$seafile-crypt_8h.html#ae088f5ba8cee3dc96073da2bd1d1f65f" title="seafile_update_random_key" alt="" coords="192,292,376,321"/>
+<area shape="rect" id="node5" href="$server_2repo-mgr_8h.html#a3706de93ba77e5068dba6a1dd073a0fd" title="seaf_repo_manager_create_new_repo" alt="" coords="443,5,685,35"/>
+<area shape="rect" id="node12" href="$clone-mgr_8h.html#a6b3ef937f8308db69c87bb650cb42fe9" title="seaf_clone_manager_add_task" alt="" coords="463,59,665,88"/>
+<area shape="rect" id="node16" href="$clone-mgr_8h.html#ab6b5a2b4f13b382b9c7034131fa92783" title="seaf_clone_manager_add_download_task" alt="" coords="432,112,696,141"/>
+<area shape="rect" id="node20" href="$passwd-mgr_8h.html#a423fa6bdd74869a9d46a706ecd7790da" title="seaf_passwd_manager_set_passwd" alt="" coords="448,219,680,248"/>
+<area shape="rect" id="node22" href="$virtual-repo_8c.html#a9a8dcda29ee6cd28d92c1897ad12f268" title="seaf_repo_manager_create_virtual_repo" alt="" coords="437,165,691,195"/>
+<area shape="rect" id="node14" href="$seafile-rpc_8h.html#aca75772f76f8eafb2b08a023cd476f65" title="seafile_clone" alt="" coords="756,59,855,88"/>
+<area shape="rect" id="node18" href="$seafile-rpc_8h.html#a704ca859f1a1f7044c27b27982658672" title="seafile_download" alt="" coords="744,112,867,141"/>
+<area shape="rect" id="node26" href="$daemon_2repo-mgr_8h.html#a77e557bb1fedd648a109ab5d9bff5ef4" title="seaf_repo_index_worktree_files" alt="" coords="461,272,667,301"/>
+<area shape="rect" id="node28" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="463,325,665,355"/>
+<area shape="rect" id="node30" href="$daemon_2repo-mgr_8h.html#a683d25df06076d282da2f7ae01e05a49" title="seaf_repo_manager_set_repo_passwd" alt="" coords="441,379,687,408"/>
+</map>

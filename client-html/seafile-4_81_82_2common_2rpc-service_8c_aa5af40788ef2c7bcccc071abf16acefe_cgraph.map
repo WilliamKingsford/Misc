@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$daemon_2Backups_2repo-mgr_8c.html#af0276c036723560e3e8b9aa5529133d6" title="seaf_repo_manager_get_repo" alt="" coords="255,5,447,35"/>
+<area shape="rect" id="node5" href="$sync-mgr_8c.html#afb758dbde64ac4505ad259f95601d45e" title="seaf_sync_manager_get_sync_info" alt="" coords="237,59,464,88"/>
+<area shape="rect" id="node7" href="$sync-mgr_8c.html#ae2fef6674a65dc768d3a1c0c8a760020" title="sync_state_to_str" alt="" coords="288,112,413,141"/>
+<area shape="rect" id="node9" href="$sync-mgr_8c.html#ae811eab4103ac4fc768be073c7847565" title="sync_error_to_str" alt="" coords="289,165,412,195"/>
+</map>

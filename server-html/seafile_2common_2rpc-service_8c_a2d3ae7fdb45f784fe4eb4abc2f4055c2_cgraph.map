@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$daemon_2repo-mgr_8c.html#ae3753999b4845dfe68bd6f098313280c" title="seaf_repo_manager_update_repos_server_host" alt="" coords="275,85,571,115"/>
+<area shape="rect" id="node5" href="$daemon_2repo-mgr_8c.html#a5fe41fb7382995f3f335e408ba4ddb30" title="seaf_repo_manager_get_repo_list" alt="" coords="639,5,855,35"/>
+<area shape="rect" id="node7" href="$daemon_2repo-mgr_8c.html#a018177d17e765b6b8519f6537650e1cc" title="seaf_repo_manager_get_repo_relay_info" alt="" coords="619,59,875,88"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8c.html#a8539157b5ddbb1e183886ac3f03b0f0d" title="seaf_repo_manager_set_repo_relay_info" alt="" coords="619,112,875,141"/>
+<area shape="rect" id="node11" href="$daemon_2repo-mgr_8c.html#a9d2f586c85f26b2de677fd03606103aa" title="seaf_repo_manager_set_repo_property" alt="" coords="624,165,869,195"/>
+<area shape="rect" id="node13" href="$daemon_2repo-mgr_8c.html#af0276c036723560e3e8b9aa5529133d6" title="seaf_repo_manager_get_repo" alt="" coords="952,59,1144,88"/>
+<area shape="rect" id="node15" href="$wt-monitor_8c.html#aa6375a36881f0c171399a5116e64f061" title="seaf_wt_monitor_watch_repo" alt="" coords="952,112,1144,141"/>
+<area shape="rect" id="node17" href="$wt-monitor_8c.html#af6eb142936b07efb92d6b4e6ef650f64" title="seaf_wt_monitor_unwatch_repo" alt="" coords="945,165,1151,195"/>
+<area shape="rect" id="node19" href="$sync-mgr_8c.html#a0b90f2ae7c7e7a85ae97b7ade254572a" title="seaf_sync_manager_cancel_sync_task" alt="" coords="923,219,1173,248"/>
+<area shape="rect" id="node25" href="$daemon_2repo-mgr_8c.html#ad2263393047e4ea1f5226842b11e7b05" title="seaf_repo_manager_set_repo_relay_id" alt="" coords="925,272,1171,301"/>
+<area shape="rect" id="node21" href="$transfer-mgr_8c.html#af834de917c22d13996383431bef032a0" title="seaf_transfer_manager_cancel_task" alt="" coords="1221,192,1453,221"/>
+<area shape="rect" id="node23" href="$http-tx-mgr_8c.html#a1333f1b023ba910df52c75f6ec51c41d" title="http_tx_manager_cancel_task" alt="" coords="1240,245,1435,275"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$diff-simple_8h.html#a3d936e2ea0a740cbdc9bbab7113b3742" title="diff_resolve_renames" alt="" coords="205,112,352,141"/>
+<area shape="rect" id="node18" href="$status_8h.html#ae9ecb4f4ad21d7ff69f36e16cc6996de" title="wt_status_collect_untracked" alt="" coords="185,165,372,195"/>
+<area shape="rect" id="node22" href="$status_8h.html#aedde1fa2f15b7c6a05b14c2dcc04f6be" title="wt_status_collect_changes_worktree" alt="" coords="160,219,397,248"/>
+<area shape="rect" id="node25" href="$status_8h.html#a5aaef0b3a73d20b9f422c9d39f0a2325" title="wt_status_collect_changes_index" alt="" coords="169,272,388,301"/>
+<area shape="rect" id="node5" href="$diff-simple_8h.html#a9e9cbe6847c88fc7bca7035f45a0a50e" title="diff_commits" alt="" coords="503,5,599,35"/>
+<area shape="rect" id="node9" href="$diff-simple_8h.html#a76134c9482b81d9ff5455eac2765a656" title="diff_commit_roots" alt="" coords="488,112,613,141"/>
+<area shape="rect" id="node13" href="$diff-simple_8h.html#a8c800ee63c23c5ff78d838974f678e47" title="diff_merge" alt="" coords="509,59,592,88"/>
+<area shape="rect" id="node16" href="$diff-simple_8h.html#aaad6d753f728db61f274e7ce8ec70e97" title="diff_merge_roots" alt="" coords="492,165,609,195"/>
+<area shape="rect" id="node7" href="$repo-op_8c.html#ab69fe2104c734bb5d32b025e3f444736" title="seaf_repo_diff" alt="" coords="753,32,857,61"/>
+<area shape="rect" id="node11" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="704,112,907,141"/>
+<area shape="rect" id="node20" href="$daemon_2repo-mgr_8h.html#a461e72948bba5928329e269ad395e293" title="seaf_repo_is_worktree_changed" alt="" coords="447,219,655,248"/>
+</map>

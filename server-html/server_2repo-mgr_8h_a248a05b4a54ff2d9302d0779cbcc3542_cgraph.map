@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2repo-mgr_8c.html#a77f4492f1c388625ccf09d84f053913f" title="should_ignore_file" alt="" coords="369,5,495,35"/>
+<area shape="rect" id="node5" href="$passwd-mgr_8c.html#a4f5b6064abbc55dff4873b288e4ea834" title="seaf_passwd_manager_get_decrypt_key_raw" alt="" coords="289,59,575,88"/>
+<area shape="rect" id="node7" href="$seafile-crypt_8c.html#af29d9c2876336f8354c568773b40d228" title="seafile_crypt_new" alt="" coords="369,112,495,141"/>
+<area shape="rect" id="node9" href="$fs-mgr_8c.html#af41e85bce809b9f05ed5b20ac5eeb745" title="seaf_fs_manager_index_blocks" alt="" coords="329,165,535,195"/>
+<area shape="rect" id="node29" href="$seafile_2lib_2utils_8c.html#ae947b53110fc0132e83445d76ddded09" title="rawdata_to_hex" alt="" coords="375,219,489,248"/>
+<area shape="rect" id="node31" href="$server_2repo-mgr_8h.html#a30755ff2c01595d4927715310beaee04" title="seaf_repo_manager_merge_virtual_repo" alt="" coords="305,272,559,301"/>
+<area shape="rect" id="node37" href="$seafile_2lib_2utils_8c.html#af85d9a3e4ab846a6eedfb509508367f2" title="string_list_free" alt="" coords="731,352,837,381"/>
+<area shape="rect" id="node39" href="$fuse_2repo-mgr_8c.html#af6bedb063685823d91f2a335c6882e07" title="seaf_repo_unref" alt="" coords="375,376,489,405"/>
+<area shape="rect" id="node41" href="$commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="365,429,499,459"/>
+<area shape="rect" id="node11" href="$seafile_2lib_2utils_8c.html#ab46893ad4a68049bcd80eac8dcc2e299" title="seaf_stat" alt="" coords="747,32,821,61"/>
+<area shape="rect" id="node13" href="$fs-mgr_8c.html#a056e47c5aca021aae437a764b3bc7c29" title="calculate_chunk_size" alt="" coords="711,85,857,115"/>
+<area shape="rect" id="node15" href="$fs-mgr_8c.html#a7182f3f9fdba2447f48c1978deea35d5" title="seafile_write_chunk" alt="" coords="716,139,852,168"/>
+<area shape="rect" id="node19" href="$cdc_8c.html#ab0a7b062dc6ce4e3f4963c6cad019e8e" title="filename_chunk_cdc" alt="" coords="713,192,855,221"/>
+<area shape="rect" id="node17" href="$seafile-crypt_8c.html#a153a2146ed90b98ccdb91da4bc343016" title="seafile_encrypt" alt="" coords="993,139,1103,168"/>
+<area shape="rect" id="node21" href="$seafile_2lib_2utils_8c.html#ad154e736c3751fe880395dff55fab739" title="seaf_util_open" alt="" coords="995,192,1101,221"/>
+<area shape="rect" id="node23" href="$cdc_8c.html#a80122178012f79fd76191c3a4787ec82" title="file_chunk_cdc" alt="" coords="993,245,1103,275"/>
+<area shape="rect" id="node25" href="$seafile_2lib_2utils_8c.html#a09f0677ad28b98b7a85bcda57f71e7c8" title="seaf_fstat" alt="" coords="1152,219,1232,248"/>
+<area shape="rect" id="node27" href="$seafile_2lib_2utils_8c.html#a05f0eae648599d413d03103758473e30" title="readn" alt="" coords="1165,272,1219,301"/>
+<area shape="rect" id="node33" href="$fuse_2repo-mgr_8c.html#a0b9efffb3301d72133b4a3fdd28fc69c" title="seaf_repo_manager_is_virtual_repo" alt="" coords="671,245,897,275"/>
+<area shape="rect" id="node35" href="$server_2gc_2repo-mgr_8c.html#a0e2fecd8fae5355455342e43f6588967" title="seaf_repo_manager_get_virtual_repo_ids_by_origin" alt="" coords="625,299,943,328"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2repo-mgr_8c.html#a77f4492f1c388625ccf09d84f053913f" title="should_ignore_file" alt="" coords="343,5,468,35"/>
+<area shape="rect" id="node5" href="$fs-mgr_8c.html#a562e73b605551b411fc8ccd333e26d36" title="seaf_fs_manager_index_file_blocks" alt="" coords="291,59,520,88"/>
+<area shape="rect" id="node7" href="$seafile_2lib_2utils_8c.html#ae947b53110fc0132e83445d76ddded09" title="rawdata_to_hex" alt="" coords="348,112,463,141"/>
+<area shape="rect" id="node9" href="$fs-mgr_8c.html#a07b91f8db9de0262970252a95f5e9f2f" title="seaf_dirent_new" alt="" coords="347,165,464,195"/>
+<area shape="rect" id="node11" href="$fs-mgr_8c.html#aed9f5302d562729d419a4ef8f60ffbd1" title="dir_version_from_repo_version" alt="" coords="307,219,504,248"/>
+<area shape="rect" id="node13" href="$fuse_2repo-mgr_8c.html#af6bedb063685823d91f2a335c6882e07" title="seaf_repo_unref" alt="" coords="348,272,463,301"/>
+<area shape="rect" id="node15" href="$commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="339,325,472,355"/>
+<area shape="rect" id="node17" href="$seafile_2lib_2utils_8c.html#af85d9a3e4ab846a6eedfb509508367f2" title="string_list_free" alt="" coords="352,379,459,408"/>
+<area shape="rect" id="node19" href="$fs-mgr_8c.html#aef77f199fa9eccfe322f1ff978a9055a" title="seaf_dirent_free" alt="" coords="348,432,463,461"/>
+</map>

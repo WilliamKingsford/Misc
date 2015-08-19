@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-4_81_82_2lib_2db_8c.html#aceca02fb8bd317ba59939bae695d1a48" title="sqlite_check_for_existence" alt="" coords="295,5,473,35"/>
+<area shape="rect" id="node5" href="$seaf-db_8c.html#af77a76302b3316a4d71e418de27843c4" title="seaf_db_statement_exists" alt="" coords="297,59,471,88"/>
+<area shape="rect" id="node7" href="$seaf-db_8c.html#a022621519c8205275746dafb4801013a" title="seaf_db_prepare_statement" alt="" coords="524,32,705,61"/>
+<area shape="rect" id="node9" href="$seaf-db_8c.html#a0cb484988d9e1c156227b99eba482e3c" title="seaf_db_statement_free" alt="" coords="533,85,696,115"/>
+</map>

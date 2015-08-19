@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$mainloop_8c.html#a431e05069ff47a725a9b74aaa9ccefa7" title="ccnet_register_service" alt="" coords="313,5,465,35"/>
+<area shape="rect" id="node5" href="$lib_2proc-factory_8c.html#aeeab9109cdc426040a4d6dba16ca4534" title="ccnet_proc_factory_new" alt="" coords="308,59,471,88"/>
+<area shape="rect" id="node7" href="$rpc-service_8h.html#a9b85de0fc2f785edf5666f0935c886cc" title="ccnet_start_rpc" alt="" coords="333,112,445,141"/>
+<area shape="rect" id="node11" href="$clone-mgr_8h.html#af1cec3356abdd2c8a92e8edc7ae79269" title="seaf_clone_manager_start" alt="" coords="303,165,476,195"/>
+<area shape="rect" id="node13" href="$sync-mgr_8h.html#a6b94a19a3cc3b20b29af0ae1e42abe4b" title="seaf_sync_manager_start" alt="" coords="304,219,475,248"/>
+<area shape="rect" id="node9" href="$server_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="525,112,576,141"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fs-mgr_8c.html#ae47ee4428331afd6b9cbf2fa47ecb923" title="seaf_fs_manager_get_dirent_by_path" alt="" coords="263,97,500,127"/>
+<area shape="rect" id="node16" href="$fs-mgr_8c.html#aef77f199fa9eccfe322f1ff978a9055a" title="seaf_dirent_free" alt="" coords="1112,156,1227,185"/>
+<area shape="rect" id="node5" href="$fs-mgr_8c.html#a08103ffc3a5cd19b70167404c39ce3e4" title="seaf_fs_manager_get_seafdir" alt="" coords="847,19,1039,48"/>
+<area shape="rect" id="node11" href="$fs-mgr_8c.html#a033b8831db7345eec0ff09216b63593d" title="seaf_fs_manager_get_seafdir_by_path" alt="" coords="551,45,796,75"/>
+<area shape="rect" id="node14" href="$fs-mgr_8c.html#ae04d3c4669cd7b0fc691cd2da6dc2de1" title="seaf_dir_free" alt="" coords="895,97,991,127"/>
+<area shape="rect" id="node18" href="$fs-mgr_8c.html#a7e727c1c389bfe65ec011d0adcf8e567" title="seaf_dirent_dup" alt="" coords="616,149,731,179"/>
+<area shape="rect" id="node7" href="$obj-store_8c.html#a6e93a0214f9cb8a7fc837a2bc3a3c529" title="seaf_obj_store_read_obj" alt="" coords="1088,5,1251,35"/>
+<area shape="rect" id="node9" href="$fs-mgr_8c.html#a6875a119da427bb1cd9796eee916b703" title="seaf_dir_from_data" alt="" coords="1103,59,1236,88"/>
+</map>

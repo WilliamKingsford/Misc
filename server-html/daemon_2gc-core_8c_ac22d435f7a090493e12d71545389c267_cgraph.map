@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$block-mgr_8c.html#a7264f752a213e896e9a2906960fecbac" title="seaf_block_manager_get_block_number" alt="" coords="153,5,407,35"/>
+<area shape="rect" id="node5" href="$block-mgr_8c.html#a3509f9cacf52f38936e99c58ab22d59c" title="seaf_block_manager_foreach_block" alt="" coords="460,32,689,61"/>
+<area shape="rect" id="node7" href="$transfer-mgr_8h.html#a3ec61ba6bd4176830ad7bfab22c42071" title="seaf_transfer_manager_get_clone_heads" alt="" coords="151,109,409,139"/>
+<area shape="rect" id="node10" href="$seafile_2lib_2bloom-filter_8c.html#a6d246a7c4216612be67f82419a1a37b8" title="bloom_destroy" alt="" coords="227,163,333,192"/>
+</map>

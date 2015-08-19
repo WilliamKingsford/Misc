@@ -1,0 +1,25 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$group-mgr_8h.html#ac326fac31acae81dc4987617b14b0462" title="ccnet_group_manager_remove_group" alt="" coords="253,5,491,35"/>
+<area shape="rect" id="node5" href="$group-mgr_8h.html#a2bd639f137a51dbfa7d8ba61032e3433" title="ccnet_group_manager_add_member" alt="" coords="256,59,488,88"/>
+<area shape="rect" id="node7" href="$group-mgr_8h.html#a41327853ce36a98e100a622ed2fa948d" title="ccnet_group_manager_remove_member" alt="" coords="245,112,499,141"/>
+<area shape="rect" id="node9" href="$group-mgr_8h.html#a06f5e72384081e3c0c7e48dd6fa3ceff" title="ccnet_group_manager_set_admin" alt="" coords="264,165,480,195"/>
+<area shape="rect" id="node11" href="$group-mgr_8h.html#afb25cd96c0f4866fbc86d9b247039cba" title="ccnet_group_manager_unset_admin" alt="" coords="257,219,487,248"/>
+<area shape="rect" id="node13" href="$group-mgr_8h.html#a060d3cf8d91dc139637b8ff9d36a81c8" title="ccnet_group_manager_set_group_name" alt="" coords="245,272,499,301"/>
+<area shape="rect" id="node15" href="$group-mgr_8h.html#a287c4e6808d86fcf7734b19ecbb4464d" title="ccnet_group_manager_quit_group" alt="" coords="264,325,480,355"/>
+<area shape="rect" id="node17" href="$group-mgr_8h.html#a39aab5f35db16e0e0c62e63b927eeb87" title="ccnet_group_manager_remove_group_user" alt="" coords="237,379,507,408"/>
+<area shape="rect" id="node19" href="$group-mgr_8h.html#aeef9d1f473bd3a7a7b969675bd43d096" title="ccnet_group_manager_set_group_creator" alt="" coords="241,432,503,461"/>
+<area shape="rect" id="node21" href="$org-mgr_8h.html#a89846be9f97b47dc48d78843fd91cc00" title="ccnet_org_manager_create_org" alt="" coords="271,485,473,515"/>
+<area shape="rect" id="node23" href="$org-mgr_8h.html#a752e8370b7660ce6c90247ba2d633d50" title="ccnet_org_manager_remove_org" alt="" coords="267,539,477,568"/>
+<area shape="rect" id="node25" href="$org-mgr_8h.html#aa12537c91212d4f2d13a0e2796f5287e" title="ccnet_org_manager_add_org_user" alt="" coords="261,592,483,621"/>
+<area shape="rect" id="node27" href="$org-mgr_8h.html#a48af50d87695d90a6044976fdc055d83" title="ccnet_org_manager_remove_org_user" alt="" coords="251,645,493,675"/>
+<area shape="rect" id="node29" href="$org-mgr_8h.html#a907f1cc5e7c90eb9f169a6ba92cdb4ff" title="ccnet_org_manager_add_org_group" alt="" coords="259,699,485,728"/>
+<area shape="rect" id="node33" href="$org-mgr_8h.html#a71773114c3354d04816014bf7bce9a7e" title="ccnet_org_manager_remove_org_group" alt="" coords="247,752,497,781"/>
+<area shape="rect" id="node35" href="$org-mgr_8h.html#a429b1c2ba64d4c8b0e58fa1c17e272d8" title="ccnet_org_manager_set_org_staff" alt="" coords="263,805,481,835"/>
+<area shape="rect" id="node37" href="$org-mgr_8h.html#a90cc11cef543afea13c4cf9bd8278fb8" title="ccnet_org_manager_unset_org_staff" alt="" coords="256,859,488,888"/>
+<area shape="rect" id="node39" href="$org-mgr_8h.html#ae4367a9aa738ede540f7023248ebf6ab" title="ccnet_org_manager_set_org_name" alt="" coords="260,912,484,941"/>
+<area shape="rect" id="node41" href="$user-mgr_8h.html#ad4eaeff41e5c24da6a49177840e533c1" title="ccnet_user_manager_add_emailuser" alt="" coords="255,965,489,995"/>
+<area shape="rect" id="node43" href="$user-mgr_8h.html#a0d0c9d2101ed6e16acc65ddcdc4a797c" title="ccnet_user_manager_remove_emailuser" alt="" coords="244,1019,500,1048"/>
+<area shape="rect" id="node45" href="$user-mgr_8h.html#abb870a7a59c93af459787f881553570d" title="ccnet_user_manager_update_emailuser" alt="" coords="247,1072,497,1101"/>
+<area shape="rect" id="node47" href="$user-mgr_8h.html#ac0113bde4d7c7d456c17c96e5301c0fb" title="ccnet_user_manager_update_role_emailuser" alt="" coords="232,1125,512,1155"/>
+<area shape="rect" id="node31" href="$group-mgr_8h.html#ad4ac253e6b848150520445f0a3c7a313" title="ccnet_group_manager_create_org_group" alt="" coords="561,699,817,728"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$daemon_2Backups_2repo-mgr_8c.html#ac0e4e52af419d42f34ce53d368777070" title="seaf_repo_manager_get_merge_info" alt="" coords="179,5,411,35"/>
+<area shape="rect" id="node5" href="$commit-mgr_8c.html#adaf4b74c4dba25ddaa746f4ff9221b3f" title="seaf_commit_manager_get_commit" alt="" coords="180,59,409,88"/>
+<area shape="rect" id="node9" href="$daemon_2Backups_2repo-mgr_8c.html#a79db93d798035e3e07f48c2ad32d87f1" title="seaf_repo_is_index_unmerged" alt="" coords="196,112,393,141"/>
+<area shape="rect" id="node11" href="$daemon_2Backups_2repo-mgr_8c.html#a04253ac87d4466bd4e2abd1e312a1663" title="seaf_repo_manager_clear_merge" alt="" coords="188,165,401,195"/>
+<area shape="rect" id="node13" href="$vc-common_8c.html#adcc47b29e4aaa95df610b699b0409f8e" title="get_merge_base" alt="" coords="236,219,353,248"/>
+<area shape="rect" id="node15" href="$daemon_2Backups_2repo-mgr_8c.html#a2e382a4324579845c975befc11cccda2" title="seaf_repo_manager_set_merge" alt="" coords="193,272,396,301"/>
+<area shape="rect" id="node17" href="$daemon_2Backups_2repo-mgr_8c.html#a7923c5fb7b957a121f1b2616a8d66745" title="seaf_repo_checkout_commit" alt="" coords="200,325,389,355"/>
+<area shape="rect" id="node19" href="$branch-mgr_8c.html#a7a776ebd084d2335050c68d9a2e10c18" title="seaf_branch_set_commit" alt="" coords="211,379,379,408"/>
+<area shape="rect" id="node21" href="$branch-mgr_8c.html#aab1588f5228eaf4405efb239a9ed5680" title="seaf_branch_manager_update_branch" alt="" coords="173,432,416,461"/>
+<area shape="rect" id="node31" href="$commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="228,485,361,515"/>
+<area shape="rect" id="node7" href="$commit-mgr_8c.html#a2b1cc305cf40cb64c341a0e64d0fe921" title="seaf_commit_ref" alt="" coords="492,59,609,88"/>
+<area shape="rect" id="node23" href="$seafile-4_81_82_2lib_2db_8c.html#a34065420d7e15be3dd4e8bff5cb51fe9" title="sqlite_query_exec" alt="" coords="488,405,613,435"/>
+<area shape="rect" id="node25" href="$seaf-db_8c.html#a5b034a1fc119b2c3a989a03e7bb220e5" title="seaf_db_statement_query" alt="" coords="465,459,636,488"/>
+<area shape="rect" id="node27" href="$seaf-db_8c.html#a022621519c8205275746dafb4801013a" title="seaf_db_prepare_statement" alt="" coords="687,432,868,461"/>
+<area shape="rect" id="node29" href="$seaf-db_8c.html#a0cb484988d9e1c156227b99eba482e3c" title="seaf_db_statement_free" alt="" coords="696,485,859,515"/>
+</map>

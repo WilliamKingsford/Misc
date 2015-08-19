@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$net_2common_2proc-factory_8c.html" title="ccnet&#45;4.1.2/net/common/proc&#45;factory.c" alt="" coords="5,83,251,112"/>
+<area shape="rect" id="node5" href="$net_2common_2processor_8c.html" title="ccnet&#45;4.1.2/net/common/processor.c" alt="" coords="275,83,509,112"/>
+<area shape="rect" id="node7" href="$service-proxy-proc_8c.html" title="ccnet&#45;4.1.2/net/common/processors/service&#45;proxy&#45;proc.c" alt="" coords="533,83,885,112"/>
+<area shape="rect" id="node9" href="$service-stub-proc_8c.html" title="ccnet&#45;4.1.2/net/common/processors/service&#45;stub&#45;proc.c" alt="" coords="909,83,1256,112"/>
+</map>

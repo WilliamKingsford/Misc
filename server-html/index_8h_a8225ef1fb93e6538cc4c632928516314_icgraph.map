@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$index_8h.html#a2988327a0a98dd3e8868b4b902d310bf" title="add_to_index" alt="" coords="209,5,308,35"/>
+<area shape="rect" id="node5" href="$daemon_2repo-mgr_8c.html#a450e5bcc50da4c40b7ba2bde33a22a84" title="checkout_file" alt="" coords="209,59,308,88"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8c.html#a181f66e1d3900771c37883e97fea7fba" title="checkout_empty_dir" alt="" coords="189,112,328,141"/>
+<area shape="rect" id="node7" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="376,85,579,115"/>
+</map>

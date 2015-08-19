@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$diff-simple_8h.html#a3d936e2ea0a740cbdc9bbab7113b3742" title="diff_resolve_renames" alt="" coords="179,85,325,115"/>
+<area shape="rect" id="node5" href="$diff-simple_8h.html#a9e9cbe6847c88fc7bca7035f45a0a50e" title="diff_commits" alt="" coords="389,5,485,35"/>
+<area shape="rect" id="node9" href="$diff-simple_8h.html#a76134c9482b81d9ff5455eac2765a656" title="diff_commit_roots" alt="" coords="375,112,500,141"/>
+<area shape="rect" id="node13" href="$diff-simple_8h.html#a8c800ee63c23c5ff78d838974f678e47" title="diff_merge" alt="" coords="396,59,479,88"/>
+<area shape="rect" id="node16" href="$diff-simple_8h.html#aaad6d753f728db61f274e7ce8ec70e97" title="diff_merge_roots" alt="" coords="379,165,496,195"/>
+<area shape="rect" id="node7" href="$server_2repo-mgr_8h.html#a168ba33665e04b18089dd5a5d2a18fe3" title="seaf_repo_diff" alt="" coords="599,32,703,61"/>
+<area shape="rect" id="node11" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="549,112,752,141"/>
+</map>

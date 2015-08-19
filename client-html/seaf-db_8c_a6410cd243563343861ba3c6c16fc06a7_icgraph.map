@@ -1,0 +1,26 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seaf-db_8h.html#aea6c6bba56350bc53e898fb4f859bc4e" title="pgsql_index_exists" alt="" coords="317,231,451,260"/>
+<area shape="rect" id="node9" href="$server_2repo-mgr_8h.html#a0b9efffb3301d72133b4a3fdd28fc69c" title="seaf_repo_manager_is_virtual_repo" alt="" coords="271,349,497,379"/>
+<area shape="rect" id="node40" href="$server_2repo-mgr_8h.html#a5f096821f41a339e41e9341fc0c4010d" title="seaf_repo_manager_set_repo_owner" alt="" coords="267,403,501,432"/>
+<area shape="rect" id="node47" href="$server_2repo-mgr_8h.html#ab4740f8bce8f9f3571adf0adfb63590b" title="seaf_repo_manager_set_inner_pub_repo" alt="" coords="256,456,512,485"/>
+<area shape="rect" id="node49" href="$server_2gc_2Backups_2repo-mgr_8c.html#ac78c13c68a1a9d1d025e45f4e51193ac" title="seaf_repo_manager_set_repo_history_limit" alt="" coords="249,509,519,539"/>
+<area shape="rect" id="node51" href="$server_2gc_2Backups_2repo-mgr_8c.html#aeeda6cf1cb41515388afd8a10c6297e1" title="seaf_repo_manager_set_repo_valid_since" alt="" coords="252,563,516,592"/>
+<area shape="rect" id="node5" href="$share-mgr_8h.html#a6b9afa7b510c43b1b4e856ab7057fbae" title="seaf_share_manager_start" alt="" coords="607,99,783,128"/>
+<area shape="rect" id="node7" href="$server_2seafile-session_8c.html#afb1838a556e838aea9515780411cf284" title="seafile_session_start" alt="" coords="917,5,1061,35"/>
+<area shape="rect" id="node11" href="$virtual-repo_8c.html#a9a8dcda29ee6cd28d92c1897ad12f268" title="seaf_repo_manager_create_virtual_repo" alt="" coords="568,376,821,405"/>
+<area shape="rect" id="node13" href="$virtual-repo_8c.html#a30755ff2c01595d4927715310beaee04" title="seaf_repo_manager_merge_virtual_repo" alt="" coords="568,323,821,352"/>
+<area shape="rect" id="node15" href="$server_2repo-mgr_8h.html#a3128bd2930667427a22976b6a2b85743" title="seaf_repo_manager_post_file" alt="" coords="893,59,1085,88"/>
+<area shape="rect" id="node17" href="$server_2repo-mgr_8h.html#a248a05b4a54ff2d9302d0779cbcc3542" title="seaf_repo_manager_post_multi_files" alt="" coords="872,112,1107,141"/>
+<area shape="rect" id="node19" href="$server_2repo-mgr_8h.html#ad6564c23b0e50d8a34dd425432b80db4" title="seaf_repo_manager_del_file" alt="" coords="897,165,1081,195"/>
+<area shape="rect" id="node21" href="$server_2repo-mgr_8h.html#a056b45d63edfafbc5287012a2a1062ec" title="seaf_repo_manager_move_file" alt="" coords="1159,192,1356,221"/>
+<area shape="rect" id="node23" href="$server_2repo-mgr_8h.html#ab7eae6af688907f68212dca114549c4b" title="seaf_repo_manager_copy_file" alt="" coords="892,269,1087,299"/>
+<area shape="rect" id="node26" href="$server_2repo-mgr_8h.html#aa870306d94f3e7b16e66229040590138" title="seaf_repo_manager_post_dir" alt="" coords="895,323,1084,352"/>
+<area shape="rect" id="node28" href="$server_2repo-mgr_8h.html#a2e0e32263ad7bbeaa4ab13a62135c46a" title="seaf_repo_manager_post_empty_file" alt="" coords="872,376,1107,405"/>
+<area shape="rect" id="node30" href="$server_2repo-mgr_8h.html#ae68e4b6427bb239b697e515c8617cbfb" title="seaf_repo_manager_rename_file" alt="" coords="884,429,1095,459"/>
+<area shape="rect" id="node32" href="$server_2repo-mgr_8h.html#a46c094895964e060809372262c9b9923" title="seaf_repo_manager_put_file" alt="" coords="897,483,1081,512"/>
+<area shape="rect" id="node34" href="$server_2repo-mgr_8h.html#a246dc6695f1ee0c1806de54109848096" title="seaf_repo_manager_revert_file" alt="" coords="889,536,1089,565"/>
+<area shape="rect" id="node36" href="$server_2repo-mgr_8h.html#abf48f3efee4705f32fa8f3a95098921e" title="seaf_repo_manager_revert_dir" alt="" coords="891,589,1088,619"/>
+<area shape="rect" id="node38" href="$server_2repo-mgr_8h.html#a75071fddf41a1371d4f89be8d2b59b88" title="seaf_repo_manager_revert_on_server" alt="" coords="869,643,1109,672"/>
+<area shape="rect" id="node42" href="$server_2repo-mgr_8h.html#a3706de93ba77e5068dba6a1dd073a0fd" title="seaf_repo_manager_create_new_repo" alt="" coords="573,429,816,459"/>
+<area shape="rect" id="node44" href="$server_2repo-mgr_8h.html#ad9feaba8f2f873b6685560fd86f4c40d" title="seaf_repo_manager_create_enc_repo" alt="" coords="576,483,813,512"/>
+</map>

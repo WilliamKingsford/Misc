@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$vc-utils_8c.html#a7564d102761a05b137c2b06fa5e1f004" title="fill_seafile_blocks" alt="" coords="261,85,387,115"/>
+<area shape="rect" id="node5" href="$seafile-4_81_82_2lib_2utils_8c.html#ae947b53110fc0132e83445d76ddded09" title="rawdata_to_hex" alt="" coords="473,5,588,35"/>
+<area shape="rect" id="node7" href="$fs-mgr_8c.html#a029c16e2ecdf6eafd96edb2ee4e6beac" title="seaf_fs_manager_get_seafile" alt="" coords="435,59,627,88"/>
+<area shape="rect" id="node13" href="$fs-mgr_8c.html#a8dda70e7563d2ae6a19e7407e67dc38e" title="block_list_insert" alt="" coords="473,112,588,141"/>
+<area shape="rect" id="node15" href="$fs-mgr_8c.html#a0a491c647769cf7bd09d5092ab84b85a" title="seafile_unref" alt="" coords="483,165,579,195"/>
+<area shape="rect" id="node9" href="$fs-mgr_8c.html#aaf788c4f305d5509b791f64615fa9112" title="seafile_ref" alt="" coords="715,32,797,61"/>
+<area shape="rect" id="node11" href="$obj-store_8c.html#a6e93a0214f9cb8a7fc837a2bc3a3c529" title="seaf_obj_store_read_obj" alt="" coords="675,85,837,115"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$diff-simple_8c.html" title="seafile/common/diff&#45;simple.c" alt="" coords="240,83,429,112"/>
+<area shape="rect" id="node5" href="$vc-utils_8h.html" title="seafile/daemon/vc&#45;utils.h" alt="" coords="964,83,1129,112"/>
+<area shape="rect" id="node11" href="$clone-mgr_8c.html" title="seafile/daemon/clone&#45;mgr.c" alt="" coords="5,160,187,189"/>
+<area shape="rect" id="node13" href="$merge-recursive_8c.html" title="seafile/daemon/merge&#45;recursive.c" alt="" coords="211,160,429,189"/>
+<area shape="rect" id="node15" href="$merge_8c.html" title="seafile/daemon/merge.c" alt="" coords="453,160,613,189"/>
+<area shape="rect" id="node17" href="$daemon_2repo-mgr_8c.html" title="seafile/daemon/repo&#45;mgr.c" alt="" coords="637,160,813,189"/>
+<area shape="rect" id="node31" href="$unpack-trees_8c.html" title="seafile/common/unpack&#45;trees.c" alt="" coords="1153,83,1356,112"/>
+<area shape="rect" id="node7" href="$fs-mgr_8c.html" title="seafile/common/fs&#45;mgr.c" alt="" coords="1664,160,1829,189"/>
+<area shape="rect" id="node9" href="$seafile_2common_2rpc-service_8c.html" title="seafile/common/rpc&#45;service.c" alt="" coords="1853,160,2045,189"/>
+<area shape="rect" id="node19" href="$seaf-daemon_8c.html" title="seafile/daemon/seaf&#45;daemon.c" alt="" coords="2069,160,2269,189"/>
+<area shape="rect" id="node21" href="$seaf-test_8c.html" title="seafile/daemon/seaf&#45;test.c" alt="" coords="2293,160,2469,189"/>
+<area shape="rect" id="node23" href="$daemon_2seafile-session_8c.html" title="seafile/daemon/seafile&#45;session.c" alt="" coords="837,160,1048,189"/>
+<area shape="rect" id="node25" href="$status_8c.html" title="seafile/daemon/status.c" alt="" coords="1072,160,1232,189"/>
+<area shape="rect" id="node27" href="$transfer-mgr_8c.html" title="seafile/daemon/transfer&#45;mgr.c" alt="" coords="1256,160,1451,189"/>
+<area shape="rect" id="node29" href="$vc-utils_8c.html" title="seafile/daemon/vc&#45;utils.c" alt="" coords="1475,160,1640,189"/>
+</map>

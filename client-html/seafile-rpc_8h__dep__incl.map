@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-4_81_82_2common_2rpc-service_8c.html" title="seafile&#45;4.1.2/common/rpc&#45;service.c" alt="" coords="5,83,232,112"/>
+<area shape="rect" id="node5" href="$seaf-daemon_8c.html" title="seafile&#45;4.1.2/daemon/seaf&#45;daemon.c" alt="" coords="256,83,488,112"/>
+<area shape="rect" id="node7" href="$seaf-test_8c.html" title="seafile&#45;4.1.2/daemon/seaf&#45;test.c" alt="" coords="512,83,720,112"/>
+<area shape="rect" id="node9" href="$seaf-server_8c.html" title="seafile&#45;4.1.2/server/seaf&#45;server.c" alt="" coords="744,83,957,112"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$algorithms_8h.html#a0b50c306b1d5322ab1c582f527df37ce" title="ccnet_send_message" alt="" coords="305,5,455,35"/>
+<area shape="rect" id="node7" href="$peer-mgr_8c.html#a4ec0c5a67782351e692c89ce67ba6ab7" title="ccnet_peer_manager_on_peer_resolved" alt="" coords="255,59,505,88"/>
+<area shape="rect" id="node9" href="$ccnet-test_8c.html#a56af4be08bcb53bea4c4583072d02c51" title="test_perm_manager" alt="" coords="312,112,448,141"/>
+<area shape="rect" id="node11" href="$rpc-service_8h.html#a04c06398a43c6950da5bb809ab1396a8" title="ccnet_rpc_get_peer" alt="" coords="312,165,448,195"/>
+<area shape="rect" id="node17" href="$rpc-service_8h.html#a692fb361843658dd9353f4259c225107" title="ccnet_rpc_update_peer_address" alt="" coords="275,219,485,248"/>
+<area shape="rect" id="node20" href="$rpc-service_8h.html#aded32ca62ffbc9bb0af95029c2b65ca3" title="ccnet_rpc_get_peer_by_idname" alt="" coords="277,272,483,301"/>
+<area shape="rect" id="node23" href="$rpc-service_8h.html#a44af2aa4d4369165cb11e8ca9269050d" title="ccnet_rpc_add_client" alt="" coords="308,325,452,355"/>
+<area shape="rect" id="node26" href="$rpc-service_8h.html#acf6a0dc27d4be68920e03a17d21adcc6" title="ccnet_rpc_add_role" alt="" coords="313,379,447,408"/>
+<area shape="rect" id="node29" href="$rpc-service_8h.html#aae094018c7dc9ba17fa4d53eda81ee0c" title="ccnet_rpc_remove_role" alt="" coords="301,432,459,461"/>
+<area shape="rect" id="node32" href="$rpc-service_8h.html#af94cc44176caad616382440c1a31027a" title="ccnet_rpc_pubkey_encrypt" alt="" coords="291,485,469,515"/>
+<area shape="rect" id="node5" href="$peer-mgr_8h.html#afdda3960b736e782dcf9cdfcc52d2d72" title="ccnet_peer_manager_send_ready_message" alt="" coords="555,5,832,35"/>
+<area shape="rect" id="node13" href="$rpc-service_8h.html#a9b85de0fc2f785edf5666f0935c886cc" title="ccnet_start_rpc" alt="" coords="637,325,749,355"/>
+<area shape="rect" id="node15" href="$server_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="880,325,931,355"/>
+</map>

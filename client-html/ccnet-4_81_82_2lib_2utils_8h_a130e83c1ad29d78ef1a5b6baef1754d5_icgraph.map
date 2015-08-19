@@ -1,0 +1,23 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$diff-simple_8c.html#a2e22075ff8e2cf56f7fed2864e412d58" title="diff_entry_new_from_dirent" alt="" coords="179,85,357,115"/>
+<area shape="rect" id="node5" href="$seaf-tree-walk_8h.html#a7d985aeab97fb8c4c5fecaede41fcc29" title="traverse_trees" alt="" coords="216,139,320,168"/>
+<area shape="rect" id="node23" href="$seafile-crypt_8h.html#af0dc7b06b352baa5469b21beec40f73a" title="seafile_decrypt_repo_enc_key" alt="" coords="169,245,367,275"/>
+<area shape="rect" id="node33" href="$seafile-crypt_8h.html#ae088f5ba8cee3dc96073da2bd1d1f65f" title="seafile_update_random_key" alt="" coords="176,352,360,381"/>
+<area shape="rect" id="node35" href="$daemon_2Backups_2repo-mgr_8c.html#a450e5bcc50da4c40b7ba2bde33a22a84" title="checkout_file" alt="" coords="219,299,317,328"/>
+<area shape="rect" id="node38" href="$vc-utils_8h.html#a40a8e3a1dc14697c58656246b3fa9ca0" title="commit_trees_cb" alt="" coords="207,192,329,221"/>
+<area shape="rect" id="node7" href="$unpack-trees_8h.html#a1a4c235391bb5c3b6448a70e627a5101" title="unpack_trees" alt="" coords="489,32,588,61"/>
+<area shape="rect" id="node9" href="$diff-simple_8h.html#a61fa5d287ecd1508b220a422b250d676" title="diff_index" alt="" coords="765,5,843,35"/>
+<area shape="rect" id="node15" href="$daemon_2repo-mgr_8h.html#a7923c5fb7b957a121f1b2616a8d66745" title="seaf_repo_checkout_commit" alt="" coords="709,59,899,88"/>
+<area shape="rect" id="node11" href="$status_8h.html#a5aaef0b3a73d20b9f422c9d39f0a2325" title="wt_status_collect_changes_index" alt="" coords="947,5,1165,35"/>
+<area shape="rect" id="node13" href="$daemon_2repo-mgr_8h.html#a461e72948bba5928329e269ad395e293" title="seaf_repo_is_worktree_changed" alt="" coords="1215,5,1423,35"/>
+<area shape="rect" id="node17" href="$daemon_2repo-mgr_8h.html#ab553f7b1a5290e99821753acf9e87c86" title="seaf_repo_checkout" alt="" coords="987,59,1125,88"/>
+<area shape="rect" id="node19" href="$merge_8c.html#a65b859e991bbf3718673fa75b0251c85" title="merge_branches" alt="" coords="997,112,1115,141"/>
+<area shape="rect" id="node21" href="$daemon_2repo-mgr_8h.html#a25b9a6f8f5199db34dcb95789a80eba4" title="seaf_repo_merge" alt="" coords="1257,112,1380,141"/>
+<area shape="rect" id="node25" href="$daemon_2repo-mgr_8h.html#a77e557bb1fedd648a109ab5d9bff5ef4" title="seaf_repo_index_worktree_files" alt="" coords="436,192,641,221"/>
+<area shape="rect" id="node27" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="437,352,640,381"/>
+<area shape="rect" id="node29" href="$daemon_2repo-mgr_8h.html#a683d25df06076d282da2f7ae01e05a49" title="seaf_repo_manager_set_repo_passwd" alt="" coords="416,245,661,275"/>
+<area shape="rect" id="node31" href="$passwd-mgr_8h.html#a423fa6bdd74869a9d46a706ecd7790da" title="seaf_passwd_manager_set_passwd" alt="" coords="423,299,655,328"/>
+<area shape="rect" id="node41" href="$daemon_2repo-mgr_8h.html#ab6d5318b3a1cc6f86733ff71b16815a8" title="seaf_repo_index_commit" alt="" coords="456,85,621,115"/>
+<area shape="rect" id="node43" href="$merge-recursive_8h.html#a5ece2c4c0b1acc045660424d1fb74f36" title="write_tree_from_memory" alt="" coords="456,139,621,168"/>
+<area shape="rect" id="node45" href="$merge-recursive_8h.html#ac5c545b083f8e950f4e13cb31b4a74d1" title="merge_recursive" alt="" coords="745,139,863,168"/>
+</map>

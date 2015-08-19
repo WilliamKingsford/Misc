@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$vc-utils_8h.html#a40a8e3a1dc14697c58656246b3fa9ca0" title="commit_trees_cb" alt="" coords="228,59,351,88"/>
+<area shape="rect" id="node13" href="$server_2repo-mgr_8h.html#a3128bd2930667427a22976b6a2b85743" title="seaf_repo_manager_post_file" alt="" coords="193,112,385,141"/>
+<area shape="rect" id="node15" href="$server_2repo-mgr_8h.html#a0d6750947e09a7c4f4eb2146147e9db1" title="seaf_repo_manager_post_file_blocks" alt="" coords="171,165,408,195"/>
+<area shape="rect" id="node17" href="$server_2repo-mgr_8h.html#ab7eae6af688907f68212dca114549c4b" title="seaf_repo_manager_copy_file" alt="" coords="192,219,387,248"/>
+<area shape="rect" id="node19" href="$server_2repo-mgr_8h.html#a056b45d63edfafbc5287012a2a1062ec" title="seaf_repo_manager_move_file" alt="" coords="191,272,388,301"/>
+<area shape="rect" id="node21" href="$server_2repo-mgr_8h.html#aa870306d94f3e7b16e66229040590138" title="seaf_repo_manager_post_dir" alt="" coords="195,325,384,355"/>
+<area shape="rect" id="node23" href="$server_2repo-mgr_8h.html#a2e0e32263ad7bbeaa4ab13a62135c46a" title="seaf_repo_manager_post_empty_file" alt="" coords="172,379,407,408"/>
+<area shape="rect" id="node25" href="$server_2repo-mgr_8h.html#a46c094895964e060809372262c9b9923" title="seaf_repo_manager_put_file" alt="" coords="197,432,381,461"/>
+<area shape="rect" id="node27" href="$server_2repo-mgr_8h.html#a3702d0c75995d0221e33b9ba673b99fd" title="seaf_repo_manager_update_dir" alt="" coords="188,485,391,515"/>
+<area shape="rect" id="node29" href="$server_2repo-mgr_8h.html#aad15cfaf3210b47e9f59a481073aafbc" title="seaf_repo_manager_put_file_blocks" alt="" coords="175,539,404,568"/>
+<area shape="rect" id="node5" href="$daemon_2repo-mgr_8h.html#a77e557bb1fedd648a109ab5d9bff5ef4" title="seaf_repo_index_worktree_files" alt="" coords="456,5,661,35"/>
+<area shape="rect" id="node7" href="$daemon_2repo-mgr_8h.html#ab6d5318b3a1cc6f86733ff71b16815a8" title="seaf_repo_index_commit" alt="" coords="476,59,641,88"/>
+<area shape="rect" id="node9" href="$merge-recursive_8h.html#a5ece2c4c0b1acc045660424d1fb74f36" title="write_tree_from_memory" alt="" coords="476,112,641,141"/>
+<area shape="rect" id="node11" href="$merge-recursive_8h.html#ac5c545b083f8e950f4e13cb31b4a74d1" title="merge_recursive" alt="" coords="711,112,828,141"/>
+</map>

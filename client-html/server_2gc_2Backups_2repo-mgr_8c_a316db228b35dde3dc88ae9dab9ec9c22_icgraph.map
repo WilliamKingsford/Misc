@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2repo-mgr_8h.html#ac78c13c68a1a9d1d025e45f4e51193ac" title="seaf_repo_manager_set_repo_history_limit" alt="" coords="319,29,588,59"/>
+<area shape="rect" id="node5" href="$server_2repo-mgr_8h.html#a0f63ca499435a0d01f03c8c3a2d86c44" title="seaf_repo_manager_get_repo_history_limit" alt="" coords="319,83,588,112"/>
+<area shape="rect" id="node18" href="$quota-mgr_8h.html#ae10caa81f529a80e3729b9a050666302" title="seaf_quota_manager_check_quota" alt="" coords="341,136,565,165"/>
+<area shape="rect" id="node20" href="$repo-perm_8c.html#a6a318e5a5bcb0d46286030040ab6e23b" title="seaf_repo_manager_check_permission" alt="" coords="329,189,577,219"/>
+<area shape="rect" id="node7" href="$server_2repo-mgr_8h.html#a774e0a8ea59c07c94dc8014612b3f948" title="seaf_repo_manager_get_repo_truncate_time" alt="" coords="639,83,916,112"/>
+<area shape="rect" id="node9" href="$seafile-4_81_82_2common_2rpc-service_8c.html#a5594de7f321b08c515c465bc44e25c60" title="seafile_get_commit_list" alt="" coords="1015,5,1172,35"/>
+<area shape="rect" id="node13" href="$server_2repo-mgr_8h.html#ab10ffbf8777e16cc18e78a263d7fbb1c" title="seaf_repo_manager_list_file_revisions" alt="" coords="972,83,1215,112"/>
+<area shape="rect" id="node16" href="$server_2repo-mgr_8h.html#a3bd2aea3b14fe8a45243d175ef86bb61" title="seaf_repo_manager_get_deleted_entries" alt="" coords="965,136,1221,165"/>
+<area shape="rect" id="node11" href="$rpc-deprecated_8c.html#a374cf49b787fef8fc91266c87cc15375" title="seafile_get_commit_list_pub" alt="" coords="1269,5,1456,35"/>
+</map>

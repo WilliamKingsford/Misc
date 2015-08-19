@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$branch-mgr_8h.html#ab67819118ec82d96e51f6c2cadd7a632" title="seaf_branch_manager_add_branch" alt="" coords="244,5,468,35"/>
+<area shape="rect" id="node5" href="$branch-mgr_8h.html#a228e7abb258c810aa8b8e02b9c368e10" title="seaf_branch_manager_branch_exists" alt="" coords="237,59,475,88"/>
+<area shape="rect" id="node7" href="$daemon_2repo-mgr_8h.html#ae27495cf631eca68cf5e94048b7e66f2" title="seaf_repo_manager_verify_tmp_token" alt="" coords="235,112,477,141"/>
+<area shape="rect" id="node9" href="$seafile-config_8h.html#a0b015dc1cb0f31da2f7305bb9d4f8c3d" title="seafile_session_config_exists" alt="" coords="259,165,453,195"/>
+<area shape="rect" id="node11" href="$daemon_2seafile-session_8h.html#abe136340477380edec6a5deba0ff8e1a" title="seafile_session_prepare" alt="" coords="525,165,688,195"/>
+<area shape="rect" id="node13" href="$seaf-daemon_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="736,165,787,195"/>
+</map>

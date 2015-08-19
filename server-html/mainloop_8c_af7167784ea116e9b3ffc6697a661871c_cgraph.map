@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$ccnet-client_8h.html#a5cf76124997152de1dd741da96de7fcc" title="ccnet_client_new" alt="" coords="172,59,295,88"/>
+<area shape="rect" id="node5" href="$ccnet-client_8h.html#ada6cbac352344fffe896488a7d11d6e3" title="ccnet_client_load_confdir" alt="" coords="149,112,317,141"/>
+<area shape="rect" id="node13" href="$ccnet-client_8h.html#a5572822ea4ea913b4dc9604f3ab8d7f7" title="ccnet_client_connect_daemon" alt="" coords="135,165,332,195"/>
+<area shape="rect" id="node21" href="$ccnet-client_8h.html#a40eb31397b19f23d55570cff9340ef59" title="ccnet_client_run_synchronizer" alt="" coords="135,219,332,248"/>
+<area shape="rect" id="node7" href="$libccnet__utils_8c.html#aa4ea3cfc0affe501978cf1e041548e71" title="ccnet_util_expand_path" alt="" coords="401,5,559,35"/>
+<area shape="rect" id="node9" href="$libccnet__utils_8c.html#afb8a46ecdf019b065da7c0836cd4fc6b" title="ccnet_util_checkdir" alt="" coords="413,59,547,88"/>
+<area shape="rect" id="node11" href="$libccnet__utils_8c.html#a0ae2626f99b71225386d3d4692f74634" title="ccnet_util_key_file_get_string" alt="" coords="383,112,577,141"/>
+<area shape="rect" id="node15" href="$lib_2packet-io_8c.html#a8d51886e565c60205d7e24a2e1fecbfa" title="ccnet_packet_io_new" alt="" coords="407,165,553,195"/>
+<area shape="rect" id="node19" href="$lib_2packet-io_8c.html#ac834e39875dce61c80f49d9c765f4bf6" title="ccnet_packet_io_set_callback" alt="" coords="381,219,579,248"/>
+<area shape="rect" id="node17" href="$buffer_8c.html#a515f33707495a7e78c527659c6461326" title="buffer_new" alt="" coords="628,165,713,195"/>
+</map>

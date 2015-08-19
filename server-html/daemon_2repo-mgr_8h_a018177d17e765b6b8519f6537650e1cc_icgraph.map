@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-rpc_8h.html#a27081d344847783e9a8db586d026bb88" title="seafile_get_repo_relay_address" alt="" coords="355,5,560,35"/>
+<area shape="rect" id="node5" href="$seafile-rpc_8h.html#aabdf1dc6b5d444c65f25128fd6db48b7" title="seafile_get_repo_relay_port" alt="" coords="367,59,548,88"/>
+<area shape="rect" id="node7" href="$seafile-rpc_8h.html#adb655a9a19eca34297b5c71d125cde24" title="seafile_unsync_repos_by_account" alt="" coords="347,112,568,141"/>
+<area shape="rect" id="node9" href="$seafile-rpc_8h.html#a21c3244c53c1bd6caa5f0cfb23617bc6" title="seafile_remove_repo_tokens_by_account" alt="" coords="327,165,588,195"/>
+<area shape="rect" id="node11" href="$daemon_2repo-mgr_8h.html#aaca4b8f68d91db58fc8e1484d9695ce6" title="seaf_repo_manager_update_repo_relay_info" alt="" coords="319,219,596,248"/>
+<area shape="rect" id="node15" href="$daemon_2repo-mgr_8h.html#ae3753999b4845dfe68bd6f098313280c" title="seaf_repo_manager_update_repos_server_host" alt="" coords="309,272,605,301"/>
+<area shape="rect" id="node13" href="$seafile-rpc_8h.html#a71e6ea38c1cc19c4989505a4bed67955" title="seafile_update_repo_relay_info" alt="" coords="664,219,864,248"/>
+<area shape="rect" id="node17" href="$seafile-rpc_8h.html#a2d3ae7fdb45f784fe4eb4abc2f4055c2" title="seafile_update_repos_server_host" alt="" coords="655,272,873,301"/>
+</map>

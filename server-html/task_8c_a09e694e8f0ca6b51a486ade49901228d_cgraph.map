@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-object_8h.html#a2bbea734107fb4db928d46bef955ea4d" title="seafile_clone_task_get_state" alt="" coords="259,5,448,35"/>
+<area shape="rect" id="node5" href="$seafile-object_8h.html#a66384edd5d61758491ba1e3f622d8687" title="seafile_clone_task_get_error_str" alt="" coords="248,59,459,88"/>
+<area shape="rect" id="node7" href="$seafile-object_8h.html#a0dac4bab4c8d8b9b93f608d4fd0efe2d" title="seafile_clone_task_get_repo_id" alt="" coords="252,112,455,141"/>
+<area shape="rect" id="node9" href="$seafile-object_8h.html#a8c2738aef21c438b5cb7790c24f2e06a" title="seafile_clone_task_get_peer_id" alt="" coords="252,165,455,195"/>
+<area shape="rect" id="node11" href="$seafile-object_8h.html#aaf3178b79a6999bbe30618f8c525c0aa" title="seafile_clone_task_get_repo_name" alt="" coords="240,219,467,248"/>
+<area shape="rect" id="node13" href="$seafile-object_8h.html#a9b4193f795422f317933db6279012c52" title="seafile_clone_task_get_worktree" alt="" coords="248,272,459,301"/>
+<area shape="rect" id="node15" href="$seafile-object_8h.html#afb47d7698830e966b03663994377cde7" title="seafile_clone_task_get_tx_id" alt="" coords="259,325,448,355"/>
+<area shape="rect" id="node17" href="$seafile-object_8h.html#a630a4ddc00b1861198488a236fa8d5b2" title="seafile_clone_task_set_state" alt="" coords="259,379,448,408"/>
+<area shape="rect" id="node19" href="$seafile-object_8h.html#a1df620d93010075b5c72bf426624016f" title="seafile_clone_task_set_error_str" alt="" coords="248,432,459,461"/>
+<area shape="rect" id="node21" href="$seafile-object_8h.html#acacdd2822ad51518940fc82b56983183" title="seafile_clone_task_set_repo_id" alt="" coords="252,485,455,515"/>
+<area shape="rect" id="node23" href="$seafile-object_8h.html#af54bb6f34fd5480b295ee68da59de2f4" title="seafile_clone_task_set_peer_id" alt="" coords="252,539,455,568"/>
+<area shape="rect" id="node25" href="$seafile-object_8h.html#a9fff03077ea6b5168a7204fa4ba1b8b1" title="seafile_clone_task_set_repo_name" alt="" coords="240,592,467,621"/>
+<area shape="rect" id="node27" href="$seafile-object_8h.html#ab1c0a234613b2c27a6645baa7e822e9e" title="seafile_clone_task_set_worktree" alt="" coords="248,645,459,675"/>
+<area shape="rect" id="node29" href="$seafile-object_8h.html#aef663340061c59612e84df75e64969df" title="seafile_clone_task_set_tx_id" alt="" coords="259,699,448,728"/>
+</map>

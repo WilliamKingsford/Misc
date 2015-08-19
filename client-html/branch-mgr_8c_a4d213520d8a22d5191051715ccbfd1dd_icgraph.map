@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$branch-mgr_8h.html#ad5bd62cbe17cb8fe91bcd993956a1fbf" title="seaf_branch_manager_get_branch_list" alt="" coords="179,85,424,115"/>
+<area shape="rect" id="node5" href="$seafile-rpc_8h.html#acd2313411e6837feaa74fa6185524c7c" title="seafile_branch_gets" alt="" coords="535,5,673,35"/>
+<area shape="rect" id="node7" href="$server_2repo-mgr_8h.html#adc55911231fbdbb9d54f39d7f0e60dca" title="seaf_repo_get_commits" alt="" coords="524,59,684,88"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8h.html#a008f145440cf3620f7883d1fe109f69c" title="seaf_repo_manager_remove_repo_ondisk" alt="" coords="473,112,735,141"/>
+<area shape="rect" id="node23" href="$server_2repo-mgr_8h.html#a94469a7522aa5a67fbc58440544e299a" title="seaf_repo_manager_del_repo_from_trash" alt="" coords="473,192,735,221"/>
+<area shape="rect" id="node11" href="$server_2gc_2repo-mgr_8h.html#afdce2de6ee36dcf6b6264ac35fb17f7a" title="seaf_repo_manager_del_repo" alt="" coords="844,32,1036,61"/>
+<area shape="rect" id="node15" href="$clone-mgr_8h.html#a6b3ef937f8308db69c87bb650cb42fe9" title="seaf_clone_manager_add_task" alt="" coords="839,85,1041,115"/>
+<area shape="rect" id="node19" href="$clone-mgr_8h.html#ab6b5a2b4f13b382b9c7034131fa92783" title="seaf_clone_manager_add_download_task" alt="" coords="808,139,1072,168"/>
+<area shape="rect" id="node13" href="$seafile-4_81_82_2common_2rpc-service_8c.html#a3743ba1324330f8ef0cb9a5c33a52e92" title="seafile_destroy_repo" alt="" coords="1145,32,1287,61"/>
+<area shape="rect" id="node17" href="$seafile-rpc_8h.html#aca75772f76f8eafb2b08a023cd476f65" title="seafile_clone" alt="" coords="1167,85,1265,115"/>
+<area shape="rect" id="node21" href="$seafile-rpc_8h.html#a704ca859f1a1f7044c27b27982658672" title="seafile_download" alt="" coords="1155,139,1277,168"/>
+<area shape="rect" id="node25" href="$server_2repo-mgr_8h.html#a47fd08ad688d035ae95e11545bb0a68b" title="seaf_repo_manager_empty_repo_trash" alt="" coords="817,192,1063,221"/>
+<area shape="rect" id="node27" href="$server_2repo-mgr_8h.html#a99f0a8fafd75a617d03ea745d36df9be" title="seaf_repo_manager_empty_repo_trash_by_owner" alt="" coords="785,245,1095,275"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$connect-mgr_8c.html#a9addcba18f6c4260d003df1ca1a308e4" title="ccnet_conn_manager_remove_from_conn_list" alt="" coords="307,5,595,35"/>
+<area shape="rect" id="node5" href="$peer-mgr_8c.html#a7419c0aad8154a6e13035fff9a3c027e" title="ccnet_peer_manager_get_peer" alt="" coords="351,59,551,88"/>
+<area shape="rect" id="node7" href="$peer-mgr_8c.html#ad1abea804929296e6a9d0d54fb58ce40" title="ccnet_peer_manager_remove_peer" alt="" coords="339,112,563,141"/>
+<area shape="rect" id="node11" href="$peer-mgr_8c.html#a5de64d216b42f0550e26e5928033942f" title="ccnet_peer_manager_add_peer" alt="" coords="349,165,552,195"/>
+<area shape="rect" id="node13" href="$peer-mgr_8c.html#ae0f8dbb08303ad06bbf050e379362646" title="ccnet_peer_manager_add_role" alt="" coords="352,219,549,248"/>
+<area shape="rect" id="node9" href="$net_2common_2peer_8c.html#ae035e15d979a65ad23dce9a5c87ab1b1" title="ccnet_peer_shutdown" alt="" coords="643,112,792,141"/>
+<area shape="rect" id="node15" href="$net_2common_2peer_8c.html#ad31e74349bf1266508141d82085e4d12" title="ccnet_peer_add_role" alt="" coords="647,219,788,248"/>
+<area shape="rect" id="node17" href="$net_2common_2peer_8c.html#a84988645072903a2f6652a94306eafe8" title="ccnet_peer_has_role" alt="" coords="855,192,996,221"/>
+<area shape="rect" id="node21" href="$seafile-4_81_82_2lib_2utils_8c.html#ab7295a8677eade8b86c15b06715dc902" title="string_list_append_sorted" alt="" coords="840,245,1011,275"/>
+<area shape="rect" id="node19" href="$seafile-4_81_82_2lib_2utils_8c.html#a38f449c218477960cf9dc2136453db10" title="string_list_is_exists" alt="" coords="1060,192,1196,221"/>
+</map>

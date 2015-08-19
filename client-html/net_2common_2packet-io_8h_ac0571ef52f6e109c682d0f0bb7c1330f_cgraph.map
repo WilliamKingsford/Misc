@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-4_81_82_2lib_2net_8c.html#af84e07e71144e844c5937afa2df1b696" title="sock_pton" alt="" coords="292,5,375,35"/>
+<area shape="rect" id="node5" href="$seafile-4_81_82_2lib_2net_8c.html#aea310d48a8cb9b1a67d7d6071b3b695f" title="ccnet_net_open_tcp" alt="" coords="264,59,403,88"/>
+<area shape="rect" id="node7" href="$lib_2packet-io_8c.html#a8d51886e565c60205d7e24a2e1fecbfa" title="ccnet_packet_io_new" alt="" coords="260,112,407,141"/>
+<area shape="rect" id="node9" href="$buffer_8c.html#a515f33707495a7e78c527659c6461326" title="buffer_new" alt="" coords="457,112,543,141"/>
+</map>

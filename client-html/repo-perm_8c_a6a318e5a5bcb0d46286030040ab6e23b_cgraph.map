@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2gc_2Backups_2repo-mgr_8c.html#a316db228b35dde3dc88ae9dab9ec9c22" title="seaf_repo_manager_get_virtual_repo_info" alt="" coords="303,5,564,35"/>
+<area shape="rect" id="node5" href="$server_2Backups_2repo-mgr_8c.html#af227a31082c71908bf0a0ac35cfeb294" title="seaf_repo_manager_get_repo_owner" alt="" coords="316,59,551,88"/>
+<area shape="rect" id="node7" href="$server_2gc_2Backups_2repo-mgr_8c.html#a66a6ccfc59462f4c59fd322c693c3d5a" title="seaf_virtual_repo_info_free" alt="" coords="344,112,523,141"/>
+</map>

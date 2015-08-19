@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$ccnet-object_8h.html#ad86148d1d852598c9ae028efe6e8ca38" title="ccnet_peer_stat_get_id" alt="" coords="251,5,408,35"/>
+<area shape="rect" id="node5" href="$ccnet-object_8h.html#a388b4b9c21a45a2d311f17ca83579970" title="ccnet_peer_stat_get_name" alt="" coords="240,59,419,88"/>
+<area shape="rect" id="node7" href="$ccnet-object_8h.html#a6d17c1e01419900eb51806e6d65ecb71" title="ccnet_peer_stat_get_ip" alt="" coords="251,112,408,141"/>
+<area shape="rect" id="node9" href="$ccnet-object_8h.html#a86c554be3c641b8c27d6712411d26618" title="ccnet_peer_stat_get_encrypt" alt="" coords="235,165,424,195"/>
+<area shape="rect" id="node11" href="$ccnet-object_8h.html#a14d9047fc5bf6b99c4c36814232cac63" title="ccnet_peer_stat_get_last_up" alt="" coords="235,219,424,248"/>
+<area shape="rect" id="node13" href="$ccnet-object_8h.html#aba49a4d47c38121c65bf8173eb886d3d" title="ccnet_peer_stat_get_proc_num" alt="" coords="228,272,431,301"/>
+<area shape="rect" id="node15" href="$ccnet-object_8h.html#a86fe7f74f77d0adb2710f42a8e1031ad" title="ccnet_peer_stat_set_id" alt="" coords="251,325,408,355"/>
+<area shape="rect" id="node17" href="$ccnet-object_8h.html#a0336393b0d47daaa6fe518c4bd36a1fb" title="ccnet_peer_stat_set_name" alt="" coords="240,379,419,408"/>
+<area shape="rect" id="node19" href="$ccnet-object_8h.html#a5de7a544b1f91b2c855e4e89d9948145" title="ccnet_peer_stat_set_ip" alt="" coords="251,432,408,461"/>
+<area shape="rect" id="node21" href="$ccnet-object_8h.html#a5b962577f5d76282dd858c4b1a6e822b" title="ccnet_peer_stat_set_encrypt" alt="" coords="235,485,424,515"/>
+<area shape="rect" id="node23" href="$ccnet-object_8h.html#ad6ef522a4c91eca0cfdd4696c7590e60" title="ccnet_peer_stat_set_last_up" alt="" coords="235,539,424,568"/>
+<area shape="rect" id="node25" href="$ccnet-object_8h.html#ad4b33510800c0273c4a0942be7d66cf5" title="ccnet_peer_stat_set_proc_num" alt="" coords="228,592,431,621"/>
+</map>

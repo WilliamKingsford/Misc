@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2gc_2seafile-session_8h.html" title="seafile/server/gc/seafile&#45;session.h" alt="" coords="579,83,797,112"/>
+<area shape="rect" id="node9" href="$server_2gc_2repo-mgr_8c.html" title="seafile/server/gc/repo&#45;mgr.c" alt="" coords="5,160,189,189"/>
+<area shape="rect" id="node5" href="$fsck_8c.html" title="seafile/server/gc/fsck.c" alt="" coords="213,160,371,189"/>
+<area shape="rect" id="node7" href="$server_2gc_2gc-core_8c.html" title="seafile/server/gc/gc&#45;core.c" alt="" coords="395,160,571,189"/>
+<area shape="rect" id="node11" href="$seaf-fsck_8c.html" title="seafile/server/gc/seaf&#45;fsck.c" alt="" coords="595,160,781,189"/>
+<area shape="rect" id="node13" href="$seaf-migrate_8c.html" title="seafile/server/gc/seaf&#45;migrate.c" alt="" coords="805,160,1011,189"/>
+<area shape="rect" id="node15" href="$server_2gc_2seafile-session_8c.html" title="seafile/server/gc/seafile&#45;session.c" alt="" coords="1035,160,1253,189"/>
+<area shape="rect" id="node17" href="$seafserv-gc_8c.html" title="seafile/server/gc/seafserv&#45;gc.c" alt="" coords="1277,160,1477,189"/>
+<area shape="rect" id="node19" href="$verify_8c.html" title="seafile/server/gc/verify.c" alt="" coords="1501,160,1667,189"/>
+</map>

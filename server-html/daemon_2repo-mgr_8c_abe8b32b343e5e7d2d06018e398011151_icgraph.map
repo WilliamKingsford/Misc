@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-rpc_8h.html#a181845c9dedf4d43becd8d9422b4d89e" title="seafile_get_checkout_task" alt="" coords="313,5,489,35"/>
+<area shape="rect" id="node5" href="$daemon_2repo-mgr_8h.html#a7923c5fb7b957a121f1b2616a8d66745" title="seaf_repo_checkout_commit" alt="" coords="307,59,496,88"/>
+<area shape="rect" id="node11" href="$daemon_2repo-mgr_8h.html#ab553f7b1a5290e99821753acf9e87c86" title="seaf_repo_checkout" alt="" coords="544,111,683,140"/>
+<area shape="rect" id="node7" href="$merge_8c.html#a65b859e991bbf3718673fa75b0251c85" title="merge_branches" alt="" coords="555,57,672,87"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8h.html#a25b9a6f8f5199db34dcb95789a80eba4" title="seaf_repo_merge" alt="" coords="731,57,853,87"/>
+</map>

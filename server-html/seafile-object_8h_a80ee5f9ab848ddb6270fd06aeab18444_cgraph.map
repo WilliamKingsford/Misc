@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-object_8h.html#a82789714868338fad7b98a3a7850c7e3" title="seafile_web_access_get_repo_id" alt="" coords="259,5,472,35"/>
+<area shape="rect" id="node5" href="$seafile-object_8h.html#a57c578b1a6a7e555baa87674b1d3fac4" title="seafile_web_access_get_obj_id" alt="" coords="263,59,468,88"/>
+<area shape="rect" id="node7" href="$seafile-object_8h.html#ae7fc5d88b94763b0d17dcaddee5a07f2" title="seafile_web_access_get_op" alt="" coords="272,112,459,141"/>
+<area shape="rect" id="node9" href="$seafile-object_8h.html#a4482506de9a033dff870bde8ffdda166" title="seafile_web_access_get_username" alt="" coords="251,165,480,195"/>
+<area shape="rect" id="node11" href="$seafile-object_8h.html#aae30de29be25d4a86a6a996e97696a55" title="seafile_web_access_set_repo_id" alt="" coords="259,219,472,248"/>
+<area shape="rect" id="node13" href="$seafile-object_8h.html#aab9a61223e5f65bb8cf60d3879434348" title="seafile_web_access_set_obj_id" alt="" coords="263,272,468,301"/>
+<area shape="rect" id="node15" href="$seafile-object_8h.html#a24c35070d119355f973b6c1d35053716" title="seafile_web_access_set_op" alt="" coords="272,325,459,355"/>
+<area shape="rect" id="node17" href="$seafile-object_8h.html#a6df0ef01f069568a74839db713d8ae59" title="seafile_web_access_set_username" alt="" coords="251,379,480,408"/>
+</map>

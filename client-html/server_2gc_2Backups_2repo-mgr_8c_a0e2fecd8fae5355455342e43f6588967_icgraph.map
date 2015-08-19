@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2repo-mgr_8h.html#a512a79980f7d3698e591cf87aeccd314" title="seaf_repo_manager_del_repo" alt="" coords="404,243,596,272"/>
+<area shape="rect" id="node5" href="$virtual-repo_8c.html#a30755ff2c01595d4927715310beaee04" title="seaf_repo_manager_merge_virtual_repo" alt="" coords="373,296,627,325"/>
+<area shape="rect" id="node7" href="$server_2repo-mgr_8h.html#a3128bd2930667427a22976b6a2b85743" title="seaf_repo_manager_post_file" alt="" coords="699,5,891,35"/>
+<area shape="rect" id="node9" href="$server_2repo-mgr_8h.html#a248a05b4a54ff2d9302d0779cbcc3542" title="seaf_repo_manager_post_multi_files" alt="" coords="677,59,912,88"/>
+<area shape="rect" id="node11" href="$server_2repo-mgr_8h.html#ad6564c23b0e50d8a34dd425432b80db4" title="seaf_repo_manager_del_file" alt="" coords="703,112,887,141"/>
+<area shape="rect" id="node13" href="$server_2repo-mgr_8h.html#a056b45d63edfafbc5287012a2a1062ec" title="seaf_repo_manager_move_file" alt="" coords="964,139,1161,168"/>
+<area shape="rect" id="node15" href="$server_2repo-mgr_8h.html#ab7eae6af688907f68212dca114549c4b" title="seaf_repo_manager_copy_file" alt="" coords="697,216,892,245"/>
+<area shape="rect" id="node18" href="$server_2repo-mgr_8h.html#aa870306d94f3e7b16e66229040590138" title="seaf_repo_manager_post_dir" alt="" coords="700,269,889,299"/>
+<area shape="rect" id="node20" href="$server_2repo-mgr_8h.html#a2e0e32263ad7bbeaa4ab13a62135c46a" title="seaf_repo_manager_post_empty_file" alt="" coords="677,323,912,352"/>
+<area shape="rect" id="node22" href="$server_2repo-mgr_8h.html#ae68e4b6427bb239b697e515c8617cbfb" title="seaf_repo_manager_rename_file" alt="" coords="689,376,900,405"/>
+<area shape="rect" id="node24" href="$server_2repo-mgr_8h.html#a46c094895964e060809372262c9b9923" title="seaf_repo_manager_put_file" alt="" coords="703,429,887,459"/>
+<area shape="rect" id="node26" href="$server_2repo-mgr_8h.html#a246dc6695f1ee0c1806de54109848096" title="seaf_repo_manager_revert_file" alt="" coords="695,483,895,512"/>
+<area shape="rect" id="node28" href="$server_2repo-mgr_8h.html#abf48f3efee4705f32fa8f3a95098921e" title="seaf_repo_manager_revert_dir" alt="" coords="696,536,893,565"/>
+<area shape="rect" id="node30" href="$server_2repo-mgr_8h.html#a75071fddf41a1371d4f89be8d2b59b88" title="seaf_repo_manager_revert_on_server" alt="" coords="675,589,915,619"/>
+</map>

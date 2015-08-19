@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$daemon_2repo-mgr_8h.html" title="repo&#45;mgr.h" alt="" coords="235,83,317,112"/>
+<area shape="rect" id="node11" href="$commit-mgr_8h.html" title="commit&#45;mgr.h" alt="" coords="84,237,185,267"/>
+<area shape="rect" id="node23" href="$branch-mgr_8h.html" title="branch&#45;mgr.h" alt="" coords="79,160,177,189"/>
+<area shape="rect" id="node28" href="$fs-mgr_8h.html" title="fs&#45;mgr.h" alt="" coords="453,237,523,267"/>
+<area shape="rect" id="node17" href="$obj-store_8h.html" title="obj&#45;store.h" alt="" coords="203,315,285,344"/>
+<area shape="rect" id="node33" href="$cdc_8h.html" title="cdc/cdc.h" alt="" coords="493,315,571,344"/>
+<area shape="rect" id="node40" href="$seafile-crypt_8h.html" title="../common/seafile&#45;crypt.h" alt="" coords="636,315,807,344"/>
+</map>

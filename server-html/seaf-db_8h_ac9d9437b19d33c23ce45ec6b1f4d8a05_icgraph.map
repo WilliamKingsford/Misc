@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seaf-db_8h.html#a401edd7e7937648d96ffb06486097020" title="seaf_db_get_int64" alt="" coords="292,136,420,165"/>
+<area shape="rect" id="node20" href="$seaf-db_8h.html#a148dee5d529525afa53d208d2f9d4b86" title="seaf_db_statement_get_int64" alt="" coords="260,243,452,272"/>
+<area shape="rect" id="node5" href="$server_2repo-mgr_8h.html#aa8aafa2da81a00419443a068fe98958b" title="seaf_repo_manager_get_repo_valid_since" alt="" coords="508,83,772,112"/>
+<area shape="rect" id="node18" href="$server_2repo-mgr_8h.html#a2365b6daa6aef0d8476fa90f2aeca051" title="seaf_repo_manager_count_inner_pub_repos" alt="" coords="501,136,779,165"/>
+<area shape="rect" id="node7" href="$server_2repo-mgr_8h.html#a774e0a8ea59c07c94dc8014612b3f948" title="seaf_repo_manager_get_repo_truncate_time" alt="" coords="828,83,1105,112"/>
+<area shape="rect" id="node9" href="$seafile_2common_2rpc-service_8c.html#a5594de7f321b08c515c465bc44e25c60" title="seafile_get_commit_list" alt="" coords="1204,5,1361,35"/>
+<area shape="rect" id="node13" href="$repo-op_8c.html#afa299e57b701699e37969cc2e674290e" title="seaf_repo_manager_list_file_revisions" alt="" coords="1161,83,1404,112"/>
+<area shape="rect" id="node16" href="$repo-op_8c.html#aa21f88c4616547e974cd8c65c512781c" title="seaf_repo_manager_get_deleted_entries" alt="" coords="1155,136,1411,165"/>
+<area shape="rect" id="node11" href="$rpc-deprecated_8c.html#a374cf49b787fef8fc91266c87cc15375" title="seafile_get_commit_list_pub" alt="" coords="1459,5,1645,35"/>
+<area shape="rect" id="node22" href="$server_2repo-mgr_8c.html#aa8aafa2da81a00419443a068fe98958b" title="seaf_repo_manager_get_repo_valid_since" alt="" coords="508,189,772,219"/>
+<area shape="rect" id="node24" href="$quota-mgr_8h.html#aa9cedb66f1a92351feca44e56fc8e4db" title="seaf_quota_manager_get_user_quota" alt="" coords="521,243,759,272"/>
+<area shape="rect" id="node28" href="$quota-mgr_8c.html#ab91dd53f1a8335d3149c27f80947f13e" title="seaf_quota_manager_get_org_quota" alt="" coords="524,296,756,325"/>
+<area shape="rect" id="node30" href="$quota-mgr_8c.html#acfd47072a7ed7711bec2318883a08c4a" title="seaf_quota_manager_get_org_user_quota" alt="" coords="835,321,1099,351"/>
+<area shape="rect" id="node26" href="$quota-mgr_8h.html#ae10caa81f529a80e3729b9a050666302" title="seaf_quota_manager_check_quota" alt="" coords="855,243,1079,272"/>
+</map>

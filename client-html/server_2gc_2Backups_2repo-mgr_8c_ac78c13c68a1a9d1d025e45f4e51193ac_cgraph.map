@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2gc_2Backups_2repo-mgr_8c.html#a316db228b35dde3dc88ae9dab9ec9c22" title="seaf_repo_manager_get_virtual_repo_info" alt="" coords="327,5,588,35"/>
+<area shape="rect" id="node5" href="$server_2gc_2Backups_2repo-mgr_8c.html#a66a6ccfc59462f4c59fd322c693c3d5a" title="seaf_virtual_repo_info_free" alt="" coords="368,59,547,88"/>
+<area shape="rect" id="node7" href="$seaf-db_8c.html#ae183a9c45ec082962bdd361491b0a8cb" title="seaf_db_type" alt="" coords="408,112,507,141"/>
+<area shape="rect" id="node9" href="$seaf-db_8c.html#a6410cd243563343861ba3c6c16fc06a7" title="seaf_db_check_for_existence" alt="" coords="360,165,555,195"/>
+<area shape="rect" id="node11" href="$seaf-db_8c.html#a07daa0cca6663aa1fde0faca4b77969d" title="seaf_db_query" alt="" coords="404,219,511,248"/>
+</map>

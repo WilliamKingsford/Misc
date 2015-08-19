@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$branch-mgr_8c.html#ad5bd62cbe17cb8fe91bcd993956a1fbf" title="seaf_branch_manager_get_branch_list" alt="" coords="237,85,483,115"/>
+<area shape="rect" id="node11" href="$branch-mgr_8c.html#a2e44cba993ba080e7550a832f019f653" title="seaf_branch_unref" alt="" coords="748,139,876,168"/>
+<area shape="rect" id="node15" href="$commit-mgr_8c.html#ac6547d5546781608b39446d9a2077fed" title="seaf_commit_manager_traverse_commit_tree" alt="" coords="217,216,503,245"/>
+<area shape="rect" id="node17" href="$commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="293,269,427,299"/>
+<area shape="rect" id="node5" href="$seafile-4_81_82_2lib_2db_8c.html#a4d1d0eb407f8f5dd522c3875beb7b9c8" title="sqlite_query_prepare" alt="" coords="555,5,696,35"/>
+<area shape="rect" id="node7" href="$branch-mgr_8c.html#a4d213520d8a22d5191051715ccbfd1dd" title="seaf_branch_new" alt="" coords="564,59,687,88"/>
+<area shape="rect" id="node9" href="$branch-mgr_8c.html#ac6476414064e0ff0c429629aaab0bfc9" title="seaf_branch_list_free" alt="" coords="552,112,699,141"/>
+<area shape="rect" id="node13" href="$branch-mgr_8c.html#a449a49952dc253bd7b16367869d0ebdc" title="seaf_branch_free" alt="" coords="925,139,1048,168"/>
+</map>

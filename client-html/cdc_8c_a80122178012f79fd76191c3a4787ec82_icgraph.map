@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$cdc_8h.html#a1d1403a9a25e88c792d4d3d67ac0334a" title="filename_chunk_cdc" alt="" coords="163,152,304,181"/>
+<area shape="rect" id="node5" href="$fs-mgr_8h.html#af41e85bce809b9f05ed5b20ac5eeb745" title="seaf_fs_manager_index_blocks" alt="" coords="352,85,557,115"/>
+<area shape="rect" id="node13" href="$vc-utils_8h.html#a040158be07f3403d0df49c37546223cf" title="compare_file_content" alt="" coords="381,152,528,181"/>
+<area shape="rect" id="node19" href="$test-cdc_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="429,205,480,235"/>
+<area shape="rect" id="node7" href="$server_2repo-mgr_8h.html#a3128bd2930667427a22976b6a2b85743" title="seaf_repo_manager_post_file" alt="" coords="627,5,819,35"/>
+<area shape="rect" id="node9" href="$server_2repo-mgr_8h.html#a248a05b4a54ff2d9302d0779cbcc3542" title="seaf_repo_manager_post_multi_files" alt="" coords="605,59,840,88"/>
+<area shape="rect" id="node11" href="$server_2repo-mgr_8h.html#a46c094895964e060809372262c9b9923" title="seaf_repo_manager_put_file" alt="" coords="631,112,815,141"/>
+<area shape="rect" id="node15" href="$daemon_2Backups_2repo-mgr_8c.html#a450e5bcc50da4c40b7ba2bde33a22a84" title="checkout_file" alt="" coords="673,165,772,195"/>
+<area shape="rect" id="node17" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="888,165,1091,195"/>
+</map>

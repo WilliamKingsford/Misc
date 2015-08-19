@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$daemon_2repo-mgr_8c.html#a9d2f586c85f26b2de677fd03606103aa" title="seaf_repo_manager_set_repo_property" alt="" coords="305,112,551,141"/>
+<area shape="rect" id="node5" href="$daemon_2repo-mgr_8c.html#af0276c036723560e3e8b9aa5529133d6" title="seaf_repo_manager_get_repo" alt="" coords="629,5,821,35"/>
+<area shape="rect" id="node7" href="$wt-monitor_8c.html#aa6375a36881f0c171399a5116e64f061" title="seaf_wt_monitor_watch_repo" alt="" coords="629,59,821,88"/>
+<area shape="rect" id="node9" href="$wt-monitor_8c.html#af6eb142936b07efb92d6b4e6ef650f64" title="seaf_wt_monitor_unwatch_repo" alt="" coords="623,112,828,141"/>
+<area shape="rect" id="node11" href="$sync-mgr_8c.html#a0b90f2ae7c7e7a85ae97b7ade254572a" title="seaf_sync_manager_cancel_sync_task" alt="" coords="600,165,851,195"/>
+<area shape="rect" id="node17" href="$daemon_2repo-mgr_8c.html#ad2263393047e4ea1f5226842b11e7b05" title="seaf_repo_manager_set_repo_relay_id" alt="" coords="603,219,848,248"/>
+<area shape="rect" id="node13" href="$transfer-mgr_8c.html#af834de917c22d13996383431bef032a0" title="seaf_transfer_manager_cancel_task" alt="" coords="899,139,1131,168"/>
+<area shape="rect" id="node15" href="$http-tx-mgr_8c.html#a1333f1b023ba910df52c75f6ec51c41d" title="http_tx_manager_cancel_task" alt="" coords="917,192,1112,221"/>
+</map>

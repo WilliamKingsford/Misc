@@ -1,0 +1,24 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$timer_8c.html#a53f0bc44beb27249f5865c8d4a17abe6" title="ccnet_timer_new" alt="" coords="191,371,311,400"/>
+<area shape="rect" id="node5" href="$connect-mgr_8c.html#a0299b24dd94df7deaf1b1f044ba9f8ab" title="ccnet_conn_listen_init" alt="" coords="419,5,568,35"/>
+<area shape="rect" id="node7" href="$connect-mgr_8h.html#acf152de8620568a9e1a5bc5967647f5e" title="ccnet_conn_manager_start" alt="" coords="675,56,853,85"/>
+<area shape="rect" id="node11" href="$session_8h.html#a0e11c0052346a24c24cc913c066f7b3e" title="ccnet_session_start" alt="" coords="1141,108,1280,137"/>
+<area shape="rect" id="node16" href="$peer-mgr_8h.html#a3cf7ef30ba42ea273d8053276d19b19c" title="ccnet_peer_manager_start" alt="" coords="909,160,1085,189"/>
+<area shape="rect" id="node20" href="$mq-mgr_8h.html#a134878f616f816e9215d9227279047ee" title="seaf_mq_manager_start" alt="" coords="412,211,575,240"/>
+<area shape="rect" id="node26" href="$clone-mgr_8h.html#af1cec3356abdd2c8a92e8edc7ae79269" title="seaf_clone_manager_start" alt="" coords="407,264,580,293"/>
+<area shape="rect" id="node28" href="$http-tx-mgr_8h.html#af7268908c8fb9bdafab495f92ea07f86" title="http_tx_manager_start" alt="" coords="417,317,569,347"/>
+<area shape="rect" id="node30" href="$server_2repo-mgr_8c.html#a8f91693d20dfa77546527064cb1097e3" title="seaf_repo_manager_new" alt="" coords="411,371,576,400"/>
+<area shape="rect" id="node32" href="$sync-mgr_8h.html#a6b94a19a3cc3b20b29af0ae1e42abe4b" title="seaf_sync_manager_start" alt="" coords="408,424,579,453"/>
+<area shape="rect" id="node34" href="$transfer-mgr_8h.html#a624e73788448eb5afc0041fbb4db38c9" title="seaf_transfer_manager_start" alt="" coords="400,477,587,507"/>
+<area shape="rect" id="node36" href="$listen-mgr_8h.html#aa48e5c7e64f4ced1aefab2ae4aadb9bc" title="seaf_listen_manager_start" alt="" coords="407,531,580,560"/>
+<area shape="rect" id="node40" href="$passwd-mgr_8h.html#a92e852d808e7e8d74801f8c875d12e0a" title="seaf_passwd_manager_start" alt="" coords="399,584,588,613"/>
+<area shape="rect" id="node43" href="$size-sched_8h.html#a3589ff389112b9fc50d7b8181c602c25" title="size_scheduler_start" alt="" coords="423,637,564,667"/>
+<area shape="rect" id="node46" href="$virtual-repo_8c.html#a9545839eb2c54af7e7e2e3948647f47c" title="seaf_repo_manager_init_merge_scheduler" alt="" coords="360,744,627,773"/>
+<area shape="rect" id="node50" href="$web-accesstoken-mgr_8h.html#afba69ea37c995b2b0435ecced759c315" title="seaf_web_at_manager_start" alt="" coords="400,691,587,720"/>
+<area shape="rect" id="node9" href="$session_8h.html#ac444b67d9abd4a5d33d51f1c7aa8e500" title="ccnet_session_start_network" alt="" coords="901,56,1093,85"/>
+<area shape="rect" id="node13" href="$server_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1328,108,1379,137"/>
+<area shape="rect" id="node22" href="$server_2seafile-session_8h.html#afb1838a556e838aea9515780411cf284" title="seafile_session_start" alt="" coords="692,212,836,241"/>
+<area shape="rect" id="node24" href="$seaf-daemon_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="972,213,1023,243"/>
+<area shape="rect" id="node38" href="$server_2seafile-session_8c.html#afb1838a556e838aea9515780411cf284" title="seafile_session_start" alt="" coords="692,611,836,640"/>
+<area shape="rect" id="node48" href="$server_2repo-mgr_8c.html#a8dab773e289d1148e7afec7c8614278a" title="seaf_repo_manager_init" alt="" coords="684,744,844,773"/>
+</map>

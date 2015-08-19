@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$clone-mgr_8h.html#a2849d011d1f918b3108c30495c98254b" title="seaf_clone_manager_cancel_task" alt="" coords="267,5,485,35"/>
+<area shape="rect" id="node7" href="$sync-mgr_8h.html#a0b90f2ae7c7e7a85ae97b7ade254572a" title="seaf_sync_manager_cancel_sync_task" alt="" coords="251,59,501,88"/>
+<area shape="rect" id="node5" href="$seafile-rpc_8h.html#a45a875dc129e03d7582cdd2645ecf548" title="seafile_cancel_clone_task" alt="" coords="587,5,760,35"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8h.html#a9d2f586c85f26b2de677fd03606103aa" title="seaf_repo_manager_set_repo_property" alt="" coords="551,59,796,88"/>
+<area shape="rect" id="node11" href="$seafile-rpc_8h.html#a3880f357c6b6e7e350ce5a781e9668c1" title="seafile_set_repo_property" alt="" coords="908,5,1079,35"/>
+<area shape="rect" id="node13" href="$daemon_2repo-mgr_8h.html#a6ed05df6501a326fc58a0fefb91aef3d" title="seaf_repo_manager_set_repo_worktree" alt="" coords="868,59,1119,88"/>
+<area shape="rect" id="node15" href="$daemon_2repo-mgr_8h.html#ae3753999b4845dfe68bd6f098313280c" title="seaf_repo_manager_update_repos_server_host" alt="" coords="845,112,1141,141"/>
+<area shape="rect" id="node17" href="$seafile-rpc_8h.html#a2d3ae7fdb45f784fe4eb4abc2f4055c2" title="seafile_update_repos_server_host" alt="" coords="1191,112,1409,141"/>
+</map>

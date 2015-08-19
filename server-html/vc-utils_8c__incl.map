@@ -1,0 +1,28 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$seafile-error_8h.html" title="seafile&#45;error.h" alt="" coords="3317,83,3419,112"/>
+<area shape="rect" id="node15" href="$daemon_2seafile-session_8h.html" title="seafile&#45;session.h" alt="" coords="2243,83,2363,112"/>
+<area shape="rect" id="node33" href="$fs-mgr_8h.html" title="fs&#45;mgr.h" alt="" coords="1861,237,1931,267"/>
+<area shape="rect" id="node90" href="$merge_8h.html" title="merge.h" alt="" coords="2896,160,2965,189"/>
+<area shape="rect" id="node96" href="$vc-utils_8h.html" title="vc&#45;utils.h" alt="" coords="1609,83,1684,112"/>
+<area shape="rect" id="node99" href="$index_8h.html" title="index/index.h" alt="" coords="807,237,905,267"/>
+<area shape="rect" id="node139" href="$vc-common_8h.html" title="vc&#45;common.h" alt="" coords="2872,83,2973,112"/>
+<area shape="rect" id="node19" href="$cevent_8h.html" title="ccnet/cevent.h" alt="" coords="2339,237,2445,267"/>
+<area shape="rect" id="node23" href="$mqclient-proc_8h.html" title="ccnet/mqclient&#45;proc.h" alt="" coords="2009,237,2156,267"/>
+<area shape="rect" id="node26" href="$job-mgr_8h.html" title="ccnet/job&#45;mgr.h" alt="" coords="3243,392,3355,421"/>
+<area shape="rect" id="node29" href="$block-mgr_8h.html" title="block&#45;mgr.h" alt="" coords="1984,315,2075,344"/>
+<area shape="rect" id="node50" href="$commit-mgr_8h.html" title="commit&#45;mgr.h" alt="" coords="2901,392,3003,421"/>
+<area shape="rect" id="node56" href="$branch-mgr_8h.html" title="branch&#45;mgr.h" alt="" coords="2801,315,2900,344"/>
+<area shape="rect" id="node59" href="$daemon_2repo-mgr_8h.html" title="repo&#45;mgr.h" alt="" coords="2680,237,2763,267"/>
+<area shape="rect" id="node65" href="$clone-mgr_8h.html" title="clone&#45;mgr.h" alt="" coords="2269,392,2360,421"/>
+<area shape="rect" id="node70" href="$transfer-mgr_8h.html" title="transfer&#45;mgr.h" alt="" coords="2669,160,2771,189"/>
+<area shape="rect" id="node76" href="$sync-mgr_8h.html" title="sync&#45;mgr.h" alt="" coords="2208,160,2293,189"/>
+<area shape="rect" id="node78" href="$wt-monitor_8h.html" title="wt&#45;monitor.h" alt="" coords="1587,237,1680,267"/>
+<area shape="rect" id="node82" href="$mq-mgr_8h.html" title="mq&#45;mgr.h" alt="" coords="2317,160,2395,189"/>
+<area shape="rect" id="node84" href="$http-tx-mgr_8h.html" title="http&#45;tx&#45;mgr.h" alt="" coords="2419,160,2515,189"/>
+<area shape="rect" id="node36" href="$seafile-object_8h.html" title="seafile&#45;object.h" alt="" coords="2099,315,2208,344"/>
+<area shape="rect" id="node40" href="$obj-store_8h.html" title="obj&#45;store.h" alt="" coords="1776,469,1859,499"/>
+<area shape="rect" id="node45" href="$cdc_8h.html" title="cdc/cdc.h" alt="" coords="1933,392,2011,421"/>
+<area shape="rect" id="node48" href="$seafile-crypt_8h.html" title="../common/seafile&#45;crypt.h" alt="" coords="1637,315,1808,344"/>
+<area shape="rect" id="node130" href="$cache-tree_8h.html" title="index/cache&#45;tree.h" alt="" coords="1435,469,1563,499"/>
+<area shape="rect" id="node133" href="$unpack-trees_8h.html" title="unpack&#45;trees.h" alt="" coords="1435,160,1541,189"/>
+</map>

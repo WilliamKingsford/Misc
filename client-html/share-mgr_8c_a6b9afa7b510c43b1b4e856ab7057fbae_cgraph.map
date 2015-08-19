@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seaf-db_8c.html#ae183a9c45ec082962bdd361491b0a8cb" title="seaf_db_type" alt="" coords="247,5,345,35"/>
+<area shape="rect" id="node5" href="$seaf-db_8c.html#a07daa0cca6663aa1fde0faca4b77969d" title="seaf_db_query" alt="" coords="243,59,349,88"/>
+<area shape="rect" id="node7" href="$seaf-db_8c.html#aea6c6bba56350bc53e898fb4f859bc4e" title="pgsql_index_exists" alt="" coords="229,112,363,141"/>
+<area shape="rect" id="node9" href="$seaf-db_8c.html#a6410cd243563343861ba3c6c16fc06a7" title="seaf_db_check_for_existence" alt="" coords="411,112,605,141"/>
+</map>

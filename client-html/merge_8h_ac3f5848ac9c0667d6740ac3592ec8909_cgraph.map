@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$commit-mgr_8c.html#adaf4b74c4dba25ddaa746f4ff9221b3f" title="seaf_commit_manager_get_commit" alt="" coords="229,5,459,35"/>
+<area shape="rect" id="node7" href="$vc-common_8c.html#adcc47b29e4aaa95df610b699b0409f8e" title="get_merge_base" alt="" coords="285,59,403,88"/>
+<area shape="rect" id="node9" href="$commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="277,112,411,141"/>
+<area shape="rect" id="node5" href="$commit-mgr_8c.html#a2b1cc305cf40cb64c341a0e64d0fe921" title="seaf_commit_ref" alt="" coords="508,5,625,35"/>
+</map>

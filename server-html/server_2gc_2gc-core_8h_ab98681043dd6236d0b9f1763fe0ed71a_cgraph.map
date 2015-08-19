@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$daemon_2repo-mgr_8c.html#ae45351706ea0868c8e6c9bad500e1785" title="seaf_repo_manager_list_garbage_repos" alt="" coords="221,5,472,35"/>
+<area shape="rect" id="node5" href="$daemon_2repo-mgr_8c.html#a4b2497e6cdde50c4ce3cb642370e06eb" title="seaf_repo_manager_repo_exists" alt="" coords="241,59,452,88"/>
+<area shape="rect" id="node7" href="$block-mgr_8c.html#adb9b61331732cb75b3a9e783cd7ad58c" title="seaf_block_manager_remove_store" alt="" coords="233,112,460,141"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8c.html#a7d2cf85f06fa2e7d459730f7494c1a65" title="seaf_repo_manager_remove_garbage_repo" alt="" coords="212,165,481,195"/>
+</map>

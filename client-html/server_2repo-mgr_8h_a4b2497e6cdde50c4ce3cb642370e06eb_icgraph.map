@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$rpc-deprecated_8c.html#a5bb007b4c99262f41df4510520153dee" title="seafile_set_repo_lantoken" alt="" coords="300,5,473,35"/>
+<area shape="rect" id="node5" href="$server_2repo-mgr_8h.html#ad9feaba8f2f873b6685560fd86f4c40d" title="seaf_repo_manager_create_enc_repo" alt="" coords="268,59,505,88"/>
+<area shape="rect" id="node7" href="$daemon_2gc-core_8h.html#aba2eeeb61b0f8fe34dfbdc8fc23067b3" title="gc_core_run" alt="" coords="340,112,433,141"/>
+<area shape="rect" id="node11" href="$transfer-mgr_8h.html#a7c1421651b69da119fab63e9f1d5bf55" title="seaf_transfer_manager_add_download" alt="" coords="264,165,509,195"/>
+<area shape="rect" id="node9" href="$seafserv-gc_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="557,112,608,141"/>
+</map>

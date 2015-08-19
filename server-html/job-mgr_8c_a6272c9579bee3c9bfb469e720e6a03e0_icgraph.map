@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$job-mgr_8c.html#ac2bb163f21ddd6494f8d0101cc989768" title="ccnet_job_manager_schedule_job" alt="" coords="163,325,381,355"/>
+<area shape="rect" id="node5" href="$net_2common_2processor_8h.html#ad94fa14b60bb349056dab9d339bd11d5" title="ccnet_processor_thread_create" alt="" coords="460,5,663,35"/>
+<area shape="rect" id="node7" href="$block-tx-client_8h.html#a654f06a1b4f80dd503445dd803615fd0" title="block_tx_client_start" alt="" coords="491,59,632,88"/>
+<area shape="rect" id="node9" href="$gc_8h.html#a94e5786f314cde7c62796421ad2a37fe" title="gc_start" alt="" coords="527,112,596,141"/>
+<area shape="rect" id="node11" href="$http-tx-mgr_8h.html#a43e9d54b963e1bd9b8f43814a92563ea" title="http_tx_manager_check_protocol_version" alt="" coords="431,165,692,195"/>
+<area shape="rect" id="node13" href="$http-tx-mgr_8h.html#a4f2b3d94b4366c519af0a69ebb6edc34" title="http_tx_manager_check_head_commit" alt="" coords="439,219,684,248"/>
+<area shape="rect" id="node15" href="$http-tx-mgr_8h.html#a24eb2fd0df4be5e88734649f6ff73fc3" title="http_tx_manager_get_folder_perms" alt="" coords="448,272,675,301"/>
+<area shape="rect" id="node17" href="$http-tx-mgr_8h.html#a585b7bf53556be4ced268b966dd11fd2" title="http_tx_manager_add_upload" alt="" coords="465,325,657,355"/>
+<area shape="rect" id="node19" href="$http-tx-mgr_8h.html#a0bd2d454a6270528980a22372d300ddb" title="http_tx_manager_add_download" alt="" coords="457,379,665,408"/>
+<area shape="rect" id="node21" href="$daemon_2repo-mgr_8h.html#ae2b1438737e8d1bebeb1e674013b02b5" title="seaf_repo_manager_add_checkout_task" alt="" coords="433,432,689,461"/>
+<area shape="rect" id="node23" href="$server_2seafile-session_8h.html#a747d2b438f6f32b6cfb0f4dc42bcefb8" title="schedule_create_system_default_repo" alt="" coords="439,485,684,515"/>
+<area shape="rect" id="node27" href="$wt-monitor_8h.html#a6ba49cd68335cc6c91a288a888d5b559" title="seaf_wt_monitor_start" alt="" coords="487,539,636,568"/>
+<area shape="rect" id="node29" href="$block-tx-server_8h.html#ab42772d73c6c9cd533030f8723650cdd" title="block_tx_server_start" alt="" coords="488,592,635,621"/>
+<area shape="rect" id="node31" href="$copy-mgr_8h.html#ae731d17024807023ab2689f9ffca5e99" title="seaf_copy_manager_add_task" alt="" coords="463,645,660,675"/>
+<area shape="rect" id="node25" href="$seaf-server_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="816,485,867,515"/>
+<area shape="rect" id="node33" href="$repo-op_8c.html#a88f5fdc80a71e558b5508387eafbb6de" title="seaf_repo_manager_copy_file" alt="" coords="744,619,939,648"/>
+<area shape="rect" id="node35" href="$repo-op_8c.html#ac11bd852cc7cc4f30e40123b7bae901e" title="seaf_repo_manager_move_file" alt="" coords="743,672,940,701"/>
+</map>

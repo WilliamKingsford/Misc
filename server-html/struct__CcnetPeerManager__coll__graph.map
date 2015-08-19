@@ -1,0 +1,23 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$structCcnetSession.html" title="CcnetSession" alt="" coords="837,437,941,467"/>
+<area shape="rect" id="node10" href="$struct__CcnetPeer.html" title="_CcnetPeer" alt="" coords="1383,797,1473,827"/>
+<area shape="rect" id="node4" href="$structCcnetConnManager.html" title="CcnetConnManager" alt="" coords="1100,457,1239,487"/>
+<area shape="rect" id="node13" href="$structCcnetPacketIO.html" title="CcnetPacketIO" alt="" coords="1113,797,1225,827"/>
+<area shape="rect" id="node24" href="$struct__CcnetProcFactory.html" title="_CcnetProcFactory" alt="" coords="1604,239,1737,268"/>
+<area shape="rect" id="node36" href="$struct__CcnetGroupManager.html" title="_CcnetGroupManager" alt="" coords="1095,155,1244,184"/>
+<area shape="rect" id="node44" href="$struct__CcnetMessageManager.html" title="_CcnetMessageManager" alt="" coords="1087,545,1252,575"/>
+<area shape="rect" id="node49" href="$struct__CcnetPermManager.html" title="_CcnetPermManager" alt="" coords="1097,313,1241,343"/>
+<area shape="rect" id="node7" href="$structCcnetTimer.html" title="CcnetTimer" alt="" coords="5,564,96,593"/>
+<area shape="rect" id="node55" href="$structCcnetPeerManagerPriv.html" title="CcnetPeerManagerPriv" alt="" coords="179,504,336,533"/>
+<area shape="rect" id="node27" href="$struct__CcnetClient.html" title="_CcnetClient" alt="" coords="1379,168,1477,197"/>
+<area shape="rect" id="node16" href="$structccnet__packet.html" title="ccnet_packet" alt="" coords="840,876,939,905"/>
+<area shape="rect" id="node18" href="$structccnet__header.html" title="ccnet_header" alt="" coords="579,876,677,905"/>
+<area shape="rect" id="node20" href="$structbuffer.html" title="buffer" alt="" coords="863,815,916,844"/>
+<area shape="rect" id="node22" href="$struct__CcnetJobManager.html" title="_CcnetJobManager" alt="" coords="561,152,695,181"/>
+<area shape="rect" id="node31" href="$structCcnetResponse.html" title="CcnetResponse" alt="" coords="1112,208,1227,237"/>
+<area shape="rect" id="node33" href="$struct__CcnetSessionBase.html" title="_CcnetSessionBase" alt="" coords="557,267,699,296"/>
+<area shape="rect" id="node39" href="$struct__CcnetGroupManagerPriv.html" title="_CcnetGroupManagerPriv" alt="" coords="361,64,532,93"/>
+<area shape="rect" id="node41" href="$structCcnetDB.html" title="CcnetDB" alt="" coords="13,419,88,448"/>
+<area shape="rect" id="node47" href="$structMessageManagerPriv.html" title="MessageManagerPriv" alt="" coords="816,749,963,779"/>
+<area shape="rect" id="node52" href="$struct__CcnetPermManagerPriv.html" title="_CcnetPermManagerPriv" alt="" coords="805,265,973,295"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$ccnet-object_8h.html#ad113c2cc1e89ef951af293fb1334eb11" title="ccnet_organization_get_org_id" alt="" coords="255,5,452,35"/>
+<area shape="rect" id="node5" href="$ccnet-object_8h.html#a08236492959c0c5f0d76ed2a1e7c392a" title="ccnet_organization_get_email" alt="" coords="256,59,451,88"/>
+<area shape="rect" id="node7" href="$ccnet-object_8h.html#a1b81850c695f26f2d7706a133302a307" title="ccnet_organization_get_is_staff" alt="" coords="251,112,456,141"/>
+<area shape="rect" id="node9" href="$ccnet-object_8h.html#a8792ebcafa17dd83e14f1a4f9491e212" title="ccnet_organization_get_org_name" alt="" coords="244,165,463,195"/>
+<area shape="rect" id="node11" href="$ccnet-object_8h.html#a3331bee89409ce006bee330a6d13d995" title="ccnet_organization_get_url_prefix" alt="" coords="245,219,461,248"/>
+<area shape="rect" id="node13" href="$ccnet-object_8h.html#a8b0b406f73c294e872474bdd1f607d25" title="ccnet_organization_get_creator" alt="" coords="252,272,455,301"/>
+<area shape="rect" id="node15" href="$ccnet-object_8h.html#af68452a25d7e68177da2c3306f6881c3" title="ccnet_organization_get_ctime" alt="" coords="256,325,451,355"/>
+<area shape="rect" id="node17" href="$ccnet-object_8h.html#a1c414d2e9a3c02eb42dae9e6fcc0ebdc" title="ccnet_organization_set_org_id" alt="" coords="255,379,452,408"/>
+<area shape="rect" id="node19" href="$ccnet-object_8h.html#adac466226200eba2caaa5da09114e9e7" title="ccnet_organization_set_email" alt="" coords="256,432,451,461"/>
+<area shape="rect" id="node21" href="$ccnet-object_8h.html#ac47bdd6650f446e438fe0783881be7a5" title="ccnet_organization_set_is_staff" alt="" coords="251,485,456,515"/>
+<area shape="rect" id="node23" href="$ccnet-object_8h.html#a110b9ff77379e911029cf8d6b9e8bbb8" title="ccnet_organization_set_org_name" alt="" coords="244,539,463,568"/>
+<area shape="rect" id="node25" href="$ccnet-object_8h.html#a53eddb67990ecf3bc9623c4818f08379" title="ccnet_organization_set_url_prefix" alt="" coords="245,592,461,621"/>
+<area shape="rect" id="node27" href="$ccnet-object_8h.html#ab896335bd0a3fff0b23cc6c2bfe4cebc" title="ccnet_organization_set_creator" alt="" coords="252,645,455,675"/>
+<area shape="rect" id="node29" href="$ccnet-object_8h.html#a3e942d03b6cc3718a70c9b96fc6e8378" title="ccnet_organization_set_ctime" alt="" coords="256,699,451,728"/>
+</map>
