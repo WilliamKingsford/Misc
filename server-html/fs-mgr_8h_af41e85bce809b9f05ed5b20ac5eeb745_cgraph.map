@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile_2lib_2utils_8c.html#ab46893ad4a68049bcd80eac8dcc2e299" title="seaf_stat" alt="" coords="295,5,369,35"/>
+<area shape="rect" id="node5" href="$fs-mgr_8c.html#a056e47c5aca021aae437a764b3bc7c29" title="calculate_chunk_size" alt="" coords="259,59,405,88"/>
+<area shape="rect" id="node7" href="$fs-mgr_8c.html#a7182f3f9fdba2447f48c1978deea35d5" title="seafile_write_chunk" alt="" coords="264,112,400,141"/>
+<area shape="rect" id="node11" href="$cdc_8c.html#ab0a7b062dc6ce4e3f4963c6cad019e8e" title="filename_chunk_cdc" alt="" coords="261,165,403,195"/>
+<area shape="rect" id="node9" href="$seafile-crypt_8c.html#a153a2146ed90b98ccdb91da4bc343016" title="seafile_encrypt" alt="" coords="455,112,564,141"/>
+<area shape="rect" id="node13" href="$seafile_2lib_2utils_8c.html#ad154e736c3751fe880395dff55fab739" title="seaf_util_open" alt="" coords="456,165,563,195"/>
+<area shape="rect" id="node15" href="$cdc_8c.html#a80122178012f79fd76191c3a4787ec82" title="file_chunk_cdc" alt="" coords="455,219,564,248"/>
+<area shape="rect" id="node17" href="$seafile_2lib_2utils_8c.html#a09f0677ad28b98b7a85bcda57f71e7c8" title="seaf_fstat" alt="" coords="613,192,693,221"/>
+<area shape="rect" id="node19" href="$seafile_2lib_2utils_8c.html#a05f0eae648599d413d03103758473e30" title="readn" alt="" coords="627,245,680,275"/>
+</map>

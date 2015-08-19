@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fs-mgr_8h.html#a71dad49c71bdfe9223f66ad4379004d0" title="seaf_fs_manager_get_seafile_id_by_path" alt="" coords="268,5,529,35"/>
+<area shape="rect" id="node5" href="$fs-mgr_8h.html#a3fbd81f579b4a8594861cbc0595595ca" title="seaf_fs_manager_get_seafdir_id_by_path" alt="" coords="268,59,529,88"/>
+<area shape="rect" id="node9" href="$repo-op_8c.html#a46c094895964e060809372262c9b9923" title="seaf_repo_manager_put_file" alt="" coords="307,112,491,141"/>
+<area shape="rect" id="node11" href="$repo-op_8c.html#aad15cfaf3210b47e9f59a481073aafbc" title="seaf_repo_manager_put_file_blocks" alt="" coords="284,165,513,195"/>
+<area shape="rect" id="node7" href="$virtual-repo_8c.html#a9a8dcda29ee6cd28d92c1897ad12f268" title="seaf_repo_manager_create_virtual_repo" alt="" coords="579,59,832,88"/>
+</map>

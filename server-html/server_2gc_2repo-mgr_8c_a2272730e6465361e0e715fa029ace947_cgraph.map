@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seaf-db_8c.html#a2b045ec7501c5141b95a01ba752947d4" title="seaf_db_foreach_selected_row" alt="" coords="279,5,481,35"/>
+<area shape="rect" id="node5" href="$server_2gc_2repo-mgr_8c.html#a11cc1a4ecd45778ea5a10af0cb72b347" title="seaf_repo_manager_get_repo_ex" alt="" coords="273,59,487,88"/>
+<area shape="rect" id="node7" href="$seafile_2lib_2utils_8c.html#af85d9a3e4ab846a6eedfb509508367f2" title="string_list_free" alt="" coords="327,112,433,141"/>
+<area shape="rect" id="node9" href="$fuse_2repo-mgr_8c.html#af6bedb063685823d91f2a335c6882e07" title="seaf_repo_unref" alt="" coords="323,165,437,195"/>
+</map>

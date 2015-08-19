@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$branch-mgr_8c.html#a1dffc8c3c325e4ca1daf8a5d5f4f6956" title="seaf_branch_manager_get_branch" alt="" coords="209,5,431,35"/>
+<area shape="rect" id="node5" href="$branch-mgr_8c.html#a2e44cba993ba080e7550a832f019f653" title="seaf_branch_unref" alt="" coords="256,59,384,88"/>
+<area shape="rect" id="node9" href="$branch-mgr_8h.html#a33849d88532c230ad9eccbdb78f9b84b" title="seaf_branch_manager_calculate_branch_size" alt="" coords="177,112,463,141"/>
+<area shape="rect" id="node7" href="$branch-mgr_8c.html#a449a49952dc253bd7b16367869d0ebdc" title="seaf_branch_free" alt="" coords="512,59,635,88"/>
+</map>

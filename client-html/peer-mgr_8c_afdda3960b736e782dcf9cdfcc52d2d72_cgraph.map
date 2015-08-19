@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$include_2ccnet_2message_8h.html#a1eb1bd0d2693f551eefe72385d7367bd" title="ccnet_message_new" alt="" coords="335,12,479,41"/>
+<area shape="rect" id="node9" href="$algorithms_8c.html#a0b50c306b1d5322ab1c582f527df37ce" title="ccnet_send_message" alt="" coords="332,72,481,101"/>
+<area shape="rect" id="node17" href="$net_2common_2message_8c.html#a54a4ea1a9d7e052567bfec0905003fd1" title="ccnet_message_unref" alt="" coords="332,139,481,168"/>
+<area shape="rect" id="node5" href="$include_2ccnet_2message_8h.html#a1aab4d75576bd8fbaba0963c18a33410" title="ccnet_message_new_full" alt="" coords="563,5,731,35"/>
+<area shape="rect" id="node7" href="$libccnet__utils_8c.html#a389f04c536bc17258aa5598ad8c5ed6f" title="ccnet_util_gen_uuid" alt="" coords="859,5,995,35"/>
+<area shape="rect" id="node11" href="$peer-mgr_8c.html#a7419c0aad8154a6e13035fff9a3c027e" title="ccnet_peer_manager_get_peer" alt="" coords="547,59,747,88"/>
+<area shape="rect" id="node13" href="$message-manager_8c.html#afcbaac59edc44365d631fbdece8ab91b" title="ccnet_message_manager_add_msg" alt="" coords="532,112,761,141"/>
+<area shape="rect" id="node15" href="$mqserver-proc_8c.html#a614b82f14429c0932808c345c3db8004" title="ccnet_mqserver_proc_put_message" alt="" coords="811,112,1043,141"/>
+<area shape="rect" id="node19" href="$include_2ccnet_2message_8h.html#a303985d1c81cb3582b5c2854b2821a1c" title="ccnet_message_free" alt="" coords="576,165,717,195"/>
+</map>

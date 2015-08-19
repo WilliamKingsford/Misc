@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fuse_2seafile-session_8c.html#a5dbc4cb373997a756130cfe875b86ce6" title="seafile_session_init" alt="" coords="249,5,385,35"/>
+<area shape="rect" id="node5" href="$commit-mgr_8c.html#ad6fdc75fe20bb5941a19a436742cb696" title="seaf_commit_manager_init" alt="" coords="228,59,407,88"/>
+<area shape="rect" id="node9" href="$fs-mgr_8c.html#a91dd774f96fb5cc505f423913ea730fe" title="seaf_fs_manager_init" alt="" coords="244,112,391,141"/>
+<area shape="rect" id="node12" href="$branch-mgr_8c.html#a51813bc8b0f663d8bed443e878320daa" title="seaf_branch_manager_init" alt="" coords="231,165,404,195"/>
+<area shape="rect" id="node16" href="$daemon_2repo-mgr_8c.html#a8dab773e289d1148e7afec7c8614278a" title="seaf_repo_manager_init" alt="" coords="237,219,397,248"/>
+<area shape="rect" id="node18" href="$quota-mgr_8c.html#afceaa1bbb546bd5f976bc557c0ba7b87" title="seaf_quota_manager_init" alt="" coords="235,272,400,301"/>
+<area shape="rect" id="node24" href="$mq-mgr_8c.html#a96b186740b01126814ea4c9b855742ba" title="seaf_mq_manager_init" alt="" coords="241,325,393,355"/>
+<area shape="rect" id="node26" href="$mq-mgr_8c.html#a46fceb8aa81397a879d6c62818c9db61" title="seaf_mq_manager_set_heartbeat_name" alt="" coords="191,379,444,408"/>
+<area shape="rect" id="node7" href="$obj-store_8c.html#a2a3f1a84562cb4856e94b556888e3617" title="seaf_obj_store_init" alt="" coords="512,85,643,115"/>
+<area shape="rect" id="node14" href="$cevent_8h.html#a2f0a51bf288caadf31944a151462e78c" title="cevent_manager_register" alt="" coords="493,165,661,195"/>
+<area shape="rect" id="node20" href="$seaf-db_8c.html#ae183a9c45ec082962bdd361491b0a8cb" title="seaf_db_type" alt="" coords="528,245,627,275"/>
+<area shape="rect" id="node22" href="$seaf-db_8c.html#a07daa0cca6663aa1fde0faca4b77969d" title="seaf_db_query" alt="" coords="524,299,631,328"/>
+</map>

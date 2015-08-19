@@ -1,0 +1,30 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-object_8h.html#a0bbfb38f208449ada4cdeea487dcf350" title="seafile_task_get_tx_id" alt="" coords="225,5,377,35"/>
+<area shape="rect" id="node5" href="$seafile-object_8h.html#a4a9fdf906c630bd0e2bbb854d93b2ff1" title="seafile_task_get_ttype" alt="" coords="225,59,377,88"/>
+<area shape="rect" id="node7" href="$seafile-object_8h.html#aefcf568477b9f7d017ed64b7a939e823" title="seafile_task_get_repo_id" alt="" coords="219,112,384,141"/>
+<area shape="rect" id="node9" href="$seafile-object_8h.html#aabb9d1e325f9d8f529d53818a7db9df4" title="seafile_task_get_dest_id" alt="" coords="219,165,384,195"/>
+<area shape="rect" id="node11" href="$seafile-object_8h.html#a091c6fe3b73ec6ca66d252f660eeace4" title="seafile_task_get_from_branch" alt="" coords="204,219,399,248"/>
+<area shape="rect" id="node13" href="$seafile-object_8h.html#aefc28b7210403cecbdf030eacff0771d" title="seafile_task_get_to_branch" alt="" coords="211,272,392,301"/>
+<area shape="rect" id="node15" href="$seafile-object_8h.html#a1ae5ce8498c2a32de9052633d79cb19f" title="seafile_task_get_state" alt="" coords="225,325,377,355"/>
+<area shape="rect" id="node17" href="$seafile-object_8h.html#a192ac337efa7be80188fbdb235cad958" title="seafile_task_get_rt_state" alt="" coords="217,379,385,408"/>
+<area shape="rect" id="node19" href="$seafile-object_8h.html#af73796a40dd2fc6309c896795f13e848" title="seafile_task_get_error_str" alt="" coords="216,432,387,461"/>
+<area shape="rect" id="node21" href="$seafile-object_8h.html#a2cce85a8f747ebb7454350f302b17ec0" title="seafile_task_get_block_total" alt="" coords="208,485,395,515"/>
+<area shape="rect" id="node23" href="$seafile-object_8h.html#a1d5bac1f1d280fea15597b3c285b8076" title="seafile_task_get_block_done" alt="" coords="207,539,396,568"/>
+<area shape="rect" id="node25" href="$seafile-object_8h.html#a91a60490129e634b8bf7d22d42cebb95" title="seafile_task_get_rate" alt="" coords="228,592,375,621"/>
+<area shape="rect" id="node27" href="$seafile-object_8h.html#a76d137158c01d096a05429de6335c322" title="seafile_task_get_rsize" alt="" coords="225,645,377,675"/>
+<area shape="rect" id="node29" href="$seafile-object_8h.html#a107b9eac8194502bae50be0754f846dc" title="seafile_task_get_dsize" alt="" coords="224,699,379,728"/>
+<area shape="rect" id="node31" href="$seafile-object_8h.html#ae22235fb139173ba17e1af0e08b881db" title="seafile_task_set_tx_id" alt="" coords="225,752,377,781"/>
+<area shape="rect" id="node33" href="$seafile-object_8h.html#af6c2f2cc51154525b80c531e2f6d4b91" title="seafile_task_set_ttype" alt="" coords="225,805,377,835"/>
+<area shape="rect" id="node35" href="$seafile-object_8h.html#ad78e06dd9c5c53eb1f01587518b53562" title="seafile_task_set_repo_id" alt="" coords="219,859,384,888"/>
+<area shape="rect" id="node37" href="$seafile-object_8h.html#aaf6abc297d45d50a2ba0bfcf4c9833e1" title="seafile_task_set_dest_id" alt="" coords="219,912,384,941"/>
+<area shape="rect" id="node39" href="$seafile-object_8h.html#a137e06b09a78bb692550dc69979e5871" title="seafile_task_set_from_branch" alt="" coords="204,965,399,995"/>
+<area shape="rect" id="node41" href="$seafile-object_8h.html#ae03960be890ce518d557c6eeb6342c15" title="seafile_task_set_to_branch" alt="" coords="211,1019,392,1048"/>
+<area shape="rect" id="node43" href="$seafile-object_8h.html#a5c9b58a193b582d81e12350b75c1fea7" title="seafile_task_set_state" alt="" coords="225,1072,377,1101"/>
+<area shape="rect" id="node45" href="$seafile-object_8h.html#a1856d2f7f72bd0e1f08d849c3c2199c3" title="seafile_task_set_rt_state" alt="" coords="217,1125,385,1155"/>
+<area shape="rect" id="node47" href="$seafile-object_8h.html#a3b732ebc30fa243c9e36a7a24a30f325" title="seafile_task_set_error_str" alt="" coords="216,1179,387,1208"/>
+<area shape="rect" id="node49" href="$seafile-object_8h.html#ac4cc0073c34bf4fe09193558440b0af0" title="seafile_task_set_block_total" alt="" coords="208,1232,395,1261"/>
+<area shape="rect" id="node51" href="$seafile-object_8h.html#a064c96669f0f4c61815256712cd4e6b4" title="seafile_task_set_block_done" alt="" coords="207,1285,396,1315"/>
+<area shape="rect" id="node53" href="$seafile-object_8h.html#a24aa3cc0c206632adf07a128e533adfa" title="seafile_task_set_rate" alt="" coords="228,1339,375,1368"/>
+<area shape="rect" id="node55" href="$seafile-object_8h.html#aae94e70f081bdd795388eab4704235c7" title="seafile_task_set_rsize" alt="" coords="225,1392,377,1421"/>
+<area shape="rect" id="node57" href="$seafile-object_8h.html#a2affa97e06b86e5c860e67732e987027" title="seafile_task_set_dsize" alt="" coords="224,1445,379,1475"/>
+</map>

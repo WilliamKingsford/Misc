@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2gc_2repo-mgr_8c.html#a774e0a8ea59c07c94dc8014612b3f948" title="seaf_repo_manager_get_repo_truncate_time" alt="" coords="315,5,592,35"/>
+<area shape="rect" id="node5" href="$daemon_2repo-mgr_8c.html#af0276c036723560e3e8b9aa5529133d6" title="seaf_repo_manager_get_repo" alt="" coords="357,59,549,88"/>
+<area shape="rect" id="node7" href="$commit-mgr_8c.html#ac6547d5546781608b39446d9a2077fed" title="seaf_commit_manager_traverse_commit_tree" alt="" coords="311,112,596,141"/>
+<area shape="rect" id="node9" href="$fuse_2repo-mgr_8c.html#af6bedb063685823d91f2a335c6882e07" title="seaf_repo_unref" alt="" coords="396,165,511,195"/>
+</map>

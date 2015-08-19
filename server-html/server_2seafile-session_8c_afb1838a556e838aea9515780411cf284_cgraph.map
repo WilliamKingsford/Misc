@@ -1,0 +1,23 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$mq-mgr_8c.html#a134878f616f816e9215d9227279047ee" title="seaf_mq_manager_start" alt="" coords="213,219,376,248"/>
+<area shape="rect" id="node9" href="$cevent_8h.html#abb4d79de82893bfe62dfe6a30a65fd29" title="cevent_manager_start" alt="" coords="220,5,369,35"/>
+<area shape="rect" id="node13" href="$chunkserv-mgr_8c.html#a9e8addc3c6df51e71a8619d80eb94b4a" title="seaf_cs_manager_start" alt="" coords="216,112,373,141"/>
+<area shape="rect" id="node15" href="$share-mgr_8c.html#a6b9afa7b510c43b1b4e856ab7057fbae" title="seaf_share_manager_start" alt="" coords="207,379,383,408"/>
+<area shape="rect" id="node25" href="$web-accesstoken-mgr_8c.html#afba69ea37c995b2b0435ecced759c315" title="seaf_web_at_manager_start" alt="" coords="201,272,388,301"/>
+<area shape="rect" id="node28" href="$passwd-mgr_8c.html#a92e852d808e7e8d74801f8c875d12e0a" title="seaf_passwd_manager_start" alt="" coords="200,59,389,88"/>
+<area shape="rect" id="node31" href="$listen-mgr_8c.html#aa48e5c7e64f4ced1aefab2ae4aadb9bc" title="seaf_listen_manager_start" alt="" coords="208,325,381,355"/>
+<area shape="rect" id="node36" href="$size-sched_8c.html#a3589ff389112b9fc50d7b8181c602c25" title="size_scheduler_start" alt="" coords="224,165,365,195"/>
+<area shape="rect" id="node39" href="$copy-mgr_8c.html#a34a31b348a2bacbd0333a5596e2db4cf" title="seaf_copy_manager_start" alt="" coords="209,445,380,475"/>
+<area shape="rect" id="node45" href="$http-server_8c.html#af1c09217fc516ad3520c81478048198a" title="seaf_http_server_start" alt="" coords="219,525,371,555"/>
+<area shape="rect" id="node5" href="$timer_8h.html#a68b6afb704a7f56b625ed78146691b7c" title="ccnet_timer_new" alt="" coords="461,219,581,248"/>
+<area shape="rect" id="node7" href="$seafile_2lib_2utils_8c.html#ac0aa6c70f613ad3344b5f1f917b6b68a" title="timeval_from_msec" alt="" coords="683,219,819,248"/>
+<area shape="rect" id="node11" href="$cevent_8c.html#ace8b233630e547bb752af0f7ca81f57f" title="pipe_callback" alt="" coords="471,5,572,35"/>
+<area shape="rect" id="node17" href="$seaf-db_8c.html#ae183a9c45ec082962bdd361491b0a8cb" title="seaf_db_type" alt="" coords="472,432,571,461"/>
+<area shape="rect" id="node19" href="$seaf-db_8c.html#a07daa0cca6663aa1fde0faca4b77969d" title="seaf_db_query" alt="" coords="468,325,575,355"/>
+<area shape="rect" id="node21" href="$seaf-db_8c.html#aea6c6bba56350bc53e898fb4f859bc4e" title="pgsql_index_exists" alt="" coords="455,379,588,408"/>
+<area shape="rect" id="node23" href="$seaf-db_8c.html#a6410cd243563343861ba3c6c16fc06a7" title="seaf_db_check_for_existence" alt="" coords="653,379,848,408"/>
+<area shape="rect" id="node33" href="$seafile_2lib_2net_8c.html#abcb9d93276c28d94519c89d13494c02b" title="ccnet_net_bind_tcp" alt="" coords="455,272,588,301"/>
+<area shape="rect" id="node41" href="$job-mgr_8h.html#af6f650ef4b54aace587f2e3e4bd1e622" title="ccnet_job_manager_new" alt="" coords="439,485,604,515"/>
+<area shape="rect" id="node43" href="$job-mgr_8c.html#a5118330dbe662e28e6bb759ad343022a" title="ccnet_job_free" alt="" coords="697,485,804,515"/>
+<area shape="rect" id="node47" href="$cevent_8h.html#a2f0a51bf288caadf31944a151462e78c" title="cevent_manager_register" alt="" coords="437,539,605,568"/>
+</map>

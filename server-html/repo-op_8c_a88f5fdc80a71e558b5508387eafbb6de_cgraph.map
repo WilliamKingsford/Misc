@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fuse_2repo-mgr_8c.html#ab8f60cbbd6c35ee55ea72acbbd3a1608" title="seaf_repo_ref" alt="" coords="324,5,425,35"/>
+<area shape="rect" id="node5" href="$fs-mgr_8c.html#a07b91f8db9de0262970252a95f5e9f2f" title="seaf_dirent_new" alt="" coords="316,59,433,88"/>
+<area shape="rect" id="node7" href="$fs-mgr_8c.html#aed9f5302d562729d419a4ef8f60ffbd1" title="dir_version_from_repo_version" alt="" coords="276,112,473,141"/>
+<area shape="rect" id="node9" href="$server_2repo-mgr_8h.html#a30755ff2c01595d4927715310beaee04" title="seaf_repo_manager_merge_virtual_repo" alt="" coords="248,165,501,195"/>
+<area shape="rect" id="node17" href="$fs-mgr_8c.html#afa141245d62ac11820ad120fef68d01e" title="seaf_fs_manager_count_fs_files" alt="" coords="269,219,480,248"/>
+<area shape="rect" id="node19" href="$copy-mgr_8c.html#ae731d17024807023ab2689f9ffca5e99" title="seaf_copy_manager_add_task" alt="" coords="276,272,473,301"/>
+<area shape="rect" id="node29" href="$fuse_2repo-mgr_8c.html#af6bedb063685823d91f2a335c6882e07" title="seaf_repo_unref" alt="" coords="317,325,432,355"/>
+<area shape="rect" id="node31" href="$commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="308,379,441,408"/>
+<area shape="rect" id="node33" href="$fs-mgr_8c.html#aef77f199fa9eccfe322f1ff978a9055a" title="seaf_dirent_free" alt="" coords="317,432,432,461"/>
+<area shape="rect" id="node35" href="$copy-task_8c.html#a828878066e3a11e3b2587b55cb00ee54" title="seafile_copy_result_new" alt="" coords="292,485,457,515"/>
+<area shape="rect" id="node11" href="$fuse_2repo-mgr_8c.html#a0b9efffb3301d72133b4a3fdd28fc69c" title="seaf_repo_manager_is_virtual_repo" alt="" coords="596,112,823,141"/>
+<area shape="rect" id="node13" href="$server_2gc_2repo-mgr_8c.html#a0e2fecd8fae5355455342e43f6588967" title="seaf_repo_manager_get_virtual_repo_ids_by_origin" alt="" coords="551,165,868,195"/>
+<area shape="rect" id="node15" href="$seafile_2lib_2utils_8c.html#af85d9a3e4ab846a6eedfb509508367f2" title="string_list_free" alt="" coords="656,219,763,248"/>
+<area shape="rect" id="node21" href="$seafile_2lib_2utils_8c.html#af64020f0be33abde6a2a076ff9808809" title="gen_uuid" alt="" coords="672,272,747,301"/>
+<area shape="rect" id="node23" href="$job-mgr_8h.html#ac2bb163f21ddd6494f8d0101cc989768" title="ccnet_job_manager_schedule_job" alt="" coords="600,325,819,355"/>
+<area shape="rect" id="node25" href="$job-mgr_8c.html#a6272c9579bee3c9bfb469e720e6a03e0" title="ccnet_job_new" alt="" coords="925,299,1035,328"/>
+<area shape="rect" id="node27" href="$job-mgr_8c.html#a0df701b89788bcc8e5fd0035f30afe29" title="job_thread_create" alt="" coords="917,352,1043,381"/>
+<area shape="rect" id="node37" href="$copy-task_8c.html#a25b15903a7521d2ffeac3c79ca5eed04" title="seafile_copy_result_construct" alt="" coords="612,485,807,515"/>
+</map>

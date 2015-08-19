@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2Backups_2repo-mgr_8c.html" title="seafile&#45;4.1.2/server/Backups/repo&#45;mgr.c" alt="" coords="5,83,259,112"/>
+<area shape="rect" id="node5" href="$Backups_2repo-op_8c.html" title="seafile&#45;4.1.2/server/Backups/repo&#45;op.c" alt="" coords="283,83,528,112"/>
+<area shape="rect" id="node7" href="$monitor-rpc-wrappers_8c.html" title="seafile&#45;4.1.2/server/monitor&#45;rpc&#45;wrappers.c" alt="" coords="552,83,821,112"/>
+<area shape="rect" id="node9" href="$Backups_2recvbranch-v2-proc_8c.html" title="seafile&#45;4.1.2/server/processors/Backups/recvbranch&#45;v2&#45;proc.c" alt="" coords="845,83,1227,112"/>
+<area shape="rect" id="node11" href="$recvbranch-proc_8c.html" title="seafile&#45;4.1.2/server/processors/recvbranch&#45;proc.c" alt="" coords="1251,83,1560,112"/>
+<area shape="rect" id="node13" href="$recvbranch-v2-proc_8c.html" title="seafile&#45;4.1.2/server/processors/recvbranch&#45;v2&#45;proc.c" alt="" coords="1584,83,1909,112"/>
+<area shape="rect" id="node15" href="$server_2repo-mgr_8c.html" title="seafile&#45;4.1.2/server/repo&#45;mgr.c" alt="" coords="1933,83,2131,112"/>
+<area shape="rect" id="node17" href="$repo-op_8c.html" title="seafile&#45;4.1.2/server/repo&#45;op.c" alt="" coords="2155,83,2344,112"/>
+<area shape="rect" id="node19" href="$server_2seafile-session_8c.html" title="seafile&#45;4.1.2/server/seafile&#45;session.c" alt="" coords="2368,83,2603,112"/>
+</map>

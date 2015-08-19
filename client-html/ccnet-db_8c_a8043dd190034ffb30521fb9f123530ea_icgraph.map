@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$group-mgr_8h.html#a574eea8b209f9d403f3f5466e0931638" title="ccnet_group_manager_get_groupids_by_user" alt="" coords="273,5,556,35"/>
+<area shape="rect" id="node5" href="$group-mgr_8h.html#a59e152b54a32d2f757e73592a7f1adfd" title="ccnet_group_manager_get_group" alt="" coords="308,59,521,88"/>
+<area shape="rect" id="node7" href="$group-mgr_8h.html#acb9980896c302eef15a097eaf46f6a19" title="ccnet_group_manager_get_group_members" alt="" coords="277,112,552,141"/>
+<area shape="rect" id="node9" href="$group-mgr_8h.html#a1440a6423f6652c55e67edf97837eb7b" title="ccnet_group_manager_get_all_groups" alt="" coords="295,165,535,195"/>
+<area shape="rect" id="node11" href="$org-mgr_8h.html#a8a9636f1ffef0b6b8065115b00c2aaa4" title="ccnet_org_manager_get_all_orgs" alt="" coords="308,219,521,248"/>
+<area shape="rect" id="node13" href="$org-mgr_8h.html#a26051cfa51cafbea6f980fc9821e5647" title="ccnet_org_manager_get_org_by_url_prefix" alt="" coords="281,272,548,301"/>
+<area shape="rect" id="node15" href="$org-mgr_8h.html#af6328af72791c25c426d21799d8f9b61" title="ccnet_org_manager_get_org_by_id" alt="" coords="303,325,527,355"/>
+<area shape="rect" id="node17" href="$org-mgr_8h.html#a4038751955d0448a99ed1efef691b785" title="ccnet_org_manager_get_orgs_by_user" alt="" coords="292,379,537,408"/>
+<area shape="rect" id="node19" href="$org-mgr_8h.html#a18b7e09a54dc0fed0f50e0ffbb556178" title="ccnet_org_manager_get_org_emailusers" alt="" coords="287,432,543,461"/>
+<area shape="rect" id="node21" href="$org-mgr_8h.html#aff2d0f646f0280335c4008c95de5e02b" title="ccnet_org_manager_get_org_groups" alt="" coords="299,485,531,515"/>
+<area shape="rect" id="node23" href="$user-mgr_8h.html#a4fa157bcd38e63861ceae3c142b8280d" title="ccnet_user_manager_validate_emailuser" alt="" coords="285,539,544,568"/>
+<area shape="rect" id="node25" href="$user-mgr_8h.html#a5bbdab83b508be6a74e80c3694278407" title="ccnet_user_manager_get_emailuser" alt="" coords="300,592,529,621"/>
+<area shape="rect" id="node27" href="$user-mgr_8h.html#a87e811c8564995600ba035b2a3e7f1f1" title="ccnet_user_manager_get_emailuser_by_id" alt="" coords="280,645,549,675"/>
+<area shape="rect" id="node29" href="$user-mgr_8h.html#a80d4b0f4c216ac434043852a14c095e6" title="ccnet_user_manager_get_emailusers" alt="" coords="296,699,533,728"/>
+<area shape="rect" id="node31" href="$user-mgr_8h.html#ad84cbd8ab33c008ab06e89bc629ced75" title="ccnet_user_manager_search_emailusers" alt="" coords="285,752,544,781"/>
+</map>

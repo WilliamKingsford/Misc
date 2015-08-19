@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$block-backend_8c.html#a6f80be13c1b4c73ed26b74de9c67014d" title="load_filesystem_block_backend" alt="" coords="215,5,420,35"/>
+<area shape="rect" id="node7" href="$block-mgr_8h.html#afe7bdd98ee7c90761a36de14c5d89670" title="seaf_block_manager_new" alt="" coords="231,59,404,88"/>
+<area shape="rect" id="node5" href="$block-backend_8h.html#ab9ee70d56755e222e66d1b7475ea28bc" title="load_block_backend" alt="" coords="472,5,611,35"/>
+<area shape="rect" id="node9" href="$daemon_2seafile-session_8h.html#a3eea8fbb412edb5ff72027285edb7c72" title="seafile_session_new" alt="" coords="471,59,612,88"/>
+<area shape="rect" id="node11" href="$seaf-daemon_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="661,59,712,88"/>
+</map>

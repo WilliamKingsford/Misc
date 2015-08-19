@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fs-mgr_8c.html#a029c16e2ecdf6eafd96edb2ee4e6beac" title="seaf_fs_manager_get_seafile" alt="" coords="296,45,488,75"/>
+<area shape="rect" id="node9" href="$fs-mgr_8c.html#a0a491c647769cf7bd09d5092ab84b85a" title="seafile_unref" alt="" coords="344,99,440,128"/>
+<area shape="rect" id="node11" href="$block-mgr_8c.html#acc8d899bbbf17d0db6d07c9eda67fd0c" title="seaf_block_manager_block_exists" alt="" coords="281,152,503,181"/>
+<area shape="rect" id="node13" href="$http-tx-mgr_8c.html#a9405628380ded681f1831e92755869e3" title="get_block" alt="" coords="353,205,431,235"/>
+<area shape="rect" id="node5" href="$fs-mgr_8c.html#aaf788c4f305d5509b791f64615fa9112" title="seafile_ref" alt="" coords="639,5,721,35"/>
+<area shape="rect" id="node7" href="$obj-store_8c.html#a6e93a0214f9cb8a7fc837a2bc3a3c529" title="seaf_obj_store_read_obj" alt="" coords="599,59,761,88"/>
+<area shape="rect" id="node15" href="$block-mgr_8c.html#a056c34bef84deef28712969643b00dbc" title="seaf_block_manager_open_block" alt="" coords="573,125,787,155"/>
+<area shape="rect" id="node17" href="$block-mgr_8c.html#aa78b63ce0fb941132f6db665de4966bc" title="seaf_block_manager_close_block" alt="" coords="571,179,789,208"/>
+<area shape="rect" id="node19" href="$block-mgr_8c.html#a30d3350f36f7448fcf414ccc2cd59824" title="seaf_block_manager_commit_block" alt="" coords="565,232,795,261"/>
+<area shape="rect" id="node21" href="$block-mgr_8c.html#a61d32d9d0d064dea33a1e2e7008215c1" title="seaf_block_manager_block_handle_free" alt="" coords="553,285,807,315"/>
+</map>

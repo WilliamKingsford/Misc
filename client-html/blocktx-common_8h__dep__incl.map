@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$putblock-proc_8c.html" title="seafile&#45;4.1.2/common/processors/putblock&#45;proc.c" alt="" coords="5,83,312,112"/>
+<area shape="rect" id="node5" href="$getblock-proc_8c.html" title="seafile&#45;4.1.2/daemon/processors/getblock&#45;proc.c" alt="" coords="336,83,640,112"/>
+<area shape="rect" id="node7" href="$sendblock-proc_8c.html" title="seafile&#45;4.1.2/daemon/processors/sendblock&#45;proc.c" alt="" coords="664,83,979,112"/>
+<area shape="rect" id="node9" href="$recvblock-proc_8c.html" title="seafile&#45;4.1.2/server/processors/recvblock&#45;proc.c" alt="" coords="1003,83,1304,112"/>
+</map>

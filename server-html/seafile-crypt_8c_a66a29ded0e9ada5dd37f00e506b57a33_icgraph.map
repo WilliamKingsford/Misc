@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-crypt_8h.html#af0dc7b06b352baa5469b21beec40f73a" title="seafile_decrypt_repo_enc_key" alt="" coords="167,85,364,115"/>
+<area shape="rect" id="node13" href="$seafile-crypt_8h.html#ae088f5ba8cee3dc96073da2bd1d1f65f" title="seafile_update_random_key" alt="" coords="173,139,357,168"/>
+<area shape="rect" id="node5" href="$daemon_2repo-mgr_8h.html#a77e557bb1fedd648a109ab5d9bff5ef4" title="seaf_repo_index_worktree_files" alt="" coords="433,5,639,35"/>
+<area shape="rect" id="node7" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="435,59,637,88"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8h.html#a683d25df06076d282da2f7ae01e05a49" title="seaf_repo_manager_set_repo_passwd" alt="" coords="413,112,659,141"/>
+<area shape="rect" id="node11" href="$passwd-mgr_8h.html#a423fa6bdd74869a9d46a706ecd7790da" title="seaf_passwd_manager_set_passwd" alt="" coords="420,165,652,195"/>
+</map>

@@ -1,0 +1,31 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$net_2common_2peer_8h.html#a031dc95ab691d743034f01661878d612" title="ccnet_peer_send_request" alt="" coords="243,296,413,325"/>
+<area shape="rect" id="node9" href="$net_2common_2peer_8h.html#af8ef48f16fcaa24c771b76d10dbd47c9" title="ccnet_peer_send_response" alt="" coords="237,349,419,379"/>
+<area shape="rect" id="node49" href="$net_2common_2peer_8h.html#a72e767a6987cd7f03a0fa22c33d7b7d5" title="ccnet_peer_send_update" alt="" coords="245,428,411,457"/>
+<area shape="rect" id="node5" href="$net_2common_2processor_8c.html#ac354e19db989f98be49e2559b7def26f" title="ccnet_processor_send_request" alt="" coords="481,296,684,325"/>
+<area shape="rect" id="node7" href="$net_2common_2processor_8c.html#a8372f1335ceb5b855766eaee611a42c6" title="ccnet_processor_send_request_l" alt="" coords="476,243,689,272"/>
+<area shape="rect" id="node11" href="$net_2common_2processor_8c.html#a990a7c85ac8c9b5cb020391b10affe82" title="ccnet_processor_send_response" alt="" coords="476,349,689,379"/>
+<area shape="rect" id="node13" href="$net_2common_2processor_8h.html#a6f3eeae7f465a1d890fa925d1dd06479" title="ccnet_processor_handle_update" alt="" coords="759,193,967,223"/>
+<area shape="rect" id="node15" href="$net_2common_2processor_8c.html#a616b28b7209d3c9a7624250c933b5b96" title="ccnet_processor_start" alt="" coords="788,247,937,276"/>
+<area shape="rect" id="node39" href="$service-proxy-proc_8h.html#adcf423d69275cc93553aeab8d33f3f4f" title="ccnet_service_proxy_invoke_remote" alt="" coords="1027,299,1261,328"/>
+<area shape="rect" id="node41" href="$service-proxy-proc_8h.html#ad45f143a9bd1b9a5c42738492bc0cfb2" title="ccnet_service_proxy_invoke_local" alt="" coords="1033,352,1255,381"/>
+<area shape="rect" id="node43" href="$net_2common_2processor_8h.html#a887d17d56c4842bb0440b98b84e3a66d" title="ccnet_processor_error" alt="" coords="788,401,937,431"/>
+<area shape="rect" id="node45" href="$net_2common_2processor_8h.html#a0ccee8cbd78fceafc23156d0493c8065" title="ccnet_processor_keep_alive" alt="" coords="769,455,956,484"/>
+<area shape="rect" id="node17" href="$ccnetrpc-transport_8c.html#a340cdb617d81740213718979fc754283" title="ccnetrpc_async_transport_send" alt="" coords="1041,59,1247,88"/>
+<area shape="rect" id="node25" href="$mainloop_8c.html#a7e0e66a5bbdd84284c8a524f467c1d6f" title="ccnet_send_command" alt="" coords="1068,192,1220,221"/>
+<area shape="rect" id="node37" href="$net_2common_2processor_8h.html#ae2bb4b51c8e7dd43366b777ca9b00cf6" title="ccnet_processor_startl" alt="" coords="1067,245,1221,275"/>
+<area shape="rect" id="node19" href="$ccnet-rpc-wrapper_8c.html#a7a77a44f41cb3b29c8487d6d7ad84fc5" title="ccnet_create_async_rpc_client" alt="" coords="1348,5,1551,35"/>
+<area shape="rect" id="node23" href="$monitor-rpc-wrappers_8h.html#af9a28c8136ceb8d53d0019409c1949af" title="monitor_compute_repo_size_async_wrapper" alt="" coords="1309,59,1589,88"/>
+<area shape="rect" id="node21" href="$seaf-daemon_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1637,5,1688,35"/>
+<area shape="rect" id="node27" href="$mainloop_8c.html#a431e05069ff47a725a9b74aaa9ccefa7" title="ccnet_register_service" alt="" coords="1373,325,1525,355"/>
+<area shape="rect" id="node29" href="$mainloop_8c.html#a0cd5a4c4bf8a75fb886dee80e6f5b387" title="ccnet_add_peer" alt="" coords="1392,112,1507,141"/>
+<area shape="rect" id="node31" href="$mainloop_8c.html#a890e2e6ec446ffd5742492983a3fb041" title="ccnet_connect_peer" alt="" coords="1380,165,1519,195"/>
+<area shape="rect" id="node33" href="$mainloop_8c.html#ac8828ce45f1d8d1146d7e8a9aa160737" title="ccnet_disconnect_peer" alt="" coords="1372,219,1527,248"/>
+<area shape="rect" id="node35" href="$seafile-rpc_8h.html#a71e6ea38c1cc19c4989505a4bed67955" title="seafile_update_repo_relay_info" alt="" coords="1349,272,1549,301"/>
+<area shape="rect" id="node51" href="$net_2common_2processor_8c.html#a5358a9392f5e9235cec39e141fea81dc" title="ccnet_processor_send_update" alt="" coords="484,535,681,564"/>
+<area shape="rect" id="node62" href="$net_2common_2processor_8h.html#a35a16e28de209d6be0549a7aee2650ae" title="ccnet_processor_send_error_update" alt="" coords="467,428,699,457"/>
+<area shape="rect" id="node53" href="$net_2common_2processor_8h.html#a562f3a09215f5220c957bc24d60f7929" title="ccnet_processor_done" alt="" coords="787,615,939,644"/>
+<area shape="rect" id="node55" href="$net_2common_2processor_8h.html#ae1457d590ab8236a82ffb225a0d70303" title="ccnet_processor_handle_response" alt="" coords="752,668,973,697"/>
+<area shape="rect" id="node58" href="$getblock-proc_8h.html#a9dda7d3b2bb274fc0a1cfcc3c300e075" title="seafile_getblock_proc_get_block" alt="" coords="757,508,968,537"/>
+<area shape="rect" id="node60" href="$getblock-v2-proc_8h.html#abc581e7ddc58fea06c92304168de268f" title="seafile_getblock_v2_proc_get_block" alt="" coords="747,561,979,591"/>
+</map>

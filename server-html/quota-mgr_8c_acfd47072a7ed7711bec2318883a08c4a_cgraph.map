@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seaf-db_8c.html#ae183a9c45ec082962bdd361491b0a8cb" title="seaf_db_type" alt="" coords="384,5,483,35"/>
+<area shape="rect" id="node5" href="$seaf-db_8c.html#a148dee5d529525afa53d208d2f9d4b86" title="seaf_db_statement_get_int64" alt="" coords="599,84,791,113"/>
+<area shape="rect" id="node13" href="$quota-mgr_8c.html#ab91dd53f1a8335d3149c27f80947f13e" title="seaf_quota_manager_get_org_quota" alt="" coords="317,109,549,139"/>
+<area shape="rect" id="node7" href="$seaf-db_8c.html#a022621519c8205275746dafb4801013a" title="seaf_db_prepare_statement" alt="" coords="852,31,1033,60"/>
+<area shape="rect" id="node9" href="$seaf-db_8c.html#a0cb484988d9e1c156227b99eba482e3c" title="seaf_db_statement_free" alt="" coords="861,84,1024,113"/>
+<area shape="rect" id="node11" href="$seaf-db_8c.html#ac9d9437b19d33c23ce45ec6b1f4d8a05" title="seaf_db_row_get_column_int64" alt="" coords="840,137,1045,167"/>
+</map>

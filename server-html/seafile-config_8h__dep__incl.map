@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile_2common_2rpc-service_8c.html" title="seafile/common/rpc&#45;service.c" alt="" coords="5,83,197,112"/>
+<area shape="rect" id="node5" href="$clone-mgr_8c.html" title="seafile/daemon/clone&#45;mgr.c" alt="" coords="221,83,403,112"/>
+<area shape="rect" id="node7" href="$http-tx-mgr_8c.html" title="seafile/daemon/http&#45;tx&#45;mgr.c" alt="" coords="427,83,613,112"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8c.html" title="seafile/daemon/repo&#45;mgr.c" alt="" coords="637,83,813,112"/>
+<area shape="rect" id="node11" href="$seaf-daemon_8c.html" title="seafile/daemon/seaf&#45;daemon.c" alt="" coords="837,83,1037,112"/>
+<area shape="rect" id="node13" href="$seafile-config_8c.html" title="seafile/daemon/seafile&#45;config.c" alt="" coords="1061,83,1264,112"/>
+<area shape="rect" id="node15" href="$daemon_2seafile-session_8c.html" title="seafile/daemon/seafile&#45;session.c" alt="" coords="1288,83,1499,112"/>
+<area shape="rect" id="node17" href="$sync-mgr_8c.html" title="seafile/daemon/sync&#45;mgr.c" alt="" coords="1523,83,1701,112"/>
+<area shape="rect" id="node19" href="$transfer-mgr_8c.html" title="seafile/daemon/transfer&#45;mgr.c" alt="" coords="1725,83,1920,112"/>
+</map>

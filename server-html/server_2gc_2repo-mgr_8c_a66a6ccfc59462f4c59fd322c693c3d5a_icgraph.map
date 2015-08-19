@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2repo-mgr_8h.html#ac78c13c68a1a9d1d025e45f4e51193ac" title="seaf_repo_manager_set_repo_history_limit" alt="" coords="233,29,503,59"/>
+<area shape="rect" id="node5" href="$server_2repo-mgr_8h.html#a0f63ca499435a0d01f03c8c3a2d86c44" title="seaf_repo_manager_get_repo_history_limit" alt="" coords="233,83,503,112"/>
+<area shape="rect" id="node18" href="$server_2repo-mgr_8c.html#ad0a65514ad80789ff244b20c66460b96" title="seaf_repo_free" alt="" coords="315,136,421,165"/>
+<area shape="rect" id="node20" href="$quota-mgr_8h.html#ae10caa81f529a80e3729b9a050666302" title="seaf_quota_manager_check_quota" alt="" coords="256,189,480,219"/>
+<area shape="rect" id="node22" href="$repo-perm_8c.html#a6a318e5a5bcb0d46286030040ab6e23b" title="seaf_repo_manager_check_permission" alt="" coords="244,243,492,272"/>
+<area shape="rect" id="node26" href="$virtual-repo_8c.html#a1cd4a8c70076d40d2a778dda774a2263" title="seaf_repo_manager_cleanup_virtual_repos" alt="" coords="233,321,503,351"/>
+<area shape="rect" id="node7" href="$server_2repo-mgr_8h.html#a774e0a8ea59c07c94dc8014612b3f948" title="seaf_repo_manager_get_repo_truncate_time" alt="" coords="553,83,831,112"/>
+<area shape="rect" id="node9" href="$seafile_2common_2rpc-service_8c.html#a5594de7f321b08c515c465bc44e25c60" title="seafile_get_commit_list" alt="" coords="929,5,1087,35"/>
+<area shape="rect" id="node13" href="$repo-op_8c.html#afa299e57b701699e37969cc2e674290e" title="seaf_repo_manager_list_file_revisions" alt="" coords="887,83,1129,112"/>
+<area shape="rect" id="node16" href="$repo-op_8c.html#aa21f88c4616547e974cd8c65c512781c" title="seaf_repo_manager_get_deleted_entries" alt="" coords="880,136,1136,165"/>
+<area shape="rect" id="node11" href="$rpc-deprecated_8c.html#a374cf49b787fef8fc91266c87cc15375" title="seafile_get_commit_list_pub" alt="" coords="1184,5,1371,35"/>
+<area shape="rect" id="node24" href="$repo-perm_8c.html#adcbb183301f879ab82eea84aaf8d88b6" title="seaf_repo_manager_list_dir_with_perm" alt="" coords="568,229,816,259"/>
+<area shape="rect" id="node28" href="$repo-op_8c.html#ad6564c23b0e50d8a34dd425432b80db4" title="seaf_repo_manager_del_file" alt="" coords="600,283,784,312"/>
+<area shape="rect" id="node30" href="$repo-op_8c.html#ac11bd852cc7cc4f30e40123b7bae901e" title="seaf_repo_manager_move_file" alt="" coords="909,308,1107,337"/>
+<area shape="rect" id="node33" href="$repo-op_8c.html#ae68e4b6427bb239b697e515c8617cbfb" title="seaf_repo_manager_rename_file" alt="" coords="587,387,797,416"/>
+</map>

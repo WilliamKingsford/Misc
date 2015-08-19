@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$daemon_2repo-mgr_8h.html#a77e557bb1fedd648a109ab5d9bff5ef4" title="seaf_repo_index_worktree_files" alt="" coords="251,5,456,35"/>
+<area shape="rect" id="node5" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="252,59,455,88"/>
+<area shape="rect" id="node7" href="$status_8h.html#aedde1fa2f15b7c6a05b14c2dcc04f6be" title="wt_status_collect_changes_worktree" alt="" coords="235,112,472,141"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8h.html#a461e72948bba5928329e269ad395e293" title="seaf_repo_is_worktree_changed" alt="" coords="521,112,729,141"/>
+</map>

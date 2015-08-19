@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2Backups_2repo-mgr_8c.html#a8326627abe60741e456d4acf6e5ac244" title="seaf_repo_manager_get_repo_from_trash" alt="" coords="340,32,601,61"/>
+<area shape="rect" id="node11" href="$seaf-db_8c.html#a3f672ef795004a79886871b1d7e36862" title="seaf_db_begin_transaction" alt="" coords="383,85,559,115"/>
+<area shape="rect" id="node13" href="$seaf-db_8c.html#a85906acba812801fd6ef8137920d3dcc" title="seaf_db_trans_check_for_existence" alt="" coords="356,139,585,168"/>
+<area shape="rect" id="node15" href="$seaf-db_8c.html#abfa65542f46d16df51de1e82fefcebb3" title="seaf_db_trans_query" alt="" coords="400,192,541,221"/>
+<area shape="rect" id="node17" href="$seaf-db_8c.html#a2786c0aa2d6f3629bc9ed8960e8de288" title="seaf_db_rollback" alt="" coords="411,245,531,275"/>
+<area shape="rect" id="node19" href="$seaf-db_8c.html#af47f83c610aa48fca8f2f667fe2d096d" title="seaf_db_trans_close" alt="" coords="400,299,541,328"/>
+<area shape="rect" id="node21" href="$seaf-db_8c.html#a8f67506e6cc01be4aa0a2a9fc5b08bd2" title="seaf_db_commit" alt="" coords="412,352,529,381"/>
+<area shape="rect" id="node5" href="$seaf-db_8c.html#ae0564388defaeffdf5628e60a074f224" title="seaf_db_statement_foreach_row" alt="" coords="651,32,861,61"/>
+<area shape="rect" id="node7" href="$seaf-db_8c.html#a022621519c8205275746dafb4801013a" title="seaf_db_prepare_statement" alt="" coords="911,5,1092,35"/>
+<area shape="rect" id="node9" href="$seaf-db_8c.html#a0cb484988d9e1c156227b99eba482e3c" title="seaf_db_statement_free" alt="" coords="920,59,1083,88"/>
+</map>

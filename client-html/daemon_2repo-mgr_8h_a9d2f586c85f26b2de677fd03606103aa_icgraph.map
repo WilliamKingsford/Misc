@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-rpc_8h.html#a3880f357c6b6e7e350ce5a781e9668c1" title="seafile_set_repo_property" alt="" coords="364,5,535,35"/>
+<area shape="rect" id="node5" href="$daemon_2repo-mgr_8h.html#a6ed05df6501a326fc58a0fefb91aef3d" title="seaf_repo_manager_set_repo_worktree" alt="" coords="324,59,575,88"/>
+<area shape="rect" id="node7" href="$daemon_2repo-mgr_8h.html#ae3753999b4845dfe68bd6f098313280c" title="seaf_repo_manager_update_repos_server_host" alt="" coords="301,112,597,141"/>
+<area shape="rect" id="node9" href="$seafile-rpc_8h.html#a2d3ae7fdb45f784fe4eb4abc2f4055c2" title="seafile_update_repos_server_host" alt="" coords="647,112,865,141"/>
+</map>

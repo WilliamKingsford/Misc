@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2repo-mgr_8h.html#a24cf3ec157b1edc047b115b28ee8bd0c" title="seaf_repo_manager_get_inner_pub_repo_perm" alt="" coords="252,5,543,35"/>
+<area shape="rect" id="node5" href="$share-mgr_8h.html#a37a1ab881990c48cc43cf1a9e24b444a" title="seaf_share_manager_check_permission" alt="" coords="271,59,524,88"/>
+<area shape="rect" id="node7" href="$virtual-repo_8c.html#ab6ef9796edaf6e7e5b53f3633dc88fa8" title="seaf_repo_manager_get_virtual_repo_id" alt="" coords="272,112,523,141"/>
+</map>

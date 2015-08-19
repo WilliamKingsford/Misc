@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-rpc_8h.html#acd2313411e6837feaa74fa6185524c7c" title="seafile_branch_gets" alt="" coords="207,5,345,35"/>
+<area shape="rect" id="node5" href="$seafile_2common_2rpc-service_8c.html#a37949d30db3977c8fbb573881173987b" title="seafile_get_repo" alt="" coords="217,59,335,88"/>
+<area shape="rect" id="node7" href="$seafile_2common_2rpc-service_8c.html#a5594de7f321b08c515c465bc44e25c60" title="seafile_get_commit_list" alt="" coords="197,112,355,141"/>
+<area shape="rect" id="node11" href="$seafile_2common_2rpc-service_8c.html#a3743ba1324330f8ef0cb9a5c33a52e92" title="seafile_destroy_repo" alt="" coords="205,165,347,195"/>
+<area shape="rect" id="node13" href="$server_2repo-mgr_8h.html#a35ce9f51287bbd5f961c261516c1c5f0" title="is_repo_id_valid" alt="" coords="219,219,333,248"/>
+<area shape="rect" id="node15" href="$server_2repo-mgr_8h.html#ad9feaba8f2f873b6685560fd86f4c40d" title="seaf_repo_manager_create_enc_repo" alt="" coords="157,272,395,301"/>
+<area shape="rect" id="node17" href="$repo-perm_8c.html#adcbb183301f879ab82eea84aaf8d88b6" title="seaf_repo_manager_list_dir_with_perm" alt="" coords="152,325,400,355"/>
+<area shape="rect" id="node9" href="$rpc-deprecated_8c.html#a374cf49b787fef8fc91266c87cc15375" title="seafile_get_commit_list_pub" alt="" coords="448,112,635,141"/>
+</map>

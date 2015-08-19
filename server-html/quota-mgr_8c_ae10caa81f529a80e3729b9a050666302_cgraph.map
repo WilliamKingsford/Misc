@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$monitor-tool_8c.html#a2ef30c42cbc289d899a8be5d2d8f77d0" title="usage" alt="" coords="391,5,447,35"/>
+<area shape="rect" id="node5" href="$server_2gc_2repo-mgr_8c.html#a316db228b35dde3dc88ae9dab9ec9c22" title="seaf_repo_manager_get_virtual_repo_info" alt="" coords="288,59,549,88"/>
+<area shape="rect" id="node7" href="$server_2repo-mgr_8c.html#af227a31082c71908bf0a0ac35cfeb294" title="seaf_repo_manager_get_repo_owner" alt="" coords="631,160,865,189"/>
+<area shape="rect" id="node15" href="$quota-mgr_8c.html#aa9cedb66f1a92351feca44e56fc8e4db" title="seaf_quota_manager_get_user_quota" alt="" coords="629,317,867,347"/>
+<area shape="rect" id="node25" href="$quota-mgr_8c.html#a9c080401f9845ebd21abe4e868306379" title="seaf_quota_manager_get_user_usage" alt="" coords="627,107,869,136"/>
+<area shape="rect" id="node28" href="$quota-mgr_8c.html#a12e60fee869eff11295588d7565ea677" title="seaf_quota_manager_get_user_share_usage" alt="" coords="279,213,559,243"/>
+<area shape="rect" id="node36" href="$server_2gc_2repo-mgr_8c.html#a66a6ccfc59462f4c59fd322c693c3d5a" title="seaf_virtual_repo_info_free" alt="" coords="329,317,508,347"/>
+<area shape="rect" id="node9" href="$seaf-db_8c.html#ae0564388defaeffdf5628e60a074f224" title="seaf_db_statement_foreach_row" alt="" coords="936,160,1147,189"/>
+<area shape="rect" id="node11" href="$seaf-db_8c.html#a022621519c8205275746dafb4801013a" title="seaf_db_prepare_statement" alt="" coords="1207,240,1388,269"/>
+<area shape="rect" id="node13" href="$seaf-db_8c.html#a0cb484988d9e1c156227b99eba482e3c" title="seaf_db_statement_free" alt="" coords="1216,173,1379,203"/>
+<area shape="rect" id="node17" href="$seaf-db_8c.html#ae183a9c45ec082962bdd361491b0a8cb" title="seaf_db_type" alt="" coords="992,267,1091,296"/>
+<area shape="rect" id="node19" href="$seaf-db_8c.html#a148dee5d529525afa53d208d2f9d4b86" title="seaf_db_statement_get_int64" alt="" coords="945,320,1137,349"/>
+<area shape="rect" id="node23" href="$seaf-db_8c.html#ac9d9437b19d33c23ce45ec6b1f4d8a05" title="seaf_db_row_get_column_int64" alt="" coords="1195,320,1400,349"/>
+<area shape="rect" id="node30" href="$server_2repo-mgr_8c.html#a6a2b07102342d3acc5722e059635aacb" title="seaf_repo_manager_get_repo_ids_by_owner" alt="" coords="608,213,888,243"/>
+<area shape="rect" id="node33" href="$seafile_2lib_2utils_8c.html#af85d9a3e4ab846a6eedfb509508367f2" title="string_list_free" alt="" coords="988,213,1095,243"/>
+</map>

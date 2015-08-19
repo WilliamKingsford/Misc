@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fs-mgr_8h.html#a36b814252ae47bd595a9282266ea1b56" title="seaf_fs_manager_checkout_file" alt="" coords="287,5,492,35"/>
+<area shape="rect" id="node9" href="$fs-mgr_8h.html#a0927ab6809d59562a0782cb80e410575" title="seaf_fs_manager_get_file_size" alt="" coords="288,59,491,88"/>
+<area shape="rect" id="node11" href="$http-tx-mgr_8h.html#a3cdcb1e4f4996dabc1adb7ae742ddfb4" title="http_tx_task_download_file_blocks" alt="" coords="277,112,501,141"/>
+<area shape="rect" id="node14" href="$transfer-mgr_8h.html#a760b69b5aa68dcb74c3020f091d1fc6c" title="seaf_transfer_manager_download_file_blocks" alt="" coords="247,165,532,195"/>
+<area shape="rect" id="node17" href="$vc-utils_8h.html#a7564d102761a05b137c2b06fa5e1f004" title="fill_seafile_blocks" alt="" coords="327,219,452,248"/>
+<area shape="rect" id="node5" href="$daemon_2Backups_2repo-mgr_8c.html#a450e5bcc50da4c40b7ba2bde33a22a84" title="checkout_file" alt="" coords="636,112,735,141"/>
+<area shape="rect" id="node7" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="837,112,1040,141"/>
+<area shape="rect" id="node19" href="$vc-utils_8h.html#a679a356f1eff6a4f953fe26f3f841f93" title="collect_new_blocks_from_index" alt="" coords="583,219,788,248"/>
+</map>

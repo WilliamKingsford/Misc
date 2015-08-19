@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$ccnet-server_8c.html" title="ccnet/net/server/ccnet&#45;server.c" alt="" coords="5,83,208,112"/>
+<area shape="rect" id="node5" href="$recvlogin-proc_8c.html" title="ccnet/net/server/processors/recvlogin&#45;proc.c" alt="" coords="232,83,512,112"/>
+<area shape="rect" id="node7" href="$recvlogout-proc_8c.html" title="ccnet/net/server/processors/recvlogout&#45;proc.c" alt="" coords="536,83,824,112"/>
+<area shape="rect" id="node9" href="$server-session_8c.html" title="ccnet/net/server/server&#45;session.c" alt="" coords="848,83,1064,112"/>
+<area shape="rect" id="node11" href="$user-mgr_8c.html" title="ccnet/net/server/user&#45;mgr.c" alt="" coords="1088,83,1269,112"/>
+</map>

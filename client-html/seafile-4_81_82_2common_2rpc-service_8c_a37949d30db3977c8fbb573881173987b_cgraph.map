@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-4_81_82_2lib_2utils_8c.html#a48ecdc72b727191abafbbf2ec1f70ace" title="is_uuid_valid" alt="" coords="281,5,377,35"/>
+<area shape="rect" id="node5" href="$daemon_2Backups_2repo-mgr_8c.html#af0276c036723560e3e8b9aa5529133d6" title="seaf_repo_manager_get_repo" alt="" coords="555,109,747,139"/>
+<area shape="rect" id="node7" href="$seafile-config_8c.html#adfb95469d4c47a60ad25400c3e2a9f96" title="seafile_session_config_get_allow_invalid_worktree" alt="" coords="171,59,488,88"/>
+<area shape="rect" id="node11" href="$seafile-4_81_82_2common_2rpc-service_8c.html#a3e4e9d217daa4c70314c43c6065a57ea" title="seafile_repo_last_modify" alt="" coords="247,163,412,192"/>
+<area shape="rect" id="node26" href="$fuse_2Backups_2repo-mgr_8c.html#af6bedb063685823d91f2a335c6882e07" title="seaf_repo_unref" alt="" coords="272,216,387,245"/>
+<area shape="rect" id="node9" href="$seafile-config_8c.html#a02953f1fa5e2500d3b7d50f176a9b81e" title="seafile_session_config_get_bool" alt="" coords="545,56,756,85"/>
+<area shape="rect" id="node14" href="$branch-mgr_8c.html#a1dffc8c3c325e4ca1daf8a5d5f4f6956" title="seaf_branch_manager_get_branch" alt="" coords="540,269,761,299"/>
+<area shape="rect" id="node16" href="$branch-mgr_8c.html#a2e44cba993ba080e7550a832f019f653" title="seaf_branch_unref" alt="" coords="587,323,715,352"/>
+<area shape="rect" id="node20" href="$commit-mgr_8c.html#adaf4b74c4dba25ddaa746f4ff9221b3f" title="seaf_commit_manager_get_commit" alt="" coords="536,163,765,192"/>
+<area shape="rect" id="node24" href="$commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="584,216,717,245"/>
+<area shape="rect" id="node18" href="$branch-mgr_8c.html#a449a49952dc253bd7b16367869d0ebdc" title="seaf_branch_free" alt="" coords="813,323,936,352"/>
+<area shape="rect" id="node22" href="$commit-mgr_8c.html#a2b1cc305cf40cb64c341a0e64d0fe921" title="seaf_commit_ref" alt="" coords="816,163,933,192"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$index_8h.html#a0e4ddc1ec8c4039bc06b09cff58995d3" title="remove_index_entry_at" alt="" coords="199,171,356,200"/>
+<area shape="rect" id="node9" href="$index_8h.html#a56d1945a0677d925b25c610d613aeefc" title="rename_index_entries" alt="" coords="941,147,1091,176"/>
+<area shape="rect" id="node11" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="1139,187,1341,216"/>
+<area shape="rect" id="node17" href="$index_8h.html#a86bf1084dfc4e0057a52b4da1922de9b" title="remove_from_index_with_prefix" alt="" coords="687,253,892,283"/>
+<area shape="rect" id="node21" href="$index_8h.html#a12825d79310dd67cd238e49161be5bfd" title="remove_marked_cache_entries" alt="" coords="176,408,379,437"/>
+<area shape="rect" id="node25" href="$index_8h.html#a8a33b476c3dc728e33e68cd63bda31e0" title="discard_index" alt="" coords="227,355,328,384"/>
+<area shape="rect" id="node5" href="$index_8h.html#a478519e092fd07dacd10c804cfec4282" title="remove_file_from_index" alt="" coords="452,120,612,149"/>
+<area shape="rect" id="node7" href="$index_8h.html#a21d6b0245750631144db52218a179633" title="remove_empty_parent_dir_entry" alt="" coords="685,93,893,123"/>
+<area shape="rect" id="node13" href="$index_8h.html#a2988327a0a98dd3e8868b4b902d310bf" title="add_to_index" alt="" coords="740,147,839,176"/>
+<area shape="rect" id="node15" href="$index_8h.html#a0a287241a624545389a63a0b22a98513" title="add_empty_dir_to_index" alt="" coords="708,200,871,229"/>
+<area shape="rect" id="node27" href="$daemon_2repo-mgr_8h.html#a77e557bb1fedd648a109ab5d9bff5ef4" title="seaf_repo_index_worktree_files" alt="" coords="429,275,635,304"/>
+<area shape="rect" id="node29" href="$daemon_2repo-mgr_8h.html#a461e72948bba5928329e269ad395e293" title="seaf_repo_is_worktree_changed" alt="" coords="428,328,636,357"/>
+<area shape="rect" id="node31" href="$daemon_2repo-mgr_8h.html#a79db93d798035e3e07f48c2ad32d87f1" title="seaf_repo_is_index_unmerged" alt="" coords="433,381,631,411"/>
+<area shape="rect" id="node37" href="$daemon_2repo-mgr_8h.html#ab6d5318b3a1cc6f86733ff71b16815a8" title="seaf_repo_index_commit" alt="" coords="449,488,615,517"/>
+<area shape="rect" id="node39" href="$daemon_2repo-mgr_8h.html#a7923c5fb7b957a121f1b2616a8d66745" title="seaf_repo_checkout_commit" alt="" coords="437,435,627,464"/>
+<area shape="rect" id="node33" href="$merge_8c.html#a65b859e991bbf3718673fa75b0251c85" title="merge_branches" alt="" coords="731,381,848,411"/>
+<area shape="rect" id="node35" href="$daemon_2repo-mgr_8h.html#a25b9a6f8f5199db34dcb95789a80eba4" title="seaf_repo_merge" alt="" coords="955,381,1077,411"/>
+<area shape="rect" id="node41" href="$daemon_2repo-mgr_8h.html#ab553f7b1a5290e99821753acf9e87c86" title="seaf_repo_checkout" alt="" coords="720,435,859,464"/>
+</map>

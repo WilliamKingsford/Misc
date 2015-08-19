@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-4_81_82_2lib_2utils_8c.html#a48ecdc72b727191abafbbf2ec1f70ace" title="is_uuid_valid" alt="" coords="363,5,459,35"/>
+<area shape="rect" id="node5" href="$daemon_2Backups_2repo-mgr_8c.html#a4b2497e6cdde50c4ce3cb642370e06eb" title="seaf_repo_manager_repo_exists" alt="" coords="305,59,516,88"/>
+<area shape="rect" id="node7" href="$server_2Backups_2repo-mgr_8c.html#a5f096821f41a339e41e9341fc0c4010d" title="seaf_repo_manager_set_repo_owner" alt="" coords="293,112,528,141"/>
+</map>

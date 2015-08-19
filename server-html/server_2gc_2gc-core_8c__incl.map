@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$server_2gc_2seafile-session_8h.html" title="seafile&#45;session.h" alt="" coords="439,83,559,112"/>
+<area shape="rect" id="node65" href="$server_2gc_2gc-core_8h.html" title="gc&#45;core.h" alt="" coords="703,83,777,112"/>
+<area shape="rect" id="node11" href="$block-mgr_8h.html" title="block&#45;mgr.h" alt="" coords="176,392,267,421"/>
+<area shape="rect" id="node19" href="$fs-mgr_8h.html" title="fs&#45;mgr.h" alt="" coords="341,315,411,344"/>
+<area shape="rect" id="node43" href="$commit-mgr_8h.html" title="commit&#45;mgr.h" alt="" coords="577,315,679,344"/>
+<area shape="rect" id="node50" href="$branch-mgr_8h.html" title="branch&#45;mgr.h" alt="" coords="536,237,635,267"/>
+<area shape="rect" id="node53" href="$server_2gc_2repo-mgr_8h.html" title="repo&#45;mgr.h" alt="" coords="587,160,669,189"/>
+<area shape="rect" id="node61" href="$seaf-db_8h.html" title="seaf&#45;db.h" alt="" coords="859,160,933,189"/>
+<area shape="rect" id="node17" href="$block_8h.html" title="block.h" alt="" coords="219,469,283,499"/>
+<area shape="rect" id="node22" href="$seafile-object_8h.html" title="seafile&#45;object.h" alt="" coords="392,392,501,421"/>
+<area shape="rect" id="node26" href="$obj-store_8h.html" title="obj&#45;store.h" alt="" coords="525,392,608,421"/>
+<area shape="rect" id="node31" href="$cdc_8h.html" title="cdc/cdc.h" alt="" coords="75,392,152,421"/>
+<area shape="rect" id="node37" href="$seafile-crypt_8h.html" title="../common/seafile&#45;crypt.h" alt="" coords="632,392,803,421"/>
+</map>

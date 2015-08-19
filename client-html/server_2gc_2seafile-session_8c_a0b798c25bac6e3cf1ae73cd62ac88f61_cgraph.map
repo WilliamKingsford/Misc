@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-4_81_82_2lib_2utils_8c.html#ad52e8a09737b9afc6375f8cee7336d7d" title="ccnet_expand_path" alt="" coords="224,5,357,35"/>
+<area shape="rect" id="node5" href="$fs-mgr_8h.html#ad005159664b100b6ac12ee73d4dad7dd" title="seaf_fs_manager_new" alt="" coords="215,59,367,88"/>
+<area shape="rect" id="node7" href="$block-mgr_8c.html#afe7bdd98ee7c90761a36de14c5d89670" title="seaf_block_manager_new" alt="" coords="204,112,377,141"/>
+<area shape="rect" id="node11" href="$commit-mgr_8c.html#a17f293cbb4ade7854596f51cebd7248a" title="seaf_commit_manager_new" alt="" coords="199,165,383,195"/>
+<area shape="rect" id="node17" href="$daemon_2Backups_2repo-mgr_8c.html#a8f91693d20dfa77546527064cb1097e3" title="seaf_repo_manager_new" alt="" coords="208,219,373,248"/>
+<area shape="rect" id="node19" href="$branch-mgr_8c.html#af009f1b2d00e44b485bde7f438020655" title="seaf_branch_manager_new" alt="" coords="200,272,381,301"/>
+<area shape="rect" id="node9" href="$block-backend-fs_8c.html#a9a22263747a52f5ff2e690134337cb93" title="block_backend_fs_new" alt="" coords="433,112,591,141"/>
+<area shape="rect" id="node13" href="$obj-store_8c.html#ad871019d105d6cada26d2d7d5876a31d" title="seaf_obj_store_new" alt="" coords="443,165,581,195"/>
+<area shape="rect" id="node15" href="$obj-backend-fs_8c.html#acf75816d5ce4f49a6fbb7dfefd310157" title="obj_backend_fs_new" alt="" coords="640,165,784,195"/>
+</map>

@@ -1,0 +1,29 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-4_81_82_2common_2rpc-service_8c.html" title="seafile&#45;4.1.2/common/rpc&#45;service.c" alt="" coords="5,237,232,267"/>
+<area shape="rect" id="node5" href="$daemon_2seafile-session_8h.html" title="seafile&#45;4.1.2/daemon/seafile&#45;session.h" alt="" coords="1580,83,1825,112"/>
+<area shape="rect" id="node29" href="$sync-mgr_8c.html" title="seafile&#45;4.1.2/daemon/sync&#45;mgr.c" alt="" coords="2043,237,2253,267"/>
+<area shape="rect" id="node31" href="$transfer-mgr_8c.html" title="seafile&#45;4.1.2/daemon/transfer&#45;mgr.c" alt="" coords="2277,237,2504,267"/>
+<area shape="rect" id="node63" href="$sync-repo-proc_8c.html" title="seafile&#45;4.1.2/daemon/processors/sync&#45;repo&#45;proc.c" alt="" coords="4396,83,4708,112"/>
+<area shape="rect" id="node7" href="$block-tx-client_8c.html" title="seafile&#45;4.1.2/daemon/block&#45;tx&#45;client.c" alt="" coords="260,160,497,189"/>
+<area shape="rect" id="node9" href="$client-migrate_8c.html" title="seafile&#45;4.1.2/daemon/client&#45;migrate.c" alt="" coords="521,160,756,189"/>
+<area shape="rect" id="node11" href="$clone-mgr_8c.html" title="seafile&#45;4.1.2/daemon/clone&#45;mgr.c" alt="" coords="256,237,469,267"/>
+<area shape="rect" id="node13" href="$seafile-config_8h.html" title="seafile&#45;4.1.2/daemon/seafile&#45;config.h" alt="" coords="932,160,1167,189"/>
+<area shape="rect" id="node19" href="$http-tx-mgr_8c.html" title="seafile&#45;4.1.2/daemon/http&#45;tx&#45;mgr.c" alt="" coords="493,237,715,267"/>
+<area shape="rect" id="node21" href="$daemon_2repo-mgr_8c.html" title="seafile&#45;4.1.2/daemon/repo&#45;mgr.c" alt="" coords="739,237,947,267"/>
+<area shape="rect" id="node23" href="$seaf-daemon_8c.html" title="seafile&#45;4.1.2/daemon/seaf&#45;daemon.c" alt="" coords="1517,237,1749,267"/>
+<area shape="rect" id="node27" href="$daemon_2seafile-session_8c.html" title="seafile&#45;4.1.2/daemon/seafile&#45;session.c" alt="" coords="1773,237,2019,267"/>
+<area shape="rect" id="node33" href="$daemon_2gc-core_8c.html" title="seafile&#45;4.1.2/daemon/gc&#45;core.c" alt="" coords="1393,160,1593,189"/>
+<area shape="rect" id="node35" href="$gc_8c.html" title="seafile&#45;4.1.2/daemon/gc.c" alt="" coords="1617,160,1788,189"/>
+<area shape="rect" id="node38" href="$merge-recursive_8c.html" title="seafile&#45;4.1.2/daemon/merge&#45;recursive.c" alt="" coords="1812,160,2063,189"/>
+<area shape="rect" id="node40" href="$merge_8c.html" title="seafile&#45;4.1.2/daemon/merge.c" alt="" coords="2087,160,2281,189"/>
+<area shape="rect" id="node44" href="$seaf-test_8c.html" title="seafile&#45;4.1.2/daemon/seaf&#45;test.c" alt="" coords="2305,160,2513,189"/>
+<area shape="rect" id="node46" href="$seaf-tool_8c.html" title="seafile&#45;4.1.2/daemon/seaf&#45;tool.c" alt="" coords="2537,160,2745,189"/>
+<area shape="rect" id="node49" href="$status_8c.html" title="seafile&#45;4.1.2/daemon/status.c" alt="" coords="2769,160,2964,189"/>
+<area shape="rect" id="node53" href="$vc-utils_8c.html" title="seafile&#45;4.1.2/daemon/vc&#45;utils.c" alt="" coords="2988,160,3188,189"/>
+<area shape="rect" id="node55" href="$wt-monitor-linux_8c.html" title="seafile&#45;4.1.2/daemon/wt&#45;monitor&#45;linux.c" alt="" coords="3212,160,3463,189"/>
+<area shape="rect" id="node57" href="$wt-monitor-macos_8c.html" title="seafile&#45;4.1.2/daemon/wt&#45;monitor&#45;macos.c" alt="" coords="3487,160,3748,189"/>
+<area shape="rect" id="node59" href="$wt-monitor-win32_8c.html" title="seafile&#45;4.1.2/daemon/wt&#45;monitor&#45;win32.c" alt="" coords="3772,160,4028,189"/>
+<area shape="rect" id="node61" href="$wt-monitor_8c.html" title="seafile&#45;4.1.2/daemon/wt&#45;monitor.c" alt="" coords="4052,160,4271,189"/>
+<area shape="rect" id="node16" href="$daemon_2Backups_2repo-mgr_8c.html" title="seafile&#45;4.1.2/daemon/Backups/repo&#45;mgr.c" alt="" coords="971,237,1235,267"/>
+<area shape="rect" id="node25" href="$seafile-config_8c.html" title="seafile&#45;4.1.2/daemon/seafile&#45;config.c" alt="" coords="1259,237,1493,267"/>
+</map>

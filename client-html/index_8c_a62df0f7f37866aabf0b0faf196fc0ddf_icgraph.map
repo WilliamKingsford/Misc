@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$index_8h.html#a0e4ddc1ec8c4039bc06b09cff58995d3" title="remove_index_entry_at" alt="" coords="215,112,372,141"/>
+<area shape="rect" id="node17" href="$index_8h.html#a86bf1084dfc4e0057a52b4da1922de9b" title="remove_from_index_with_prefix" alt="" coords="444,164,649,193"/>
+<area shape="rect" id="node21" href="$index_8h.html#a12825d79310dd67cd238e49161be5bfd" title="remove_marked_cache_entries" alt="" coords="192,216,395,245"/>
+<area shape="rect" id="node5" href="$index_8h.html#a478519e092fd07dacd10c804cfec4282" title="remove_file_from_index" alt="" coords="467,85,627,115"/>
+<area shape="rect" id="node7" href="$index_8h.html#a21d6b0245750631144db52218a179633" title="remove_empty_parent_dir_entry" alt="" coords="699,5,907,35"/>
+<area shape="rect" id="node13" href="$index_8h.html#a2988327a0a98dd3e8868b4b902d310bf" title="add_to_index" alt="" coords="753,59,852,88"/>
+<area shape="rect" id="node15" href="$index_8h.html#a0a287241a624545389a63a0b22a98513" title="add_empty_dir_to_index" alt="" coords="721,112,884,141"/>
+<area shape="rect" id="node9" href="$index_8h.html#a56d1945a0677d925b25c610d613aeefc" title="rename_index_entries" alt="" coords="955,163,1104,192"/>
+<area shape="rect" id="node11" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="1152,189,1355,219"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fs-mgr_8c.html#a029c16e2ecdf6eafd96edb2ee4e6beac" title="seaf_fs_manager_get_seafile" alt="" coords="256,32,448,61"/>
+<area shape="rect" id="node9" href="$fs-mgr_8c.html#a0a491c647769cf7bd09d5092ab84b85a" title="seafile_unref" alt="" coords="304,85,400,115"/>
+<area shape="rect" id="node5" href="$fs-mgr_8c.html#aaf788c4f305d5509b791f64615fa9112" title="seafile_ref" alt="" coords="536,5,619,35"/>
+<area shape="rect" id="node7" href="$obj-store_8c.html#a6e93a0214f9cb8a7fc837a2bc3a3c529" title="seaf_obj_store_read_obj" alt="" coords="496,59,659,88"/>
+</map>

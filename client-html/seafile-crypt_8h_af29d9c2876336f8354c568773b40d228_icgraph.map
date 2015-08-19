@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-crypt_8h.html#ae58dda89366c1a52a611cee06b487f89" title="seafile_generate_random_key" alt="" coords="201,8,396,37"/>
+<area shape="rect" id="node7" href="$seafile-crypt_8h.html#af0dc7b06b352baa5469b21beec40f73a" title="seafile_decrypt_repo_enc_key" alt="" coords="200,115,397,144"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8h.html#a77e557bb1fedd648a109ab5d9bff5ef4" title="seaf_repo_index_worktree_files" alt="" coords="484,59,689,88"/>
+<area shape="rect" id="node11" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="485,219,688,248"/>
+<area shape="rect" id="node17" href="$seafile-crypt_8h.html#ae088f5ba8cee3dc96073da2bd1d1f65f" title="seafile_update_random_key" alt="" coords="207,219,391,248"/>
+<area shape="rect" id="node20" href="$daemon_2repo-mgr_8h.html#a7923c5fb7b957a121f1b2616a8d66745" title="seaf_repo_checkout_commit" alt="" coords="204,272,393,301"/>
+<area shape="rect" id="node29" href="$server_2repo-mgr_8h.html#a3128bd2930667427a22976b6a2b85743" title="seaf_repo_manager_post_file" alt="" coords="203,325,395,355"/>
+<area shape="rect" id="node31" href="$server_2repo-mgr_8h.html#a248a05b4a54ff2d9302d0779cbcc3542" title="seaf_repo_manager_post_multi_files" alt="" coords="181,379,416,408"/>
+<area shape="rect" id="node33" href="$server_2repo-mgr_8h.html#a46c094895964e060809372262c9b9923" title="seaf_repo_manager_put_file" alt="" coords="207,432,391,461"/>
+<area shape="rect" id="node5" href="$server_2repo-mgr_8h.html#a3706de93ba77e5068dba6a1dd073a0fd" title="seaf_repo_manager_create_new_repo" alt="" coords="465,5,708,35"/>
+<area shape="rect" id="node13" href="$daemon_2repo-mgr_8h.html#a683d25df06076d282da2f7ae01e05a49" title="seaf_repo_manager_set_repo_passwd" alt="" coords="464,112,709,141"/>
+<area shape="rect" id="node15" href="$passwd-mgr_8h.html#a423fa6bdd74869a9d46a706ecd7790da" title="seaf_passwd_manager_set_passwd" alt="" coords="471,165,703,195"/>
+<area shape="rect" id="node22" href="$daemon_2repo-mgr_8h.html#ab553f7b1a5290e99821753acf9e87c86" title="seaf_repo_checkout" alt="" coords="517,272,656,301"/>
+<area shape="rect" id="node24" href="$merge_8c.html#a65b859e991bbf3718673fa75b0251c85" title="merge_branches" alt="" coords="528,325,645,355"/>
+<area shape="rect" id="node26" href="$daemon_2repo-mgr_8h.html#a25b9a6f8f5199db34dcb95789a80eba4" title="seaf_repo_merge" alt="" coords="757,325,880,355"/>
+</map>

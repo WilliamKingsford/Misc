@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$ccnet-db_8c.html#a4080c4e1fd12ba13bc76f3f31677e72e" title="ccnet_db_statement_get_string" alt="" coords="340,59,543,88"/>
+<area shape="rect" id="node5" href="$ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="601,5,791,35"/>
+<area shape="rect" id="node7" href="$ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="612,59,780,88"/>
+<area shape="rect" id="node9" href="$ccnet-db_8c.html#abcdea9cab68995e6321d05f7ce4ff2fc" title="ccnet_db_row_get_column_text" alt="" coords="593,112,799,141"/>
+</map>

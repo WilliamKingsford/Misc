@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$block-mgr_8c.html#a1a1cf6d507f6e6ce63e8f5e63fa7a837" title="seaf_block_manager_stat_block" alt="" coords="149,5,357,35"/>
+<area shape="rect" id="node5" href="$block-mgr_8c.html#a056c34bef84deef28712969643b00dbc" title="seaf_block_manager_open_block" alt="" coords="147,59,360,88"/>
+<area shape="rect" id="node7" href="$block-mgr_8c.html#a3f01e48b64b37ab59ee9875a572e945a" title="seaf_block_manager_read_block" alt="" coords="148,112,359,141"/>
+<area shape="rect" id="node9" href="$block-mgr_8c.html#aa78b63ce0fb941132f6db665de4966bc" title="seaf_block_manager_close_block" alt="" coords="144,165,363,195"/>
+<area shape="rect" id="node11" href="$block-mgr_8c.html#a61d32d9d0d064dea33a1e2e7008215c1" title="seaf_block_manager_block_handle_free" alt="" coords="127,219,380,248"/>
+</map>

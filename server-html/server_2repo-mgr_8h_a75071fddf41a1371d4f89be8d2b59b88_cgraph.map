@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$daemon_2repo-mgr_8c.html#af0276c036723560e3e8b9aa5529133d6" title="seaf_repo_manager_get_repo" alt="" coords="324,5,516,35"/>
+<area shape="rect" id="node5" href="$commit-mgr_8c.html#adaf4b74c4dba25ddaa746f4ff9221b3f" title="seaf_commit_manager_get_commit" alt="" coords="305,59,535,88"/>
+<area shape="rect" id="node9" href="$commit-mgr_8c.html#afe68dfa15b1bbd8557b044b1b1b58dc2" title="seaf_commit_new" alt="" coords="356,112,484,141"/>
+<area shape="rect" id="node11" href="$daemon_2repo-mgr_8c.html#a39a9a41ffdfc324f3c935251d9e14d51" title="seaf_repo_to_commit" alt="" coords="347,165,493,195"/>
+<area shape="rect" id="node13" href="$commit-mgr_8c.html#a7c138604e615440b65741b77e71248c6" title="seaf_commit_manager_add_commit" alt="" coords="304,219,536,248"/>
+<area shape="rect" id="node15" href="$branch-mgr_8c.html#a7a776ebd084d2335050c68d9a2e10c18" title="seaf_branch_set_commit" alt="" coords="336,272,504,301"/>
+<area shape="rect" id="node17" href="$fuse_2repo-mgr_8c.html#af6bedb063685823d91f2a335c6882e07" title="seaf_repo_unref" alt="" coords="363,325,477,355"/>
+<area shape="rect" id="node19" href="$commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="353,379,487,408"/>
+<area shape="rect" id="node21" href="$server_2repo-mgr_8h.html#a30755ff2c01595d4927715310beaee04" title="seaf_repo_manager_merge_virtual_repo" alt="" coords="293,432,547,461"/>
+<area shape="rect" id="node7" href="$commit-mgr_8c.html#a2b1cc305cf40cb64c341a0e64d0fe921" title="seaf_commit_ref" alt="" coords="696,59,813,88"/>
+<area shape="rect" id="node23" href="$fuse_2repo-mgr_8c.html#a0b9efffb3301d72133b4a3fdd28fc69c" title="seaf_repo_manager_is_virtual_repo" alt="" coords="641,379,868,408"/>
+<area shape="rect" id="node25" href="$server_2gc_2repo-mgr_8c.html#a0e2fecd8fae5355455342e43f6588967" title="seaf_repo_manager_get_virtual_repo_ids_by_origin" alt="" coords="596,432,913,461"/>
+<area shape="rect" id="node27" href="$seafile_2lib_2utils_8c.html#af85d9a3e4ab846a6eedfb509508367f2" title="string_list_free" alt="" coords="701,485,808,515"/>
+</map>

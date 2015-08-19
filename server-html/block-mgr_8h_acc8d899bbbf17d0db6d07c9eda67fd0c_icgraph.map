@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$http-tx-mgr_8h.html#a3cdcb1e4f4996dabc1adb7ae742ddfb4" title="http_tx_task_download_file_blocks" alt="" coords="309,5,533,35"/>
+<area shape="rect" id="node9" href="$transfer-mgr_8h.html#a760b69b5aa68dcb74c3020f091d1fc6c" title="seaf_transfer_manager_download_file_blocks" alt="" coords="279,59,564,88"/>
+<area shape="rect" id="node5" href="$daemon_2repo-mgr_8c.html#a450e5bcc50da4c40b7ba2bde33a22a84" title="checkout_file" alt="" coords="613,32,712,61"/>
+<area shape="rect" id="node7" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="760,32,963,61"/>
+</map>

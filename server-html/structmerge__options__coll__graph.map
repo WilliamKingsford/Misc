@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$structSeafileCrypt.html" title="SeafileCrypt" alt="" coords="5,213,99,243"/>
+<area shape="rect" id="node4" href="$structBlockList.html" title="BlockList" alt="" coords="123,213,197,243"/>
+<area shape="rect" id="node6" href="$structindex__state.html" title="index_state" alt="" coords="221,213,309,243"/>
+<area shape="rect" id="node8" href="$structcache__time.html" title="cache_time" alt="" coords="168,117,256,147"/>
+<area shape="rect" id="node10" href="$structcache__entry.html" title="cache_entry" alt="" coords="280,117,373,147"/>
+<area shape="rect" id="node12" href="$structcache__time64.html" title="cache_time64" alt="" coords="276,5,377,35"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$diff-simple_8c.html#a8c800ee63c23c5ff78d838974f678e47" title="diff_merge" alt="" coords="165,165,248,195"/>
+<area shape="rect" id="node7" href="$commit-mgr_8c.html#adaf4b74c4dba25ddaa746f4ff9221b3f" title="seaf_commit_manager_get_commit" alt="" coords="304,219,533,248"/>
+<area shape="rect" id="node11" href="$commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="352,272,485,301"/>
+<area shape="rect" id="node39" href="$diff-simple_8c.html#a9e9cbe6847c88fc7bca7035f45a0a50e" title="diff_commits" alt="" coords="159,112,255,141"/>
+<area shape="rect" id="node5" href="$daemon_2Backups_2repo-mgr_8c.html#af0276c036723560e3e8b9aa5529133d6" title="seaf_repo_manager_get_repo" alt="" coords="323,5,515,35"/>
+<area shape="rect" id="node13" href="$fuse_2Backups_2repo-mgr_8c.html#af6bedb063685823d91f2a335c6882e07" title="seaf_repo_unref" alt="" coords="361,59,476,88"/>
+<area shape="rect" id="node15" href="$diff-simple_8c.html#aad681f9b9d7dbc7586efaa4cd0b254e6" title="diff_trees" alt="" coords="381,112,456,141"/>
+<area shape="rect" id="node27" href="$diff-simple_8c.html#a3d936e2ea0a740cbdc9bbab7113b3742" title="diff_resolve_renames" alt="" coords="345,165,492,195"/>
+<area shape="rect" id="node9" href="$commit-mgr_8c.html#a2b1cc305cf40cb64c341a0e64d0fe921" title="seaf_commit_ref" alt="" coords="620,325,737,355"/>
+<area shape="rect" id="node17" href="$fs-mgr_8c.html#a08103ffc3a5cd19b70167404c39ce3e4" title="seaf_fs_manager_get_seafdir" alt="" coords="583,59,775,88"/>
+<area shape="rect" id="node23" href="$fs-mgr_8c.html#ae04d3c4669cd7b0fc691cd2da6dc2de1" title="seaf_dir_free" alt="" coords="631,5,727,35"/>
+<area shape="rect" id="node19" href="$obj-store_8c.html#a6e93a0214f9cb8a7fc837a2bc3a3c529" title="seaf_obj_store_read_obj" alt="" coords="824,112,987,141"/>
+<area shape="rect" id="node21" href="$fs-mgr_8c.html#a6875a119da427bb1cd9796eee916b703" title="seaf_dir_from_data" alt="" coords="839,59,972,88"/>
+<area shape="rect" id="node25" href="$fs-mgr_8c.html#aef77f199fa9eccfe322f1ff978a9055a" title="seaf_dirent_free" alt="" coords="848,5,963,35"/>
+<area shape="rect" id="node29" href="$seafile-4_81_82_2lib_2utils_8c.html#ac846d436ccbb4031fa7a8d76ceadad07" title="ccnet_sha1_hash" alt="" coords="617,165,740,195"/>
+<area shape="rect" id="node31" href="$seafile-4_81_82_2lib_2utils_8c.html#a75a7a2a1400f4cf5f6cd5ea988e705f4" title="ccnet_sha1_equal" alt="" coords="616,219,741,248"/>
+<area shape="rect" id="node33" href="$diff-simple_8c.html#a5a9e3f70659801a181ca4ff6004bf021" title="diff_entry_new" alt="" coords="625,272,732,301"/>
+<area shape="rect" id="node35" href="$diff-simple_8c.html#abb759117ec4b4aca623768424487f5da" title="diff_entry_free" alt="" coords="627,112,731,141"/>
+</map>

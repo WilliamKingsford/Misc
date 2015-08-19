@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile_2lib_2utils_8c.html#abfac2ec06b36f64de2f110f093e6dfc0" title="json_object_set_int_member" alt="" coords="347,5,533,35"/>
+<area shape="rect" id="node5" href="$fs-mgr_8c.html#a4e23e8e9b670107f776aab343fea5cf4" title="seafile_version_from_repo_version" alt="" coords="329,59,551,88"/>
+<area shape="rect" id="node7" href="$seafile_2lib_2utils_8c.html#ae947b53110fc0132e83445d76ddded09" title="rawdata_to_hex" alt="" coords="383,112,497,141"/>
+<area shape="rect" id="node9" href="$seafile_2lib_2utils_8c.html#a63f0195a708d600ce96f867747afb8e4" title="calculate_sha1" alt="" coords="385,165,495,195"/>
+</map>

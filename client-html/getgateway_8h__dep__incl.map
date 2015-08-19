@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$inner-session_8c.html" title="ccnet&#45;4.1.2/net/cluster/inner&#45;session.c" alt="" coords="5,83,248,112"/>
+<area shape="rect" id="node5" href="$getgateway_8c.html" title="ccnet&#45;4.1.2/net/common/getgateway.c" alt="" coords="272,83,517,112"/>
+<area shape="rect" id="node7" href="$session_8c.html" title="ccnet&#45;4.1.2/net/common/session.c" alt="" coords="541,83,763,112"/>
+<area shape="rect" id="node9" href="$daemon-session_8c.html" title="ccnet&#45;4.1.2/net/daemon/daemon&#45;session.c" alt="" coords="787,83,1056,112"/>
+<area shape="rect" id="node11" href="$server-session_8c.html" title="ccnet&#45;4.1.2/net/server/server&#45;session.c" alt="" coords="1080,83,1328,112"/>
+</map>

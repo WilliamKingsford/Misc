@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$block-backend-fs_8c.html" title="seafile&#45;4.1.2/common/block&#45;backend&#45;fs.c" alt="" coords="5,83,267,112"/>
+<area shape="rect" id="node5" href="$block-mgr_8c.html" title="seafile&#45;4.1.2/common/block&#45;mgr.c" alt="" coords="291,83,509,112"/>
+<area shape="rect" id="node7" href="$block-tx-utils_8c.html" title="seafile&#45;4.1.2/common/block&#45;tx&#45;utils.c" alt="" coords="533,83,768,112"/>
+<area shape="rect" id="node9" href="$diff-simple_8c.html" title="seafile&#45;4.1.2/common/diff&#45;simple.c" alt="" coords="792,83,1013,112"/>
+<area shape="rect" id="node11" href="$fs-mgr_8c.html" title="seafile&#45;4.1.2/common/fs&#45;mgr.c" alt="" coords="1037,83,1235,112"/>
+<area shape="rect" id="node13" href="$seafile-4_81_82_2common_2log_8c.html" title="seafile&#45;4.1.2/common/log.c" alt="" coords="1259,83,1437,112"/>
+<area shape="rect" id="node15" href="$merge-new_8c.html" title="seafile&#45;4.1.2/common/merge&#45;new.c" alt="" coords="1461,83,1688,112"/>
+<area shape="rect" id="node17" href="$mq-mgr_8c.html" title="seafile&#45;4.1.2/common/mq&#45;mgr.c" alt="" coords="1712,83,1917,112"/>
+<area shape="rect" id="node19" href="$obj-backend-fs_8c.html" title="seafile&#45;4.1.2/common/obj&#45;backend&#45;fs.c" alt="" coords="1941,83,2187,112"/>
+<area shape="rect" id="node21" href="$obj-backend-riak_8c.html" title="seafile&#45;4.1.2/common/obj&#45;backend&#45;riak.c" alt="" coords="2211,83,2467,112"/>
+<area shape="rect" id="node23" href="$seafile-4_81_82_2common_2rpc-service_8c.html" title="seafile&#45;4.1.2/common/rpc&#45;service.c" alt="" coords="2491,83,2717,112"/>
+<area shape="rect" id="node25" href="$seafile-crypt_8c.html" title="seafile&#45;4.1.2/common/seafile&#45;crypt.c" alt="" coords="2741,83,2973,112"/>
+<area shape="rect" id="node27" href="$vc-common_8c.html" title="seafile&#45;4.1.2/common/vc&#45;common.c" alt="" coords="2997,83,3227,112"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$riak-client_8h.html#aa561f51577cfdc7160fe442010f2d764" title="seaf_riak_client_new" alt="" coords="109,5,253,35"/>
+<area shape="rect" id="node5" href="$riak-client_8h.html#ac4069bd687913134aa3b0db195ff6239" title="seaf_riak_client_query" alt="" coords="105,59,257,88"/>
+<area shape="rect" id="node7" href="$riak-client_8h.html#aedde33a716bd9fdc7de304022f63c58c" title="seaf_riak_client_put" alt="" coords="112,112,251,141"/>
+<area shape="rect" id="node9" href="$riak-client_8h.html#ac154fd8097be280c513cdfcb41f0e3be" title="seaf_riak_client_get" alt="" coords="112,165,251,195"/>
+<area shape="rect" id="node11" href="$riak-client_8h.html#ab43c54bb822c11ffac322dd554030f43" title="seaf_riak_client_delete" alt="" coords="104,219,259,248"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$diff-simple_8h.html#a61fa5d287ecd1508b220a422b250d676" title="diff_index" alt="" coords="211,5,288,35"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8h.html#a7923c5fb7b957a121f1b2616a8d66745" title="seaf_repo_checkout_commit" alt="" coords="155,59,344,88"/>
+<area shape="rect" id="node5" href="$status_8h.html#a5aaef0b3a73d20b9f422c9d39f0a2325" title="wt_status_collect_changes_index" alt="" coords="392,5,611,35"/>
+<area shape="rect" id="node7" href="$daemon_2repo-mgr_8h.html#a461e72948bba5928329e269ad395e293" title="seaf_repo_is_worktree_changed" alt="" coords="660,5,868,35"/>
+<area shape="rect" id="node11" href="$merge_8c.html#a65b859e991bbf3718673fa75b0251c85" title="merge_branches" alt="" coords="443,59,560,88"/>
+<area shape="rect" id="node15" href="$daemon_2repo-mgr_8h.html#ab553f7b1a5290e99821753acf9e87c86" title="seaf_repo_checkout" alt="" coords="432,112,571,141"/>
+<area shape="rect" id="node13" href="$daemon_2repo-mgr_8h.html#a25b9a6f8f5199db34dcb95789a80eba4" title="seaf_repo_merge" alt="" coords="703,59,825,88"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fs-mgr_8c.html" title="seafile/common/fs&#45;mgr.c" alt="" coords="5,83,171,112"/>
+<area shape="rect" id="node5" href="$seafile_2common_2rpc-service_8c.html" title="seafile/common/rpc&#45;service.c" alt="" coords="195,83,387,112"/>
+<area shape="rect" id="node7" href="$vc-common_8c.html" title="seafile/common/vc&#45;common.c" alt="" coords="411,83,608,112"/>
+<area shape="rect" id="node9" href="$clone-mgr_8c.html" title="seafile/daemon/clone&#45;mgr.c" alt="" coords="632,83,813,112"/>
+<area shape="rect" id="node11" href="$http-tx-mgr_8c.html" title="seafile/daemon/http&#45;tx&#45;mgr.c" alt="" coords="837,83,1024,112"/>
+<area shape="rect" id="node13" href="$daemon_2repo-mgr_8c.html" title="seafile/daemon/repo&#45;mgr.c" alt="" coords="1048,83,1224,112"/>
+<area shape="rect" id="node15" href="$sync-mgr_8c.html" title="seafile/daemon/sync&#45;mgr.c" alt="" coords="1248,83,1427,112"/>
+<area shape="rect" id="node17" href="$transfer-mgr_8c.html" title="seafile/daemon/transfer&#45;mgr.c" alt="" coords="1451,83,1645,112"/>
+<area shape="rect" id="node19" href="$vc-utils_8c.html" title="seafile/daemon/vc&#45;utils.c" alt="" coords="1669,83,1835,112"/>
+<area shape="rect" id="node21" href="$fuse_2repo-mgr_8c.html" title="seafile/fuse/repo&#45;mgr.c" alt="" coords="1859,83,2013,112"/>
+<area shape="rect" id="node23" href="$copy-mgr_8c.html" title="seafile/server/copy&#45;mgr.c" alt="" coords="2037,83,2205,112"/>
+<area shape="rect" id="node25" href="$server_2gc_2repo-mgr_8c.html" title="seafile/server/gc/repo&#45;mgr.c" alt="" coords="2229,83,2413,112"/>
+<area shape="rect" id="node27" href="$passwd-mgr_8c.html" title="seafile/server/passwd&#45;mgr.c" alt="" coords="2437,83,2624,112"/>
+<area shape="rect" id="node29" href="$server_2repo-mgr_8c.html" title="seafile/server/repo&#45;mgr.c" alt="" coords="2648,83,2813,112"/>
+<area shape="rect" id="node31" href="$repo-op_8c.html" title="seafile/server/repo&#45;op.c" alt="" coords="2837,83,2995,112"/>
+<area shape="rect" id="node33" href="$repo-perm_8c.html" title="seafile/server/repo&#45;perm.c" alt="" coords="3019,83,3192,112"/>
+<area shape="rect" id="node35" href="$virtual-repo_8c.html" title="seafile/server/virtual&#45;repo.c" alt="" coords="3216,83,3395,112"/>
+</map>

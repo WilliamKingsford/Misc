@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fs-mgr_8c.html#ac58f859abeba94b69e2db803dc5a6cdc" title="fs_object_from_json" alt="" coords="239,32,377,61"/>
+<area shape="rect" id="node9" href="$fs-mgr_8c.html#abdb855f48cf2fba567cd455dd484c697" title="fs_object_from_v0_data" alt="" coords="228,85,388,115"/>
+<area shape="rect" id="node5" href="$seafile_2lib_2utils_8c.html#ac7d9f3eae8999794ca0f59cab62c486e" title="seaf_decompress" alt="" coords="469,5,595,35"/>
+<area shape="rect" id="node7" href="$seafile_2lib_2utils_8c.html#a36802b9b311cdc4cd847b79c4ddd5903" title="json_object_get_int_member" alt="" coords="439,59,625,88"/>
+</map>

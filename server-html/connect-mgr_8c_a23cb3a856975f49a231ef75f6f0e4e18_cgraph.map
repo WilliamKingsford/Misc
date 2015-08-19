@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile_2lib_2net_8c.html#ab0a721253e5f15044d05603d2a349812" title="is_valid_ipaddr" alt="" coords="599,5,705,35"/>
+<area shape="rect" id="node5" href="$net_2common_2peer_8c.html#a33b058c945a780d51dfb6273ea4b61ac" title="ccnet_peer_update_address" alt="" coords="296,59,480,88"/>
+<area shape="rect" id="node8" href="$net_2common_2packet-io_8c.html#a0ef24f31e706d0a2d54fb16449bbd0ab" title="ccnet_packet_io_new_outgoing" alt="" coords="287,112,489,141"/>
+<area shape="rect" id="node18" href="$handshake_8c.html#a6bbd87e24770a27b4d55e26d09d30a86" title="ccnet_handshake_new" alt="" coords="311,245,465,275"/>
+<area shape="rect" id="node10" href="$seafile_2lib_2net_8c.html#af84e07e71144e844c5937afa2df1b696" title="sock_pton" alt="" coords="611,59,693,88"/>
+<area shape="rect" id="node12" href="$seafile_2lib_2net_8c.html#aea310d48a8cb9b1a67d7d6071b3b695f" title="ccnet_net_open_tcp" alt="" coords="583,112,721,141"/>
+<area shape="rect" id="node14" href="$lib_2packet-io_8c.html#a8d51886e565c60205d7e24a2e1fecbfa" title="ccnet_packet_io_new" alt="" coords="579,165,725,195"/>
+<area shape="rect" id="node16" href="$buffer_8c.html#a515f33707495a7e78c527659c6461326" title="buffer_new" alt="" coords="815,165,900,195"/>
+<area shape="rect" id="node20" href="$net_2common_2packet-io_8c.html#a4a567e07862f0c9ecd5b8021090951e7" title="ccnet_packet_io_set_timeout_secs" alt="" coords="539,219,765,248"/>
+<area shape="rect" id="node22" href="$net_2common_2packet-io_8c.html#aa3addd82109330941df17f39ef0376fc" title="ccnet_packet_io_set_iofuncs" alt="" coords="557,272,747,301"/>
+<area shape="rect" id="node24" href="$net_2common_2packet-io_8c.html#aaf98745602b9fea63216afefff1545f3" title="ccnet_packet_io_is_incoming" alt="" coords="556,325,748,355"/>
+</map>

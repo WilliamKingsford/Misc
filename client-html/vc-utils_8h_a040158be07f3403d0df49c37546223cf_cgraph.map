@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fs-mgr_8c.html#a056e47c5aca021aae437a764b3bc7c29" title="calculate_chunk_size" alt="" coords="264,5,411,35"/>
+<area shape="rect" id="node5" href="$fs-mgr_8c.html#a7182f3f9fdba2447f48c1978deea35d5" title="seafile_write_chunk" alt="" coords="269,59,405,88"/>
+<area shape="rect" id="node9" href="$cdc_8c.html#ab0a7b062dc6ce4e3f4963c6cad019e8e" title="filename_chunk_cdc" alt="" coords="267,112,408,141"/>
+<area shape="rect" id="node19" href="$fs-mgr_8c.html#a2709f56fced7ef68b2db3e35a3eddb41" title="seaf_fs_manager_calculate_seafile_id_json" alt="" coords="200,219,475,248"/>
+<area shape="rect" id="node25" href="$seafile-4_81_82_2lib_2utils_8c.html#ae947b53110fc0132e83445d76ddded09" title="rawdata_to_hex" alt="" coords="577,325,692,355"/>
+<area shape="rect" id="node7" href="$seafile-crypt_8c.html#a153a2146ed90b98ccdb91da4bc343016" title="seafile_encrypt" alt="" coords="580,5,689,35"/>
+<area shape="rect" id="node11" href="$seafile-4_81_82_2lib_2utils_8c.html#ad154e736c3751fe880395dff55fab739" title="seaf_util_open" alt="" coords="581,59,688,88"/>
+<area shape="rect" id="node13" href="$cdc_8c.html#a80122178012f79fd76191c3a4787ec82" title="file_chunk_cdc" alt="" coords="580,112,689,141"/>
+<area shape="rect" id="node15" href="$seafile-4_81_82_2lib_2utils_8c.html#a09f0677ad28b98b7a85bcda57f71e7c8" title="seaf_fstat" alt="" coords="795,85,875,115"/>
+<area shape="rect" id="node17" href="$seafile-4_81_82_2lib_2utils_8c.html#a05f0eae648599d413d03103758473e30" title="readn" alt="" coords="808,139,861,168"/>
+<area shape="rect" id="node21" href="$seafile-4_81_82_2lib_2utils_8c.html#abfac2ec06b36f64de2f110f093e6dfc0" title="json_object_set_int_member" alt="" coords="541,165,728,195"/>
+<area shape="rect" id="node23" href="$fs-mgr_8c.html#a4e23e8e9b670107f776aab343fea5cf4" title="seafile_version_from_repo_version" alt="" coords="524,219,745,248"/>
+<area shape="rect" id="node27" href="$seafile-4_81_82_2lib_2utils_8c.html#a63f0195a708d600ce96f867747afb8e4" title="calculate_sha1" alt="" coords="580,272,689,301"/>
+</map>

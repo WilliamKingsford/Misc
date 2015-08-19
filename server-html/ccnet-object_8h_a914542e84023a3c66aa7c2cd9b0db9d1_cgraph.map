@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$ccnet-object_8h.html#a1a0cb2b82a0b8653a211718b4f63669b" title="ccnet_group_get_id" alt="" coords="241,5,375,35"/>
+<area shape="rect" id="node5" href="$ccnet-object_8h.html#a155d118cf46a03072afebf08e6c1c15d" title="ccnet_group_get_group_name" alt="" coords="211,59,405,88"/>
+<area shape="rect" id="node7" href="$ccnet-object_8h.html#a4692a6242ba5e874e00df8e6d4efbdc9" title="ccnet_group_get_creator_name" alt="" coords="207,112,409,141"/>
+<area shape="rect" id="node9" href="$ccnet-object_8h.html#a0cf242f97d9e535bb0adf9d2c7c90282" title="ccnet_group_get_timestamp" alt="" coords="215,165,401,195"/>
+<area shape="rect" id="node11" href="$ccnet-object_8h.html#a548d127adc42723e75942525fa783401" title="ccnet_group_get_source" alt="" coords="227,219,389,248"/>
+<area shape="rect" id="node13" href="$ccnet-object_8h.html#ab7cf84dd78d3b7d6dac08ca4dd2cd704" title="ccnet_group_set_id" alt="" coords="241,272,375,301"/>
+<area shape="rect" id="node15" href="$ccnet-object_8h.html#ad80550aef66a625626efcc7ee7298777" title="ccnet_group_set_group_name" alt="" coords="211,325,405,355"/>
+<area shape="rect" id="node17" href="$ccnet-object_8h.html#adb5607d9f0a0db318aac43999cde0243" title="ccnet_group_set_creator_name" alt="" coords="207,379,409,408"/>
+<area shape="rect" id="node19" href="$ccnet-object_8h.html#ad0bbb76a74a66c9444d96be2d0f3e7b5" title="ccnet_group_set_timestamp" alt="" coords="215,432,401,461"/>
+<area shape="rect" id="node21" href="$ccnet-object_8h.html#ad653637eb450a8925c0bcf1532b08ff0" title="ccnet_group_set_source" alt="" coords="227,485,389,515"/>
+</map>

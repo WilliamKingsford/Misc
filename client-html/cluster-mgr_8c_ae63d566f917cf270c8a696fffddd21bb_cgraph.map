@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$peer-mgr_8c.html#a87a934e7d80c810921d96263fb98d0d0" title="ccnet_peer_manager_get_peers_with_role" alt="" coords="245,5,512,35"/>
+<area shape="rect" id="node9" href="$cluster-mgr_8c.html#ae57aa0c0f52d8505e0bd74fc64a1c77e" title="ccnet_cluster_manager_add_member" alt="" coords="260,59,497,88"/>
+<area shape="rect" id="node11" href="$cluster-mgr_8c.html#a8f3fe691f5caca88cf65a0f362395cc3" title="ccnet_cluster_manager_add_master" alt="" coords="263,112,495,141"/>
+<area shape="rect" id="node5" href="$net_2common_2peer_8c.html#a84988645072903a2f6652a94306eafe8" title="ccnet_peer_has_role" alt="" coords="615,5,756,35"/>
+<area shape="rect" id="node7" href="$seafile-4_81_82_2lib_2utils_8c.html#a38f449c218477960cf9dc2136453db10" title="string_list_is_exists" alt="" coords="860,5,996,35"/>
+<area shape="rect" id="node13" href="$connect-mgr_8c.html#af7141f9bf92af0572d0e4f02d3ee1097" title="ccnet_conn_manager_add_to_conn_list" alt="" coords="560,112,811,141"/>
+</map>

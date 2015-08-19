@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$sync-mgr_8c.html#afb758dbde64ac4505ad259f95601d45e" title="seaf_sync_manager_get_sync_info" alt="" coords="340,5,567,35"/>
+<area shape="rect" id="node5" href="$daemon_2Backups_2repo-mgr_8c.html#af0276c036723560e3e8b9aa5529133d6" title="seaf_repo_manager_get_repo" alt="" coords="357,59,549,88"/>
+<area shape="rect" id="node7" href="$seafile-crypt_8c.html#a9ada7f42f1f31b91dabdc5edde6b73f9" title="seafile_verify_repo_passwd" alt="" coords="363,112,544,141"/>
+<area shape="rect" id="node13" href="$daemon_2Backups_2repo-mgr_8c.html#a7d2cf85f06fa2e7d459730f7494c1a65" title="seaf_repo_manager_remove_garbage_repo" alt="" coords="319,165,588,195"/>
+<area shape="rect" id="node15" href="$daemon_2Backups_2repo-mgr_8c.html#a008f145440cf3620f7883d1fe109f69c" title="seaf_repo_manager_remove_repo_ondisk" alt="" coords="323,219,584,248"/>
+<area shape="rect" id="node9" href="$seafile-crypt_8c.html#aef671f4a46b3d132f4219e55fbcb72d9" title="seafile_derive_key" alt="" coords="637,85,768,115"/>
+<area shape="rect" id="node11" href="$seafile-4_81_82_2lib_2utils_8c.html#ae947b53110fc0132e83445d76ddded09" title="rawdata_to_hex" alt="" coords="645,139,760,168"/>
+</map>

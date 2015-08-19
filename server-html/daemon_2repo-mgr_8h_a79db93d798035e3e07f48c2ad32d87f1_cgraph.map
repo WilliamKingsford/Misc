@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$index_8c.html#a35caece3e3575d32521f820a8f0a24a7" title="index_path" alt="" coords="271,32,356,61"/>
+<area shape="rect" id="node11" href="$index_8c.html#a0f9de2761514c9136fb4b9c5541ef6f8" title="read_index_from" alt="" coords="255,85,372,115"/>
+<area shape="rect" id="node16" href="$index_8c.html#a177df5d9afa8392326c1a1cef68f08c0" title="unmerged_index" alt="" coords="255,139,372,168"/>
+<area shape="rect" id="node18" href="$index_8c.html#a835affdb8e7226b619f5cbf69a36db1f" title="discard_index" alt="" coords="263,192,364,221"/>
+<area shape="rect" id="node5" href="$seafile_2lib_2utils_8c.html#ad154e736c3751fe880395dff55fab739" title="seaf_util_open" alt="" coords="429,59,536,88"/>
+<area shape="rect" id="node7" href="$index_8c.html#a37ae9831253a5201f6d773a14e1da9ac" title="index_fd" alt="" coords="448,5,517,35"/>
+<area shape="rect" id="node9" href="$seafile_2lib_2utils_8c.html#a05f0eae648599d413d03103758473e30" title="readn" alt="" coords="593,5,647,35"/>
+<area shape="rect" id="node14" href="$seafile_2lib_2utils_8c.html#a09f0677ad28b98b7a85bcda57f71e7c8" title="seaf_fstat" alt="" coords="443,112,523,141"/>
+<area shape="rect" id="node20" href="$index_8c.html#a156a4ea461fcf14e0b73755b02e7e7d1" title="cache_entry_free" alt="" coords="421,192,544,221"/>
+</map>

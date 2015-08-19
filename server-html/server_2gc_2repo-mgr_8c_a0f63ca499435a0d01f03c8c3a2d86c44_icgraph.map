@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2repo-mgr_8h.html#a774e0a8ea59c07c94dc8014612b3f948" title="seaf_repo_manager_get_repo_truncate_time" alt="" coords="327,83,604,112"/>
+<area shape="rect" id="node5" href="$seafile_2common_2rpc-service_8c.html#a5594de7f321b08c515c465bc44e25c60" title="seafile_get_commit_list" alt="" coords="703,5,860,35"/>
+<area shape="rect" id="node9" href="$repo-op_8c.html#afa299e57b701699e37969cc2e674290e" title="seaf_repo_manager_list_file_revisions" alt="" coords="660,83,903,112"/>
+<area shape="rect" id="node12" href="$repo-op_8c.html#aa21f88c4616547e974cd8c65c512781c" title="seaf_repo_manager_get_deleted_entries" alt="" coords="653,136,909,165"/>
+<area shape="rect" id="node7" href="$rpc-deprecated_8c.html#a374cf49b787fef8fc91266c87cc15375" title="seafile_get_commit_list_pub" alt="" coords="957,5,1144,35"/>
+</map>

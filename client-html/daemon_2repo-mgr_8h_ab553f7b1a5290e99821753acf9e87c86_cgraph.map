@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$index_8c.html#a35caece3e3575d32521f820a8f0a24a7" title="index_path" alt="" coords="276,32,361,61"/>
+<area shape="rect" id="node11" href="$seafile-4_81_82_2lib_2utils_8c.html#a26f091009701c5a9d1886b9d6ceb9c8e" title="seaf_util_unlink" alt="" coords="263,85,375,115"/>
+<area shape="rect" id="node13" href="$branch-mgr_8c.html#a1dffc8c3c325e4ca1daf8a5d5f4f6956" title="seaf_branch_manager_get_branch" alt="" coords="208,139,429,168"/>
+<area shape="rect" id="node15" href="$commit-mgr_8c.html#adaf4b74c4dba25ddaa746f4ff9221b3f" title="seaf_commit_manager_get_commit" alt="" coords="204,192,433,221"/>
+<area shape="rect" id="node19" href="$branch-mgr_8c.html#a2e44cba993ba080e7550a832f019f653" title="seaf_branch_unref" alt="" coords="255,245,383,275"/>
+<area shape="rect" id="node23" href="$commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="252,299,385,328"/>
+<area shape="rect" id="node25" href="$daemon_2Backups_2repo-mgr_8c.html#abe8b32b343e5e7d2d06018e398011151" title="seaf_repo_manager_get_checkout_task" alt="" coords="192,352,445,381"/>
+<area shape="rect" id="node27" href="$fs-mgr_8c.html#afa141245d62ac11820ad120fef68d01e" title="seaf_fs_manager_count_fs_files" alt="" coords="213,405,424,435"/>
+<area shape="rect" id="node29" href="$daemon_2Backups_2repo-mgr_8c.html#a7923c5fb7b957a121f1b2616a8d66745" title="seaf_repo_checkout_commit" alt="" coords="224,459,413,488"/>
+<area shape="rect" id="node5" href="$seafile-4_81_82_2lib_2utils_8c.html#ad154e736c3751fe880395dff55fab739" title="seaf_util_open" alt="" coords="501,5,608,35"/>
+<area shape="rect" id="node7" href="$index_8c.html#a37ae9831253a5201f6d773a14e1da9ac" title="index_fd" alt="" coords="520,59,589,88"/>
+<area shape="rect" id="node9" href="$seafile-4_81_82_2lib_2utils_8c.html#a05f0eae648599d413d03103758473e30" title="readn" alt="" coords="665,59,719,88"/>
+<area shape="rect" id="node17" href="$commit-mgr_8c.html#a2b1cc305cf40cb64c341a0e64d0fe921" title="seaf_commit_ref" alt="" coords="496,192,613,221"/>
+<area shape="rect" id="node21" href="$branch-mgr_8c.html#a449a49952dc253bd7b16367869d0ebdc" title="seaf_branch_free" alt="" coords="493,245,616,275"/>
+</map>

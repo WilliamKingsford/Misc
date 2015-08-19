@@ -1,0 +1,34 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$net_2common_2peer_8h.html#a4e3d812b4dd80e30606f1346b726bd43" title="ccnet_peer_set_roles" alt="" coords="240,5,387,35"/>
+<area shape="rect" id="node5" href="$net_2common_2peer_8h.html#a5b55c1f14dab84485ee8892bbd572df0" title="ccnet_peer_set_myroles" alt="" coords="232,59,395,88"/>
+<area shape="rect" id="node7" href="$unpack-trees_8h.html#a795a271a95b2bc0ef892ee87f48a0c62" title="get_unpack_trees_error_msgs" alt="" coords="215,112,412,141"/>
+<area shape="rect" id="node17" href="$fuse_2Backups_2repo-mgr_8c.html#aa692b1e331cad063425d676afe1ae121" title="seaf_repo_manager_get_repo_list" alt="" coords="205,165,421,195"/>
+<area shape="rect" id="node19" href="$server_2repo-mgr_8h.html#a7cf33a85dd9c77b44a83d6c8ed300948" title="seaf_repo_manager_get_repos_by_owner" alt="" coords="183,219,444,248"/>
+<area shape="rect" id="node21" href="$server_2repo-mgr_8h.html#a512a79980f7d3698e591cf87aeccd314" title="seaf_repo_manager_del_repo" alt="" coords="217,272,409,301"/>
+<area shape="rect" id="node23" href="$server_2repo-mgr_8h.html#aa30a874076b81b802de8763e30433c97" title="seaf_repo_manager_get_orphan_repo_list" alt="" coords="183,325,444,355"/>
+<area shape="rect" id="node25" href="$server_2repo-mgr_8h.html#a6a2b07102342d3acc5722e059635aacb" title="seaf_repo_manager_get_repo_ids_by_owner" alt="" coords="173,379,453,408"/>
+<area shape="rect" id="node27" href="$quota-mgr_8h.html#a12e60fee869eff11295588d7565ea677" title="seaf_quota_manager_get_user_share_usage" alt="" coords="516,403,796,432"/>
+<area shape="rect" id="node31" href="$server_2repo-mgr_8h.html#a248a05b4a54ff2d9302d0779cbcc3542" title="seaf_repo_manager_post_multi_files" alt="" coords="539,493,773,523"/>
+<area shape="rect" id="node33" href="$server_2repo-mgr_8h.html#a0d6750947e09a7c4f4eb2146147e9db1" title="seaf_repo_manager_post_file_blocks" alt="" coords="195,533,432,563"/>
+<area shape="rect" id="node35" href="$server_2repo-mgr_8h.html#aad15cfaf3210b47e9f59a481073aafbc" title="seaf_repo_manager_put_file_blocks" alt="" coords="199,587,428,616"/>
+<area shape="rect" id="node37" href="$server_2repo-mgr_8h.html#ab10ffbf8777e16cc18e78a263d7fbb1c" title="seaf_repo_manager_list_file_revisions" alt="" coords="192,664,435,693"/>
+<area shape="rect" id="node41" href="$share-mgr_8h.html#a98762551896e2359a8aab1f36cbe580c" title="seaf_share_manager_list_shared_to" alt="" coords="199,717,428,747"/>
+<area shape="rect" id="node43" href="$virtual-repo_8c.html#a89c9b19ae91ea15fe9aa684c5509d4ec" title="seaf_repo_manager_get_virtual_repos_by_owner" alt="" coords="161,771,465,800"/>
+<area shape="rect" id="node45" href="$virtual-repo_8c.html#a30755ff2c01595d4927715310beaee04" title="seaf_repo_manager_merge_virtual_repo" alt="" coords="187,824,440,853"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8h.html#a7923c5fb7b957a121f1b2616a8d66745" title="seaf_repo_checkout_commit" alt="" coords="561,112,751,141"/>
+<area shape="rect" id="node11" href="$daemon_2repo-mgr_8h.html#ab553f7b1a5290e99821753acf9e87c86" title="seaf_repo_checkout" alt="" coords="888,85,1027,115"/>
+<area shape="rect" id="node13" href="$merge_8c.html#a65b859e991bbf3718673fa75b0251c85" title="merge_branches" alt="" coords="899,139,1016,168"/>
+<area shape="rect" id="node15" href="$daemon_2repo-mgr_8h.html#a25b9a6f8f5199db34dcb95789a80eba4" title="seaf_repo_merge" alt="" coords="1117,139,1240,168"/>
+<area shape="rect" id="node29" href="$quota-mgr_8h.html#ae10caa81f529a80e3729b9a050666302" title="seaf_quota_manager_check_quota" alt="" coords="845,403,1069,432"/>
+<area shape="rect" id="node47" href="$server_2repo-mgr_8h.html#a3128bd2930667427a22976b6a2b85743" title="seaf_repo_manager_post_file" alt="" coords="560,560,752,589"/>
+<area shape="rect" id="node50" href="$server_2repo-mgr_8h.html#ad6564c23b0e50d8a34dd425432b80db4" title="seaf_repo_manager_del_file" alt="" coords="564,613,748,643"/>
+<area shape="rect" id="node52" href="$server_2repo-mgr_8h.html#a056b45d63edfafbc5287012a2a1062ec" title="seaf_repo_manager_move_file" alt="" coords="859,639,1056,668"/>
+<area shape="rect" id="node54" href="$server_2repo-mgr_8h.html#ab7eae6af688907f68212dca114549c4b" title="seaf_repo_manager_copy_file" alt="" coords="559,717,753,747"/>
+<area shape="rect" id="node57" href="$server_2repo-mgr_8h.html#aa870306d94f3e7b16e66229040590138" title="seaf_repo_manager_post_dir" alt="" coords="561,771,751,800"/>
+<area shape="rect" id="node59" href="$server_2repo-mgr_8h.html#a2e0e32263ad7bbeaa4ab13a62135c46a" title="seaf_repo_manager_post_empty_file" alt="" coords="539,824,773,853"/>
+<area shape="rect" id="node61" href="$server_2repo-mgr_8h.html#ae68e4b6427bb239b697e515c8617cbfb" title="seaf_repo_manager_rename_file" alt="" coords="551,877,761,907"/>
+<area shape="rect" id="node63" href="$server_2repo-mgr_8h.html#a46c094895964e060809372262c9b9923" title="seaf_repo_manager_put_file" alt="" coords="564,931,748,960"/>
+<area shape="rect" id="node65" href="$server_2repo-mgr_8h.html#a246dc6695f1ee0c1806de54109848096" title="seaf_repo_manager_revert_file" alt="" coords="556,984,756,1013"/>
+<area shape="rect" id="node67" href="$server_2repo-mgr_8h.html#abf48f3efee4705f32fa8f3a95098921e" title="seaf_repo_manager_revert_dir" alt="" coords="557,1037,755,1067"/>
+<area shape="rect" id="node69" href="$server_2repo-mgr_8h.html#a75071fddf41a1371d4f89be8d2b59b88" title="seaf_repo_manager_revert_on_server" alt="" coords="536,1091,776,1120"/>
+</map>

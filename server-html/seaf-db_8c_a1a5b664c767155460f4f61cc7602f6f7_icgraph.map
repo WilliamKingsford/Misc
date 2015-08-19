@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seaf-db_8h.html#a3aefc629b80664870281380bf49a7cef" title="seaf_db_get_int" alt="" coords="277,5,392,35"/>
+<area shape="rect" id="node5" href="$seaf-db_8h.html#a69eb3d0620dabc0731b9e00ce06d1a3e" title="seaf_db_statement_get_int" alt="" coords="245,59,424,88"/>
+<area shape="rect" id="node7" href="$server_2repo-mgr_8c.html#a0f63ca499435a0d01f03c8c3a2d86c44" title="seaf_repo_manager_get_repo_history_limit" alt="" coords="473,59,743,88"/>
+</map>

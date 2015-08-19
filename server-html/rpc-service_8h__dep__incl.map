@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_8c.html" title="ccnet/net/cluster/server.c" alt="" coords="5,83,176,112"/>
+<area shape="rect" id="node5" href="$ccnet_2net_2common_2rpc-service_8c.html" title="ccnet/net/common/rpc&#45;service.c" alt="" coords="200,83,408,112"/>
+<area shape="rect" id="node7" href="$ccnet-daemon_8c.html" title="ccnet/net/daemon/ccnet&#45;daemon.c" alt="" coords="432,83,653,112"/>
+<area shape="rect" id="node9" href="$ccnet-server_8c.html" title="ccnet/net/server/ccnet&#45;server.c" alt="" coords="677,83,880,112"/>
+</map>

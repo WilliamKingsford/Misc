@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$unpack-trees_8h.html" title="seafile/common/unpack&#45;trees.h" alt="" coords="1373,83,1576,112"/>
+<area shape="rect" id="node33" href="$unpack-trees_8c.html" title="seafile/common/unpack&#45;trees.c" alt="" coords="1649,160,1852,189"/>
+<area shape="rect" id="node39" href="$seaf-tree-walk_8c.html" title="seafile/common/seaf&#45;tree&#45;walk.c" alt="" coords="1741,83,1952,112"/>
+<area shape="rect" id="node5" href="$diff-simple_8c.html" title="seafile/common/diff&#45;simple.c" alt="" coords="1335,160,1524,189"/>
+<area shape="rect" id="node7" href="$vc-utils_8h.html" title="seafile/daemon/vc&#45;utils.h" alt="" coords="1145,160,1311,189"/>
+<area shape="rect" id="node13" href="$clone-mgr_8c.html" title="seafile/daemon/clone&#45;mgr.c" alt="" coords="2045,237,2227,267"/>
+<area shape="rect" id="node15" href="$merge-recursive_8c.html" title="seafile/daemon/merge&#45;recursive.c" alt="" coords="2251,237,2469,267"/>
+<area shape="rect" id="node17" href="$merge_8c.html" title="seafile/daemon/merge.c" alt="" coords="5,237,165,267"/>
+<area shape="rect" id="node19" href="$daemon_2repo-mgr_8c.html" title="seafile/daemon/repo&#45;mgr.c" alt="" coords="189,237,365,267"/>
+<area shape="rect" id="node9" href="$fs-mgr_8c.html" title="seafile/common/fs&#45;mgr.c" alt="" coords="1640,237,1805,267"/>
+<area shape="rect" id="node11" href="$seafile_2common_2rpc-service_8c.html" title="seafile/common/rpc&#45;service.c" alt="" coords="1829,237,2021,267"/>
+<area shape="rect" id="node21" href="$seaf-daemon_8c.html" title="seafile/daemon/seaf&#45;daemon.c" alt="" coords="389,237,589,267"/>
+<area shape="rect" id="node23" href="$seaf-test_8c.html" title="seafile/daemon/seaf&#45;test.c" alt="" coords="613,237,789,267"/>
+<area shape="rect" id="node25" href="$daemon_2seafile-session_8c.html" title="seafile/daemon/seafile&#45;session.c" alt="" coords="813,237,1024,267"/>
+<area shape="rect" id="node27" href="$status_8c.html" title="seafile/daemon/status.c" alt="" coords="1048,237,1208,267"/>
+<area shape="rect" id="node29" href="$transfer-mgr_8c.html" title="seafile/daemon/transfer&#45;mgr.c" alt="" coords="1232,237,1427,267"/>
+<area shape="rect" id="node31" href="$vc-utils_8c.html" title="seafile/daemon/vc&#45;utils.c" alt="" coords="1451,237,1616,267"/>
+</map>

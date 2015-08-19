@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$block-mgr_8h.html#a7264f752a213e896e9a2906960fecbac" title="seaf_block_manager_get_block_number" alt="" coords="287,32,540,61"/>
+<area shape="rect" id="node5" href="$daemon_2gc-core_8c.html#ac22d435f7a090493e12d71545389c267" title="gc_v0_repos" alt="" coords="589,5,685,35"/>
+<area shape="rect" id="node11" href="$daemon_2gc-core_8c.html#a53b94cf8737019ca14fc55872fc70319" title="gc_v1_repo" alt="" coords="593,59,681,88"/>
+<area shape="rect" id="node7" href="$daemon_2gc-core_8h.html#aba2eeeb61b0f8fe34dfbdc8fc23067b3" title="gc_core_run" alt="" coords="733,32,827,61"/>
+<area shape="rect" id="node9" href="$seafserv-gc_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="875,32,925,61"/>
+</map>

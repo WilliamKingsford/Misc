@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['uid',['uid',['../structondisk__cache__entry.html#a829ca657ec06a46b02017bf1da2914fe',1,'ondisk_cache_entry::uid()'],['../structondisk__cache__entry2.html#ad5de7250b5227f92f438c8ffc8c63253',1,'ondisk_cache_entry2::uid()'],['../structondisk__cache__entry__extended.html#ab56e49db57ee142ee9f4caa0bcd10cc2',1,'ondisk_cache_entry_extended::uid()'],['../index_8h.html#a0ef93dab71a01da4660664f3ce20134e',1,'uid():&#160;index.h']]],
+  ['un_5fpath',['un_path',['../struct__CcnetClient.html#a7c57988a3cb0f74eba0058ddca7b55bd',1,'_CcnetClient::un_path()'],['../structCcnetSession.html#a48efe6fcba3b0f12f7acb6120e025d5a',1,'CcnetSession::un_path()']]],
+  ['unmerge_5fstate',['unmerge_state',['../structDiffEntry.html#ac104f9910f0da8c74fa0a5ad7a4827ad',1,'DiffEntry']]],
+  ['unpack_5fdata',['unpack_data',['../structunpack__trees__options.html#a791f30c5d8eee65f93c129ee763d9ed6',1,'unpack_trees_options']]],
+  ['unpack_5frejects',['unpack_rejects',['../structunpack__trees__options.html#a423e136b07515c8f4736a23e74334b64',1,'unpack_trees_options']]],
+  ['unused',['unused',['../structDirWatchAux.html#a001baa5cee24f7b9162c4d0631a341bb',1,'DirWatchAux']]],
+  ['update',['update',['../structunpack__trees__options.html#a41b55dd4c6ef32c4938cc1b53936aacf',1,'unpack_trees_options']]],
+  ['update_5ftx_5fstate_5ftimer',['update_tx_state_timer',['../struct__SeafSyncManagerPriv.html#a8fe398da116c1473125cde74cf229811',1,'_SeafSyncManagerPriv']]],
+  ['upload_5flimit',['upload_limit',['../struct__SeafSyncManager.html#af27650b12e9237509a8b214808f18e21',1,'_SeafSyncManager']]],
+  ['upload_5ftasks',['upload_tasks',['../struct__HttpTxPriv.html#a791e15c45420b177bfc87284015ac9db',1,'_HttpTxPriv::upload_tasks()'],['../struct__SeafTransferManager.html#a12c3a28fb3a2802585dd1427aa83c8b5',1,'_SeafTransferManager::upload_tasks()']]],
+  ['uploaded',['uploaded',['../struct__SyncTask.html#af5500a94e3d4e76c70bf200265bddc21',1,'_SyncTask::uploaded()'],['../structProgress.html#a26e7905f5ff8e5dd6fdeac4479f72bc6',1,'Progress::uploaded()']]],
+  ['use_5fhttp_5fproxy',['use_http_proxy',['../struct__SeafileSession.html#af8094c4e3b2e8b393348f19ff0086e52',1,'_SeafileSession']]],
+  ['used',['used',['../structcache__tree__sub.html#a8ce52e6177b6fb3fd38400d59b60e199',1,'cache_tree_sub']]],
+  ['used_5fversion',['used_version',['../structCcnetKeepaliveProcPriv.html#aea467af59277f44f98a82dc5d5895b85',1,'CcnetKeepaliveProcPriv']]],
+  ['user',['user',['../structRepoEventData.html#a955094a35dbbc81cf400d467540c9223',1,'RepoEventData::user()'],['../structSeafileCheckTxSlaveV3ProcPriv.html#a7691be873e95371d5d64385571947262',1,'SeafileCheckTxSlaveV3ProcPriv::user()'],['../structRecvFSM.html#a3aec43bdfd4665907b3c538256c62da2',1,'RecvFSM::user()']]],
+  ['user_5fdata',['user_data',['../structCheckProtocolData.html#a748633c8bd9a0296196c5f2d31dca622',1,'CheckProtocolData::user_data()'],['../structCheckHeadData.html#adfbb3fdc584c3771393f722f9e96d9ec',1,'CheckHeadData::user_data()'],['../structGetFolderPermsData.html#a6686f4e3da2c44730bc7fa160efdcc40',1,'GetFolderPermsData::user_data()'],['../structCallBackStruct.html#a95875f485f6839a411954fe9467e251f',1,'CallBackStruct::user_data()'],['../structCcnetPacketIO.html#a8fefada1c6d5437df3cb3b7c6cd118de',1,'CcnetPacketIO::user_data()'],['../structCcnetTimer.html#a73096e83cf5010c3745395b9f64ada46',1,'CcnetTimer::user_data()'],['../structWriteCallback.html#a564a99b1a732663d17f1c0c03f52ff51',1,'WriteCallback::user_data()']]],
+  ['user_5fhash',['user_hash',['../struct__CcnetUserManager.html#a1e7b16d465f6a98bd9c38e02b5559ad4',1,'_CcnetUserManager']]],
+  ['user_5fid',['user_id',['../struct__SeafShareInfo.html#ae3307325b39bbb9b7be1356373fcd311',1,'_SeafShareInfo::user_id()'],['../struct__CcnetPeer.html#a99953dde8278691c6fce7f0d94a01586',1,'_CcnetPeer::user_id()']]],
+  ['user_5fmgr',['user_mgr',['../structCcnetServerSession.html#adfa56ca50c343eeb9eec875cd9a025f7',1,'CcnetServerSession']]],
+  ['user_5fname',['user_name',['../struct__CcnetSessionBase.html#acb921a00a3498928d68d4a5b42c1ece4',1,'_CcnetSessionBase']]],
+  ['user_5fperms',['user_perms',['../struct__HttpFolderPermRes.html#a02929f1af633e277256696ffc7ec3220',1,'_HttpFolderPermRes::user_perms()'],['../struct__AddOptions.html#a3a2f79bcdef233f97fb422bbb4c55e62',1,'_AddOptions::user_perms()']]],
+  ['userdb_5fpath',['userdb_path',['../struct__CcnetUserManager.html#a617e72e3c86f4a17d6893bfcec38503f',1,'_CcnetUserManager']]],
+  ['username',['username',['../structAccessInfo.html#a133e35f0efb58ff907b2eea276107309',1,'AccessInfo']]]
+];

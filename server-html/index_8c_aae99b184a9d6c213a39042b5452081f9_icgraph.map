@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$index_8h.html#a478519e092fd07dacd10c804cfec4282" title="remove_file_from_index" alt="" coords="211,85,371,115"/>
+<area shape="rect" id="node15" href="$index_8h.html#a86bf1084dfc4e0057a52b4da1922de9b" title="remove_from_index_with_prefix" alt="" coords="420,165,625,195"/>
+<area shape="rect" id="node5" href="$index_8h.html#a21d6b0245750631144db52218a179633" title="remove_empty_parent_dir_entry" alt="" coords="419,5,627,35"/>
+<area shape="rect" id="node11" href="$index_8h.html#a2988327a0a98dd3e8868b4b902d310bf" title="add_to_index" alt="" coords="473,59,572,88"/>
+<area shape="rect" id="node13" href="$index_8h.html#a0a287241a624545389a63a0b22a98513" title="add_empty_dir_to_index" alt="" coords="441,112,604,141"/>
+<area shape="rect" id="node7" href="$index_8h.html#a56d1945a0677d925b25c610d613aeefc" title="rename_index_entries" alt="" coords="675,113,824,143"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="872,140,1075,169"/>
+</map>

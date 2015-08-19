@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-rpc_8h.html#a62382a853a7c3118e1df715101e0087f" title="seafile_set_config_int" alt="" coords="284,5,431,35"/>
+<area shape="rect" id="node5" href="$seafile-rpc_8h.html#a955215d999733bc853ecfe0e69b3a4ec" title="seafile_set_upload_rate_limit" alt="" coords="263,59,452,88"/>
+<area shape="rect" id="node7" href="$seafile-rpc_8h.html#a8da5763dd3aae5a13dd2993cffd0fccf" title="seafile_set_download_rate_limit" alt="" coords="255,112,460,141"/>
+</map>

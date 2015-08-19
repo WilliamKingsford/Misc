@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fs-mgr_8h.html#ae49e883dd4aa920a40b870092677ae35" title="seaf_dir_new" alt="" coords="173,59,272,88"/>
+<area shape="rect" id="node5" href="$vc-utils_8h.html#a40a8e3a1dc14697c58656246b3fa9ca0" title="commit_trees_cb" alt="" coords="320,59,443,88"/>
+<area shape="rect" id="node7" href="$daemon_2repo-mgr_8h.html#a77e557bb1fedd648a109ab5d9bff5ef4" title="seaf_repo_index_worktree_files" alt="" coords="491,5,696,35"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8h.html#ab6d5318b3a1cc6f86733ff71b16815a8" title="seaf_repo_index_commit" alt="" coords="511,59,676,88"/>
+<area shape="rect" id="node11" href="$merge-recursive_8h.html#a5ece2c4c0b1acc045660424d1fb74f36" title="write_tree_from_memory" alt="" coords="511,112,676,141"/>
+<area shape="rect" id="node13" href="$merge-recursive_8h.html#ac5c545b083f8e950f4e13cb31b4a74d1" title="merge_recursive" alt="" coords="745,112,863,141"/>
+</map>

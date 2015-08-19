@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$org-mgr_8h.html#a89846be9f97b47dc48d78843fd91cc00" title="ccnet_org_manager_create_org" alt="" coords="189,5,392,35"/>
+<area shape="rect" id="node5" href="$user-mgr_8h.html#ad4eaeff41e5c24da6a49177840e533c1" title="ccnet_user_manager_add_emailuser" alt="" coords="173,59,408,88"/>
+<area shape="rect" id="node7" href="$share-info_8h.html#a758b18fa15a2447301c183163e9b66df" title="seaf_share_info_new" alt="" coords="219,112,363,141"/>
+<area shape="rect" id="node9" href="$share-info_8h.html#a03ddc76ea7aafe0dd11489579cbb384e" title="seaf_share_info_from_json" alt="" coords="456,112,635,141"/>
+</map>

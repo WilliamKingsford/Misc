@@ -1,0 +1,23 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fs-mgr_8c.html" title="seafile&#45;4.1.2/common/fs&#45;mgr.c" alt="" coords="5,83,203,112"/>
+<area shape="rect" id="node5" href="$merge-new_8c.html" title="seafile&#45;4.1.2/common/merge&#45;new.c" alt="" coords="227,83,453,112"/>
+<area shape="rect" id="node7" href="$vc-common_8c.html" title="seafile&#45;4.1.2/common/vc&#45;common.c" alt="" coords="477,83,707,112"/>
+<area shape="rect" id="node9" href="$merge-recursive_8c.html" title="seafile&#45;4.1.2/daemon/merge&#45;recursive.c" alt="" coords="731,83,981,112"/>
+<area shape="rect" id="node11" href="$merge_8c.html" title="seafile&#45;4.1.2/daemon/merge.c" alt="" coords="1005,83,1200,112"/>
+<area shape="rect" id="node13" href="$check-tx-proc_8c.html" title="seafile&#45;4.1.2/daemon/processors/check&#45;tx&#45;proc.c" alt="" coords="1224,83,1528,112"/>
+<area shape="rect" id="node15" href="$check-tx-v2-proc_8c.html" title="seafile&#45;4.1.2/daemon/processors/check&#45;tx&#45;v2&#45;proc.c" alt="" coords="1552,83,1875,112"/>
+<area shape="rect" id="node17" href="$check-tx-v3-proc_8c.html" title="seafile&#45;4.1.2/daemon/processors/check&#45;tx&#45;v3&#45;proc.c" alt="" coords="1899,83,2221,112"/>
+<area shape="rect" id="node19" href="$daemon_2processors_2putcommit-proc_8c.html" title="seafile&#45;4.1.2/daemon/processors/putcommit&#45;proc.c" alt="" coords="2245,83,2560,112"/>
+<area shape="rect" id="node21" href="$sendcommit-v2-proc_8c.html" title="seafile&#45;4.1.2/daemon/processors/sendcommit&#45;v2&#45;proc.c" alt="" coords="2584,83,2928,112"/>
+<area shape="rect" id="node23" href="$sendcommit-v3-new-proc_8c.html" title="seafile&#45;4.1.2/daemon/processors/sendcommit&#45;v3&#45;new&#45;proc.c" alt="" coords="2952,83,3323,112"/>
+<area shape="rect" id="node25" href="$sendcommit-v3-proc_8c.html" title="seafile&#45;4.1.2/daemon/processors/sendcommit&#45;v3&#45;proc.c" alt="" coords="3347,83,3691,112"/>
+<area shape="rect" id="node27" href="$sendcommit-v4-proc_8c.html" title="seafile&#45;4.1.2/daemon/processors/sendcommit&#45;v4&#45;proc.c" alt="" coords="3715,83,4059,112"/>
+<area shape="rect" id="node29" href="$sync-mgr_8c.html" title="seafile&#45;4.1.2/daemon/sync&#45;mgr.c" alt="" coords="4083,83,4293,112"/>
+<area shape="rect" id="node31" href="$transfer-mgr_8c.html" title="seafile&#45;4.1.2/daemon/transfer&#45;mgr.c" alt="" coords="4317,83,4544,112"/>
+<area shape="rect" id="node33" href="$vc-utils_8c.html" title="seafile&#45;4.1.2/daemon/vc&#45;utils.c" alt="" coords="4568,83,4768,112"/>
+<area shape="rect" id="node35" href="$Backups_2recvbranch-v2-proc_8c.html" title="seafile&#45;4.1.2/server/processors/Backups/recvbranch&#45;v2&#45;proc.c" alt="" coords="4792,83,5173,112"/>
+<area shape="rect" id="node37" href="$server_2processors_2putcommit-proc_8c.html" title="seafile&#45;4.1.2/server/processors/putcommit&#45;proc.c" alt="" coords="5197,83,5504,112"/>
+<area shape="rect" id="node39" href="$putcommit-v2-proc_8c.html" title="seafile&#45;4.1.2/server/processors/putcommit&#45;v2&#45;proc.c" alt="" coords="5528,83,5851,112"/>
+<area shape="rect" id="node41" href="$recvbranch-proc_8c.html" title="seafile&#45;4.1.2/server/processors/recvbranch&#45;proc.c" alt="" coords="5875,83,6184,112"/>
+<area shape="rect" id="node43" href="$recvbranch-v2-proc_8c.html" title="seafile&#45;4.1.2/server/processors/recvbranch&#45;v2&#45;proc.c" alt="" coords="6208,83,6533,112"/>
+</map>

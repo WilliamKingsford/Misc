@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$diff-simple_8c.html" title="seafile&#45;4.1.2/common/diff&#45;simple.c" alt="" coords="88,83,309,112"/>
+<area shape="rect" id="node5" href="$daemon_2Backups_2repo-mgr_8c.html" title="seafile&#45;4.1.2/daemon/Backups/repo&#45;mgr.c" alt="" coords="5,160,269,189"/>
+<area shape="rect" id="node7" href="$http-tx-mgr_8c.html" title="seafile&#45;4.1.2/daemon/http&#45;tx&#45;mgr.c" alt="" coords="704,83,925,112"/>
+<area shape="rect" id="node9" href="$sendfs-v2-proc_8c.html" title="seafile&#45;4.1.2/daemon/processors/sendfs&#45;v2&#45;proc.c" alt="" coords="949,83,1261,112"/>
+<area shape="rect" id="node11" href="$status_8h.html" title="seafile&#45;4.1.2/daemon/status.h" alt="" coords="435,83,629,112"/>
+<area shape="rect" id="node14" href="$daemon_2repo-mgr_8c.html" title="seafile&#45;4.1.2/daemon/repo&#45;mgr.c" alt="" coords="293,160,501,189"/>
+<area shape="rect" id="node16" href="$status_8c.html" title="seafile&#45;4.1.2/daemon/status.c" alt="" coords="760,160,955,189"/>
+<area shape="rect" id="node22" href="$transfer-mgr_8c.html" title="seafile&#45;4.1.2/daemon/transfer&#45;mgr.c" alt="" coords="1285,83,1512,112"/>
+<area shape="rect" id="node24" href="$Backups_2http-server_8c.html" title="seafile&#45;4.1.2/server/Backups/http&#45;server.c" alt="" coords="1536,83,1800,112"/>
+<area shape="rect" id="node26" href="$Backups_2repo-op_8c.html" title="seafile&#45;4.1.2/server/Backups/repo&#45;op.c" alt="" coords="1824,83,2069,112"/>
+<area shape="rect" id="node28" href="$http-server_8c.html" title="seafile&#45;4.1.2/server/http&#45;server.c" alt="" coords="2093,83,2304,112"/>
+<area shape="rect" id="node30" href="$Backups_2recvbranch-v2-proc_8c.html" title="seafile&#45;4.1.2/server/processors/Backups/recvbranch&#45;v2&#45;proc.c" alt="" coords="2328,83,2709,112"/>
+<area shape="rect" id="node32" href="$putfs-v2-proc_8c.html" title="seafile&#45;4.1.2/server/processors/putfs&#45;v2&#45;proc.c" alt="" coords="2733,83,3024,112"/>
+<area shape="rect" id="node34" href="$recvbranch-v2-proc_8c.html" title="seafile&#45;4.1.2/server/processors/recvbranch&#45;v2&#45;proc.c" alt="" coords="3048,83,3373,112"/>
+<area shape="rect" id="node36" href="$repo-op_8c.html" title="seafile&#45;4.1.2/server/repo&#45;op.c" alt="" coords="3397,83,3587,112"/>
+<area shape="rect" id="node38" href="$virtual-repo_8c.html" title="seafile&#45;4.1.2/server/virtual&#45;repo.c" alt="" coords="3611,83,3821,112"/>
+<area shape="rect" id="node18" href="$sync-mgr_8c.html" title="seafile&#45;4.1.2/daemon/sync&#45;mgr.c" alt="" coords="525,160,736,189"/>
+</map>

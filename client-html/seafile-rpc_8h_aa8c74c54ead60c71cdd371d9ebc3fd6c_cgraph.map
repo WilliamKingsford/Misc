@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$clone-mgr_8c.html#a6b295c7d97d0c650eb97ea7a9c7eb98f" title="seaf_clone_manager_get_tasks" alt="" coords="217,5,423,35"/>
+<area shape="rect" id="node5" href="$clone-mgr_8c.html#a371fa00197a050e76f04061d410b0097" title="clone_task_state_to_str" alt="" coords="240,59,400,88"/>
+<area shape="rect" id="node7" href="$clone-mgr_8c.html#ad97feb27f9f5e662efea51d3297b1376" title="clone_task_error_to_str" alt="" coords="241,112,399,141"/>
+</map>

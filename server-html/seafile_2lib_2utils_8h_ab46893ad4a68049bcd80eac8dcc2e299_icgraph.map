@@ -1,0 +1,26 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fs-mgr_8h.html#af41e85bce809b9f05ed5b20ac5eeb745" title="seaf_fs_manager_index_blocks" alt="" coords="131,59,336,88"/>
+<area shape="rect" id="node11" href="$unpack-trees_8h.html#afc1a414641a3c7c31083a389fcfc5ec6" title="oneway_merge" alt="" coords="179,112,288,141"/>
+<area shape="rect" id="node13" href="$daemon_2repo-mgr_8h.html#ad1200d69d8e6219885da4e85af15dca2" title="seaf_repo_check_worktree" alt="" coords="144,165,323,195"/>
+<area shape="rect" id="node19" href="$daemon_2repo-mgr_8h.html#a461e72948bba5928329e269ad395e293" title="seaf_repo_is_worktree_changed" alt="" coords="671,244,879,273"/>
+<area shape="rect" id="node21" href="$daemon_2repo-mgr_8c.html#a450e5bcc50da4c40b7ba2bde33a22a84" title="checkout_file" alt="" coords="453,427,552,456"/>
+<area shape="rect" id="node25" href="$daemon_2repo-mgr_8c.html#a181f66e1d3900771c37883e97fea7fba" title="checkout_empty_dir" alt="" coords="164,477,303,507"/>
+<area shape="rect" id="node28" href="$daemon_2repo-mgr_8h.html#abdf6d76830c08b16b49d76e2f34037a5" title="seaf_repo_load_ignore_files" alt="" coords="143,373,324,403"/>
+<area shape="rect" id="node33" href="$status_8h.html#aedde1fa2f15b7c6a05b14c2dcc04f6be" title="wt_status_collect_changes_worktree" alt="" coords="384,269,621,299"/>
+<area shape="rect" id="node36" href="$daemon_2repo-mgr_8h.html#a32907bbaf9e2790699ddb7aaa97a3052" title="seaf_repo_check_ignore_file" alt="" coords="140,320,327,349"/>
+<area shape="rect" id="node40" href="$vc-utils_8h.html#a4642df9b122253404e9618cedd3d7e18" title="seaf_remove_empty_dir" alt="" coords="153,581,313,611"/>
+<area shape="rect" id="node42" href="$vc-utils_8h.html#afe4721091f815b2382d2cc8b30e97cf0" title="delete_path" alt="" coords="459,531,547,560"/>
+<area shape="rect" id="node46" href="$ccnet_2lib_2utils_8h.html#a8972f29db121d2c77a167b5ad4942d94" title="checkdir" alt="" coords="199,635,268,664"/>
+<area shape="rect" id="node5" href="$repo-op_8c.html#a3128bd2930667427a22976b6a2b85743" title="seaf_repo_manager_post_file" alt="" coords="407,5,599,35"/>
+<area shape="rect" id="node7" href="$repo-op_8c.html#ae7346d14d7ad21fef1537bf44b50273e" title="seaf_repo_manager_post_multi_files" alt="" coords="385,59,620,88"/>
+<area shape="rect" id="node9" href="$repo-op_8c.html#a46c094895964e060809372262c9b9923" title="seaf_repo_manager_put_file" alt="" coords="411,112,595,141"/>
+<area shape="rect" id="node15" href="$sync-mgr_8h.html#aeea02ab15ddf4c48dd3227f30b791f37" title="seaf_sync_manager_add_sync_task" alt="" coords="385,165,620,195"/>
+<area shape="rect" id="node17" href="$seafile-rpc_8h.html#a69a68f15746004a2a844c35c7d305b22" title="seafile_sync" alt="" coords="728,165,821,195"/>
+<area shape="rect" id="node23" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="673,453,876,483"/>
+<area shape="rect" id="node30" href="$daemon_2repo-mgr_8h.html#a77e557bb1fedd648a109ab5d9bff5ef4" title="seaf_repo_index_worktree_files" alt="" coords="400,373,605,403"/>
+<area shape="rect" id="node48" href="$session_8c.html#a2ded42c6195336219f9093d89a2f5ed5" title="ccnet_session_load_config" alt="" coords="413,635,592,664"/>
+<area shape="rect" id="node50" href="$session_8h.html#aa0bbc7572963f31cc6086df26b4ab2b4" title="ccnet_session_prepare" alt="" coords="697,635,852,664"/>
+<area shape="rect" id="node52" href="$server_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="965,608,1016,637"/>
+<area shape="rect" id="node54" href="$ccnet-server_8c.html#a4bc39cfec6e5bdca15a1cfb25c94664a" title="test_ccnet_config" alt="" coords="928,661,1053,691"/>
+<area shape="rect" id="node56" href="$ccnet-server_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1101,661,1152,691"/>
+</map>

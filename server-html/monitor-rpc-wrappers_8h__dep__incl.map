@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$monitor-rpc-wrappers_8c.html" title="seafile/server/monitor&#45;rpc&#45;wrappers.c" alt="" coords="5,83,243,112"/>
+<area shape="rect" id="node5" href="$recvbranch-proc_8c.html" title="seafile/server/processors/recvbranch&#45;proc.c" alt="" coords="267,83,541,112"/>
+<area shape="rect" id="node7" href="$recvbranch-v2-proc_8c.html" title="seafile/server/processors/recvbranch&#45;v2&#45;proc.c" alt="" coords="565,83,859,112"/>
+<area shape="rect" id="node9" href="$server_2repo-mgr_8c.html" title="seafile/server/repo&#45;mgr.c" alt="" coords="883,83,1048,112"/>
+<area shape="rect" id="node11" href="$repo-op_8c.html" title="seafile/server/repo&#45;op.c" alt="" coords="1072,83,1229,112"/>
+<area shape="rect" id="node13" href="$server_2seafile-session_8c.html" title="seafile/server/seafile&#45;session.c" alt="" coords="1253,83,1456,112"/>
+</map>

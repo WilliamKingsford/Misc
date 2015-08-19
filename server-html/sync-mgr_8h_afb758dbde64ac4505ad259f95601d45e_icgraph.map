@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-rpc_8h.html#a65581b730e47f4ea1ea4b68469315625" title="seafile_get_repo_sync_info" alt="" coords="323,5,501,35"/>
+<area shape="rect" id="node5" href="$seafile-rpc_8h.html#aa5af40788ef2c7bcccc071abf16acefe" title="seafile_get_repo_sync_task" alt="" coords="320,59,504,88"/>
+<area shape="rect" id="node7" href="$clone-mgr_8h.html#a6b3ef937f8308db69c87bb650cb42fe9" title="seaf_clone_manager_add_task" alt="" coords="311,112,513,141"/>
+<area shape="rect" id="node11" href="$clone-mgr_8h.html#ab6b5a2b4f13b382b9c7034131fa92783" title="seaf_clone_manager_add_download_task" alt="" coords="280,165,544,195"/>
+<area shape="rect" id="node9" href="$seafile-rpc_8h.html#aca75772f76f8eafb2b08a023cd476f65" title="seafile_clone" alt="" coords="604,112,703,141"/>
+<area shape="rect" id="node13" href="$seafile-rpc_8h.html#a704ca859f1a1f7044c27b27982658672" title="seafile_download" alt="" coords="592,165,715,195"/>
+</map>

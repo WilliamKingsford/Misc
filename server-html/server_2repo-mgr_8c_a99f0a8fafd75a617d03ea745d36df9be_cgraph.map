@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2repo-mgr_8c.html#a507c39fec59f1a4672a0cdd5493c6887" title="seaf_repo_manager_get_trash_repos_by_owner" alt="" coords="365,32,664,61"/>
+<area shape="rect" id="node11" href="$server_2repo-mgr_8c.html#a94469a7522aa5a67fbc58440544e299a" title="seaf_repo_manager_del_repo_from_trash" alt="" coords="384,136,645,165"/>
+<area shape="rect" id="node37" href="$repo_8c.html#aa833417b3ced164bf21722143e7c3a78" title="seafile_trash_repo_get_repo_id" alt="" coords="413,189,616,219"/>
+<area shape="rect" id="node5" href="$seaf-db_8c.html#ae0564388defaeffdf5628e60a074f224" title="seaf_db_statement_foreach_row" alt="" coords="1021,5,1232,35"/>
+<area shape="rect" id="node7" href="$seaf-db_8c.html#a022621519c8205275746dafb4801013a" title="seaf_db_prepare_statement" alt="" coords="1281,59,1463,88"/>
+<area shape="rect" id="node9" href="$seaf-db_8c.html#a0cb484988d9e1c156227b99eba482e3c" title="seaf_db_statement_free" alt="" coords="1291,5,1453,35"/>
+<area shape="rect" id="node13" href="$branch-mgr_8c.html#ad5bd62cbe17cb8fe91bcd993956a1fbf" title="seaf_branch_manager_get_branch_list" alt="" coords="720,267,965,296"/>
+<area shape="rect" id="node19" href="$branch-mgr_8c.html#ac6476414064e0ff0c429629aaab0bfc9" title="seaf_branch_list_free" alt="" coords="1053,213,1200,243"/>
+<area shape="rect" id="node25" href="$daemon_2repo-mgr_8c.html#ae586fb5fbd61d6b44be3e47e7b6c86da" title="seaf_repo_manager_branch_repo_unmap" alt="" coords="713,108,972,137"/>
+<area shape="rect" id="node27" href="$branch-mgr_8c.html#a16b2df7708f3a4c4b96e9135ec7e1a3d" title="seaf_branch_manager_del_branch" alt="" coords="733,161,952,191"/>
+<area shape="rect" id="node31" href="$seaf-db_8c.html#a5b034a1fc119b2c3a989a03e7bb220e5" title="seaf_db_statement_query" alt="" coords="1041,59,1212,88"/>
+<area shape="rect" id="node15" href="$seafile_2lib_2db_8c.html#a4d1d0eb407f8f5dd522c3875beb7b9c8" title="sqlite_query_prepare" alt="" coords="1056,320,1197,349"/>
+<area shape="rect" id="node17" href="$branch-mgr_8c.html#a4d213520d8a22d5191051715ccbfd1dd" title="seaf_branch_new" alt="" coords="1065,267,1188,296"/>
+<area shape="rect" id="node21" href="$branch-mgr_8c.html#a2e44cba993ba080e7550a832f019f653" title="seaf_branch_unref" alt="" coords="1308,213,1436,243"/>
+<area shape="rect" id="node23" href="$branch-mgr_8c.html#a449a49952dc253bd7b16367869d0ebdc" title="seaf_branch_free" alt="" coords="1512,213,1635,243"/>
+<area shape="rect" id="node29" href="$seafile_2lib_2db_8c.html#a34065420d7e15be3dd4e8bff5cb51fe9" title="sqlite_query_exec" alt="" coords="1064,160,1189,189"/>
+</map>

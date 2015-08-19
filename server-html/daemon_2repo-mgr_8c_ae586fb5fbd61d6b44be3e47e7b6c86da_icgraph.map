@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$rpc-deprecated_8c.html#afb600f07a2183e34f31eb2fa5c783a15" title="seafile_branch_del" alt="" coords="381,32,512,61"/>
+<area shape="rect" id="node5" href="$daemon_2repo-mgr_8h.html#a008f145440cf3620f7883d1fe109f69c" title="seaf_repo_manager_remove_repo_ondisk" alt="" coords="316,85,577,115"/>
+<area shape="rect" id="node19" href="$server_2repo-mgr_8h.html#a94469a7522aa5a67fbc58440544e299a" title="seaf_repo_manager_del_repo_from_trash" alt="" coords="316,165,577,195"/>
+<area shape="rect" id="node7" href="$clone-mgr_8h.html#a6b3ef937f8308db69c87bb650cb42fe9" title="seaf_clone_manager_add_task" alt="" coords="681,5,884,35"/>
+<area shape="rect" id="node11" href="$clone-mgr_8h.html#ab6b5a2b4f13b382b9c7034131fa92783" title="seaf_clone_manager_add_download_task" alt="" coords="651,59,915,88"/>
+<area shape="rect" id="node15" href="$server_2gc_2repo-mgr_8h.html#afdce2de6ee36dcf6b6264ac35fb17f7a" title="seaf_repo_manager_del_repo" alt="" coords="687,112,879,141"/>
+<area shape="rect" id="node9" href="$seafile-rpc_8h.html#aca75772f76f8eafb2b08a023cd476f65" title="seafile_clone" alt="" coords="1009,5,1108,35"/>
+<area shape="rect" id="node13" href="$seafile-rpc_8h.html#a704ca859f1a1f7044c27b27982658672" title="seafile_download" alt="" coords="997,59,1120,88"/>
+<area shape="rect" id="node17" href="$seafile_2common_2rpc-service_8c.html#a3743ba1324330f8ef0cb9a5c33a52e92" title="seafile_destroy_repo" alt="" coords="988,112,1129,141"/>
+<area shape="rect" id="node21" href="$server_2repo-mgr_8h.html#a47fd08ad688d035ae95e11545bb0a68b" title="seaf_repo_manager_empty_repo_trash" alt="" coords="660,165,905,195"/>
+<area shape="rect" id="node23" href="$server_2repo-mgr_8h.html#a99f0a8fafd75a617d03ea745d36df9be" title="seaf_repo_manager_empty_repo_trash_by_owner" alt="" coords="628,219,937,248"/>
+</map>

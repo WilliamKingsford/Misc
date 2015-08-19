@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$fs-mgr_8h.html#a36b814252ae47bd595a9282266ea1b56" title="seaf_fs_manager_checkout_file" alt="" coords="195,323,400,352"/>
+<area shape="rect" id="node9" href="$daemon_2repo-mgr_8h.html#a77e557bb1fedd648a109ab5d9bff5ef4" title="seaf_repo_index_worktree_files" alt="" coords="195,112,400,141"/>
+<area shape="rect" id="node11" href="$daemon_2repo-mgr_8h.html#ab553f7b1a5290e99821753acf9e87c86" title="seaf_repo_checkout" alt="" coords="228,165,367,195"/>
+<area shape="rect" id="node13" href="$daemon_2repo-mgr_8h.html#a008f145440cf3620f7883d1fe109f69c" title="seaf_repo_manager_remove_repo_ondisk" alt="" coords="167,59,428,88"/>
+<area shape="rect" id="node27" href="$vc-utils_8h.html#a4642df9b122253404e9618cedd3d7e18" title="seaf_remove_empty_dir" alt="" coords="217,219,377,248"/>
+<area shape="rect" id="node29" href="$vc-utils_8h.html#afe4721091f815b2382d2cc8b30e97cf0" title="delete_path" alt="" coords="565,269,653,299"/>
+<area shape="rect" id="node5" href="$daemon_2repo-mgr_8c.html#a450e5bcc50da4c40b7ba2bde33a22a84" title="checkout_file" alt="" coords="560,323,659,352"/>
+<area shape="rect" id="node7" href="$daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="789,296,992,325"/>
+<area shape="rect" id="node15" href="$clone-mgr_8h.html#a6b3ef937f8308db69c87bb650cb42fe9" title="seaf_clone_manager_add_task" alt="" coords="508,112,711,141"/>
+<area shape="rect" id="node19" href="$clone-mgr_8h.html#ab6b5a2b4f13b382b9c7034131fa92783" title="seaf_clone_manager_add_download_task" alt="" coords="477,5,741,35"/>
+<area shape="rect" id="node23" href="$server_2gc_2repo-mgr_8h.html#afdce2de6ee36dcf6b6264ac35fb17f7a" title="seaf_repo_manager_del_repo" alt="" coords="513,59,705,88"/>
+<area shape="rect" id="node17" href="$seafile-rpc_8h.html#aca75772f76f8eafb2b08a023cd476f65" title="seafile_clone" alt="" coords="841,112,940,141"/>
+<area shape="rect" id="node21" href="$seafile-rpc_8h.html#a704ca859f1a1f7044c27b27982658672" title="seafile_download" alt="" coords="829,5,952,35"/>
+<area shape="rect" id="node25" href="$seafile_2common_2rpc-service_8c.html#a3743ba1324330f8ef0cb9a5c33a52e92" title="seafile_destroy_repo" alt="" coords="820,59,961,88"/>
+</map>

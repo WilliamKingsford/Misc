@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$branch-mgr_8h.html#ab67819118ec82d96e51f6c2cadd7a632" title="seaf_branch_manager_add_branch" alt="" coords="256,5,480,35"/>
+<area shape="rect" id="node5" href="$branch-mgr_8h.html#a228e7abb258c810aa8b8e02b9c368e10" title="seaf_branch_manager_branch_exists" alt="" coords="249,59,487,88"/>
+<area shape="rect" id="node7" href="$server_2repo-mgr_8h.html#aa40635ee3473d593c5edc1a9e9976cd7" title="seaf_repo_manager_token_peer_info_exists" alt="" coords="229,112,507,141"/>
+<area shape="rect" id="node9" href="$server_2repo-mgr_8c.html#ac78c13c68a1a9d1d025e45f4e51193ac" title="seaf_repo_manager_set_repo_history_limit" alt="" coords="233,165,503,195"/>
+<area shape="rect" id="node11" href="$server_2repo-mgr_8c.html#aeeda6cf1cb41515388afd8a10c6297e1" title="seaf_repo_manager_set_repo_valid_since" alt="" coords="236,219,500,248"/>
+<area shape="rect" id="node13" href="$server_2repo-mgr_8h.html#a4f04f29fd9180ef2982cc0d7bfeee5e4" title="seaf_repo_manager_is_inner_pub_repo" alt="" coords="244,272,492,301"/>
+<area shape="rect" id="node15" href="$quota-mgr_8h.html#a40050c6ffde4a35b0cbbbe4ee786626c" title="seaf_quota_manager_set_user_quota" alt="" coords="249,325,487,355"/>
+<area shape="rect" id="node17" href="$quota-mgr_8c.html#a31aa8cd6271ff96fb324b213c6052415" title="seaf_quota_manager_set_org_quota" alt="" coords="252,379,484,408"/>
+<area shape="rect" id="node19" href="$quota-mgr_8c.html#a026b64b18b50e7bb21fd9fb6bd033523" title="seaf_quota_manager_set_org_user_quota" alt="" coords="236,432,500,461"/>
+<area shape="rect" id="node21" href="$share-mgr_8h.html#a35382f08cca8e47865af30c5a590d23b" title="seaf_share_manager_add_share" alt="" coords="263,485,473,515"/>
+<area shape="rect" id="node23" href="$virtual-repo_8c.html#a0b9efffb3301d72133b4a3fdd28fc69c" title="seaf_repo_manager_is_virtual_repo" alt="" coords="255,539,481,568"/>
+</map>

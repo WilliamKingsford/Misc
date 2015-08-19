@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$buffer_8h.html#a5241e4d8527216adfdd7a35d77d2ddc4" title="buffer_add" alt="" coords="160,112,243,141"/>
+<area shape="rect" id="node20" href="$buffer_8h.html#a9048323bd5c9b135f425d94fbb7603c0" title="buffer_read" alt="" coords="159,192,244,221"/>
+<area shape="rect" id="node5" href="$buffer_8h.html#a3c8b8eb536adde5be2214c6329f97b6d" title="buffer_add_buffer" alt="" coords="320,5,443,35"/>
+<area shape="rect" id="node7" href="$lib_2packet-io_8h.html#a6fe4edb448885ed261bb1052175e3f22" title="ccnet_packet_prepare" alt="" coords="307,59,456,88"/>
+<area shape="rect" id="node15" href="$lib_2packet-io_8h.html#ad2290909d2bee450f41502d6b11ad67f" title="ccnet_packet_write_string" alt="" coords="295,112,468,141"/>
+<area shape="rect" id="node18" href="$lib_2packet-io_8h.html#ab092139884cb214a2da1ffc4f3849027" title="ccnet_packet_add" alt="" coords="317,165,445,195"/>
+<area shape="rect" id="node9" href="$ccnet-client_8c.html#a739e644c7d22796b265b8ac0c25e18b1" title="ccnet_client_send_request" alt="" coords="519,85,695,115"/>
+<area shape="rect" id="node11" href="$net_2common_2processor_8h.html#ac354e19db989f98be49e2559b7def26f" title="ccnet_processor_send_request" alt="" coords="749,59,952,88"/>
+<area shape="rect" id="node13" href="$net_2common_2processor_8h.html#a715833e353a1aa175c21dd2af48e10de" title="ccnet_processor_send_request_l" alt="" coords="744,112,957,141"/>
+<area shape="rect" id="node22" href="$lib_2packet-io_8h.html#acb0bb090ae15383e8ef3edbfbeed1e5b" title="ccnet_packet_io_read" alt="" coords="307,219,456,248"/>
+<area shape="rect" id="node24" href="$ccnet-client_8c.html#a1b8068cd68e36d64e254d2e40bf6b7fe" title="ccnet_client_read_input" alt="" coords="528,219,685,248"/>
+</map>

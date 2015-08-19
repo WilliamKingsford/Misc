@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seafile-object_8h.html#a1b387713c5108cddab7e5a981498e104" title="seafile_commit_new" alt="" coords="224,32,365,61"/>
+<area shape="rect" id="node5" href="$seafile_2common_2rpc-service_8c.html#ae284b482780d940fb7b6a12fdd668ab3" title="convert_to_seafile_commit" alt="" coords="413,32,592,61"/>
+<area shape="rect" id="node7" href="$seafile-rpc_8h.html#a3547a38fe3590d09bed824120ec100e9" title="seafile_get_commit_pub" alt="" coords="640,5,803,35"/>
+<area shape="rect" id="node9" href="$seafile-rpc_8h.html#af0444c8f4e9da68a1f837c64059e7680" title="seafile_get_commit" alt="" coords="655,59,788,88"/>
+</map>

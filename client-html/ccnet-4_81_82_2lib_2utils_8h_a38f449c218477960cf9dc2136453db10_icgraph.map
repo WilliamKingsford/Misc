@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$net_2common_2peer_8h.html#afd53f329ae2eaa8d97c17f0b0f05735e" title="ccnet_peer_remove_role" alt="" coords="196,5,359,35"/>
+<area shape="rect" id="node13" href="$net_2common_2peer_8h.html#a84988645072903a2f6652a94306eafe8" title="ccnet_peer_has_role" alt="" coords="207,219,348,248"/>
+<area shape="rect" id="node35" href="$net_2common_2peer_8h.html#ac6ad0d36cd5780cb713568de3194dec1" title="ccnet_peer_has_my_role" alt="" coords="195,112,360,141"/>
+<area shape="rect" id="node37" href="$ccnet-4_81_82_2lib_2utils_8h.html#aefe1dabfce05643fed7d83c2bb4c615c" title="string_list_append" alt="" coords="215,165,340,195"/>
+<area shape="rect" id="node39" href="$ccnet-4_81_82_2lib_2utils_8h.html#ab7295a8677eade8b86c15b06715dc902" title="string_list_append_sorted" alt="" coords="192,59,363,88"/>
+<area shape="rect" id="node5" href="$peer-mgr_8h.html#af5c419e61b25896730c6917f9a5953e1" title="ccnet_peer_manager_remove_role" alt="" coords="411,5,632,35"/>
+<area shape="rect" id="node7" href="$rpc-service_8h.html#aae094018c7dc9ba17fa4d53eda81ee0c" title="ccnet_rpc_remove_role" alt="" coords="735,5,892,35"/>
+<area shape="rect" id="node9" href="$rpc-service_8h.html#a9b85de0fc2f785edf5666f0935c886cc" title="ccnet_start_rpc" alt="" coords="1336,111,1448,140"/>
+<area shape="rect" id="node11" href="$server_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1536,164,1587,193"/>
+<area shape="rect" id="node15" href="$net_2common_2peer_8h.html#ad31e74349bf1266508141d82085e4d12" title="ccnet_peer_add_role" alt="" coords="451,111,592,140"/>
+<area shape="rect" id="node27" href="$peer-mgr_8h.html#a87a934e7d80c810921d96263fb98d0d0" title="ccnet_peer_manager_get_peers_with_role" alt="" coords="680,219,947,248"/>
+<area shape="rect" id="node17" href="$peer-mgr_8h.html#ae0f8dbb08303ad06bbf050e379362646" title="ccnet_peer_manager_add_role" alt="" coords="715,111,912,140"/>
+<area shape="rect" id="node19" href="$peer-mgr_8c.html#a4ec0c5a67782351e692c89ce67ba6ab7" title="ccnet_peer_manager_on_peer_resolved" alt="" coords="996,164,1247,193"/>
+<area shape="rect" id="node21" href="$rpc-service_8h.html#a44af2aa4d4369165cb11e8ca9269050d" title="ccnet_rpc_add_client" alt="" coords="1049,111,1193,140"/>
+<area shape="rect" id="node24" href="$rpc-service_8h.html#acf6a0dc27d4be68920e03a17d21adcc6" title="ccnet_rpc_add_role" alt="" coords="1055,57,1188,87"/>
+<area shape="rect" id="node29" href="$cluster-mgr_8h.html#ae63d566f917cf270c8a696fffddd21bb" title="ccnet_cluster_manager_start" alt="" coords="1297,216,1487,245"/>
+<area shape="rect" id="node32" href="$rpc-service_8h.html#aa70930864c6919ed08029516bf07cad8" title="ccnet_rpc_get_peers_by_role" alt="" coords="1025,217,1217,247"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2repo-mgr_8c.html#aa8aafa2da81a00419443a068fe98958b" title="seaf_repo_manager_get_repo_valid_since" alt="" coords="249,5,513,35"/>
+<area shape="rect" id="node5" href="$quota-mgr_8h.html#aa9cedb66f1a92351feca44e56fc8e4db" title="seaf_quota_manager_get_user_quota" alt="" coords="263,59,500,88"/>
+<area shape="rect" id="node9" href="$quota-mgr_8c.html#ab91dd53f1a8335d3149c27f80947f13e" title="seaf_quota_manager_get_org_quota" alt="" coords="265,112,497,141"/>
+<area shape="rect" id="node11" href="$quota-mgr_8c.html#acfd47072a7ed7711bec2318883a08c4a" title="seaf_quota_manager_get_org_user_quota" alt="" coords="563,137,827,167"/>
+<area shape="rect" id="node7" href="$quota-mgr_8h.html#ae10caa81f529a80e3729b9a050666302" title="seaf_quota_manager_check_quota" alt="" coords="583,59,807,88"/>
+</map>

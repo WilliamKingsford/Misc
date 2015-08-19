@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$seaf-db_8h.html#a7c31e106c977bf8d618336482337c8b6" title="seaf_db_get_string" alt="" coords="287,19,417,48"/>
+<area shape="rect" id="node7" href="$seaf-db_8h.html#a86087185f6d613c62c740d1f58cfb574" title="seaf_db_statement_get_string" alt="" coords="253,99,451,128"/>
+<area shape="rect" id="node5" href="$server_2seafile-session_8h.html#aa984fa72f934b63897a70e142a91e3da" title="get_system_default_repo_id" alt="" coords="553,5,737,35"/>
+<area shape="rect" id="node9" href="$server_2repo-mgr_8h.html#a24cf3ec157b1edc047b115b28ee8bd0c" title="seaf_repo_manager_get_inner_pub_repo_perm" alt="" coords="500,59,791,88"/>
+<area shape="rect" id="node11" href="$share-mgr_8h.html#a37a1ab881990c48cc43cf1a9e24b444a" title="seaf_share_manager_check_permission" alt="" coords="519,112,772,141"/>
+<area shape="rect" id="node13" href="$virtual-repo_8c.html#ab6ef9796edaf6e7e5b53f3633dc88fa8" title="seaf_repo_manager_get_virtual_repo_id" alt="" coords="520,165,771,195"/>
+</map>

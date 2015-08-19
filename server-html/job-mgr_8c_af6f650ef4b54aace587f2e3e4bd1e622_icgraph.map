@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$daemon_2seafile-session_8h.html#a3eea8fbb412edb5ff72027285edb7c72" title="seafile_session_new" alt="" coords="284,5,425,35"/>
+<area shape="rect" id="node7" href="$copy-mgr_8h.html#a34a31b348a2bacbd0333a5596e2db4cf" title="seaf_copy_manager_start" alt="" coords="269,59,440,88"/>
+<area shape="rect" id="node11" href="$virtual-repo_8c.html#a9545839eb2c54af7e7e2e3948647f47c" title="seaf_repo_manager_init_merge_scheduler" alt="" coords="221,112,488,141"/>
+<area shape="rect" id="node5" href="$seaf-daemon_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="591,5,641,35"/>
+<area shape="rect" id="node9" href="$server_2seafile-session_8c.html#afb1838a556e838aea9515780411cf284" title="seafile_session_start" alt="" coords="544,59,688,88"/>
+<area shape="rect" id="node13" href="$server_2repo-mgr_8c.html#a8dab773e289d1148e7afec7c8614278a" title="seaf_repo_manager_init" alt="" coords="536,112,696,141"/>
+</map>

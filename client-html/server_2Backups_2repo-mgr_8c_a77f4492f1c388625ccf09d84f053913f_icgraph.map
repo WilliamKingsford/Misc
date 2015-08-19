@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$server_2repo-mgr_8h.html#a7e2d25a533ae3eeced99134a7ffb5dbe" title="seaf_repo_manager_is_valid_filename" alt="" coords="181,5,424,35"/>
+<area shape="rect" id="node5" href="$server_2repo-mgr_8h.html#a3128bd2930667427a22976b6a2b85743" title="seaf_repo_manager_post_file" alt="" coords="207,59,399,88"/>
+<area shape="rect" id="node7" href="$server_2repo-mgr_8h.html#a248a05b4a54ff2d9302d0779cbcc3542" title="seaf_repo_manager_post_multi_files" alt="" coords="185,112,420,141"/>
+<area shape="rect" id="node9" href="$server_2repo-mgr_8h.html#a0d6750947e09a7c4f4eb2146147e9db1" title="seaf_repo_manager_post_file_blocks" alt="" coords="184,165,421,195"/>
+<area shape="rect" id="node11" href="$server_2repo-mgr_8h.html#aa870306d94f3e7b16e66229040590138" title="seaf_repo_manager_post_dir" alt="" coords="208,219,397,248"/>
+<area shape="rect" id="node13" href="$server_2repo-mgr_8h.html#a2e0e32263ad7bbeaa4ab13a62135c46a" title="seaf_repo_manager_post_empty_file" alt="" coords="185,272,420,301"/>
+<area shape="rect" id="node15" href="$server_2repo-mgr_8h.html#ae68e4b6427bb239b697e515c8617cbfb" title="seaf_repo_manager_rename_file" alt="" coords="197,325,408,355"/>
+<area shape="rect" id="node17" href="$server_2repo-mgr_8h.html#a46c094895964e060809372262c9b9923" title="seaf_repo_manager_put_file" alt="" coords="211,379,395,408"/>
+<area shape="rect" id="node19" href="$server_2repo-mgr_8h.html#aad15cfaf3210b47e9f59a481073aafbc" title="seaf_repo_manager_put_file_blocks" alt="" coords="188,432,417,461"/>
+</map>

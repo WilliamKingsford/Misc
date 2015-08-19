@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$include_2ccnet_2processor_8h.html#a5358a9392f5e9235cec39e141fea81dc" title="ccnet_processor_send_update" alt="" coords="221,5,419,35"/>
+<area shape="rect" id="node5" href="$ccnet-client_8h.html#aba1d9ee43e350c8db5fb204ee2bd842e" title="ccnet_client_remove_processor" alt="" coords="217,59,423,88"/>
+<area shape="rect" id="node7" href="$lib_2processor_8c.html#ad61d1a93874976b48b288531ee169340" title="ccnet_processor_release_resource" alt="" coords="208,112,432,141"/>
+<area shape="rect" id="node9" href="$include_2ccnet_2proc-factory_8h.html#a2b277b6e7d73585b29a77e63c616b507" title="ccnet_proc_factory_recycle" alt="" coords="229,165,411,195"/>
+<area shape="rect" id="node11" href="$net_2common_2peer_8c.html#a97b583e02ec388bf0507dc140c5a47bb" title="ccnet_peer_remove_processor" alt="" coords="220,219,420,248"/>
+</map>

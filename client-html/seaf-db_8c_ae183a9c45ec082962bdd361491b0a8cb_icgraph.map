@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$branch-mgr_8h.html#ab67819118ec82d96e51f6c2cadd7a632" title="seaf_branch_manager_add_branch" alt="" coords="179,5,403,35"/>
+<area shape="rect" id="node5" href="$server_2repo-mgr_8h.html#ac78c13c68a1a9d1d025e45f4e51193ac" title="seaf_repo_manager_set_repo_history_limit" alt="" coords="156,59,425,88"/>
+<area shape="rect" id="node7" href="$server_2repo-mgr_8h.html#aeeda6cf1cb41515388afd8a10c6297e1" title="seaf_repo_manager_set_repo_valid_since" alt="" coords="159,112,423,141"/>
+<area shape="rect" id="node9" href="$server_2repo-mgr_8h.html#a5f096821f41a339e41e9341fc0c4010d" title="seaf_repo_manager_set_repo_owner" alt="" coords="173,165,408,195"/>
+<area shape="rect" id="node17" href="$server_2repo-mgr_8h.html#ab4740f8bce8f9f3571adf0adfb63590b" title="seaf_repo_manager_set_inner_pub_repo" alt="" coords="163,219,419,248"/>
+<area shape="rect" id="node19" href="$quota-mgr_8h.html#afceaa1bbb546bd5f976bc557c0ba7b87" title="seaf_quota_manager_init" alt="" coords="208,272,373,301"/>
+<area shape="rect" id="node23" href="$quota-mgr_8h.html#a40050c6ffde4a35b0cbbbe4ee786626c" title="seaf_quota_manager_set_user_quota" alt="" coords="172,325,409,355"/>
+<area shape="rect" id="node25" href="$quota-mgr_8h.html#aa9cedb66f1a92351feca44e56fc8e4db" title="seaf_quota_manager_get_user_quota" alt="" coords="172,379,409,408"/>
+<area shape="rect" id="node29" href="$quota-mgr_8c.html#a31aa8cd6271ff96fb324b213c6052415" title="seaf_quota_manager_set_org_quota" alt="" coords="175,432,407,461"/>
+<area shape="rect" id="node31" href="$quota-mgr_8c.html#a026b64b18b50e7bb21fd9fb6bd033523" title="seaf_quota_manager_set_org_user_quota" alt="" coords="159,485,423,515"/>
+<area shape="rect" id="node33" href="$quota-mgr_8c.html#acfd47072a7ed7711bec2318883a08c4a" title="seaf_quota_manager_get_org_user_quota" alt="" coords="159,539,423,568"/>
+<area shape="rect" id="node35" href="$share-mgr_8h.html#a6b9afa7b510c43b1b4e856ab7057fbae" title="seaf_share_manager_start" alt="" coords="203,592,379,621"/>
+<area shape="rect" id="node11" href="$server_2repo-mgr_8h.html#a3706de93ba77e5068dba6a1dd073a0fd" title="seaf_repo_manager_create_new_repo" alt="" coords="480,112,723,141"/>
+<area shape="rect" id="node13" href="$server_2repo-mgr_8h.html#ad9feaba8f2f873b6685560fd86f4c40d" title="seaf_repo_manager_create_enc_repo" alt="" coords="483,165,720,195"/>
+<area shape="rect" id="node15" href="$virtual-repo_8c.html#a9a8dcda29ee6cd28d92c1897ad12f268" title="seaf_repo_manager_create_virtual_repo" alt="" coords="475,219,728,248"/>
+<area shape="rect" id="node21" href="$server_2seafile-session_8c.html#a5dbc4cb373997a756130cfe875b86ce6" title="seafile_session_init" alt="" coords="533,272,669,301"/>
+<area shape="rect" id="node27" href="$quota-mgr_8h.html#ae10caa81f529a80e3729b9a050666302" title="seaf_quota_manager_check_quota" alt="" coords="489,379,713,408"/>
+<area shape="rect" id="node37" href="$server_2seafile-session_8c.html#afb1838a556e838aea9515780411cf284" title="seafile_session_start" alt="" coords="529,592,673,621"/>
+</map>

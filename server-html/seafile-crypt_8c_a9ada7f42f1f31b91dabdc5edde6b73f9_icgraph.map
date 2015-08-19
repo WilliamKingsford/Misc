@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$clone-mgr_8h.html#a6b3ef937f8308db69c87bb650cb42fe9" title="seaf_clone_manager_add_task" alt="" coords="268,5,471,35"/>
+<area shape="rect" id="node7" href="$clone-mgr_8h.html#ab6b5a2b4f13b382b9c7034131fa92783" title="seaf_clone_manager_add_download_task" alt="" coords="237,59,501,88"/>
+<area shape="rect" id="node11" href="$passwd-mgr_8h.html#a423fa6bdd74869a9d46a706ecd7790da" title="seaf_passwd_manager_set_passwd" alt="" coords="253,112,485,141"/>
+<area shape="rect" id="node13" href="$virtual-repo_8c.html#a9a8dcda29ee6cd28d92c1897ad12f268" title="seaf_repo_manager_create_virtual_repo" alt="" coords="243,165,496,195"/>
+<area shape="rect" id="node5" href="$seafile-rpc_8h.html#aca75772f76f8eafb2b08a023cd476f65" title="seafile_clone" alt="" coords="561,5,660,35"/>
+<area shape="rect" id="node9" href="$seafile-rpc_8h.html#a704ca859f1a1f7044c27b27982658672" title="seafile_download" alt="" coords="549,59,672,88"/>
+</map>
