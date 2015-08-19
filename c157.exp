@@ -3,7 +3,7 @@
 spawn ssh william-kingsford@c157
 expect "password:"
 sleep 1
-send "william-kingsford\r"
+send "8hLO8GeH\r"
 expect "$ "
 sleep 1
 send "sudo /home/william-kingsford/Misc/Misc/restart-seafile-server.sh\r"
