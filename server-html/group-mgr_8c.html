@@ -89,6 +89,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="org-mgr_8h_source.html">org-mgr.h</a>&quot;</code><br/>
 <code>#include &quot;utils.h&quot;</code><br/>
 <code>#include &quot;log.h&quot;</code><br/>
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for group-mgr.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c__incl.png" border="0" usemap="#ccnet_2net_2server_2group-mgr_8c" alt=""/></div>
+<map name="ccnet_2net_2server_2group-mgr_8c" id="ccnet_2net_2server_2group-mgr_8c">
+<area shape="rect" id="node5" href="server-session_8h.html" title="server&#45;session.h" alt="" coords="771,83,888,112"/><area shape="rect" id="node26" href="ccnet-db_8h.html" title="ccnet&#45;db.h" alt="" coords="985,237,1068,267"/><area shape="rect" id="node44" href="group-mgr_8h.html" title="group&#45;mgr.h" alt="" coords="555,83,645,112"/><area shape="rect" id="node47" href="org-mgr_8h.html" title="org&#45;mgr.h" alt="" coords="669,83,747,112"/><area shape="rect" id="node7" href="session_8h.html" title="session.h" alt="" coords="615,160,692,189"/><area shape="rect" id="node15" href="ccnet-session-base_8h.html" title="ccnet&#45;session&#45;base.h" alt="" coords="212,237,359,267"/><area shape="rect" id="node19" href="net_2common_2processor_8h.html" title="processor.h" alt="" coords="97,237,188,267"/><area shape="rect" id="node30" href="job-mgr_8h.html" title="job&#45;mgr.h" alt="" coords="887,237,961,267"/><area shape="rect" id="node33" href="ccnet-object_8h.html" title="ccnet&#45;object.h" alt="" coords="383,237,487,267"/><area shape="rect" id="node24" href="status-code_8h.html" title="status&#45;code.h" alt="" coords="99,315,200,344"/></map>
+</div>
 </div>
 <p><a href="group-mgr_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -201,6 +208,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> 0;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c_a2bd639f137a51dbfa7d8ba61032e3433_cgraph.png" border="0" usemap="#group-mgr_8c_a2bd639f137a51dbfa7d8ba61032e3433_cgraph" alt=""/></div>
+<map name="group-mgr_8c_a2bd639f137a51dbfa7d8ba61032e3433_cgraph" id="group-mgr_8c_a2bd639f137a51dbfa7d8ba61032e3433_cgraph">
+<area shape="rect" id="node3" href="ccnet-db_8c.html#a57863a34dfab17103969cab376de2e48" title="ccnet_db_statement_query" alt="" coords="285,32,464,61"/><area shape="rect" id="node5" href="ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="513,5,703,35"/><area shape="rect" id="node7" href="ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="524,59,692,88"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="aad046aaf1c70672e82757f68bb6f5fe7"></a><!-- doxytag: member="group&#45;mgr.c::ccnet_group_manager_check_group_staff" ref="aad046aaf1c70672e82757f68bb6f5fe7" args="(CcnetGroupManager *mgr, int group_id, const char *user_name)" -->
@@ -359,6 +375,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> group_id;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c_ad4ac253e6b848150520445f0a3c7a313_cgraph.png" border="0" usemap="#group-mgr_8c_ad4ac253e6b848150520445f0a3c7a313_cgraph" alt=""/></div>
+<map name="group-mgr_8c_ad4ac253e6b848150520445f0a3c7a313_cgraph" id="group-mgr_8c_ad4ac253e6b848150520445f0a3c7a313_cgraph">
+<area shape="rect" id="node3" href="org-mgr_8c.html#a907f1cc5e7c90eb9f169a6ba92cdb4ff" title="ccnet_org_manager_add_org_group" alt="" coords="313,32,540,61"/><area shape="rect" id="node5" href="ccnet-db_8c.html#a57863a34dfab17103969cab376de2e48" title="ccnet_db_statement_query" alt="" coords="589,32,768,61"/><area shape="rect" id="node7" href="ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="817,5,1007,35"/><area shape="rect" id="node9" href="ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="828,59,996,88"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a1440a6423f6652c55e67edf97837eb7b"></a><!-- doxytag: member="group&#45;mgr.c::ccnet_group_manager_get_all_groups" ref="a1440a6423f6652c55e67edf97837eb7b" args="(CcnetGroupManager *mgr, int start, int limit, GError **error)" -->
@@ -437,6 +462,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> g_list_reverse (ret);
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c_a1440a6423f6652c55e67edf97837eb7b_cgraph.png" border="0" usemap="#group-mgr_8c_a1440a6423f6652c55e67edf97837eb7b_cgraph" alt=""/></div>
+<map name="group-mgr_8c_a1440a6423f6652c55e67edf97837eb7b_cgraph" id="group-mgr_8c_a1440a6423f6652c55e67edf97837eb7b_cgraph">
+<area shape="rect" id="node3" href="ccnet-db_8c.html#a612b10dd4adf54324fc0c989d14e999e" title="ccnet_db_type" alt="" coords="352,5,459,35"/><area shape="rect" id="node5" href="ccnet-db_8c.html#a8043dd190034ffb30521fb9f123530ea" title="ccnet_db_statement_foreach_row" alt="" coords="296,59,515,88"/><area shape="rect" id="node7" href="ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="564,32,753,61"/><area shape="rect" id="node9" href="ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="575,85,743,115"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a59e152b54a32d2f757e73592a7f1adfd"></a><!-- doxytag: member="group&#45;mgr.c::ccnet_group_manager_get_group" ref="a59e152b54a32d2f757e73592a7f1adfd" args="(CcnetGroupManager *mgr, int group_id, GError **error)" -->
@@ -488,6 +522,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> ccnetgroup;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c_a59e152b54a32d2f757e73592a7f1adfd_cgraph.png" border="0" usemap="#group-mgr_8c_a59e152b54a32d2f757e73592a7f1adfd_cgraph" alt=""/></div>
+<map name="group-mgr_8c_a59e152b54a32d2f757e73592a7f1adfd_cgraph" id="group-mgr_8c_a59e152b54a32d2f757e73592a7f1adfd_cgraph">
+<area shape="rect" id="node3" href="ccnet-db_8c.html#a612b10dd4adf54324fc0c989d14e999e" title="ccnet_db_type" alt="" coords="325,5,432,35"/><area shape="rect" id="node5" href="ccnet-db_8c.html#a8043dd190034ffb30521fb9f123530ea" title="ccnet_db_statement_foreach_row" alt="" coords="269,59,488,88"/><area shape="rect" id="node7" href="ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="537,32,727,61"/><area shape="rect" id="node9" href="ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="548,85,716,115"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="acb9980896c302eef15a097eaf46f6a19"></a><!-- doxytag: member="group&#45;mgr.c::ccnet_group_manager_get_group_members" ref="acb9980896c302eef15a097eaf46f6a19" args="(CcnetGroupManager *mgr, int group_id, GError **error)" -->
@@ -536,6 +579,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> g_list_reverse (group_users);
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c_acb9980896c302eef15a097eaf46f6a19_cgraph.png" border="0" usemap="#group-mgr_8c_acb9980896c302eef15a097eaf46f6a19_cgraph" alt=""/></div>
+<map name="group-mgr_8c_acb9980896c302eef15a097eaf46f6a19_cgraph" id="group-mgr_8c_acb9980896c302eef15a097eaf46f6a19_cgraph">
+<area shape="rect" id="node3" href="ccnet-db_8c.html#a8043dd190034ffb30521fb9f123530ea" title="ccnet_db_statement_foreach_row" alt="" coords="328,32,547,61"/><area shape="rect" id="node5" href="ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="596,5,785,35"/><area shape="rect" id="node7" href="ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="607,59,775,88"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a574eea8b209f9d403f3f5466e0931638"></a><!-- doxytag: member="group&#45;mgr.c::ccnet_group_manager_get_groupids_by_user" ref="a574eea8b209f9d403f3f5466e0931638" args="(CcnetGroupManager *mgr, const char *user_name, GError **error)" -->
@@ -586,6 +638,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> g_list_reverse (group_ids);
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c_a574eea8b209f9d403f3f5466e0931638_cgraph.png" border="0" usemap="#group-mgr_8c_a574eea8b209f9d403f3f5466e0931638_cgraph" alt=""/></div>
+<map name="group-mgr_8c_a574eea8b209f9d403f3f5466e0931638_cgraph" id="group-mgr_8c_a574eea8b209f9d403f3f5466e0931638_cgraph">
+<area shape="rect" id="node3" href="ccnet-db_8c.html#a8043dd190034ffb30521fb9f123530ea" title="ccnet_db_statement_foreach_row" alt="" coords="339,32,557,61"/><area shape="rect" id="node5" href="ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="607,5,796,35"/><area shape="rect" id="node7" href="ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="617,59,785,88"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a7a592c3c4db73edd5e35195132d13ae5"></a><!-- doxytag: member="group&#45;mgr.c::ccnet_group_manager_is_group_user" ref="a7a592c3c4db73edd5e35195132d13ae5" args="(CcnetGroupManager *mgr, int group_id, const char *user)" -->
@@ -628,6 +689,15 @@ Functions</h2></td></tr>
                                       2, <span class="stringliteral">&quot;int&quot;</span>, group_id, <span class="stringliteral">&quot;string&quot;</span>, user);
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c_a7a592c3c4db73edd5e35195132d13ae5_cgraph.png" border="0" usemap="#group-mgr_8c_a7a592c3c4db73edd5e35195132d13ae5_cgraph" alt=""/></div>
+<map name="group-mgr_8c_a7a592c3c4db73edd5e35195132d13ae5_cgraph" id="group-mgr_8c_a7a592c3c4db73edd5e35195132d13ae5_cgraph">
+<area shape="rect" id="node3" href="ccnet-db_8c.html#a22d79fb1a8fb9f51078bd68cdd24344b" title="ccnet_db_statement_exists" alt="" coords="295,32,476,61"/><area shape="rect" id="node5" href="ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="527,5,716,35"/><area shape="rect" id="node7" href="ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="537,59,705,88"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="ae87d0bc64eb9c4f22be9717de561fd48"></a><!-- doxytag: member="group&#45;mgr.c::ccnet_group_manager_new" ref="ae87d0bc64eb9c4f22be9717de561fd48" args="(CcnetSession *session)" -->
@@ -741,6 +811,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> 0;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c_a287c4e6808d86fcf7734b19ecbb4464d_cgraph.png" border="0" usemap="#group-mgr_8c_a287c4e6808d86fcf7734b19ecbb4464d_cgraph" alt=""/></div>
+<map name="group-mgr_8c_a287c4e6808d86fcf7734b19ecbb4464d_cgraph" id="group-mgr_8c_a287c4e6808d86fcf7734b19ecbb4464d_cgraph">
+<area shape="rect" id="node3" href="ccnet-db_8c.html#a57863a34dfab17103969cab376de2e48" title="ccnet_db_statement_query" alt="" coords="272,32,451,61"/><area shape="rect" id="node5" href="ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="500,5,689,35"/><area shape="rect" id="node7" href="ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="511,59,679,88"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="ac326fac31acae81dc4987617b14b0462"></a><!-- doxytag: member="group&#45;mgr.c::ccnet_group_manager_remove_group" ref="ac326fac31acae81dc4987617b14b0462" args="(CcnetGroupManager *mgr, int group_id, const char *user_name, GError **error)" -->
@@ -801,6 +880,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> 0;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c_ac326fac31acae81dc4987617b14b0462_cgraph.png" border="0" usemap="#group-mgr_8c_ac326fac31acae81dc4987617b14b0462_cgraph" alt=""/></div>
+<map name="group-mgr_8c_ac326fac31acae81dc4987617b14b0462_cgraph" id="group-mgr_8c_ac326fac31acae81dc4987617b14b0462_cgraph">
+<area shape="rect" id="node3" href="ccnet-db_8c.html#a612b10dd4adf54324fc0c989d14e999e" title="ccnet_db_type" alt="" coords="329,5,436,35"/><area shape="rect" id="node5" href="ccnet-db_8c.html#a57863a34dfab17103969cab376de2e48" title="ccnet_db_statement_query" alt="" coords="293,59,472,88"/><area shape="rect" id="node7" href="ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="521,32,711,61"/><area shape="rect" id="node9" href="ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="532,85,700,115"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a39aab5f35db16e0e0c62e63b927eeb87"></a><!-- doxytag: member="group&#45;mgr.c::ccnet_group_manager_remove_group_user" ref="a39aab5f35db16e0e0c62e63b927eeb87" args="(CcnetGroupManager *mgr, const char *user)" -->
@@ -840,6 +928,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> 0;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c_a39aab5f35db16e0e0c62e63b927eeb87_cgraph.png" border="0" usemap="#group-mgr_8c_a39aab5f35db16e0e0c62e63b927eeb87_cgraph" alt=""/></div>
+<map name="group-mgr_8c_a39aab5f35db16e0e0c62e63b927eeb87_cgraph" id="group-mgr_8c_a39aab5f35db16e0e0c62e63b927eeb87_cgraph">
+<area shape="rect" id="node3" href="ccnet-db_8c.html#a57863a34dfab17103969cab376de2e48" title="ccnet_db_statement_query" alt="" coords="325,32,504,61"/><area shape="rect" id="node5" href="ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="553,5,743,35"/><area shape="rect" id="node7" href="ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="564,59,732,88"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a41327853ce36a98e100a622ed2fa948d"></a><!-- doxytag: member="group&#45;mgr.c::ccnet_group_manager_remove_member" ref="a41327853ce36a98e100a622ed2fa948d" args="(CcnetGroupManager *mgr, int group_id, const char *user_name, const char *member_name, GError **error)" -->
@@ -915,6 +1012,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> 0;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c_a41327853ce36a98e100a622ed2fa948d_cgraph.png" border="0" usemap="#group-mgr_8c_a41327853ce36a98e100a622ed2fa948d_cgraph" alt=""/></div>
+<map name="group-mgr_8c_a41327853ce36a98e100a622ed2fa948d_cgraph" id="group-mgr_8c_a41327853ce36a98e100a622ed2fa948d_cgraph">
+<area shape="rect" id="node3" href="ccnet-db_8c.html#a57863a34dfab17103969cab376de2e48" title="ccnet_db_statement_query" alt="" coords="309,32,488,61"/><area shape="rect" id="node5" href="ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="537,5,727,35"/><area shape="rect" id="node7" href="ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="548,59,716,88"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a06f5e72384081e3c0c7e48dd6fa3ceff"></a><!-- doxytag: member="group&#45;mgr.c::ccnet_group_manager_set_admin" ref="a06f5e72384081e3c0c7e48dd6fa3ceff" args="(CcnetGroupManager *mgr, int group_id, const char *member_name, GError **error)" -->
@@ -966,6 +1072,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> 0;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c_a06f5e72384081e3c0c7e48dd6fa3ceff_cgraph.png" border="0" usemap="#group-mgr_8c_a06f5e72384081e3c0c7e48dd6fa3ceff_cgraph" alt=""/></div>
+<map name="group-mgr_8c_a06f5e72384081e3c0c7e48dd6fa3ceff_cgraph" id="group-mgr_8c_a06f5e72384081e3c0c7e48dd6fa3ceff_cgraph">
+<area shape="rect" id="node3" href="ccnet-db_8c.html#a57863a34dfab17103969cab376de2e48" title="ccnet_db_statement_query" alt="" coords="272,32,451,61"/><area shape="rect" id="node5" href="ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="500,5,689,35"/><area shape="rect" id="node7" href="ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="511,59,679,88"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="aeef9d1f473bd3a7a7b969675bd43d096"></a><!-- doxytag: member="group&#45;mgr.c::ccnet_group_manager_set_group_creator" ref="aeef9d1f473bd3a7a7b969675bd43d096" args="(CcnetGroupManager *mgr, int group_id, const char *user_name)" -->
@@ -1016,6 +1131,15 @@ Functions</h2></td></tr>
     
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c_aeef9d1f473bd3a7a7b969675bd43d096_cgraph.png" border="0" usemap="#group-mgr_8c_aeef9d1f473bd3a7a7b969675bd43d096_cgraph" alt=""/></div>
+<map name="group-mgr_8c_aeef9d1f473bd3a7a7b969675bd43d096_cgraph" id="group-mgr_8c_aeef9d1f473bd3a7a7b969675bd43d096_cgraph">
+<area shape="rect" id="node3" href="ccnet-db_8c.html#a612b10dd4adf54324fc0c989d14e999e" title="ccnet_db_type" alt="" coords="351,5,457,35"/><area shape="rect" id="node5" href="ccnet-db_8c.html#a57863a34dfab17103969cab376de2e48" title="ccnet_db_statement_query" alt="" coords="315,59,493,88"/><area shape="rect" id="node7" href="ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="543,32,732,61"/><area shape="rect" id="node9" href="ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="553,85,721,115"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a060d3cf8d91dc139637b8ff9d36a81c8"></a><!-- doxytag: member="group&#45;mgr.c::ccnet_group_manager_set_group_name" ref="a060d3cf8d91dc139637b8ff9d36a81c8" args="(CcnetGroupManager *mgr, int group_id, const char *group_name, GError **error)" -->
@@ -1067,6 +1191,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> 0;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c_a060d3cf8d91dc139637b8ff9d36a81c8_cgraph.png" border="0" usemap="#group-mgr_8c_a060d3cf8d91dc139637b8ff9d36a81c8_cgraph" alt=""/></div>
+<map name="group-mgr_8c_a060d3cf8d91dc139637b8ff9d36a81c8_cgraph" id="group-mgr_8c_a060d3cf8d91dc139637b8ff9d36a81c8_cgraph">
+<area shape="rect" id="node3" href="ccnet-db_8c.html#a57863a34dfab17103969cab376de2e48" title="ccnet_db_statement_query" alt="" coords="307,32,485,61"/><area shape="rect" id="node5" href="ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="535,5,724,35"/><area shape="rect" id="node7" href="ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="545,59,713,88"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="ade5c7d69db828b727774d1b168d8ccf7"></a><!-- doxytag: member="group&#45;mgr.c::ccnet_group_manager_start" ref="ade5c7d69db828b727774d1b168d8ccf7" args="(CcnetGroupManager *manager)" -->
@@ -1139,6 +1272,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> 0;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group-mgr_8c_afb25cd96c0f4866fbc86d9b247039cba_cgraph.png" border="0" usemap="#group-mgr_8c_afb25cd96c0f4866fbc86d9b247039cba_cgraph" alt=""/></div>
+<map name="group-mgr_8c_afb25cd96c0f4866fbc86d9b247039cba_cgraph" id="group-mgr_8c_afb25cd96c0f4866fbc86d9b247039cba_cgraph">
+<area shape="rect" id="node3" href="ccnet-db_8c.html#a57863a34dfab17103969cab376de2e48" title="ccnet_db_statement_query" alt="" coords="285,32,464,61"/><area shape="rect" id="node5" href="ccnet-db_8c.html#a7c8bf97e452c2842e0b8cf47d330114a" title="ccnet_db_prepare_statement" alt="" coords="513,5,703,35"/><area shape="rect" id="node7" href="ccnet-db_8c.html#a6583a2f83044effed09e22e04a527675" title="ccnet_db_statement_free" alt="" coords="524,59,692,88"/></map>
+</div>
+</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -1159,7 +1301,7 @@ Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 19 2015 03:28:58 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Aug 19 2015 03:55:45 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

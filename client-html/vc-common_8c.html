@@ -87,6 +87,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;<a class="el" href="vc-common_8h_source.html">vc-common.h</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="seafile-4_81_82_2common_2log_8h_source.html">log.h</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="seafile-error_8h_source.html">seafile-error.h</a>&quot;</code><br/>
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for vc-common.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="vc-common_8c__incl.png" border="0" usemap="#seafile-4_81_82_2common_2vc-common_8c" alt=""/></div>
+<map name="seafile-4_81_82_2common_2vc-common_8c" id="seafile-4_81_82_2common_2vc-common_8c">
+<area shape="rect" id="node3" href="seafile-4_81_82_2common_2common_8h.html" title="common.h" alt="" coords="556,160,639,189"/><area shape="rect" id="node29" href="vc-common_8h.html" title="vc&#45;common.h" alt="" coords="295,83,396,112"/><area shape="rect" id="node40" href="seafile-4_81_82_2common_2log_8h.html" title="log.h" alt="" coords="701,83,752,112"/><area shape="rect" id="node42" href="seafile-error_8h.html" title="seafile&#45;error.h" alt="" coords="776,83,877,112"/><area shape="rect" id="node31" href="commit-mgr_8h.html" title="commit&#45;mgr.h" alt="" coords="120,160,221,189"/><area shape="rect" id="node36" href="obj-store_8h.html" title="obj&#45;store.h" alt="" coords="75,237,157,267"/></map>
+</div>
 </div>
 <p><a href="vc-common_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -168,6 +175,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> g_string_free (conflict_path, FALSE);
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="vc-common_8c_a9a081e79625cf7f3e64489c1bf4a07d6_icgraph.png" border="0" usemap="#vc-common_8c_a9a081e79625cf7f3e64489c1bf4a07d6_icgraph" alt=""/></div>
+<map name="vc-common_8c_a9a081e79625cf7f3e64489c1bf4a07d6_icgraph" id="vc-common_8c_a9a081e79625cf7f3e64489c1bf4a07d6_icgraph">
+<area shape="rect" id="node3" href="fs-mgr_8h.html#a36b814252ae47bd595a9282266ea1b56" title="seaf_fs_manager_checkout_file" alt="" coords="407,5,612,35"/><area shape="rect" id="node9" href="vc-common_8h.html#a706a37ea730b1d7a6ce9f56b1981a265" title="gen_conflict_path_wrapper" alt="" coords="180,31,356,60"/><area shape="rect" id="node5" href="daemon_2Backups_2repo-mgr_8c.html#a450e5bcc50da4c40b7ba2bde33a22a84" title="checkout_file" alt="" coords="661,5,760,35"/><area shape="rect" id="node7" href="daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="808,5,1011,35"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a706a37ea730b1d7a6ce9f56b1981a265"></a><!-- doxytag: member="vc&#45;common.c::gen_conflict_path_wrapper" ref="a706a37ea730b1d7a6ce9f56b1981a265" args="(const char *repo_id, int version, const char *head, const char *in_repo_path, const char *original_path)" -->
@@ -229,6 +245,24 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> <a class="code" href="vc-common_8c.html#a9a081e79625cf7f3e64489c1bf4a07d6">gen_conflict_path</a> (original_path, modifier, mtime);
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="vc-common_8c_a706a37ea730b1d7a6ce9f56b1981a265_cgraph.png" border="0" usemap="#vc-common_8c_a706a37ea730b1d7a6ce9f56b1981a265_cgraph" alt=""/></div>
+<map name="vc-common_8c_a706a37ea730b1d7a6ce9f56b1981a265_cgraph" id="vc-common_8c_a706a37ea730b1d7a6ce9f56b1981a265_cgraph">
+<area shape="rect" id="node3" href="vc-common_8c.html#a70afdc30ee0f5058e74418ec1b509aef" title="get_file_modifier_mtime" alt="" coords="232,5,392,35"/><area shape="rect" id="node5" href="vc-common_8c.html#a9a081e79625cf7f3e64489c1bf4a07d6" title="gen_conflict_path" alt="" coords="251,59,373,88"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="vc-common_8c_a706a37ea730b1d7a6ce9f56b1981a265_icgraph.png" border="0" usemap="#vc-common_8c_a706a37ea730b1d7a6ce9f56b1981a265_icgraph" alt=""/></div>
+<map name="vc-common_8c_a706a37ea730b1d7a6ce9f56b1981a265_icgraph" id="vc-common_8c_a706a37ea730b1d7a6ce9f56b1981a265_icgraph">
+<area shape="rect" id="node3" href="fs-mgr_8h.html#a36b814252ae47bd595a9282266ea1b56" title="seaf_fs_manager_checkout_file" alt="" coords="233,5,439,35"/><area shape="rect" id="node5" href="daemon_2Backups_2repo-mgr_8c.html#a450e5bcc50da4c40b7ba2bde33a22a84" title="checkout_file" alt="" coords="488,5,587,35"/><area shape="rect" id="node7" href="daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="635,5,837,35"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a70afdc30ee0f5058e74418ec1b509aef"></a><!-- doxytag: member="vc&#45;common.c::get_file_modifier_mtime" ref="a70afdc30ee0f5058e74418ec1b509aef" args="(const char *repo_id, const char *store_id, int version, const char *head, const char *path, char **modifier, gint64 *mtime)" -->
@@ -299,6 +333,15 @@ Functions</h2></td></tr>
                                            <a class="code" href="structcache__entry.html#a786aa5bc6234542fe202023bcf721afd">modifier</a>, <a class="code" href="index_8h.html#adb9fb1ca66f1a67516c2ee1492e6ab2b">mtime</a>);
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="vc-common_8c_a70afdc30ee0f5058e74418ec1b509aef_icgraph.png" border="0" usemap="#vc-common_8c_a70afdc30ee0f5058e74418ec1b509aef_icgraph" alt=""/></div>
+<map name="vc-common_8c_a70afdc30ee0f5058e74418ec1b509aef_icgraph" id="vc-common_8c_a70afdc30ee0f5058e74418ec1b509aef_icgraph">
+<area shape="rect" id="node3" href="vc-common_8h.html#a706a37ea730b1d7a6ce9f56b1981a265" title="gen_conflict_path_wrapper" alt="" coords="215,5,391,35"/><area shape="rect" id="node5" href="fs-mgr_8h.html#a36b814252ae47bd595a9282266ea1b56" title="seaf_fs_manager_checkout_file" alt="" coords="441,5,647,35"/><area shape="rect" id="node7" href="daemon_2Backups_2repo-mgr_8c.html#a450e5bcc50da4c40b7ba2bde33a22a84" title="checkout_file" alt="" coords="696,5,795,35"/><area shape="rect" id="node9" href="daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="843,5,1045,35"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="adcc47b29e4aaa95df610b699b0409f8e"></a><!-- doxytag: member="vc&#45;common.c::get_merge_base" ref="adcc47b29e4aaa95df610b699b0409f8e" args="(SeafCommit *head, SeafCommit *remote)" -->
@@ -369,6 +412,15 @@ done:
     <span class="keywordflow">return</span> ret;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="vc-common_8c_adcc47b29e4aaa95df610b699b0409f8e_icgraph.png" border="0" usemap="#vc-common_8c_adcc47b29e4aaa95df610b699b0409f8e_icgraph" alt=""/></div>
+<map name="vc-common_8c_adcc47b29e4aaa95df610b699b0409f8e_icgraph" id="vc-common_8c_adcc47b29e4aaa95df610b699b0409f8e_icgraph">
+<area shape="rect" id="node3" href="vc-common_8h.html#ab187ffe37eb9175e30cb45ada2bdb9b4" title="vc_compare_commits" alt="" coords="187,5,336,35"/><area shape="rect" id="node7" href="merge_8c.html#a65b859e991bbf3718673fa75b0251c85" title="merge_branches" alt="" coords="203,59,320,88"/><area shape="rect" id="node11" href="merge_8h.html#ac3f5848ac9c0667d6740ac3592ec8909" title="merge_get_new_block_list" alt="" coords="173,112,349,141"/><area shape="rect" id="node5" href="vc-common_8h.html#a5eba12055714792ad61f2828677b1017" title="is_fast_forward" alt="" coords="404,5,513,35"/><area shape="rect" id="node9" href="daemon_2repo-mgr_8h.html#a25b9a6f8f5199db34dcb95789a80eba4" title="seaf_repo_merge" alt="" coords="397,59,520,88"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a5eba12055714792ad61f2828677b1017"></a><!-- doxytag: member="vc&#45;common.c::is_fast_forward" ref="a5eba12055714792ad61f2828677b1017" args="(const char *repo_id, int version, const char *src_head, const char *dst_head)" -->
@@ -417,6 +469,15 @@ done:
     <span class="keywordflow">return</span> (res == <a class="code" href="vc-common_8h.html#af5da34cc82c9ba6d44ecedfe2b3d1ef9a659eea26d209f769606b06d08eff6900">VC_FAST_FORWARD</a>);
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="vc-common_8c_a5eba12055714792ad61f2828677b1017_cgraph.png" border="0" usemap="#vc-common_8c_a5eba12055714792ad61f2828677b1017_cgraph" alt=""/></div>
+<map name="vc-common_8c_a5eba12055714792ad61f2828677b1017_cgraph" id="vc-common_8c_a5eba12055714792ad61f2828677b1017_cgraph">
+<area shape="rect" id="node3" href="vc-common_8c.html#ab187ffe37eb9175e30cb45ada2bdb9b4" title="vc_compare_commits" alt="" coords="167,59,316,88"/><area shape="rect" id="node5" href="commit-mgr_8c.html#adaf4b74c4dba25ddaa746f4ff9221b3f" title="seaf_commit_manager_get_commit" alt="" coords="365,5,595,35"/><area shape="rect" id="node9" href="commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="413,59,547,88"/><area shape="rect" id="node11" href="vc-common_8c.html#adcc47b29e4aaa95df610b699b0409f8e" title="get_merge_base" alt="" coords="421,112,539,141"/><area shape="rect" id="node7" href="commit-mgr_8c.html#a2b1cc305cf40cb64c341a0e64d0fe921" title="seaf_commit_ref" alt="" coords="644,5,761,35"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="ab187ffe37eb9175e30cb45ada2bdb9b4"></a><!-- doxytag: member="vc&#45;common.c::vc_compare_commits" ref="ab187ffe37eb9175e30cb45ada2bdb9b4" args="(const char *repo_id, int version, const char *c1, const char *c2)" -->
@@ -492,6 +553,24 @@ done:
     <span class="keywordflow">return</span> ret;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="vc-common_8c_ab187ffe37eb9175e30cb45ada2bdb9b4_cgraph.png" border="0" usemap="#vc-common_8c_ab187ffe37eb9175e30cb45ada2bdb9b4_cgraph" alt=""/></div>
+<map name="vc-common_8c_ab187ffe37eb9175e30cb45ada2bdb9b4_cgraph" id="vc-common_8c_ab187ffe37eb9175e30cb45ada2bdb9b4_cgraph">
+<area shape="rect" id="node3" href="commit-mgr_8c.html#adaf4b74c4dba25ddaa746f4ff9221b3f" title="seaf_commit_manager_get_commit" alt="" coords="205,5,435,35"/><area shape="rect" id="node7" href="commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="253,59,387,88"/><area shape="rect" id="node9" href="vc-common_8c.html#adcc47b29e4aaa95df610b699b0409f8e" title="get_merge_base" alt="" coords="261,112,379,141"/><area shape="rect" id="node5" href="commit-mgr_8c.html#a2b1cc305cf40cb64c341a0e64d0fe921" title="seaf_commit_ref" alt="" coords="484,5,601,35"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="vc-common_8c_ab187ffe37eb9175e30cb45ada2bdb9b4_icgraph.png" border="0" usemap="#vc-common_8c_ab187ffe37eb9175e30cb45ada2bdb9b4_icgraph" alt=""/></div>
+<map name="vc-common_8c_ab187ffe37eb9175e30cb45ada2bdb9b4_icgraph" id="vc-common_8c_ab187ffe37eb9175e30cb45ada2bdb9b4_icgraph">
+<area shape="rect" id="node3" href="vc-common_8h.html#a5eba12055714792ad61f2828677b1017" title="is_fast_forward" alt="" coords="207,5,316,35"/></map>
+</div>
+</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -512,7 +591,7 @@ done:
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 19 2015 03:19:56 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Aug 19 2015 03:59:45 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

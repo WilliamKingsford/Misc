@@ -92,6 +92,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <code>#include &quot;seafile-session.h&quot;</code><br/>
 <code>#include &quot;<a class="el" href="commit-mgr_8h_source.html">commit-mgr.h</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="seaf-utils_8h_source.html">seaf-utils.h</a>&quot;</code><br/>
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for commit-mgr.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c__incl.png" border="0" usemap="#seafile-4_81_82_2common_2commit-mgr_8c" alt=""/></div>
+<map name="seafile-4_81_82_2common_2commit-mgr_8c" id="seafile-4_81_82_2common_2commit-mgr_8c">
+<area shape="rect" id="node3" href="seafile-4_81_82_2common_2common_8h.html" title="common.h" alt="" coords="511,83,593,112"/><area shape="rect" id="node39" href="commit-mgr_8h.html" title="commit&#45;mgr.h" alt="" coords="148,83,249,112"/><area shape="rect" id="node47" href="seaf-utils_8h.html" title="seaf&#45;utils.h" alt="" coords="1191,83,1276,112"/><area shape="rect" id="node43" href="obj-store_8h.html" title="obj&#45;store.h" alt="" coords="75,160,157,189"/></map>
+</div>
 </div>
 <p><a href="commit-mgr_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -198,6 +205,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> commit;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_a0196928fedb5cb3f688894863dfc1f53_cgraph.png" border="0" usemap="#commit-mgr_8c_a0196928fedb5cb3f688894863dfc1f53_cgraph" alt=""/></div>
+<map name="commit-mgr_8c_a0196928fedb5cb3f688894863dfc1f53_cgraph" id="commit-mgr_8c_a0196928fedb5cb3f688894863dfc1f53_cgraph">
+<area shape="rect" id="node3" href="seafile-4_81_82_2lib_2utils_8c.html#ae476843508927222a51125ac1c7fec2b" title="clean_utf8_data" alt="" coords="216,5,331,35"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a7c138604e615440b65741b77e71248c6"></a><!-- doxytag: member="commit&#45;mgr.c::seaf_commit_manager_add_commit" ref="a7c138604e615440b65741b77e71248c6" args="(SeafCommitManager *mgr, SeafCommit *commit)" -->
@@ -237,6 +253,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> 0;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_a7c138604e615440b65741b77e71248c6_icgraph.png" border="0" usemap="#commit-mgr_8c_a7c138604e615440b65741b77e71248c6_icgraph" alt=""/></div>
+<map name="commit-mgr_8c_a7c138604e615440b65741b77e71248c6_icgraph" id="commit-mgr_8c_a7c138604e615440b65741b77e71248c6_icgraph">
+<area shape="rect" id="node3" href="server_2repo-mgr_8h.html#a75071fddf41a1371d4f89be8d2b59b88" title="seaf_repo_manager_revert_on_server" alt="" coords="285,5,525,35"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="aa63ceac8efb25da43ced2cfccf460ac5"></a><!-- doxytag: member="commit&#45;mgr.c::seaf_commit_manager_commit_exists" ref="aa63ceac8efb25da43ced2cfccf460ac5" args="(SeafCommitManager *mgr, const char *repo_id, int version, const char *id)" -->
@@ -287,6 +312,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> <a class="code" href="obj-store_8c.html#abebb46e47ff4c76a309686613bd17ec1">seaf_obj_store_obj_exists</a> (mgr-&gt;<a class="code" href="struct__SeafCommitManager.html#a1b7f3176ee61112e00532b1fc4b007e8">obj_store</a>, repo_id, <a class="code" href="block-tx-utils_8h.html#a1abe2c64ac9f8bc05bbb1719cad360f3">version</a>, <span class="keywordtype">id</span>);
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_aa63ceac8efb25da43ced2cfccf460ac5_cgraph.png" border="0" usemap="#commit-mgr_8c_aa63ceac8efb25da43ced2cfccf460ac5_cgraph" alt=""/></div>
+<map name="commit-mgr_8c_aa63ceac8efb25da43ced2cfccf460ac5_cgraph" id="commit-mgr_8c_aa63ceac8efb25da43ced2cfccf460ac5_cgraph">
+<area shape="rect" id="node3" href="obj-store_8c.html#abebb46e47ff4c76a309686613bd17ec1" title="seaf_obj_store_obj_exists" alt="" coords="301,5,475,35"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a76d68164de8af1920e7e49f37ce4a75d"></a><!-- doxytag: member="commit&#45;mgr.c::seaf_commit_manager_del_commit" ref="a76d68164de8af1920e7e49f37ce4a75d" args="(SeafCommitManager *mgr, const char *repo_id, int version, const char *id)" -->
@@ -410,6 +444,24 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> commit;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_adaf4b74c4dba25ddaa746f4ff9221b3f_cgraph.png" border="0" usemap="#commit-mgr_8c_adaf4b74c4dba25ddaa746f4ff9221b3f_cgraph" alt=""/></div>
+<map name="commit-mgr_8c_adaf4b74c4dba25ddaa746f4ff9221b3f_cgraph" id="commit-mgr_8c_adaf4b74c4dba25ddaa746f4ff9221b3f_cgraph">
+<area shape="rect" id="node3" href="commit-mgr_8c.html#a2b1cc305cf40cb64c341a0e64d0fe921" title="seaf_commit_ref" alt="" coords="284,5,401,35"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_adaf4b74c4dba25ddaa746f4ff9221b3f_icgraph.png" border="0" usemap="#commit-mgr_8c_adaf4b74c4dba25ddaa746f4ff9221b3f_icgraph" alt=""/></div>
+<map name="commit-mgr_8c_adaf4b74c4dba25ddaa746f4ff9221b3f_icgraph" id="commit-mgr_8c_adaf4b74c4dba25ddaa746f4ff9221b3f_icgraph">
+<area shape="rect" id="node3" href="commit-mgr_8h.html#af797c5d03d9c32cd3a4c5ebcf376a855" title="seaf_commit_manager_get_commit_compatible" alt="" coords="308,5,607,35"/><area shape="rect" id="node5" href="commit-mgr_8h.html#a032f260db46d5566e78dfcbbc4b2859a" title="seaf_commit_manager_traverse_commit_tree_with_limit" alt="" coords="283,59,632,88"/><area shape="rect" id="node10" href="server_2repo-mgr_8h.html#ad00a42c20e1baadf267215e7e683f9e4" title="seaf_repo_manager_calc_files_last_modified" alt="" coords="680,111,963,140"/><area shape="rect" id="node12" href="diff-simple_8h.html#a8c800ee63c23c5ff78d838974f678e47" title="diff_merge" alt="" coords="416,163,499,192"/><area shape="rect" id="node14" href="server_2repo-mgr_8h.html#a168ba33665e04b18089dd5a5d2a18fe3" title="seaf_repo_diff" alt="" coords="769,201,873,231"/><area shape="rect" id="node16" href="seafile-rpc_8h.html#a3547a38fe3590d09bed824120ec100e9" title="seafile_get_commit_pub" alt="" coords="376,267,539,296"/><area shape="rect" id="node18" href="seafile-rpc_8h.html#a3e4e9d217daa4c70314c43c6065a57ea" title="seafile_repo_last_modify" alt="" coords="375,320,540,349"/><area shape="rect" id="node24" href="seafile-rpc_8h.html#af0444c8f4e9da68a1f837c64059e7680" title="seafile_get_commit" alt="" coords="391,373,524,403"/><area shape="rect" id="node26" href="vc-common_8h.html#ab187ffe37eb9175e30cb45ada2bdb9b4" title="vc_compare_commits" alt="" coords="383,427,532,456"/><area shape="rect" id="node30" href="daemon_2repo-mgr_8h.html#a7fdd2ba98b2cab98aaced0e49a1685a9" title="seaf_repo_get_head_commit" alt="" coords="363,480,552,509"/><area shape="rect" id="node32" href="daemon_2repo-mgr_8h.html#a7923c5fb7b957a121f1b2616a8d66745" title="seaf_repo_checkout_commit" alt="" coords="363,584,552,613"/><area shape="rect" id="node34" href="daemon_2repo-mgr_8h.html#ab553f7b1a5290e99821753acf9e87c86" title="seaf_repo_checkout" alt="" coords="752,557,891,587"/><area shape="rect" id="node36" href="merge_8c.html#a65b859e991bbf3718673fa75b0251c85" title="merge_branches" alt="" coords="763,624,880,653"/><area shape="rect" id="node41" href="daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="356,688,559,717"/><area shape="rect" id="node44" href="merge_8h.html#ac3f5848ac9c0667d6740ac3592ec8909" title="merge_get_new_block_list" alt="" coords="369,741,545,771"/><area shape="rect" id="node46" href="status_8h.html#a5aaef0b3a73d20b9f422c9d39f0a2325" title="wt_status_collect_changes_index" alt="" coords="348,795,567,824"/><area shape="rect" id="node51" href="server_2repo-mgr_8h.html#a75071fddf41a1371d4f89be8d2b59b88" title="seaf_repo_manager_revert_on_server" alt="" coords="337,848,577,877"/><area shape="rect" id="node54" href="virtual-repo_8c.html#a9a8dcda29ee6cd28d92c1897ad12f268" title="seaf_repo_manager_create_virtual_repo" alt="" coords="331,901,584,931"/><area shape="rect" id="node56" href="virtual-repo_8c.html#a1cd4a8c70076d40d2a778dda774a2263" title="seaf_repo_manager_cleanup_virtual_repos" alt="" coords="323,955,592,984"/><area shape="rect" id="node7" href="server_2repo-mgr_8h.html#ab10ffbf8777e16cc18e78a263d7fbb1c" title="seaf_repo_manager_list_file_revisions" alt="" coords="700,57,943,87"/><area shape="rect" id="node20" href="seafile-rpc_8h.html#a4be3dbe527186e1687ad3c33bd4432d4" title="seafile_get_repo_pub" alt="" coords="749,280,893,309"/><area shape="rect" id="node22" href="seafile-4_81_82_2common_2rpc-service_8c.html#a37949d30db3977c8fbb573881173987b" title="seafile_get_repo" alt="" coords="763,333,880,363"/><area shape="rect" id="node28" href="vc-common_8h.html#a5eba12055714792ad61f2828677b1017" title="is_fast_forward" alt="" coords="767,427,876,456"/><area shape="rect" id="node38" href="daemon_2repo-mgr_8h.html#a25b9a6f8f5199db34dcb95789a80eba4" title="seaf_repo_merge" alt="" coords="1049,624,1172,653"/><area shape="rect" id="node48" href="daemon_2repo-mgr_8h.html#a461e72948bba5928329e269ad395e293" title="seaf_repo_is_worktree_changed" alt="" coords="717,795,925,824"/><area shape="rect" id="node58" href="server_2repo-mgr_8h.html#ad6564c23b0e50d8a34dd425432b80db4" title="seaf_repo_manager_del_file" alt="" coords="729,903,913,932"/><area shape="rect" id="node60" href="server_2repo-mgr_8h.html#a056b45d63edfafbc5287012a2a1062ec" title="seaf_repo_manager_move_file" alt="" coords="1012,928,1209,957"/><area shape="rect" id="node63" href="server_2repo-mgr_8h.html#ae68e4b6427bb239b697e515c8617cbfb" title="seaf_repo_manager_rename_file" alt="" coords="716,1007,927,1036"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="af797c5d03d9c32cd3a4c5ebcf376a855"></a><!-- doxytag: member="commit&#45;mgr.c::seaf_commit_manager_get_commit_compatible" ref="af797c5d03d9c32cd3a4c5ebcf376a855" args="(SeafCommitManager *mgr, const char *repo_id, const char *id)" -->
@@ -460,6 +512,15 @@ Functions</h2></td></tr>
 <span class="preprocessor"></span>    <span class="keywordflow">return</span> commit;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_af797c5d03d9c32cd3a4c5ebcf376a855_cgraph.png" border="0" usemap="#commit-mgr_8c_af797c5d03d9c32cd3a4c5ebcf376a855_cgraph" alt=""/></div>
+<map name="commit-mgr_8c_af797c5d03d9c32cd3a4c5ebcf376a855_cgraph" id="commit-mgr_8c_af797c5d03d9c32cd3a4c5ebcf376a855_cgraph">
+<area shape="rect" id="node3" href="commit-mgr_8c.html#adaf4b74c4dba25ddaa746f4ff9221b3f" title="seaf_commit_manager_get_commit" alt="" coords="352,5,581,35"/><area shape="rect" id="node5" href="commit-mgr_8c.html#a2b1cc305cf40cb64c341a0e64d0fe921" title="seaf_commit_ref" alt="" coords="631,5,748,35"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="ad6fdc75fe20bb5941a19a436742cb696"></a><!-- doxytag: member="commit&#45;mgr.c::seaf_commit_manager_init" ref="ad6fdc75fe20bb5941a19a436742cb696" args="(SeafCommitManager *mgr)" -->
@@ -503,6 +564,24 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> 0;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_ad6fdc75fe20bb5941a19a436742cb696_cgraph.png" border="0" usemap="#commit-mgr_8c_ad6fdc75fe20bb5941a19a436742cb696_cgraph" alt=""/></div>
+<map name="commit-mgr_8c_ad6fdc75fe20bb5941a19a436742cb696_cgraph" id="commit-mgr_8c_ad6fdc75fe20bb5941a19a436742cb696_cgraph">
+<area shape="rect" id="node3" href="obj-store_8c.html#a2a3f1a84562cb4856e94b556888e3617" title="seaf_obj_store_init" alt="" coords="232,5,363,35"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_ad6fdc75fe20bb5941a19a436742cb696_icgraph.png" border="0" usemap="#commit-mgr_8c_ad6fdc75fe20bb5941a19a436742cb696_icgraph" alt=""/></div>
+<map name="commit-mgr_8c_ad6fdc75fe20bb5941a19a436742cb696_icgraph" id="commit-mgr_8c_ad6fdc75fe20bb5941a19a436742cb696_icgraph">
+<area shape="rect" id="node3" href="daemon_2seafile-session_8h.html#abe136340477380edec6a5deba0ff8e1a" title="seafile_session_prepare" alt="" coords="232,5,395,35"/><area shape="rect" id="node7" href="server_2seafile-session_8h.html#a5dbc4cb373997a756130cfe875b86ce6" title="seafile_session_init" alt="" coords="245,83,381,112"/><area shape="rect" id="node5" href="seaf-daemon_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="443,5,493,35"/><area shape="rect" id="node10" href="seaf-fuse_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="443,83,493,112"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a17f293cbb4ade7854596f51cebd7248a"></a><!-- doxytag: member="commit&#45;mgr.c::seaf_commit_manager_new" ref="a17f293cbb4ade7854596f51cebd7248a" args="(SeafileSession *seaf)" -->
@@ -531,6 +610,24 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> mgr;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_a17f293cbb4ade7854596f51cebd7248a_cgraph.png" border="0" usemap="#commit-mgr_8c_a17f293cbb4ade7854596f51cebd7248a_cgraph" alt=""/></div>
+<map name="commit-mgr_8c_a17f293cbb4ade7854596f51cebd7248a_cgraph" id="commit-mgr_8c_a17f293cbb4ade7854596f51cebd7248a_cgraph">
+<area shape="rect" id="node3" href="obj-store_8c.html#ad871019d105d6cada26d2d7d5876a31d" title="seaf_obj_store_new" alt="" coords="240,5,379,35"/><area shape="rect" id="node5" href="obj-backend-fs_8c.html#acf75816d5ce4f49a6fbb7dfefd310157" title="obj_backend_fs_new" alt="" coords="427,5,571,35"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_a17f293cbb4ade7854596f51cebd7248a_icgraph.png" border="0" usemap="#commit-mgr_8c_a17f293cbb4ade7854596f51cebd7248a_icgraph" alt=""/></div>
+<map name="commit-mgr_8c_a17f293cbb4ade7854596f51cebd7248a_icgraph" id="commit-mgr_8c_a17f293cbb4ade7854596f51cebd7248a_icgraph">
+<area shape="rect" id="node3" href="daemon_2seafile-session_8h.html#a3eea8fbb412edb5ff72027285edb7c72" title="seafile_session_new" alt="" coords="241,5,383,35"/><area shape="rect" id="node5" href="seaf-daemon_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="432,5,483,35"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="ac6547d5546781608b39446d9a2077fed"></a><!-- doxytag: member="commit&#45;mgr.c::seaf_commit_manager_traverse_commit_tree" ref="ac6547d5546781608b39446d9a2077fed" args="(SeafCommitManager *mgr, const char *repo_id, int version, const char *head, CommitTraverseFunc func, void *data, gboolean skip_errors)" -->
@@ -595,6 +692,15 @@ Functions</h2></td></tr>
                                         func, data, skip_errors, FALSE);
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_ac6547d5546781608b39446d9a2077fed_icgraph.png" border="0" usemap="#commit-mgr_8c_ac6547d5546781608b39446d9a2077fed_icgraph" alt=""/></div>
+<map name="commit-mgr_8c_ac6547d5546781608b39446d9a2077fed_icgraph" id="commit-mgr_8c_ac6547d5546781608b39446d9a2077fed_icgraph">
+<area shape="rect" id="node3" href="seafile-4_81_82_2common_2rpc-service_8c.html#a5594de7f321b08c515c465bc44e25c60" title="seafile_get_commit_list" alt="" coords="391,5,548,35"/><area shape="rect" id="node7" href="server_2repo-mgr_8h.html#adc55911231fbdbb9d54f39d7f0e60dca" title="seaf_repo_get_commits" alt="" coords="389,59,549,88"/><area shape="rect" id="node9" href="server_2repo-mgr_8h.html#a3bd2aea3b14fe8a45243d175ef86bb61" title="seaf_repo_manager_get_deleted_entries" alt="" coords="341,112,597,141"/><area shape="rect" id="node5" href="rpc-deprecated_8c.html#a374cf49b787fef8fc91266c87cc15375" title="seafile_get_commit_list_pub" alt="" coords="645,5,832,35"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a7a915577c5ab3095960ef08474a35aa0"></a><!-- doxytag: member="commit&#45;mgr.c::seaf_commit_manager_traverse_commit_tree_truncated" ref="a7a915577c5ab3095960ef08474a35aa0" args="(SeafCommitManager *mgr, const char *repo_id, int version, const char *head, CommitTraverseFunc func, void *data, gboolean skip_errors)" -->
@@ -806,6 +912,24 @@ out:
     <span class="keywordflow">return</span> ret;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_a032f260db46d5566e78dfcbbc4b2859a_cgraph.png" border="0" usemap="#commit-mgr_8c_a032f260db46d5566e78dfcbbc4b2859a_cgraph" alt=""/></div>
+<map name="commit-mgr_8c_a032f260db46d5566e78dfcbbc4b2859a_cgraph" id="commit-mgr_8c_a032f260db46d5566e78dfcbbc4b2859a_cgraph">
+<area shape="rect" id="node3" href="commit-mgr_8c.html#adaf4b74c4dba25ddaa746f4ff9221b3f" title="seaf_commit_manager_get_commit" alt="" coords="403,5,632,35"/><area shape="rect" id="node7" href="commit-mgr_8c.html#a436a9092e9c5711820dc1a09234aac04" title="seaf_commit_unref" alt="" coords="451,59,584,88"/><area shape="rect" id="node5" href="commit-mgr_8c.html#a2b1cc305cf40cb64c341a0e64d0fe921" title="seaf_commit_ref" alt="" coords="681,5,799,35"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_a032f260db46d5566e78dfcbbc4b2859a_icgraph.png" border="0" usemap="#commit-mgr_8c_a032f260db46d5566e78dfcbbc4b2859a_icgraph" alt=""/></div>
+<map name="commit-mgr_8c_a032f260db46d5566e78dfcbbc4b2859a_icgraph" id="commit-mgr_8c_a032f260db46d5566e78dfcbbc4b2859a_icgraph">
+<area shape="rect" id="node3" href="server_2repo-mgr_8h.html#ab10ffbf8777e16cc18e78a263d7fbb1c" title="seaf_repo_manager_list_file_revisions" alt="" coords="423,29,665,59"/><area shape="rect" id="node6" href="server_2repo-mgr_8h.html#ad00a42c20e1baadf267215e7e683f9e4" title="seaf_repo_manager_calc_files_last_modified" alt="" coords="403,83,685,112"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="afe68dfa15b1bbd8557b044b1b1b58dc2"></a><!-- doxytag: member="commit&#45;mgr.c::seaf_commit_new" ref="afe68dfa15b1bbd8557b044b1b1b58dc2" args="(const char *commit_id, const char *repo_id, const char *root_id, const char *creator_name, const char *creator_id, const char *desc, guint64 ctime)" -->
@@ -904,6 +1028,15 @@ out:
     <span class="keywordflow">return</span> commit;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_afe68dfa15b1bbd8557b044b1b1b58dc2_icgraph.png" border="0" usemap="#commit-mgr_8c_afe68dfa15b1bbd8557b044b1b1b58dc2_icgraph" alt=""/></div>
+<map name="commit-mgr_8c_afe68dfa15b1bbd8557b044b1b1b58dc2_icgraph" id="commit-mgr_8c_afe68dfa15b1bbd8557b044b1b1b58dc2_icgraph">
+<area shape="rect" id="node3" href="server_2repo-mgr_8h.html#a75071fddf41a1371d4f89be8d2b59b88" title="seaf_repo_manager_revert_on_server" alt="" coords="181,5,421,35"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a2b1cc305cf40cb64c341a0e64d0fe921"></a><!-- doxytag: member="commit&#45;mgr.c::seaf_commit_ref" ref="a2b1cc305cf40cb64c341a0e64d0fe921" args="(SeafCommit *commit)" -->
@@ -926,6 +1059,15 @@ out:
     commit-&gt;<a class="code" href="struct__SeafCommit.html#abda777ea69286292a25f7ee84745d052">ref</a>++;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_a2b1cc305cf40cb64c341a0e64d0fe921_icgraph.png" border="0" usemap="#commit-mgr_8c_a2b1cc305cf40cb64c341a0e64d0fe921_icgraph" alt=""/></div>
+<map name="commit-mgr_8c_a2b1cc305cf40cb64c341a0e64d0fe921_icgraph" id="commit-mgr_8c_a2b1cc305cf40cb64c341a0e64d0fe921_icgraph">
+<area shape="rect" id="node3" href="commit-mgr_8h.html#adaf4b74c4dba25ddaa746f4ff9221b3f" title="seaf_commit_manager_get_commit" alt="" coords="173,480,403,509"/><area shape="rect" id="node5" href="commit-mgr_8h.html#af797c5d03d9c32cd3a4c5ebcf376a855" title="seaf_commit_manager_get_commit_compatible" alt="" coords="476,5,775,35"/><area shape="rect" id="node7" href="commit-mgr_8h.html#a032f260db46d5566e78dfcbbc4b2859a" title="seaf_commit_manager_traverse_commit_tree_with_limit" alt="" coords="451,59,800,88"/><area shape="rect" id="node12" href="server_2repo-mgr_8h.html#ad00a42c20e1baadf267215e7e683f9e4" title="seaf_repo_manager_calc_files_last_modified" alt="" coords="848,111,1131,140"/><area shape="rect" id="node14" href="diff-simple_8h.html#a8c800ee63c23c5ff78d838974f678e47" title="diff_merge" alt="" coords="584,163,667,192"/><area shape="rect" id="node16" href="server_2repo-mgr_8h.html#a168ba33665e04b18089dd5a5d2a18fe3" title="seaf_repo_diff" alt="" coords="937,201,1041,231"/><area shape="rect" id="node18" href="seafile-rpc_8h.html#a3547a38fe3590d09bed824120ec100e9" title="seafile_get_commit_pub" alt="" coords="544,267,707,296"/><area shape="rect" id="node20" href="seafile-rpc_8h.html#a3e4e9d217daa4c70314c43c6065a57ea" title="seafile_repo_last_modify" alt="" coords="543,320,708,349"/><area shape="rect" id="node26" href="seafile-rpc_8h.html#af0444c8f4e9da68a1f837c64059e7680" title="seafile_get_commit" alt="" coords="559,373,692,403"/><area shape="rect" id="node28" href="vc-common_8h.html#ab187ffe37eb9175e30cb45ada2bdb9b4" title="vc_compare_commits" alt="" coords="551,427,700,456"/><area shape="rect" id="node32" href="daemon_2repo-mgr_8h.html#a7fdd2ba98b2cab98aaced0e49a1685a9" title="seaf_repo_get_head_commit" alt="" coords="531,480,720,509"/><area shape="rect" id="node34" href="daemon_2repo-mgr_8h.html#a7923c5fb7b957a121f1b2616a8d66745" title="seaf_repo_checkout_commit" alt="" coords="531,584,720,613"/><area shape="rect" id="node36" href="daemon_2repo-mgr_8h.html#ab553f7b1a5290e99821753acf9e87c86" title="seaf_repo_checkout" alt="" coords="920,557,1059,587"/><area shape="rect" id="node38" href="merge_8c.html#a65b859e991bbf3718673fa75b0251c85" title="merge_branches" alt="" coords="931,624,1048,653"/><area shape="rect" id="node43" href="daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="524,688,727,717"/><area shape="rect" id="node46" href="merge_8h.html#ac3f5848ac9c0667d6740ac3592ec8909" title="merge_get_new_block_list" alt="" coords="537,741,713,771"/><area shape="rect" id="node48" href="status_8h.html#a5aaef0b3a73d20b9f422c9d39f0a2325" title="wt_status_collect_changes_index" alt="" coords="516,795,735,824"/><area shape="rect" id="node53" href="server_2repo-mgr_8h.html#a75071fddf41a1371d4f89be8d2b59b88" title="seaf_repo_manager_revert_on_server" alt="" coords="505,848,745,877"/><area shape="rect" id="node56" href="virtual-repo_8c.html#a9a8dcda29ee6cd28d92c1897ad12f268" title="seaf_repo_manager_create_virtual_repo" alt="" coords="499,901,752,931"/><area shape="rect" id="node58" href="virtual-repo_8c.html#a1cd4a8c70076d40d2a778dda774a2263" title="seaf_repo_manager_cleanup_virtual_repos" alt="" coords="491,955,760,984"/><area shape="rect" id="node9" href="server_2repo-mgr_8h.html#ab10ffbf8777e16cc18e78a263d7fbb1c" title="seaf_repo_manager_list_file_revisions" alt="" coords="868,57,1111,87"/><area shape="rect" id="node22" href="seafile-rpc_8h.html#a4be3dbe527186e1687ad3c33bd4432d4" title="seafile_get_repo_pub" alt="" coords="917,280,1061,309"/><area shape="rect" id="node24" href="seafile-4_81_82_2common_2rpc-service_8c.html#a37949d30db3977c8fbb573881173987b" title="seafile_get_repo" alt="" coords="931,333,1048,363"/><area shape="rect" id="node30" href="vc-common_8h.html#a5eba12055714792ad61f2828677b1017" title="is_fast_forward" alt="" coords="935,427,1044,456"/><area shape="rect" id="node40" href="daemon_2repo-mgr_8h.html#a25b9a6f8f5199db34dcb95789a80eba4" title="seaf_repo_merge" alt="" coords="1217,624,1340,653"/><area shape="rect" id="node50" href="daemon_2repo-mgr_8h.html#a461e72948bba5928329e269ad395e293" title="seaf_repo_is_worktree_changed" alt="" coords="885,795,1093,824"/><area shape="rect" id="node60" href="server_2repo-mgr_8h.html#ad6564c23b0e50d8a34dd425432b80db4" title="seaf_repo_manager_del_file" alt="" coords="897,903,1081,932"/><area shape="rect" id="node62" href="server_2repo-mgr_8h.html#a056b45d63edfafbc5287012a2a1062ec" title="seaf_repo_manager_move_file" alt="" coords="1180,928,1377,957"/><area shape="rect" id="node65" href="server_2repo-mgr_8h.html#ae68e4b6427bb239b697e515c8617cbfb" title="seaf_repo_manager_rename_file" alt="" coords="884,1007,1095,1036"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="adb887e888eb9209ebad34da1fb952b26"></a><!-- doxytag: member="commit&#45;mgr.c::seaf_commit_to_data" ref="adb887e888eb9209ebad34da1fb952b26" args="(SeafCommit *commit, gsize *len)" -->
@@ -996,6 +1138,15 @@ out:
         seaf_commit_free (commit);
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="commit-mgr_8c_a436a9092e9c5711820dc1a09234aac04_icgraph.png" border="0" usemap="#commit-mgr_8c_a436a9092e9c5711820dc1a09234aac04_icgraph" alt=""/></div>
+<map name="commit-mgr_8c_a436a9092e9c5711820dc1a09234aac04_icgraph" id="commit-mgr_8c_a436a9092e9c5711820dc1a09234aac04_icgraph">
+<area shape="rect" id="node3" href="commit-mgr_8h.html#a032f260db46d5566e78dfcbbc4b2859a" title="seaf_commit_manager_traverse_commit_tree_with_limit" alt="" coords="187,92,536,121"/><area shape="rect" id="node5" href="server_2repo-mgr_8h.html#ab10ffbf8777e16cc18e78a263d7fbb1c" title="seaf_repo_manager_list_file_revisions" alt="" coords="604,53,847,82"/><area shape="rect" id="node8" href="server_2repo-mgr_8h.html#ad00a42c20e1baadf267215e7e683f9e4" title="seaf_repo_manager_calc_files_last_modified" alt="" coords="584,132,867,161"/><area shape="rect" id="node10" href="diff-simple_8h.html#a8c800ee63c23c5ff78d838974f678e47" title="diff_merge" alt="" coords="320,246,403,276"/><area shape="rect" id="node12" href="server_2repo-mgr_8h.html#a168ba33665e04b18089dd5a5d2a18fe3" title="seaf_repo_diff" alt="" coords="673,233,777,262"/><area shape="rect" id="node14" href="seafile-rpc_8h.html#a3547a38fe3590d09bed824120ec100e9" title="seafile_get_commit_pub" alt="" coords="280,300,443,329"/><area shape="rect" id="node16" href="seafile-rpc_8h.html#a3e4e9d217daa4c70314c43c6065a57ea" title="seafile_repo_last_modify" alt="" coords="279,353,444,382"/><area shape="rect" id="node22" href="seafile-rpc_8h.html#af0444c8f4e9da68a1f837c64059e7680" title="seafile_get_commit" alt="" coords="295,406,428,436"/><area shape="rect" id="node24" href="vc-common_8h.html#ab187ffe37eb9175e30cb45ada2bdb9b4" title="vc_compare_commits" alt="" coords="287,460,436,489"/><area shape="rect" id="node28" href="server_2repo-mgr_8h.html#adc55911231fbdbb9d54f39d7f0e60dca" title="seaf_repo_get_commits" alt="" coords="281,513,441,542"/><area shape="rect" id="node30" href="daemon_2repo-mgr_8h.html#a7923c5fb7b957a121f1b2616a8d66745" title="seaf_repo_checkout_commit" alt="" coords="267,617,456,646"/><area shape="rect" id="node32" href="daemon_2repo-mgr_8h.html#ab553f7b1a5290e99821753acf9e87c86" title="seaf_repo_checkout" alt="" coords="656,590,795,620"/><area shape="rect" id="node34" href="merge_8c.html#a65b859e991bbf3718673fa75b0251c85" title="merge_branches" alt="" coords="667,657,784,686"/><area shape="rect" id="node39" href="daemon_2repo-mgr_8h.html#a836678a67f23541ed108f922f0848e52" title="seaf_repo_fetch_and_checkout" alt="" coords="260,721,463,750"/><area shape="rect" id="node42" href="merge_8h.html#ac3f5848ac9c0667d6740ac3592ec8909" title="merge_get_new_block_list" alt="" coords="273,774,449,804"/><area shape="rect" id="node44" href="status_8h.html#a5aaef0b3a73d20b9f422c9d39f0a2325" title="wt_status_collect_changes_index" alt="" coords="252,828,471,857"/><area shape="rect" id="node48" href="server_2repo-mgr_8h.html#a3128bd2930667427a22976b6a2b85743" title="seaf_repo_manager_post_file" alt="" coords="265,881,457,910"/><area shape="rect" id="node50" href="server_2repo-mgr_8h.html#a248a05b4a54ff2d9302d0779cbcc3542" title="seaf_repo_manager_post_multi_files" alt="" coords="244,934,479,964"/><area shape="rect" id="node52" href="server_2repo-mgr_8h.html#a0d6750947e09a7c4f4eb2146147e9db1" title="seaf_repo_manager_post_file_blocks" alt="" coords="243,988,480,1017"/><area shape="rect" id="node54" href="server_2repo-mgr_8h.html#ad6564c23b0e50d8a34dd425432b80db4" title="seaf_repo_manager_del_file" alt="" coords="633,1092,817,1121"/><area shape="rect" id="node56" href="server_2repo-mgr_8h.html#a056b45d63edfafbc5287012a2a1062ec" title="seaf_repo_manager_move_file" alt="" coords="916,1092,1113,1121"/><area shape="rect" id="node58" href="server_2repo-mgr_8h.html#ab7eae6af688907f68212dca114549c4b" title="seaf_repo_manager_copy_file" alt="" coords="264,1246,459,1276"/><area shape="rect" id="node61" href="server_2repo-mgr_8h.html#aa870306d94f3e7b16e66229040590138" title="seaf_repo_manager_post_dir" alt="" coords="267,1300,456,1329"/><area shape="rect" id="node63" href="server_2repo-mgr_8h.html#a2e0e32263ad7bbeaa4ab13a62135c46a" title="seaf_repo_manager_post_empty_file" alt="" coords="244,1353,479,1382"/><area shape="rect" id="node65" href="server_2repo-mgr_8h.html#ae68e4b6427bb239b697e515c8617cbfb" title="seaf_repo_manager_rename_file" alt="" coords="620,1196,831,1225"/><area shape="rect" id="node67" href="server_2repo-mgr_8h.html#a46c094895964e060809372262c9b9923" title="seaf_repo_manager_put_file" alt="" coords="269,1406,453,1436"/><area shape="rect" id="node69" href="server_2repo-mgr_8h.html#a3702d0c75995d0221e33b9ba673b99fd" title="seaf_repo_manager_update_dir" alt="" coords="260,1460,463,1489"/><area shape="rect" id="node71" href="server_2repo-mgr_8h.html#aad15cfaf3210b47e9f59a481073aafbc" title="seaf_repo_manager_put_file_blocks" alt="" coords="247,1513,476,1542"/><area shape="rect" id="node73" href="server_2repo-mgr_8h.html#a246dc6695f1ee0c1806de54109848096" title="seaf_repo_manager_revert_file" alt="" coords="261,1566,461,1596"/><area shape="rect" id="node75" href="server_2repo-mgr_8h.html#abf48f3efee4705f32fa8f3a95098921e" title="seaf_repo_manager_revert_dir" alt="" coords="263,1620,460,1649"/><area shape="rect" id="node79" href="server_2repo-mgr_8h.html#a75071fddf41a1371d4f89be8d2b59b88" title="seaf_repo_manager_revert_on_server" alt="" coords="241,1673,481,1702"/><area shape="rect" id="node82" href="virtual-repo_8c.html#a9a8dcda29ee6cd28d92c1897ad12f268" title="seaf_repo_manager_create_virtual_repo" alt="" coords="235,1726,488,1756"/><area shape="rect" id="node84" href="virtual-repo_8c.html#a1cd4a8c70076d40d2a778dda774a2263" title="seaf_repo_manager_cleanup_virtual_repos" alt="" coords="227,1142,496,1172"/><area shape="rect" id="node18" href="seafile-rpc_8h.html#a4be3dbe527186e1687ad3c33bd4432d4" title="seafile_get_repo_pub" alt="" coords="653,313,797,342"/><area shape="rect" id="node20" href="seafile-4_81_82_2common_2rpc-service_8c.html#a37949d30db3977c8fbb573881173987b" title="seafile_get_repo" alt="" coords="667,366,784,396"/><area shape="rect" id="node26" href="vc-common_8h.html#a5eba12055714792ad61f2828677b1017" title="is_fast_forward" alt="" coords="671,460,780,489"/><area shape="rect" id="node36" href="daemon_2repo-mgr_8h.html#a25b9a6f8f5199db34dcb95789a80eba4" title="seaf_repo_merge" alt="" coords="953,657,1076,686"/><area shape="rect" id="node46" href="daemon_2repo-mgr_8h.html#a461e72948bba5928329e269ad395e293" title="seaf_repo_is_worktree_changed" alt="" coords="621,828,829,857"/></map>
+</div>
+</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -1016,7 +1167,7 @@ out:
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 19 2015 03:19:55 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Aug 19 2015 03:59:44 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

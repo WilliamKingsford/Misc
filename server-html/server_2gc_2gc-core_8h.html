@@ -81,7 +81,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">seafile/server/gc/gc-core.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="server_2gc_2gc-core_8h__dep__incl.png" border="0" usemap="#seafile_2server_2gc_2gc-core_8hdep" alt=""/></div>
+<map name="seafile_2server_2gc_2gc-core_8hdep" id="seafile_2server_2gc_2gc-core_8hdep">
+<area shape="rect" id="node3" href="server_2gc_2gc-core_8c.html" title="seafile/server/gc/gc&#45;core.c" alt="" coords="5,83,181,112"/><area shape="rect" id="node5" href="seafserv-gc_8c.html" title="seafile/server/gc/seafserv&#45;gc.c" alt="" coords="205,83,405,112"/></map>
+</div>
+</div>
 <p><a href="server_2gc_2gc-core_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="func-members"></a>
@@ -132,6 +139,24 @@ Functions</h2></td></tr>
     g_list_free (del_repos);
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="server_2gc_2gc-core_8h_ab98681043dd6236d0b9f1763fe0ed71a_cgraph.png" border="0" usemap="#server_2gc_2gc-core_8h_ab98681043dd6236d0b9f1763fe0ed71a_cgraph" alt=""/></div>
+<map name="server_2gc_2gc-core_8h_ab98681043dd6236d0b9f1763fe0ed71a_cgraph" id="server_2gc_2gc-core_8h_ab98681043dd6236d0b9f1763fe0ed71a_cgraph">
+<area shape="rect" id="node3" href="daemon_2repo-mgr_8c.html#ae45351706ea0868c8e6c9bad500e1785" title="seaf_repo_manager_list_garbage_repos" alt="" coords="221,5,472,35"/><area shape="rect" id="node5" href="daemon_2repo-mgr_8c.html#a4b2497e6cdde50c4ce3cb642370e06eb" title="seaf_repo_manager_repo_exists" alt="" coords="241,59,452,88"/><area shape="rect" id="node7" href="block-mgr_8c.html#adb9b61331732cb75b3a9e783cd7ad58c" title="seaf_block_manager_remove_store" alt="" coords="233,112,460,141"/><area shape="rect" id="node9" href="daemon_2repo-mgr_8c.html#a7d2cf85f06fa2e7d459730f7494c1a65" title="seaf_repo_manager_remove_garbage_repo" alt="" coords="212,165,481,195"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="server_2gc_2gc-core_8h_ab98681043dd6236d0b9f1763fe0ed71a_icgraph.png" border="0" usemap="#server_2gc_2gc-core_8h_ab98681043dd6236d0b9f1763fe0ed71a_icgraph" alt=""/></div>
+<map name="server_2gc_2gc-core_8h_ab98681043dd6236d0b9f1763fe0ed71a_icgraph" id="server_2gc_2gc-core_8h_ab98681043dd6236d0b9f1763fe0ed71a_icgraph">
+<area shape="rect" id="node3" href="server_2gc_2gc-core_8h.html#a89378311db5ca65ebc46d5cefec957fd" title="gc_core_run" alt="" coords="211,5,304,35"/><area shape="rect" id="node5" href="seafserv-gc_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="232,59,283,88"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a89378311db5ca65ebc46d5cefec957fd"></a><!-- doxytag: member="gc&#45;core.h::gc_core_run" ref="a89378311db5ca65ebc46d5cefec957fd" args="(GList *repo_id_list, int dry_run, int verbose)" -->
@@ -239,6 +264,15 @@ Functions</h2></td></tr>
     <span class="keywordflow">return</span> 0;
 }
 </pre></div>
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="server_2gc_2gc-core_8h_a89378311db5ca65ebc46d5cefec957fd_cgraph.png" border="0" usemap="#server_2gc_2gc-core_8h_a89378311db5ca65ebc46d5cefec957fd_cgraph" alt=""/></div>
+<map name="server_2gc_2gc-core_8h_a89378311db5ca65ebc46d5cefec957fd_cgraph" id="server_2gc_2gc-core_8h_a89378311db5ca65ebc46d5cefec957fd_cgraph">
+<area shape="rect" id="node3" href="fuse_2repo-mgr_8c.html#a928ca86df93e60744ca6edacb33a386f" title="seaf_repo_manager_get_repo_id_list" alt="" coords="147,5,381,35"/><area shape="rect" id="node5" href="server_2gc_2repo-mgr_8c.html#a11cc1a4ecd45778ea5a10af0cb72b347" title="seaf_repo_manager_get_repo_ex" alt="" coords="157,59,371,88"/><area shape="rect" id="node7" href="daemon_2gc-core_8c.html#a53b94cf8737019ca14fc55872fc70319" title="gc_v1_repo" alt="" coords="220,112,308,141"/><area shape="rect" id="node18" href="fuse_2repo-mgr_8c.html#af6bedb063685823d91f2a335c6882e07" title="seaf_repo_unref" alt="" coords="207,165,321,195"/><area shape="rect" id="node20" href="server_2gc_2gc-core_8c.html#ab98681043dd6236d0b9f1763fe0ed71a" title="delete_garbaged_repos" alt="" coords="187,272,341,301"/><area shape="rect" id="node9" href="block-mgr_8c.html#a7264f752a213e896e9a2906960fecbac" title="seaf_block_manager_get_block_number" alt="" coords="439,8,692,37"/><area shape="rect" id="node11" href="block-mgr_8c.html#a3509f9cacf52f38936e99c58ab22d59c" title="seaf_block_manager_foreach_block" alt="" coords="751,35,980,64"/><area shape="rect" id="node13" href="transfer-mgr_8h.html#a82fdbea9f53ccdc87acd89b74c1428b1" title="seaf_transfer_manager_get_clone_head" alt="" coords="439,112,692,141"/><area shape="rect" id="node16" href="seafile_2lib_2bloom-filter_8c.html#a6d246a7c4216612be67f82419a1a37b8" title="bloom_destroy" alt="" coords="512,165,619,195"/><area shape="rect" id="node22" href="daemon_2repo-mgr_8c.html#ae45351706ea0868c8e6c9bad500e1785" title="seaf_repo_manager_list_garbage_repos" alt="" coords="440,219,691,248"/><area shape="rect" id="node24" href="daemon_2repo-mgr_8c.html#a4b2497e6cdde50c4ce3cb642370e06eb" title="seaf_repo_manager_repo_exists" alt="" coords="460,272,671,301"/><area shape="rect" id="node26" href="block-mgr_8c.html#adb9b61331732cb75b3a9e783cd7ad58c" title="seaf_block_manager_remove_store" alt="" coords="452,325,679,355"/><area shape="rect" id="node28" href="daemon_2repo-mgr_8c.html#a7d2cf85f06fa2e7d459730f7494c1a65" title="seaf_repo_manager_remove_garbage_repo" alt="" coords="431,379,700,408"/></map>
+</div>
+</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -259,7 +293,7 @@ Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 19 2015 03:28:58 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Aug 19 2015 03:55:47 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>
