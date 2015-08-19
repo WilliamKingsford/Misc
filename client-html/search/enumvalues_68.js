@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['http_5ftask_5ferr_5fbad_5flocal_5fdata',['HTTP_TASK_ERR_BAD_LOCAL_DATA',['../http-tx-mgr_8h.html#a597f2c645b8d06d74fc53b1324fa7159ab2bac951aa574b49e1d988c044eea731',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5ferr_5fbad_5frequest',['HTTP_TASK_ERR_BAD_REQUEST',['../http-tx-mgr_8h.html#a597f2c645b8d06d74fc53b1324fa7159a6b17ca48969df67259294bd81d616502',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5ferr_5ffiles_5flocked',['HTTP_TASK_ERR_FILES_LOCKED',['../http-tx-mgr_8h.html#a597f2c645b8d06d74fc53b1324fa7159aae23d23cfaef7dcaed67aae072df1f74',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5ferr_5fforbidden',['HTTP_TASK_ERR_FORBIDDEN',['../http-tx-mgr_8h.html#a597f2c645b8d06d74fc53b1324fa7159aa00ba87058de87811a512e793545688d',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5ferr_5fnet',['HTTP_TASK_ERR_NET',['../http-tx-mgr_8h.html#a597f2c645b8d06d74fc53b1324fa7159acf2d300b20f69c681bb82b34900a54f6',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5ferr_5fno_5fquota',['HTTP_TASK_ERR_NO_QUOTA',['../http-tx-mgr_8h.html#a597f2c645b8d06d74fc53b1324fa7159a2a3d2dfaad7277c09bfec6d98442c774',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5ferr_5fnot_5fenough_5fmemory',['HTTP_TASK_ERR_NOT_ENOUGH_MEMORY',['../http-tx-mgr_8h.html#a597f2c645b8d06d74fc53b1324fa7159a1b9f5fdd07452b49a753f1064b000db4',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5ferr_5fserver',['HTTP_TASK_ERR_SERVER',['../http-tx-mgr_8h.html#a597f2c645b8d06d74fc53b1324fa7159aba8619a02d36bc551d2cd4bffd978a42',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5ferr_5funknown',['HTTP_TASK_ERR_UNKNOWN',['../http-tx-mgr_8h.html#a597f2c645b8d06d74fc53b1324fa7159aa1041bfc4f5093343ba20b11e10057c7',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5ferr_5fwrite_5flocal_5fdata',['HTTP_TASK_ERR_WRITE_LOCAL_DATA',['../http-tx-mgr_8h.html#a597f2c645b8d06d74fc53b1324fa7159a3e94b4f3a5cae152befefab9cb2a2a6c',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5fok',['HTTP_TASK_OK',['../http-tx-mgr_8h.html#a597f2c645b8d06d74fc53b1324fa7159a7d2b0dc48a6f7c202ac60e59eb473c9c',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5frt_5fstate_5fblock',['HTTP_TASK_RT_STATE_BLOCK',['../http-tx-mgr_8h.html#ae97e5fbdbd28cab8bf8823ca4f66f617a96aaa723a45db207d64fd7baf1ca23c5',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5frt_5fstate_5fcheck',['HTTP_TASK_RT_STATE_CHECK',['../http-tx-mgr_8h.html#ae97e5fbdbd28cab8bf8823ca4f66f617a51cd98784e48af2aff2e252cda6c23c1',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5frt_5fstate_5fcommit',['HTTP_TASK_RT_STATE_COMMIT',['../http-tx-mgr_8h.html#ae97e5fbdbd28cab8bf8823ca4f66f617ad5d2aea26c1c9286119dcc352dcf681d',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5frt_5fstate_5ffinished',['HTTP_TASK_RT_STATE_FINISHED',['../http-tx-mgr_8h.html#ae97e5fbdbd28cab8bf8823ca4f66f617a48fa58e541bc5e2f237e8cd81b1a33b3',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5frt_5fstate_5ffs',['HTTP_TASK_RT_STATE_FS',['../http-tx-mgr_8h.html#ae97e5fbdbd28cab8bf8823ca4f66f617a0696dfdf8d8ac3872dcd8155a14353d3',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5frt_5fstate_5finit',['HTTP_TASK_RT_STATE_INIT',['../http-tx-mgr_8h.html#ae97e5fbdbd28cab8bf8823ca4f66f617a529f48738b7509bb452c8f25915938cf',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5frt_5fstate_5fupdate_5fbranch',['HTTP_TASK_RT_STATE_UPDATE_BRANCH',['../http-tx-mgr_8h.html#ae97e5fbdbd28cab8bf8823ca4f66f617a1c57a6fd477510e55fb9b65cb9851bd4',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5fstate_5fcanceled',['HTTP_TASK_STATE_CANCELED',['../http-tx-mgr_8h.html#af4932c1ce85a6123a03c64cde0384dc5ace5e6d5d0a85c8b2f79aeb038c7ea9bc',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5fstate_5ferror',['HTTP_TASK_STATE_ERROR',['../http-tx-mgr_8h.html#af4932c1ce85a6123a03c64cde0384dc5a7829485480889c6958e5ddd2996b05ff',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5fstate_5ffinished',['HTTP_TASK_STATE_FINISHED',['../http-tx-mgr_8h.html#af4932c1ce85a6123a03c64cde0384dc5a0facf2c60cc1a598735bd4d8d488417b',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5fstate_5fnormal',['HTTP_TASK_STATE_NORMAL',['../http-tx-mgr_8h.html#af4932c1ce85a6123a03c64cde0384dc5ad33e055301cbadbb9544f199ee76c00e',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5ftype_5fdownload',['HTTP_TASK_TYPE_DOWNLOAD',['../http-tx-mgr_8h.html#a16af7b253440dadd46a80a4b9fddba4da429731c6953f215203cf1b17fe92ebb1',1,'http-tx-mgr.h']]],
+  ['http_5ftask_5ftype_5fupload',['HTTP_TASK_TYPE_UPLOAD',['../http-tx-mgr_8h.html#a16af7b253440dadd46a80a4b9fddba4da138a1036827f5836bd8e372ebe2aad95',1,'http-tx-mgr.h']]]
+];

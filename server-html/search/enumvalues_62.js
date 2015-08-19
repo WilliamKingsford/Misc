@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['bind_5fno',['BIND_NO',['../include_2ccnet_2peer_8h.html#a531c35e38ede3ea4e5ba5afb24b29493a3e810d400463dbbd154c410b36e0e128',1,'peer.h']]],
+  ['bind_5funknown',['BIND_UNKNOWN',['../include_2ccnet_2peer_8h.html#a531c35e38ede3ea4e5ba5afb24b29493ac437f77009a187860f24e4be1657988a',1,'peer.h']]],
+  ['bind_5fyes',['BIND_YES',['../include_2ccnet_2peer_8h.html#a531c35e38ede3ea4e5ba5afb24b29493a523e0345ab53ef87f1e28499bb14bdbc',1,'peer.h']]],
+  ['block_5fclient_5fcanceled',['BLOCK_CLIENT_CANCELED',['../transfer-mgr_8h.html#ac205be2172292384dd687b5471a87edda5176a3efc074d82147f6ad9aee27702b',1,'transfer-mgr.h']]],
+  ['block_5fclient_5fcmd_5fcancel',['BLOCK_CLIENT_CMD_CANCEL',['../block-tx-client_8h.html#abc5c98fcc1211af2b80116dd6e0a035dad85f75e94b518092eb89dacbd18351b7',1,'block-tx-client.h']]],
+  ['block_5fclient_5fcmd_5fend',['BLOCK_CLIENT_CMD_END',['../block-tx-client_8h.html#abc5c98fcc1211af2b80116dd6e0a035da168d47e95a6309c04eeef267ff0dd891',1,'block-tx-client.h']]],
+  ['block_5fclient_5fcmd_5frestart',['BLOCK_CLIENT_CMD_RESTART',['../block-tx-client_8h.html#abc5c98fcc1211af2b80116dd6e0a035daacfc9210b87af8d0d9fa1ad47d11f7d3',1,'block-tx-client.h']]],
+  ['block_5fclient_5fcmd_5ftransfer',['BLOCK_CLIENT_CMD_TRANSFER',['../block-tx-client_8h.html#abc5c98fcc1211af2b80116dd6e0a035da69efcb91bbae78a1895b23642d85ce6e',1,'block-tx-client.h']]],
+  ['block_5fclient_5fended',['BLOCK_CLIENT_ENDED',['../transfer-mgr_8h.html#ac205be2172292384dd687b5471a87edda6020ae4dad21c2a0a36b6709872fd269',1,'transfer-mgr.h']]],
+  ['block_5fclient_5ffailed',['BLOCK_CLIENT_FAILED',['../transfer-mgr_8h.html#ac205be2172292384dd687b5471a87eddab6ee07e1f93fd060c972725c7a5642a0',1,'transfer-mgr.h']]],
+  ['block_5fclient_5fnet_5ferror',['BLOCK_CLIENT_NET_ERROR',['../transfer-mgr_8h.html#ac205be2172292384dd687b5471a87edda77daa389ab8b27e7dfb05e61b181c643',1,'transfer-mgr.h']]],
+  ['block_5fclient_5fready',['BLOCK_CLIENT_READY',['../transfer-mgr_8h.html#ac205be2172292384dd687b5471a87eddae82f0760241f8b8e6f36e78f281899ef',1,'transfer-mgr.h']]],
+  ['block_5fclient_5fserver_5ferror',['BLOCK_CLIENT_SERVER_ERROR',['../transfer-mgr_8h.html#ac205be2172292384dd687b5471a87edda879e124929511a9dbbcbba1efb527900',1,'transfer-mgr.h']]],
+  ['block_5fclient_5fsuccess',['BLOCK_CLIENT_SUCCESS',['../transfer-mgr_8h.html#ac205be2172292384dd687b5471a87edda66f4cf8f7807f8038262d56bc42c61df',1,'transfer-mgr.h']]],
+  ['block_5fclient_5funknown',['BLOCK_CLIENT_UNKNOWN',['../transfer-mgr_8h.html#ac205be2172292384dd687b5471a87edda961f855d617f8d1c95ffbe88a1729b23',1,'transfer-mgr.h']]],
+  ['block_5fread',['BLOCK_READ',['../block_8h.html#a99fb83031ce9923c84392b4e92f956b5a70a1891853a7e204617bdcf9adcfd4a5',1,'block.h']]],
+  ['block_5fwrite',['BLOCK_WRITE',['../block_8h.html#a99fb83031ce9923c84392b4e92f956b5a0a33c2a4005cb32ae50b7f3688cfbc76',1,'block.h']]],
+  ['blocklist_5fsent',['BLOCKLIST_SENT',['../getblock-proc_8c.html#af9bdc3014f3d54c426b6d2df10de4960a2f3d4c58a4d0411de76ebd957684d194',1,'BLOCKLIST_SENT():&#160;getblock-proc.c'],['../getblock-v2-proc_8c.html#adb49720dc49f7d4e4cf9adbf2948e409a2f3d4c58a4d0411de76ebd957684d194',1,'BLOCKLIST_SENT():&#160;getblock-v2-proc.c'],['../sendblock-proc_8c.html#a7ff5f2dff38e7639981794c43dc9167ba2f3d4c58a4d0411de76ebd957684d194',1,'BLOCKLIST_SENT():&#160;sendblock-proc.c'],['../sendblock-v2-proc_8c.html#aabfcbcb5ac86a1edac4035264bc7d2b8a2f3d4c58a4d0411de76ebd957684d194',1,'BLOCKLIST_SENT():&#160;sendblock-v2-proc.c']]]
+];
