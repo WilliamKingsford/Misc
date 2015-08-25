@@ -5,6 +5,7 @@ sudo apt-get install autoconf automake libtool libevent-dev libcurl4-openssl-dev
 
 cd ~/duet/SeaFileClient
 
+export version=4.1.2
 export PREFIX=/usr
 export PKG_CONFIG_PATH="$PREFIX/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PATH="$PREFIX/bin:$PATH"
