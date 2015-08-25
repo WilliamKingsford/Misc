@@ -3,22 +3,7 @@
 sudo apt-get update
 sudo apt-get install autoconf automake libtool libevent-dev libcurl4-openssl-dev libgtk2.0-dev uuid-dev intltool libsqlite3-dev valac libjansson-dev libqt4-dev cmake libfuse-dev make expect
 
-# download and rename source archives
-export version=4.1.2
-alias wget='wget --content-disposition -nc'
-wget https://github.com/haiwen/libsearpc/archive/v3.0-latest.tar.gz
-mv v3.0-latest.tar.gz libsearpc-3.0-latest.tar.gz
-wget https://github.com/haiwen/ccnet/archive/v${version}.tar.gz
-mv v${version}.tar.gz ccnet-${version}.tar.gz
-wget https://github.com/haiwen/seafile/archive/v${version}.tar.gz
-mv v${version}.tar.gz seafile-${version}.tar.gz
-wget https://github.com/haiwen/seafile-client/archive/v${version}.tar.gz
-mv v${version}.tar.gz seafile-client-${version}.tar.gz
-
-tar xf libsearpc-3.0-latest.tar.gz
-tar xf ccnet-${version}.tar.gz
-tar xf seafile-${version}.tar.gz
-tar xf seafile-client-${version}.tar.gz
+cd ~/duet/SeaFileClient
 
 export PREFIX=/usr
 export PKG_CONFIG_PATH="$PREFIX/lib/pkgconfig:$PKG_CONFIG_PATH"
@@ -33,14 +18,16 @@ cd ..
 
 cd ccnet-${version}
 ./autogen.sh
-./configure --prefix=$PREFIX
+./configure CFLAGS="-pg -g -O2" LDFLAGS="-Wl,--no-as-needed -ldl -pg" --prefix=$PREFIX
+make clean
 make
 sudo make install
 cd ..
 
 cd seafile-${version}/
 ./autogen.sh
-./configure --prefix=$PREFIX --disable-gui
+./configure CFLAGS="-pg -g -O2" LDFLAGS="-pg" --prefix=$PREFIX --disable-gui
+make clean
 make
 sudo make install
 cd ..
