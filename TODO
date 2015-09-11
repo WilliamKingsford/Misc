@@ -1,0 +1,46 @@
+===06/09/2015===
+HIGH PRIORITY:
+what are partial commits?
+
+Why does total sync time decrease with large syncs? Use netstat to see if all data is actually being transferred
+	in <client>/daemon/repo-mgr.c, handle_add_files() there is code that checks for commit size over the MAX_COMMIT_SIZE, see if this is why syncs get "faster" when the files get too large
+	new nginx setting proxy_request_buffering off; might fix this
+
+Automate client setup
+	Automatically find or set seafile library id (detect on server and print then manually enter on client?)
+	Ask for server IP, username, password used in seahub setup
+	Permanently export these as environment variables, use them in all the test scripts (including SF-server-remote-restart.exp)
+	Update all scripts using c157.exp to use SF-server-remote-restart.exp
+
+Put test scripts into TestScripts folder in duet/SeaFileClient & duet/SeaFileServer as relevant
+Put install scripts into SeaFileServer and SeaFileClient folders respectively
+
+Why is first run of $SEAFILEDIR/TestScripts/SF-server-remote-restart.exp commented out in sync-and-time-profile.sh and -log.sh ?
+
+Make sure spreadsheet has up-to-date test data
+	Make sure scripts produce test data in easy to interpret format - hunt down scripts that sum output and use this to produce a nice output file
+Outline how exactly a sync-test works & document how to use scripts
+	How to generate gprof output on c158
+Check if sync-and-time-profile.sh is deprecated due to mygmon.<pid> files
+Produce digital documentation of seafile client upload/sync process (already documented in book)
+
+TEST THAT INSTALL & TEST SCRIPTS ALL WORK ON CLEAN UBUNTU INSTALLS ON C20 VMs
+RE-GENERATE DOXYGEN OUTPUT ONCE CODE IS FINALIZED
+
+
+
+
+LOW PRIORITY:
+Allow user to set number of files & sizes to test with automated-test.sh (also nesting depth etc?)
+What does seafile-applet do if there's no GUI? Does it work without X installed?
+Better looking formatting for seafile-summary.odt (e.g. monospace font for code & paths)
+is iptables opening ports on server actually needed? Probably
+
+
+#DUET CHECKOUT INSTRUCTIONS:
+
+git clone https://github.com/gamvrosi/duet.git
+# switch branch to seafile
+git checkout seafile
+# list branches, if correctly in seafile it will have an asterisk
+git branch

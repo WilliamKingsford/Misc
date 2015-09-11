@@ -28,5 +28,9 @@ sed -i "s|SERVERUSER|$SERVERUSER|g" $SFCLIENTDIR/TestScripts/SF-server-remote-re
 sed -i "s|SERVERNAME|$SERVERNAME|g" $SFCLIENTDIR/TestScripts/SF-server-remote-restart.exp
 sed -i "s|SERVERPASS|$SERVERPASS|g" $SFCLIENTDIR/TestScripts/SF-server-remote-restart.exp
 
-# set max_user_watches so inotify watch limit shouldn't be an issue
-sudo sh -c 'echo 50000 > /proc/sys/fs/inotify/max_user_watches'
+# permanently set max_user_watches so inotify watch limit shouldn't be an issue
+sudo sh -c 'echo "fs.inotify.max_user_watches=30000" >> /etc/sysctl.conf'
+
+
+
+# GET LIBRARY ID, IP, USERNAME, PASSWORD FROM SERVER, PERMANENTLY EXPORT ENV VARIABLE FOR THESE
