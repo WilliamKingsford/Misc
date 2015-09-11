@@ -197,6 +197,10 @@ chmod +x seaf-gc.sh
 # set up nginx
 ./SF-server-nginx-setup.sh
 
+# ===== PRINT LIBRARY ID =====
+# ===== PRINT LIBRARY ID =====
+# ===== PRINT LIBRARY ID =====
+
 echo '"~/SeaFileServer/seafile-server-4.1.2/seafile.sh start" to start seafile'
 echo '"~/SeaFileServer/seafile-server-4.1.2/seahub.sh start 8001" to start seahub'
 echo "THESE MUST BE RUN AS ROOT"

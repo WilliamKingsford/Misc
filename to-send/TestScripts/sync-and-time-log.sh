@@ -45,7 +45,7 @@ seaf-cli start > /dev/null 2>&1&
 sleep 3
 
 echo "Starting sync..."
-seaf-cli sync -l 4915ec59-c414-47d1-a14e-ed290339172b -s http://142.150.234.157:8001 -d $SEAFILEDIR/SeaFileLibraries/ -u will.kingsford@gmail.com -p *hLO8GeH
+seaf-cli sync -l $SFLIBRARYID -s http://$SERVERIP:8001 -d $SEAFILEDIR/SeaFileLibraries/ -u $SEAHUBEMAIL -p $SEAHUBPASS
 
 # run until sync is complete
 continue="1"

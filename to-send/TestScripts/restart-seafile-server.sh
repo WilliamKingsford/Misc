@@ -3,7 +3,7 @@
 # Restarts Seafile when run on the server side, runs Seafile's garbage collection script
 # and clears cache before starting again.
 
-cd /home/william-kingsford/SeaFileServer/seafile-server-4.1.2/
+cd ~/SeaFileServer/seafile-server-4.1.2/
 ./seafile.sh stop
 ./seahub.sh stop
 sleep 1

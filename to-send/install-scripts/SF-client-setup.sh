@@ -31,6 +31,16 @@ sed -i "s|SERVERPASS|$SERVERPASS|g" $SFCLIENTDIR/TestScripts/SF-server-remote-re
 # permanently set max_user_watches so inotify watch limit shouldn't be an issue
 sudo sh -c 'echo "fs.inotify.max_user_watches=30000" >> /etc/sysctl.conf'
 
-
-
 # GET LIBRARY ID, IP, USERNAME, PASSWORD FROM SERVER, PERMANENTLY EXPORT ENV VARIABLE FOR THESE
+echo "Enter the IP address you set for Seafile on the server machine:"
+read SERVERIP
+echo "SERVERIP=$SERVERIP" >> ~/.bashrc
+echo "Enter the email you set for Seahub on the server machine:"
+read SEAHUBEMAIL
+echo "SEAHUBEMAIL=$SEAHUBEMAIL" >> ~/.bashrc
+echo "Enter the password you set for Seahub on the server machine:"
+read SEAHUBPASS
+echo "SEAHUBPASS=$SEAHUBPASS" >> ~/.bashrc
+echo "Enter the Library ID of the library you want to sync:"
+read SFLIBRARYID
+echo "SFLIBRARYID=$SFLIBRARYID" >> ~/.bashrc

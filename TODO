@@ -8,9 +8,6 @@ Why does total sync time decrease with large syncs? Use netstat to see if all da
 
 Automate client setup
 	Automatically find or set seafile library id (detect on server and print then manually enter on client?)
-	Ask for server IP, username, password used in seahub setup
-	Permanently export these as environment variables, use them in all the test scripts (including SF-server-remote-restart.exp)
-	Update all scripts using c157.exp to use SF-server-remote-restart.exp
 
 Put test scripts into TestScripts folder in duet/SeaFileClient & duet/SeaFileServer as relevant
 Put install scripts into SeaFileServer and SeaFileClient folders respectively
