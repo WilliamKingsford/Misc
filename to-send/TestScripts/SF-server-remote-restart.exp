@@ -1,0 +1,18 @@
+#!/usr/bin/expect
+
+# This script connects to the Seafile server machine and runs the local script there to
+# restart seafile, perform garbage collection, and clear the cache.
+
+spawn ssh SERVERUSER@SERVERNAME
+expect "password:"
+sleep 1
+send "SERVERPASS\r"
+expect "$ "
+sleep 1
+send "sudo ~/SeaFileServer/TestScripts/restart-seafile-server.sh\r"
+expect "SERVERUSER:"
+sleep 1
+send "SERVERPASS\r"
+sleep 1
+expect "$ "
+send "exit\r"
