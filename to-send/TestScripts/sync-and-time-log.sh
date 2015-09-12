@@ -73,8 +73,7 @@ python $SEAFILEDIR/TestScripts/maketree.py $(($2+1)) 1 0 $(($2+1)) 0 $3 $SEAFILE
 else echo "Test with no added files"
 fi
 
-# free memory on c157 by running seaf-gc.sh over ssh and clear cache on client
-#$SEAFILEDIR/TestScripts/SF-server-remote-restart.exp
+# clear cache on client
 sync
 sh -c 'echo 3 > /proc/sys/vm/drop_caches'
 
