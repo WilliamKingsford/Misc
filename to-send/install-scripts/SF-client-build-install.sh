@@ -62,6 +62,3 @@ cd ..
 cd seafile-cli
 mkdir ~/.seafile-client
 ./seaf-cli init -d ~/.seafile-client  # initialise seafile client with this folder
-
-# link seaf-cli so it can be run from anywhere
-ln -s `readlink -f seaf-cli` /usr/bin/

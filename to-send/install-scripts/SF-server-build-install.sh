@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Seafile Server Build & Install script
 # Derived from a script written by davygravy on http://forum.doozan.com/read.php?2,21772,21772
 
@@ -184,17 +186,20 @@ apt-get install python2.7 python-setuptools python-imaging sqlite3
 
 cd seafile-server-4.1.2
 echo "Your IP address is "`ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p'`" (needed for next part)"
+echo "Other than IP address, use defaults for everything and choose any name you want."
 read -rsp $'Press any key to continue...\n' -n1 key
 ./setup-seafile.sh
 cd ..
 
 # increase max open files
-sudo sh -c "ulimit -n 65535 && exec su $LOGNAME"
+sudo sh -c 'echo "* soft nofile 65535" >> /etc/security/limits.conf'
+sudo sh -c 'echo "* hard nofile 65535" >> /etc/security/limits.conf'
 
 # give garbage collection script execute permissions
 chmod +x seaf-gc.sh
 
 # set up nginx
+cd $DIR
 ./SF-server-nginx-setup.sh
 
 # ===== PRINT LIBRARY ID =====
