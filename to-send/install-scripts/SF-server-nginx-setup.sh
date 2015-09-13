@@ -12,8 +12,9 @@ sed -i "s-http://127.0.0.1/seafhttp-http://$IPADDRESS/seafhttp-g" ~/SeaFileServe
 
 # install nginx
 apt-get install python-software-properties
+add-apt-repository ppa:nginx/stable
 apt-get update && apt-get upgrade
-apt-get install nginx python-flup python-imaging
+apt-get install nginx nginx-common nginx-full python-flup python-imaging
 
 # open required ports
 iptables -I INPUT 1 -p tcp --dport 8001 -j ACCEPT
