@@ -13,7 +13,9 @@ Unfinished scripts:
 
 
 TEST THAT INSTALL & TEST SCRIPTS ALL WORK ON CLEAN UBUNTU INSTALLS ON C20 VMs
-	Run SF-server-build-install.sh on server VM & SF-client-build-install.sh on client VM, find library ID on server, see if this works with SF-client
+	Find library ID on server, see if this works with SF-client
+
+Transfer updated scripts from Misc to duet
 
 Make sure spreadsheet has up-to-date test data
 	Make sure scripts produce test data in easy to interpret format - hunt down scripts that sum output and use this to produce a nice output file
@@ -35,6 +37,7 @@ RE-GENERATE DOXYGEN OUTPUT ONCE CODE IS FINALIZED
 
 
 LOW PRIORITY:
+Merge all apt-get install commands into one go for each computer
 Allow user to set number of files & sizes to test with automated-test.sh (also nesting depth etc?)
 What does seafile-applet do if there's no GUI? Does it work without X installed?
 	on c158: <list apt packages> | grep "desktop"

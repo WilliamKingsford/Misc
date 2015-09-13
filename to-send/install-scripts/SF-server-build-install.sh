@@ -201,10 +201,12 @@ chmod +x seaf-gc.sh
 cd $DIR
 ./SF-server-nginx-setup.sh
 
-# ===== PRINT LIBRARY ID =====
-# ===== PRINT LIBRARY ID =====
-# ===== PRINT LIBRARY ID =====
+cd ~/SeaFileServer/seafile-server-4.1.2
+./seafile.sh start
+./seahub.sh start 8001
 
-echo '"~/SeaFileServer/seafile-server-4.1.2/seafile.sh start" to start seafile'
-echo '"~/SeaFileServer/seafile-server-4.1.2/seahub.sh start 8001" to start seahub'
-echo "THESE MUST BE RUN AS ROOT"
+# allow access to directory containing library id
+chmod 755 ~/SeaFileServer/seafile-data
+echo "Library id is: "$(ls ~/SeaFileServer/seafile-data/storage/commits)
+echo ""
+echo "Seafile and seahub are now running."
