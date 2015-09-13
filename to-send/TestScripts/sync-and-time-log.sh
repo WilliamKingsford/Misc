@@ -9,6 +9,25 @@ if [ "$(id -u)" != "0" ]; then
    exit 1
 fi
 
+# load server info
+i=0
+while read line; do
+        echo $line
+        if [[ $i -eq 0 ]]
+        then export SERVERIP=$line
+        fi
+        if [[ $i -eq 1 ]]
+        then export SEAHUBUSER=$line
+        fi
+        if [[ $i -eq 2 ]]
+        then export SEAHUBPASS=$line
+        fi
+        if [[ $i -eq 3 ]]
+        then export SFLIBRARYID=$line
+        fi
+        i=$((i+1))
+done < serverdetails
+
 # checks for environment variable for SeaFileLibraries & Logs location, if not defined it's
 # assumed the location of these folders is ~
 if ! [[ $SEAFILEDIR ]]

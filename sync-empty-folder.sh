@@ -1,6 +1,26 @@
 #!/bin/bash
 
 # this script syncs an empty folder before stopping seaf-cli, to prevent startup time being counted towards sync-time when sync-and-time is run.
+
+# load server info
+i=0
+while read line; do
+        echo $line
+        if [[ $i -eq 0 ]]
+        then export SERVERIP=$line
+        fi
+        if [[ $i -eq 1 ]]
+        then export SEAHUBUSER=$line
+        fi
+        if [[ $i -eq 2 ]]
+        then export SEAHUBPASS=$line
+        fi
+        if [[ $i -eq 3 ]]
+        then export SFLIBRARYID=$line
+        fi
+        i=$((i+1))
+done < serverdetails
+
 echo "sync-empty-folder.sh: Starting seaf-cli and giving it 3 seconds to load"
 seaf-cli start > /dev/null 2>&1&
 sleep 3
