@@ -13,15 +13,18 @@ i=0
 while read line; do
         echo $line
         if [[ $i -eq 0 ]]
-        then export SERVERIP=$line
+        then export SEAFILEDIR=$line
         fi
         if [[ $i -eq 1 ]]
-        then export SEAHUBUSER=$line
+        then export SERVERIP=$line
         fi
         if [[ $i -eq 2 ]]
-        then export SEAHUBPASS=$line
+        then export SEAHUBUSER=$line
         fi
         if [[ $i -eq 3 ]]
+        then export SEAHUBPASS=$line
+        fi
+        if [[ $i -eq 4 ]]
         then export SFLIBRARYID=$line
         fi
         i=$((i+1))
