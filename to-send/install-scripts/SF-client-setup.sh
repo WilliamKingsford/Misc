@@ -7,10 +7,10 @@ read SEAFILEDIR
 
 if [[ -z "$SEAFILEDIR" ]]
 then #echo "SEAFILEDIR=$HOME" >> ~/.bashrc
-echo "SEAFILEDIR=$HOME" >> TestScripts/serverdetails
+echo "$HOME" >> TestScripts/serverdetails
 SEAFILEDIR=$HOME
 else #echo "SEAFILEDIR=${SEAFILEDIR%/}" >> ~/.bashrc # remove trailing slash (if present)
-echo "SEAFILEDIR=${SEAFILEDIR%/}" >> TestScripts/serverdetails
+echo "${SEAFILEDIR%/}" >> TestScripts/serverdetails
 SEAFILEDIR=${SEAFILEDIR%/}
 fi
 

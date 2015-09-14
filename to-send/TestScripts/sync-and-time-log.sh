@@ -31,12 +31,6 @@ while read line; do
         i=$((i+1))
 done < serverdetails
 
-# checks for environment variable for SeaFileLibraries & Logs location, if not defined it's
-# assumed the location of these folders is ~
-if ! [[ $SEAFILEDIR ]]
-then
-	SEAFILEDIR=~
-fi
 cd $SEAFILEDIR
 
 # test for valid arguments
