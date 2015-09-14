@@ -7,10 +7,10 @@ read SEAFILEDIR
 
 if [[ -z "$SEAFILEDIR" ]]
 then #echo "SEAFILEDIR=$HOME" >> ~/.bashrc
-echo "SEAFILEDIR=$HOME" >> ../TestScripts/serverdetails
+echo "SEAFILEDIR=$HOME" >> TestScripts/serverdetails
 SEAFILEDIR=$HOME
 else #echo "SEAFILEDIR=${SEAFILEDIR%/}" >> ~/.bashrc # remove trailing slash (if present)
-echo "SEAFILEDIR=${SEAFILEDIR%/}" >> ../TestScripts/serverdetails
+echo "SEAFILEDIR=${SEAFILEDIR%/}" >> TestScripts/serverdetails
 SEAFILEDIR=${SEAFILEDIR%/}
 fi
 
@@ -39,18 +39,18 @@ sudo sh -c 'echo "fs.inotify.max_user_watches=30000" >> /etc/sysctl.conf'
 echo "Enter the IP address you set for Seafile on the server machine:"
 read SERVERIP
 #echo "SERVERIP=$SERVERIP" >> ~/.bashrc
-echo "$SERVERIP" >> ../TestScripts/serverdetails
+echo "$SERVERIP" >> TestScripts/serverdetails
 echo "Enter the email you set for Seahub on the server machine:"
 read SEAHUBEMAIL
 #echo "SEAHUBEMAIL=$SEAHUBEMAIL" >> ~/.bashrc
-echo "$SEAHUBEMAIL" >> ../TestScripts/serverdetails
+echo "$SEAHUBEMAIL" >> TestScripts/serverdetails
 echo "Enter the password you set for Seahub on the server machine:"
 read SEAHUBPASS
 #echo "SEAHUBPASS=$SEAHUBPASS" >> ~/.bashrc
-echo "$SEAHUBPASS" >> ../TestScripts/serverdetails
+echo "$SEAHUBPASS" >> TestScripts/serverdetails
 echo "Enter the Library ID of the library you want to sync:"
 read SFLIBRARYID
 #echo "SFLIBRARYID=$SFLIBRARYID" >> ~/.bashrc
-echo "$SFLIBRARYID" >> ../TestScripts/serverdetails
+echo "$SFLIBRARYID" >> TestScripts/serverdetails
 
 echo "Please restart the computer."
