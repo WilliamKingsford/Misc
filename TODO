@@ -15,6 +15,7 @@ Re-test updated scripts on clean virtual machines
 
 
 Make sure scripts produce test data in easy to interpret format - hunt down scripts that sum output and use this to produce a nice output file
+	In sum-*.sh scripts, remove -free.txt etc. from output before printing to *-list.txt
 
 Make sure spreadsheet has up-to-date test data
 

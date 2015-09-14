@@ -9,5 +9,7 @@ then
 	SEAFILEDIR=~
 fi
 
-top -b -n 1 | grep 'seaf-daemon\|ccnet' >> $SEAFILEDIR/Logs/top.txt
-iotop -b -n 1 | grep 'seaf-daemon\|ccnet' >> $SEAFILEDIR/Logs/iotop.txt
+# get current cpu usage %
+top -b -n 1 | grep 'seaf-daemon\|ccnet' | awk '{ print $9 }' >> $SEAFILEDIR/Logs/top.txt
+# get current io usage %
+iotop -b -n 1 | grep 'seaf-daemon\|ccnet' | awk '{ print $10 }' >> $SEAFILEDIR/Logs/iotop.txt
