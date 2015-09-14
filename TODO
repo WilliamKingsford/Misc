@@ -5,22 +5,21 @@ Why does total sync time decrease with large syncs? Use netstat to see if all da
 	new nginx setting proxy_request_buffering off; might have fixed this
 
 
+Fixed MAX_COMMIT_SIZE issue by replacing all instances of "if (*total_size >= MAX_COMMIT_SIZE)" with "if (0)"
 
 
-
-sync-and-time-profile.sh, -log.sh	need to be merged
 
 Re-test updated scripts on clean virtual machines
 
 
 
+
+Make sure scripts produce test data in easy to interpret format - hunt down scripts that sum output and use this to produce a nice output file
+
 Make sure spreadsheet has up-to-date test data
-	Make sure scripts produce test data in easy to interpret format - hunt down scripts that sum output and use this to produce a nice output file
-	
-Outline how exactly a sync-test works & document how to use scripts
-	How to generate gprof output on client
-		Check if sync-and-time-profile.sh is deprecated due to mygmon.<pid> files
-		Merge sync-and-time-profile and -log because they are the same core process
+
+
+
 
 ===Produce digital documentation of seafile client upload/sync process (already documented in book)
 

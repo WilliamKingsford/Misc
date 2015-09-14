@@ -7,9 +7,7 @@ awk 'NR % 4 - 2 == 0' ${1} | awk '{ print $3 }' > ${1}-mem-used.txt
 used=0
 while read p; do
   tmp=${p}
-  used=$[used+tmp]
+  used=$((used+tmp))
 done <${1}-mem-used.txt
 
-echo ${used}
-
-
+echo ${1} "memory:" ${used} >> free-list.txt

@@ -4,13 +4,24 @@
 # it takes for Seafile to place inotify watches and confirm that the files have not been
 # changed. 
 
-# checks for environment variable for SeaFileLibraries & Logs location, if not defined it's
-# assumed the location of these folders is ~
-if ! [[ $SEAFILEDIR ]]
-then
-	SEAFILEDIR=~
-fi
+# read our seafile libraries/logs directory
+read SEAFILEDIR < serverdetails
 cd $SEAFILEDIR
+
+echo "This script will automatically delete the previous Logs/all-times.txt and any logs still in Logs/StoredLogs/."
+echo "If you don't want this, cancel the script in the next 10 seconds."
+sleep 10
+
+# delete old data files
+echo "Deleting previous data: $SEAFILEDIR/Logs/all-times.txt"
+rm $SEAFILEDIR/Logs/all-times.txt
+rm $SEAFILEDIR/Logs/StoredLogs/*.txt
+
+# pre-emptively clear caches on both machines
+echo "Clearing caches on both server and client"
+$SEAFILEDIR/TestScripts/SF-server-remote-restart.exp
+sync
+sh -c 'echo 3 > /proc/sys/vm/drop_caches'
 
 # test a range of 4kB files
 for i in `seq 0 1000 10000`;
