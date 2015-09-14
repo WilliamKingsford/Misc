@@ -21,7 +21,7 @@ while read line; do
         then export SERVERIP=$line
         fi
         if [[ $i -eq 2 ]]
-        then export SEAHUBUSER=$line
+        then export SEAHUBEMAIL=$line
         fi
         if [[ $i -eq 3 ]]
         then export SEAHUBPASS=$line

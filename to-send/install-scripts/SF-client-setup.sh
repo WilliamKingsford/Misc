@@ -53,4 +53,4 @@ read SFLIBRARYID
 #echo "SFLIBRARYID=$SFLIBRARYID" >> ~/.bashrc
 echo "$SFLIBRARYID" >> TestScripts/serverdetails
 
-echo "Please restart the computer."
+echo "Seafile client now configured."
