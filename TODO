@@ -4,18 +4,15 @@ Why does total sync time decrease with large syncs? Use netstat to see if all da
 	in <client>/daemon/repo-mgr.c, handle_add_files() there is code that checks for commit size over the MAX_COMMIT_SIZE, see if this is why syncs get "faster" when the files get too large. These are called "partial commits" with a max size of 100M at a time, then it starts uploading again but each time acts as if the sync has finished. This explains the shorter sync times with large files.
 	new nginx setting proxy_request_buffering off; might have fixed this
 
-Put test scripts into TestScripts folder in duet/SeaFileClient & duet/SeaFileServer as relevant
-Put install scripts into SeaFileServer and SeaFileClient folders respectively
-
-Unfinished scripts:
-	SF-server-nginx-setup.sh			needs to output library id
-	sync-and-time-profile.sh, -log.sh	need to be merged
 
 
-TEST THAT INSTALL & TEST SCRIPTS ALL WORK ON CLEAN UBUNTU INSTALLS ON C20 VMs
-	Find library ID on server, see if this works with SF-client
 
-Transfer updated scripts from Misc to duet
+
+sync-and-time-profile.sh, -log.sh	need to be merged
+
+Re-test updated scripts on clean virtual machines
+
+
 
 Make sure spreadsheet has up-to-date test data
 	Make sure scripts produce test data in easy to interpret format - hunt down scripts that sum output and use this to produce a nice output file
