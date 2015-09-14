@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# This script performs a sync and timestamps the gmon.out.
+# This script performs a sync and separates seafile's logs into parts (pre-sync, sync, post-sync cleanup)
+# and stores them in a timestamped folder along with gmon-sync.out, the gprof output for the file sync.
+# It does not use top/iotop/free to benchmark performance, use automated-test.sh for that.
 
 # check if running as root (needed for iotop)
 if [ "$(id -u)" != "0" ]; then
@@ -35,15 +37,15 @@ cd $SEAFILEDIR
 # test for valid arguments
 if [[ $# -eq 0 ]]
 then echo "Syntax:"
-echo "generating no files: sync-and-time-profile.sh 0"
-echo "generating files:    sync-and-time-profile.sh 1 <# of files> <size of files (B)>"
+echo "generating no files: log-and-gprof.sh 0"
+echo "generating files:    log-and-gprof.sh 1 <# of files> <size of files (B)>"
 exit
 fi
 if ! ( [[ $# -eq 1 ]] || [[ $# -eq 3 ]] )
 then echo "Invalid number of arguments."
 echo "Syntax:"
-echo "generating no files: sync-and-time-profile.sh 0"
-echo "generating files:    sync-and-time-profile.sh 1 <# of files> <size of files (B)>"
+echo "generating no files: log-and-gprof.sh 0"
+echo "generating files:    log-and-gprof.sh 1 <# of files> <size of files (B)>"
 exit
 fi
 if [[ $# -eq 1 ]] && ! [[ $1 -eq 0 ]]
@@ -78,9 +80,8 @@ done
 
 seaf-cli stop
 
-echo "Sync completed with empty folder, removing old gmon.out"
-
-# remove gmon.out produced by the pre-sync
+echo "Sync completed with empty folder, adding marker to log file and removing old gmon.out"
+mv ~/.ccnet/logs/seafile.log ~/.ccnet/logs/seafile-empty-sync.log
 rm gmon.out
 
 # generate files for sync if first argument is 1
@@ -129,8 +130,9 @@ finish=$(($(date +%s%N)-$start))
 kill -15 `cat $SEAFILEDIR/Logs/top-iotop_pid.txt`
 kill -15 `cat $SEAFILEDIR/Logs/free_pid.txt`
 
-echo "Ending process and moving gmon.out to prevent overwriting"
+echo "Sync completed with files, adding marker to log file and renaming gmon.out to prevent overwriting."
 seaf-cli stop
+mv ~/.ccnet/logs/seafile.log ~/.ccnet/logs/seafile-file-sync.log
 sleep 0.5 # make sure gmon.out has enough time to be created
 mv gmon.out gmon-sync.out
 seaf-cli start > /dev/null 2>&1&
@@ -158,6 +160,13 @@ done
 echo "Desyncing library"
 seaf-cli desync -d $SEAFILEDIR/SeaFileLibraries/
 seaf-cli stop
+
+echo "Sync completed with deleted files, adding marker to log file"
+mv ~/.ccnet/logs/seafile.log ~/.ccnet/logs/seafile-deleted-sync.log
+# moving log files to timestamped folder
+timestamp=$(date +'%Y-%m-%d-%R')
+mkdir ~/.ccnet/logs/${timestamp}
+mv ~/.ccnet/logs/seafile-*-sync.log ~/.ccnet/logs/${timestamp} 
 
 # print time taken
 echo "time taken (in nanoseconds):" $finish

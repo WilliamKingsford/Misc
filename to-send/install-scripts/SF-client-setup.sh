@@ -53,4 +53,7 @@ read SFLIBRARYID
 #echo "SFLIBRARYID=$SFLIBRARYID" >> ~/.bashrc
 echo "$SFLIBRARYID" >> TestScripts/serverdetails
 
+# copy TestScripts over
+cp -r TestScripts $SEAFILEDIR/
+
 echo "Seafile client now configured."
