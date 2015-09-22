@@ -5,23 +5,16 @@ Why does total sync time decrease with large syncs? Use netstat to see if all da
 	new nginx setting proxy_request_buffering off; might have fixed this
 
 
-
-
-Re-test updated scripts on clean virtual machines
-
-
-
+===Produce digital documentation of seafile client upload/sync process (already documented in book)
 
 Make sure scripts produce test data in easy to interpret format - hunt down scripts that sum output and use this to produce a nice output file
 	In sum-*.sh scripts, remove -free.txt etc. from output before printing to *-list.txt
-Copy over all scripts from Misc/ to their destinations
 
-Make sure spreadsheet has up-to-date test data
+WHEN READY:
+	Re-copy over all scripts from Misc/ to their destinations
+	Re-test updated scripts on clean virtual machines
+	Make sure spreadsheet has up-to-date test data (run tests on c157/c158 from clean installs of Seafile)
 
-
-
-
-===Produce digital documentation of seafile client upload/sync process (already documented in book)
 
 RE-GENERATE DOXYGEN OUTPUT ONCE CODE IS FINALIZED
 
@@ -35,11 +28,9 @@ Fixed MAX_COMMIT_SIZE issue by replacing all instances of "if (*total_size >= MA
 
 LOW PRIORITY:
 Merge all apt-get install commands into one go for each computer
-Allow user to set number of files & sizes to test with automated-test.sh (also nesting depth etc?)
-What does seafile-applet do if there's no GUI? Does it work without X installed?
-	on c158: <list apt packages> | grep "desktop"
+Allow user to set number of files & sizes to test with automated-test.sh? (also nesting depth etc?)
+What does seafile-applet do since there's no GUI?
 Better looking formatting for seafile-summary.odt (e.g. monospace font for code & paths)
-is iptables opening ports on server actually needed? Probably is, can't hurt.
 
 
 #DUET CHECKOUT INSTRUCTIONS:

@@ -19,9 +19,9 @@ fi
 cd $SEAFILEDIR
 
 echo "sync-and-time.sh: Starting seaf-cli"
+start=$(date +%s%N)
 seaf-cli start > /dev/null 2>&1&
 
-start=$(date +%s%N)
 # start tracking detailed cpu/io data every 0.1 second, running in background
 # nohup is necessary to run a process in the background through ssh without hangups
 nohup $SEAFILEDIR/TestScripts/top-iotop-repeat.sh > /dev/null 2>&1&

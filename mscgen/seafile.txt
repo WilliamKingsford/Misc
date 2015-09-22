@@ -8,10 +8,9 @@ msc {
 
   "seaf-daemon"=>"seaf-daemon" [ label = "start seafile processes &\ncheck for inotify events", linecolor="#808080" ];
   "seaf-daemon"=>"seaf-daemon" [ label = "transition_sync_state('synchronized' to 'committing')", linecolor="#808080" ];
-  "seaf-daemon"=>"seaf-daemon" [ label = "apply_worktree_changes_to_index()", linecolor="#808080" ];
+  "seaf-daemon"=>"seaf-daemon" [ label = "seaf_repo_index_commit()", linecolor="#808080" ];
   "seaf-daemon"=>"seaf-daemon" [ label = "transition_sync_state('committing' to 'uploading')", linecolor="#808080" ];
   "seaf-daemon"=>"seaf-daemon" [ label = "transition_state(init --> check)\ntransition_state(check --> commit)", linecolor="#808080" ];
-  "seaf-daemon"=>"seaf-daemon" [ label = "wt_monitor_job_linux()", linecolor="#808080" ];
   "seaf-daemon"=>"ccnet-daemon" [ label = "send_commit()", linecolor="#808080" ];
   "ccnet-daemon"=>"server" [ label = "ccnet_client_send_update(SC_OBJECT)", linecolor="#808080" ];
   "server">>"ccnet-daemon" [ label = "200 OK", linecolor="#808080" ];

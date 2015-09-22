@@ -25,7 +25,6 @@ while read line; do
         i=$((i+1))
 done < serverdetails
 
-# this script syncs an empty folder before stopping seaf-cli, to prevent startup time being counted towards sync-time when sync-and-time is run.
 echo "sync-empty-folder.sh: Starting seaf-cli and giving it 3 seconds to load"
 seaf-cli start > /dev/null 2>&1&
 sleep 3
