@@ -5,8 +5,6 @@ Why does total sync time decrease with large syncs? Use netstat to see if all da
 	new nginx setting proxy_request_buffering off; might have fixed this
 
 
-Fixed MAX_COMMIT_SIZE issue by replacing all instances of "if (*total_size >= MAX_COMMIT_SIZE)" with "if (0)"
-
 
 
 Re-test updated scripts on clean virtual machines
@@ -25,11 +23,12 @@ Make sure spreadsheet has up-to-date test data
 
 ===Produce digital documentation of seafile client upload/sync process (already documented in book)
 
-
-
-
-
 RE-GENERATE DOXYGEN OUTPUT ONCE CODE IS FINALIZED
+
+
+
+Notes:
+Fixed MAX_COMMIT_SIZE issue by replacing all instances of "if (*total_size >= MAX_COMMIT_SIZE)" with "if (0)"
 
 
 
