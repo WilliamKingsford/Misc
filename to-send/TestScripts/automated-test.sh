@@ -17,10 +17,11 @@ echo "This script will automatically delete the previous Logs/all-times.txt and 
 echo "If you don't want this, cancel the script in the next 10 seconds."
 sleep 10
 
-# delete old data files
-echo "Deleting previous data: $SEAFILEDIR/Logs/all-times.txt"
-rm $SEAFILEDIR/Logs/all-times.txt
-rm $SEAFILEDIR/Logs/StoredLogs/*.txt
+# delete old data files that are still in the directory (script automatically moves them after 
+# completion if done as a normal sync-test)
+echo "Clearing the StoredLogs directory:"
+rm -v $SEAFILEDIR/Logs/all-times.txt
+rm -v $SEAFILEDIR/Logs/StoredLogs/*.txt
 
 # pre-emptively clear caches on both machines
 echo "Clearing caches on both server and client"
@@ -90,3 +91,10 @@ do
 	sync
 	sh -c 'echo 3 > /proc/sys/vm/drop_caches'
 done
+
+# Archive logs
+timestamp=$(date +'%Y-%m-%d-%R')
+mkdir $SEAFILEDIR/Logs/StoredLogs/${timestamp}
+echo "Moving the logs to $SEAFILEDIR/Logs/StoredLogs/${timestamp}/:"
+mv $SEAFILEDIR/Logs/all-times.txt $SEAFILEDIR/Logs/StoredLogs/${timestamp}/
+mv $SEAFILEDIR/Logs/StoredLogs/*.txt $SEAFILEDIR/Logs/StoredLogs/${timestamp}/

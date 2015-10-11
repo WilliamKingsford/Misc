@@ -1,5 +1,8 @@
 #!/bin/bash
 
+cd ${1}
+echo "Totalling performance data in directory $(pwd)"
+
 for i in "free" "top" "iotop"
 do	
 	for p in $(ls *B-$i.txt)
@@ -10,3 +13,5 @@ do
 		./sum-$i.sh "$(< name.txt)"
 	done
 done
+
+rm name.txt

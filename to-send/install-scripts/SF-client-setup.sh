@@ -15,7 +15,9 @@ SEAFILEDIR=${SEAFILEDIR%/}
 fi
 
 # make directories
-mkdir $SEAFILEDIR/SeaFileLibraries $SEAFILEDIR/Logs
+mkdir $SEAFILEDIR/SeaFileLibraries $SEAFILEDIR/Logs $SEAFILEDIR/Logs/StoredLogs
+# put data-processing scripts into StoredLogs folder
+cp TestScripts/data-processing/*.sh $SEAFILEDIR/Logs/StoredLogs/
 
 # get seafile server info to configure SF-server-remote-restart.sh
 echo "Enter Ubuntu username on Seafile Server machine:"
