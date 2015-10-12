@@ -175,8 +175,8 @@ apt-get update
 mkdir ~/SeaFileServer ~/SeaFileServer/TestScripts
 cd ~/SeaFileServer
 
-# copy test scripts over
-cp $DIR/TestScripts/* ~/SeaFileServer/TestScripts/*
+# copy restart script over
+cp $DIR/TestScripts/restart-seafile-server.sh ~/SeaFileServer/TestScripts/restart-seafile-server.sh
 
 cp $DIR/seafile-server-pkgs/seafile-server_4.1.2_x86-64.tar.gz seafile-server_4.1.2_x86-64.tar.gz
 tar -xvf seafile-server_4.1.2_x86-64.tar.gz
