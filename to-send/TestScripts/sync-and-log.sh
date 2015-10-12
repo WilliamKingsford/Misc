@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This script performs a sync and separates seafile's logs into parts (pre-sync, sync, post-sync cleanup)
-# and stores them in a timestamped folder along with gmon-sync.out, the gprof output for the file sync.
+# and stores them in a timestamped folder.
 # It does not use top/iotop/free to benchmark performance, use automated-test.sh for that.
 
 # check if running as root (needed for iotop)
@@ -37,15 +37,15 @@ cd $SEAFILEDIR
 # test for valid arguments
 if [[ $# -eq 0 ]]
 then echo "Syntax:"
-echo "generating no files: log-and-gprof.sh 0"
-echo "generating files:    log-and-gprof.sh 1 <# of files> <size of files (B)>"
+echo "generating no files: sync-and-log.sh 0"
+echo "generating files:    sync-and-log.sh 1 <# of files> <size of files (B)>"
 exit
 fi
 if ! ( [[ $# -eq 1 ]] || [[ $# -eq 3 ]] )
 then echo "Invalid number of arguments."
 echo "Syntax:"
-echo "generating no files: log-and-gprof.sh 0"
-echo "generating files:    log-and-gprof.sh 1 <# of files> <size of files (B)>"
+echo "generating no files: sync-and-log.sh 0"
+echo "generating files:    sync-and-log.sh 1 <# of files> <size of files (B)>"
 exit
 fi
 if [[ $# -eq 1 ]] && ! [[ $1 -eq 0 ]]
@@ -80,9 +80,7 @@ done
 
 seaf-cli stop
 
-echo "Sync completed with empty folder, adding marker to log file and removing old gmon.out"
-mv ~/.ccnet/logs/seafile.log ~/.ccnet/logs/seafile-empty-sync.log
-rm gmon.out
+echo "Sync completed with empty folder."
 
 # generate files for sync if first argument is 1
 if [[ $1 -eq 1 ]]
@@ -130,11 +128,9 @@ finish=$(($(date +%s%N)-$start))
 kill -15 `cat $SEAFILEDIR/Logs/top-iotop_pid.txt`
 kill -15 `cat $SEAFILEDIR/Logs/free_pid.txt`
 
-echo "Sync completed with files, adding marker to log file and renaming gmon.out to prevent overwriting."
+echo "Sync completed with files, adding marker to log file to prevent overwriting."
 seaf-cli stop
 mv ~/.ccnet/logs/seafile.log ~/.ccnet/logs/seafile-file-sync.log
-sleep 0.5 # make sure gmon.out has enough time to be created
-mv gmon.out gmon-sync.out
 seaf-cli start > /dev/null 2>&1&
 echo "Restart: Starting seaf-cli and giving it 3 seconds to load."
 sleep 3
