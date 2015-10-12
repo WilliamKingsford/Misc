@@ -63,3 +63,6 @@ cd ..
 cd seafile-cli
 mkdir ~/.seafile-client
 ./seaf-cli init -d ~/.seafile-client  # initialise seafile client with this folder
+
+# set user ownership on .ccnet directory so logs can be viewed
+chmod -R $SUDO_USER ~/.ccnet/
