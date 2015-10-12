@@ -29,7 +29,8 @@ read SERVERNAME;
 
 # get directory this script is located in so we can find TestScripts directory
 SFCLIENTDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-# replace placeholders with actual server info
+# generate SF-server-remote-restart.exp from template and replace placeholders with actual server info
+cp $SFCLIENTDIR/TestScripts/SF-server-remote-restart-template.exp $SFCLIENTDIR/TestScripts/SF-server-remote-restart.exp
 sed -i "s|SERVERUSER|$SERVERUSER|g" $SFCLIENTDIR/TestScripts/SF-server-remote-restart.exp
 sed -i "s|SERVERNAME|$SERVERNAME|g" $SFCLIENTDIR/TestScripts/SF-server-remote-restart.exp
 sed -i "s|SERVERPASS|$SERVERPASS|g" $SFCLIENTDIR/TestScripts/SF-server-remote-restart.exp
