@@ -17,7 +17,8 @@ esac
 echo "Installing..."
 
 sudo apt-get update
-sudo apt-get install autoconf automake libtool libevent-dev libcurl4-openssl-dev libgtk2.0-dev uuid-dev intltool libsqlite3-dev valac libjansson-dev libqt4-dev cmake libfuse-dev make expect
+sudo apt-get install autoconf automake libtool libevent-dev libcurl4-openssl-dev libgtk2.0-dev \
+	uuid-dev intltool libsqlite3-dev valac libjansson-dev libqt4-dev cmake libfuse-dev make expect iotop
 
 export version=4.1.2
 export PREFIX=/usr
