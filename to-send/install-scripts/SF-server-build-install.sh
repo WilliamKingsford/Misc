@@ -12,7 +12,6 @@ fi
 echo "THIS SEAFILE INSTALL ONLY WORKS ON UBUNTU 12.04"
 echo ""
 echo "This is a script to install prerequisites, build a Seafile Server tarball and install it to ~/SeaFileServer."
-echo "You must set up nginx server after this. See http://manual.seafile.com/deploy/deploy_with_nginx.html"
 echo "This script is intended to be run from the SeaFileServer directory in the seafile branch of the duet GitHub directory."
 read -r -p "${1:-Continue? [y/N]} " response
 case $response in

@@ -11,7 +11,6 @@ Make sure scripts produce test data in easy to interpret format - hunt down scri
 	In sum-*.sh scripts, remove -free.txt etc. from output before printing to *-list.txt
 
 WHEN READY:
-	Re-copy over all scripts from Misc/ to their destinations
 	Re-test updated scripts on clean virtual machines
 	Make sure spreadsheet has up-to-date test data (run tests on c157/c158 from clean installs of Seafile)
 
@@ -35,7 +34,7 @@ Better looking formatting for seafile-summary.odt (e.g. monospace font for code 
 
 #DUET CHECKOUT INSTRUCTIONS:
 
-git clone https://github.com/gamvrosi/duet.git
+git clone https://github.com/gamvrosi/iris.git
 # switch branch to seafile
 git checkout seafile
 # list branches, if correctly in seafile it will have an asterisk
