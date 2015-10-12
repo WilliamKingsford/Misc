@@ -31,7 +31,7 @@ DIR=$(pwd)
 apt-get install libevent-dev libcurl4-openssl-dev libglib2.0-dev uuid-dev intltool \
  libsqlite3-dev libmysqlclient-dev libarchive-dev libtool libjansson-dev valac   \
  libfuse-dev re2c flex python-setuptools cmake git build-essential python-simplejson \
- python-imaging python-pip python-dev unzip
+ python-imaging python-pip python-dev unzip elinks
  
 # install libevhtp
 cd $DIR
