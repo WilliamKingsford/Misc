@@ -10,7 +10,7 @@ do
 		echo $p > name.txt
 		sed "s/....$//" name.txt
 		echo $p
-		./sum-$i.sh "$(< name.txt)"
+		../sum-$i.sh "$(< name.txt)"
 	done
 done
 
