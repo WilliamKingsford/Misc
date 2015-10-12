@@ -3,6 +3,14 @@
 # This script syncs an empty folder with the Seafile server. The purpose of this is to prevent the
 # server-side setup time from being counted when tests are run. 
 
+# checks for environment variable for SeaFileLibraries & Logs location, if not defined it's
+# assumed the location of these folders is ~
+if ! [[ $SEAFILEDIR ]]
+then
+        SEAFILEDIR=~
+fi
+cd $SEAFILEDIR
+
 # load server info
 i=0
 while read line; do
@@ -23,7 +31,7 @@ while read line; do
         then export SFLIBRARYID=$line
         fi
         i=$((i+1))
-done < serverdetails
+done < $SEAFILEDIR/TestScripts/serverdetails
 
 echo "sync-empty-folder.sh: Starting seaf-cli and giving it 3 seconds to load"
 seaf-cli start > /dev/null 2>&1&
