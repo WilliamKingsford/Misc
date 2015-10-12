@@ -15,6 +15,21 @@ WHEN READY:
 	Make sure spreadsheet has up-to-date test data (run tests on c157/c158 from clean installs of Seafile)
 
 
+
+
+
+
+=======================================================================
+I haven't finished finalizing all of the overview of the relevant code of Seafile yet but I have finished the most important parts to do with how it processes inotify events.
+=======================================================================
+
+
+
+
+
+
+
+
 RE-GENERATE DOXYGEN OUTPUT ONCE CODE IS FINALIZED
 
 
