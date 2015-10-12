@@ -43,7 +43,7 @@ do
 	mv $SEAFILEDIR/Logs/top.txt $SEAFILEDIR/Logs/StoredLogs/${i}x4000B-top.txt
 	mv $SEAFILEDIR/Logs/iotop.txt $SEAFILEDIR/Logs/StoredLogs/${i}x4000B-iotop.txt
 	mv $SEAFILEDIR/Logs/free.txt $SEAFILEDIR/Logs/StoredLogs/${i}x4000B-free.txt
-	rm $SEAFILEDIR/Logs/operf-ccnet_pid.txt $SEAFILEDIR/Logs/operf-seaf_pid.txt $SEAFILEDIR/Logs/top-iotop_pid.txt $SEAFILEDIR/Logs/free_pid.txt
+	rm $SEAFILEDIR/Logs/top-iotop_pid.txt $SEAFILEDIR/Logs/free_pid.txt
 	# free memory on c157 by running seaf-gc.sh over ssh and clear pagecache on client
 	$SEAFILEDIR/TestScripts/SF-server-remote-restart.exp
 	sync
@@ -63,7 +63,7 @@ $SEAFILEDIR/TestScripts/sync-and-time.sh
 mv $SEAFILEDIR/Logs/top.txt Logs/StoredLogs/10000x10B-top.txt
 mv $SEAFILEDIR/Logs/iotop.txt Logs/StoredLogs/10000x10B-iotop.txt
 mv $SEAFILEDIR/Logs/free.txt Logs/StoredLogs/10000x10B-free.txt
-rm $SEAFILEDIR/Logs/operf-ccnet_pid.txt $SEAFILEDIR/Logs/operf-seaf_pid.txt $SEAFILEDIR/Logs/top-iotop_pid.txt $SEAFILEDIR/Logs/free_pid.txt
+rm $SEAFILEDIR/Logs/top-iotop_pid.txt $SEAFILEDIR/Logs/free_pid.txt
 # free memory on c157 by running seaf-gc.sh over ssh and clear pagecache on client
 $SEAFILEDIR/TestScripts/SF-server-remote-restart.exp
 sync
@@ -85,7 +85,7 @@ do
 	mv $SEAFILEDIR/Logs/top.txt Logs/StoredLogs/1000x$((j * 4000))B-top.txt
 	mv $SEAFILEDIR/Logs/iotop.txt Logs/StoredLogs/1000x$((j * 4000))B-iotop.txt
 	mv $SEAFILEDIR/Logs/free.txt Logs/StoredLogs/1000x$((j * 4000))B-free.txt
-	rm $SEAFILEDIR/Logs/operf-ccnet_pid.txt $SEAFILEDIR/Logs/operf-seaf_pid.txt $SEAFILEDIR/Logs/top-iotop_pid.txt $SEAFILEDIR/Logs/free_pid.txt
+	rm $SEAFILEDIR/Logs/top-iotop_pid.txt $SEAFILEDIR/Logs/free_pid.txt
 	# free memory on c157 by running seaf-gc.sh over ssh and clear pagecache on client
 	$SEAFILEDIR/TestScripts/SF-server-remote-restart.exp
 	sync
