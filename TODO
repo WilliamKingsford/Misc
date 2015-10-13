@@ -11,18 +11,7 @@ Make sure scripts produce test data in easy to interpret format - hunt down scri
 	In sum-*.sh scripts, remove -free.txt etc. from output before printing to *-list.txt
 
 WHEN READY:
-	Re-test updated scripts on clean virtual machines
 	Make sure spreadsheet has up-to-date test data (run tests on c157/c158 from clean installs of Seafile)
-
-
-
-
-
-
-=======================================================================
-I haven't finished finalizing all of the overview of the relevant code of Seafile yet but I have finished the most important parts to do with how it processes inotify events.
-=======================================================================
-
 
 
 
